@@ -1,0 +1,13 @@
+#show_version=5
+- time: 0
+  lights:
+    l_boss: purple
+    l_ganon: purple
+    l_magicmirror: purple
+
+
+- time: '+1'
+  lights:
+    l_boss: white
+    l_ganon: white
+    l_magicmirror: white

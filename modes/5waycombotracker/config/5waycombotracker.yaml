@@ -1,0 +1,122 @@
+#config_version=5
+
+mode: 
+  start_events: mode_escape_started
+  stop_events: game_ending, 5way_combo_complete
+  priority: 2000
+
+event_player:
+  finished_5way_combo_shot1: disable_5way_shot1
+  finished_5way_combo_shot2: disable_5way_shot2
+  finished_5way_combo_shot3: disable_5way_shot3
+  finished_5way_combo_shot4: disable_5way_shot4
+  finished_5way_combo_shot5: disable_5way_shot5
+  5way_combo_timer_complete: combo_expired
+  mode_5waycombotracker_started: combo_enabled
+
+shots:
+  5way_combo_e: #1
+    advance_events: 5way_combo_e_hit
+    enable_events: combo_enabled
+    disable_events: disable_5way_shot1
+    reset_events: combo_expired
+  5way_combo_l: #2
+    advance_events: 5way_combo_l_hit
+    enable_events: disable_5way_shot1
+    disable_events: disable_5way_shot2
+    reset_events: combo_expired
+  5way_combo_d:  #3
+    switch: s_optod
+    advance_events: finished_5way_combo_shot3
+    enable_events: disable_5way_shot2
+    disable_events: disable_5way_shot3
+    reset_events: combo_expired
+  5way_combo_z:  #4
+    switch: s_optoz1
+    advance_events: finished_5way_combo_shot4
+    enable_events: disable_5way_shot3
+    disable_events: disable_5way_shot4
+    reset_events: combo_expired
+  5way_combo_d2:  #5
+    switch: s_optod
+    advance_events: finished_5way_combo_shot5
+    enable_events: disable_5way_shot4
+    disable_events: disable_5way_shot5
+    reset_events: combo_expired
+
+
+sequence_shots:
+  5way_combo_e: 
+    switch_sequence: s_optoe s_optol
+    sequence_timeout: 1s
+  5way_combo_l:  
+    switch_sequence: s_optol s_optoe
+    sequence_timeout: 1s
+
+accruals:
+  finish_5way_combo_shot1:
+    events:
+      - 5way_combo_e_hit
+    events_when_complete: finished_5way_combo_shot1
+    enable_events: combo_enabled
+    disable_events: disable_5way_shot1
+    restart_events: combo_expired
+
+  finish_5way_combo_shot2:
+    events:
+      - 5way_combo_l_hit
+    events_when_complete: finished_5way_combo_shot2
+    enable_events: finished_5way_combo_shot1
+    disable_events: disable_5way_shot2 combo_expired
+    reset_events: combo_expired
+
+  finished_5way_combo_shot3:
+    events:
+      - 5way_combo_d_hit
+    events_when_complete: finished_5way_combo_shot3
+    enable_events: finished_5way_combo_shot2
+    disable_events: disable_5way_shot3 combo_expired
+    reset_events: combo_expired
+
+
+  finished_5way_combo_shot4:
+    events:
+      - 5way_combo_z_hit
+    events_when_complete: finished_5way_combo_shot4
+    enable_events: finished_5way_combo_shot3
+    disable_events: disable_5way_shot4 combo_expired
+    restart_events: combo_expired
+
+  finished_5way_combo_shot5:
+    events:
+      - 5way_combo_d2_hit
+    events_when_complete: finished_5way_combo_shot5
+    enable_events: finished_5way_combo_shot4
+    disable_events: disable_5way_shot5 combo_expired
+    reset_events: combo_expired
+
+
+sequences:
+
+  5way_combo_sequence:
+    events_when_complete: 5way_combo_complete
+    events:
+      - finished_5way_combo_shot1
+      - finished_5way_combo_shot2
+      - finished_5way_combo_shot3
+      - finished_5way_combo_shot4
+      - finished_5way_combo_shot5
+    reset_events: combo_expired
+
+timers:
+  5way_combo_timer:
+    start_value: 8
+    end_value: 0
+    direction: down
+    control_events:
+      - action: start
+        event: 5way_combo_e_hit
+      - action: stop 
+        event: 5way_combo_complete
+      - action: stop 
+        event: combo_expired

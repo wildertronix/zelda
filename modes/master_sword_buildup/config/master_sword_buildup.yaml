@@ -1,0 +1,39 @@
+#config_version=5
+
+mode: 
+  start_events: master_sword_found
+  stop_events: start_master_multi, mode_agahnim_multiball_started, game_ending
+  priority: 1000
+  restart_on_next_ball: true
+
+
+event_player:
+  pull_master_sword_ready_hit: cue_3ball_multi
+
+show_player: 
+  cue_3ball_multi:
+    buildup1:
+      loops: 0
+      speed: 18
+
+
+shots:
+  pull_master_sword:
+    switch: s_lostwoods
+    profile: lost_woods_multi_profile
+
+
+
+shot_profiles:
+  lost_woods_multi_profile:
+    states:
+      - name: ready
+        show: lost_woods_multi_profile_ready
+        loops: -1
+        speed: 6
+      - name: lit
+        show: lost_woods_multi_profile_lit
+        loops: -1
+        speed: 10
+
+

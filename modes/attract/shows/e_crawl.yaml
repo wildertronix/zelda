@@ -1,0 +1,25 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_erupee: white-f200ms
+
+- time: '+1'
+  lights:
+    l_erupee: black-f200ms
+
+- time: '+1'
+  lights:
+    l_eitem: white-f200ms
+
+- time: '+1'
+  lights:
+    l_eitem: black-f200ms
+
+- time: '+1'
+  lights:
+    l_e: red-f200ms
+
+- time: '+1'
+  lights:
+    l_e: black-f200ms
+

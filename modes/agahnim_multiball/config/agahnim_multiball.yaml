@@ -1,0 +1,101 @@
+#config_version=5
+
+mode: 
+  start_events: slide_masterswordvideo_removed
+  stop_events: agahnim_complete, game_ending
+  priority: 1000
+  stop_on_ball_end: false
+
+event_player:
+  timer_agahnim_strike_tick{ticks_remaining == 5}: agahnim_charge_up
+  timer_agahnim_strike_tick{ticks_remaining == 15}: flippers_alive_agahnim
+  timer_agahnim_strike_complete: agahnim_attack
+  agahnim_attack: agahnim_strike_disable_flippers
+  agahnim_complete: agahnim_complete_disable_flippers
+  logicblock_agahnim_health_counter_complete: agahnim_complete
+  agahnim_shot_hit: agahnim_hurt
+  agahnim_shot_two_hit: agahnim_hurt
+  agahnim_shot_three_hit: agahnim_hurt
+  agahnim_hurt{device.counters.agahnim_health_counter.value==3}: agahnim_shift
+  agahnim_hurt{device.counters.agahnim_health_counter.value==5}: agahnim_shift_again
+
+shots:
+  agahnim_shot:
+    switch: s_cranehole
+    disable_events: agahnim_shift
+
+  agahnim_shot_two:
+    switch: s_optoz1
+    enable_events: agahnim_shift
+    disable_events: agahnim_shift_again
+
+  agahnim_shot_three:
+    switch: s_lostwoods
+    enable_events: agahnim_shift_again
+    disable_events: agahnim_complete_disable_flippers
+
+
+timers:
+  agahnim_strike:
+    start_value: 17
+    end_value: 0
+    direction: down
+    control_events:
+      - action: start
+        event: slide_agahnimstartvideo_removed
+      - action: restart
+        event: agahnim_shot_hit
+      - action: restart
+        event: agahnim_shot_two_hit
+      - action: restart
+        event: agahnim_shot_three_hit
+      - action: restart
+        event: timer_agahnim_strike_complete
+      - action: stop
+        event: agahnim_complete
+
+counters:
+  agahnim_health_counter:
+    count_events: agahnim_hurt
+    count_complete_value: 6
+    reset_on_complete: false
+    disable_events: logicblock_agahnim_health_counter_complete
+
+show_player:
+  agahnim_attack: 
+    flipper_freeze_show:
+      loops: 0
+      speed: 8
+    agahnim_strike_lights:
+      loops: 0
+      speed: 20
+  agahnim_charge_up:
+    agahnim_charge_lights:
+      loops: 0
+      speed: 15
+  mode_agahnim_multiball_started:
+    agahnim_shot_lit:
+      loops: -1
+      speed: 10
+  agahnim_shift:
+    agahnim_shot_two_lit:
+      loops: -1
+      speed: 10
+    agahnim_shot_lit:
+      action: stop
+  agahnim_shift_again:
+    agahnim_shot_three_lit:
+      loops: -1
+      speed: 10
+    agahnim_shot_two_lit:
+      action: stop
+  agahnim_complete:
+    darkworldwarp:
+      loops: 0
+      speed: 10
+
+sound_player:
+  agahnim_charge_up: agahnim_charge
+  agahnim_attack: fireball
+  agahnim_shift: agahnim_dash
+  agahnim_shift_again: agahnim_dash

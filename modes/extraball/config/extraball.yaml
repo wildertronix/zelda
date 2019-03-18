@@ -1,0 +1,11 @@
+#config_version=5
+
+
+mode:
+  start_events: ball_starting
+  priority: 100
+
+
+extra_balls:
+  heart_extra_ball:
+    award_events: award_heart_extraball

@@ -1,0 +1,20 @@
+#show_version=5
+
+- duration: 6s
+  slides:
+    escape_instructions:
+      widgets:
+      - type: Text
+        text: Find The Hidden Shots
+        color: Gold
+        y: top-300
+        x: middle
+        style: hyruletext
+        font_size: 145
+      - type: Text
+        text: Music Grows When Shots Are Hit
+        color: Gold
+        y: top-425
+        x: middle
+        style: hyruletext
+        font_size: 85

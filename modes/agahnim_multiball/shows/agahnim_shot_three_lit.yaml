@@ -1,0 +1,35 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_33: purple
+    l_arupee: off
+    l_aitem: off 
+    l_a: off
+
+- time: '+1'
+  lights: 
+    l_33: off
+    l_arupee: purple
+    l_aitem: off 
+    l_a: off
+
+- time: '+1'
+  lights: 
+    l_33: off
+    l_arupee: off
+    l_aitem: purple
+    l_a: off
+
+- time: '+1'
+  lights: 
+    l_33: off
+    l_arupee: off
+    l_aitem: off 
+    l_a: purple
+
+- time: '+1'
+  lights: 
+    l_33: off
+    l_arupee: off
+    l_aitem: off 
+    l_a: off

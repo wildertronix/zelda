@@ -1,0 +1,34 @@
+#show_version=5
+
+
+- time: 0
+  lights:
+    l_mastersword: red-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: orange-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: yellow-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: green-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: blue-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: pink-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: purple-f100ms
+
+
+
+

@@ -1,0 +1,179 @@
+#show_version=5
+- time: 0
+  lights:
+    l_b: blue-f200ms
+    l_lout: blue-f200ms
+    l_heart: blue-f200ms
+    l_heart1: blue-f200ms
+    l_heart2: blue-f200ms
+    l_z: blue-f200ms
+    l_zitem: blue-f200ms
+    l_zrupee: blue-f200ms
+    l_5: blue-f200ms
+    l_3x: blue-f200ms
+    l_2x: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_powerstrike: blue-f200ms
+    l_o: blue-f200ms
+    l_l: blue-f200ms
+    l_litem: blue-f200ms
+    l_lrupee: blue-f200ms
+    l_14: blue-f200ms
+    l_jackpot: blue-f200ms
+    l_cranerupee: blue-f200ms
+    l_e: blue-f200ms
+    l_eitem: blue-f200ms
+    l_erupee: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_drop2: blue-f200ms
+    l_drop1: blue-f200ms
+    l_mode1: blue-f200ms
+    l_mode2: blue-f200ms
+    l_mode3: blue-f200ms
+    l_item1: blue-f200ms
+    l_item2: blue-f200ms
+    l_item3: blue-f200ms
+    l_item4: blue-f200ms
+    l_item5: blue-f200ms
+    l_magicmirror: blue-f200ms
+    l_boss: blue-f200ms
+    l_ganon: blue-f200ms
+    l_d: blue-f200ms
+    l_ditem: blue-f200ms
+    l_drupee: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_drop3: blue-f200ms
+    l_mode4: blue-f200ms
+    l_mode5: blue-f200ms
+    l_mode6: blue-f200ms
+    l_item6: blue-f200ms
+    l_item7: blue-f200ms
+    l_item8: blue-f200ms
+    l_item9: blue-f200ms
+    l_item10: blue-f200ms
+    l_arupee: blue-f200ms
+    l_33: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_b: black
+    l_lout: black
+    l_heart: black
+    l_heart1: black
+    l_heart2: black
+    l_z: black
+    l_zitem: black
+    l_zrupee: black
+    l_5: black
+    l_3x: black
+    l_2x: black
+
+- time: '+1'
+  lights:
+    l_shootagain: blue-f200ms
+    l_b2: blue-f200ms
+    l_a: blue-f200ms
+    l_aitem: blue-f200ms
+    l_modestart3: blue-f200ms
+    l_modestart1: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_powerstrike: black
+    l_o: black
+    l_l: black
+    l_litem: black
+    l_lrupee: black
+    l_14: black
+    l_jackpot: black
+    l_cranerupee: black
+    l_e: black
+    l_eitem: black
+    l_erupee: black
+
+- time: '+1'
+  lights:
+    l_modestart: blue-f200ms
+    l_modestart2: blue-f200ms
+    l_modestart4: blue-f200ms
+    l_m: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_drop2: black
+    l_drop1: black
+    l_mode1: black
+    l_mode2: black
+    l_mode3: black
+    l_item1: black
+    l_item2: black
+    l_item3: black
+    l_item4: black
+    l_item5: black
+    l_magicmirror: black
+    l_boss: black
+    l_ganon: black
+    l_d: black
+    l_ditem: black
+    l_drupee: black
+
+- time: '+1'
+  lights:
+    l_rout: blue-f200ms
+    l_10: blue-f200ms
+
+
+- time: '+1'
+  lights:
+    l_drop3: black
+    l_mode4: black
+    l_mode5: black
+    l_mode6: black
+    l_item6: black
+    l_item7: black
+    l_item8: black
+    l_item9: black
+    l_item10: black
+    l_arupee: black
+    l_33: black
+
+- time: '+1'
+  lights:
+    l_plungerlane1: blue-f200ms
+    l_plungerlane2: blue-f200ms
+    l_plungerlane3: blue-f200ms
+    l_mastersword: blue-f200ms
+
+
+- time: '+1'
+  lights:
+    l_shootagain: black
+    l_b2: black
+    l_a: black
+    l_aitem: black
+    l_modestart3: black
+    l_modestart1: black
+
+- time: '+1'
+  lights:
+    l_rout: black
+    l_10: black
+    l_modestart: black
+    l_modestart2: black
+    l_modestart4:  black
+    l_m: black
+
+- time: '+1'
+  lights:
+    l_plungerlane1: black
+    l_plungerlane2: black
+    l_plungerlane3: black
+    l_mastersword: black
+
+

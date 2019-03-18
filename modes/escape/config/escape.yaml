@@ -1,0 +1,28 @@
+#config_version=5
+mode:
+  start_events: begin_escape
+  stop_events: mode_2ballqualifier_started, game_ending
+  priority: 200
+  stop_on_ball_end: false
+
+
+
+
+
+show_player:
+    mode_escape_started:
+      on: 
+        show_tokens:
+          lights: l_modestart 
+
+
+
+
+sound_pools:
+  linkhurt:
+    track: sfx
+    type: random
+    sounds:
+       - linkhurt1
+       - linkhurt2
+       - linkhurt3

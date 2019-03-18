@@ -1,0 +1,28 @@
+#show_version=5
+- duration: 4s
+  slides:
+    darkworld_rescue_zelda:
+      widgets:
+      - type: Text
+        text: RESCUE
+        color: purple
+        y: top-200
+        x: middle
+        style: hyruletext
+        font_size: 200
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1
+      - type: Text
+        text: Princess Zelda
+        color: gold
+        y: top-400
+        x: middle
+        style: hyruletext
+        font_size: 140

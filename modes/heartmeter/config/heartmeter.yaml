@@ -1,0 +1,56 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  priority: 100
+
+
+variable_player:
+  set_heart_count:
+    heart_count:
+      int: 4 - current_player.ball + current_player.extra_balls
+      action: set
+
+event_player:
+  ball_started: set_heart_count
+  set_heart_count: update_heart_lights|10ms
+  extra_ball_awarded: set_heart_count
+  update_heart_lights{current_player.heart_count == 0}: set_0_hearts_lit
+  update_heart_lights{current_player.heart_count == 1}: set_1_hearts_lit
+  update_heart_lights{current_player.heart_count == 2}: set_2_hearts_lit
+  update_heart_lights{current_player.heart_count == 3}: set_3_hearts_lit
+  update_heart_lights{current_player.heart_count == 4}: set_4_hearts_lit
+  update_heart_lights{current_player.heart_count == 5}: set_5_hearts_lit
+  update_heart_lights{current_player.heart_count == 6}: set_6_hearts_lit
+
+
+show_player:
+  set_0_hearts_lit:
+    set_0_hearts_lit_show:
+      loops: -1
+  set_1_hearts_lit:
+    set_1_hearts_lit_show:
+      loops: 0
+    set_1_hearts_lit_show2:
+      loops: -1
+  set_2_hearts_lit:
+    set_2_hearts_lit_show:
+      loops: -1
+  set_3_hearts_lit:
+    set_3_hearts_lit_show:
+      loops: -1
+  set_4_hearts_lit:
+    set_4_hearts_lit_show:
+      loops: -1
+  set_5_hearts_lit:
+    set_5_hearts_lit_show:
+      loops: -1
+  set_6_hearts_lit:
+    set_6_hearts_lit_show:
+      loops: -1
+
+
+
+
+
+

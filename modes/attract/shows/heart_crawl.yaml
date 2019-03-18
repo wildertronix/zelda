@@ -1,0 +1,27 @@
+#show_version=5
+- time: 0
+  lights:
+    l_heart1: white-f200ms
+
+- time: '+1'
+  lights:
+    l_heart1: black-f200ms
+
+- time: '+1'
+  lights:
+    l_heart2: white-f200ms
+
+- time: '+1'
+  lights:
+    l_heart2: black-f200ms
+
+- time: '+1'
+  lights: 
+    l_heart: red-f200ms
+
+- time: '+1'
+  lights: 
+    l_heart: black-f200ms
+
+
+

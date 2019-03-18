@@ -1,0 +1,274 @@
+#config_version=5
+
+assets:
+  videos:
+    default:
+      load: preload
+
+videos:
+  start_your_quest:
+    file: mode1startvideo
+    width: 1280
+    height: 720
+
+  search_the_castle1:
+    file: castlestairs
+    width: 1280
+    height: 720
+
+  search_the_castle2:
+    file: mode1chaseprogression
+    width: 1280
+    height: 720
+
+  zelda_found:
+    file: zeldafound
+    width: 1280
+    height: 720
+
+  combo1complete:
+    file: mode1progression
+    width: 1280
+    height: 720
+
+  combo2complete:
+    file: mode1progression2
+    width: 1280
+    height: 720
+
+  item2award:
+    file: boomerangfound
+    width: 1280
+    height: 720
+
+  item3award:
+    file: bowfound
+    width: 1280
+    height: 720
+
+  item4award:
+    file: moonpearlfound
+    width: 1280
+    height: 720
+
+  attract_video:
+    file: attractvideo
+    width: 1280
+    height: 720
+
+  heart_piece_extraball:
+    file: extraball
+    width: 1280
+    height: 720
+
+  bombvideo:
+    file: bomblastvideo
+    width: 1280
+    height: 720
+
+  mode1finish:
+    file: mode1finish
+    width: 1280
+    height: 720
+
+  linkdying:
+    file: linkdyingvideo
+    width: 1280
+    height: 720
+
+  boss1progress1:
+    file: boss1progress1
+    width: 1280
+    height: 720
+
+  boss1progress2:
+    file: boss1progress2
+    width: 1280
+    height: 720
+
+  boss1progress3:
+    file: pendant1found
+    width: 1280
+    height: 720
+
+  boss2progress1:
+    file: boss2progress1
+    width: 1280
+    height: 720
+
+  boss2progress2:
+    file: boss2progress2
+    width: 1280
+    height: 720
+
+  boss2progress3:
+    file: pendant2found
+    width: 1280
+    height: 720
+
+  boss3progress1:
+    file: boss3progress1
+    width: 1280
+    height: 720
+
+  boss3progress2:
+    file: boss3progress2
+    width: 1280
+    height: 720
+
+  boss3progress3:
+    file: pendant3found
+    width: 1280
+    height: 720
+
+  lost_woods_start_movie:
+    file: mode3startmovie
+    width: 1280
+    height: 720
+
+  lostwoods_path_1:
+    file: mode3progress1
+    width: 1280
+    height: 720
+
+  lostwoods_path_3:
+    file: mode3progress3
+    width: 1280
+    height: 720
+
+  masterswordvideo:
+    file: masterswordpulled
+    width: 1280
+    height: 720
+
+  agahnimstartvideo:
+    file: confrontagahnim
+    width: 1280
+    height: 720
+
+  agahnimstrikevideo:
+    file: agahnimstrikevideo
+    width: 1280
+    height: 720
+
+  agahnimhitvideo:
+    file: agahnimhitvideo
+    width: 1280
+    height: 720
+
+  agahnimdefeatedvideo:
+    file: agahnimdefeatedvideo
+    width: 1280
+    height: 720
+
+  darkworldstart:
+    file: darkworldstart
+    width: 1280
+    height: 720
+
+
+  dungeon1boss:
+    file: dungeon1boss
+    width: 1280
+    height: 720
+
+  dungeon2boss:
+    file: dungeon2boss
+    width: 1280
+    height: 720
+
+  dungeon3boss:
+    file: dungeon3boss
+    width: 1280
+    height: 720
+
+  dungeon4boss:
+    file: dungeon4boss
+    width: 1280
+    height: 720
+
+  dungeon5boss:
+    file: dungeon5boss
+    width: 1280
+    height: 720
+
+  dungeon6boss:
+    file: dungeon6boss
+    width: 1280
+    height: 720
+
+  dungeon7boss:
+    file: dungeon7boss
+    width: 1280
+    height: 720
+
+
+  maiden1:
+    file: maiden1
+    width: 1280
+    height: 720
+
+  maiden2:
+    file: maiden2
+    width: 1280
+    height: 720
+
+  maiden3:
+    file: maiden3
+    width: 1280
+    height: 720
+
+  maiden4:
+    file: maiden4
+    width: 1280
+    height: 720
+
+  maiden5:
+    file: maiden5
+    width: 1280
+    height: 720
+
+  maiden6:
+    file: maiden6
+    width: 1280
+    height: 720
+
+  maiden7:
+    file: maiden7
+    width: 1280
+    height: 720
+
+  5waycombovideo:
+    file: 5waycombovideo
+    width: 1280
+    height: 720
+
+  mirrorvideo:
+    file: mirrorvideo
+    width: 1280
+    height: 720
+
+  hookshotvideo:
+    file: hookshotvideo
+    width: 1280
+    height: 720
+
+  hammervideo:
+    file: hammervideo
+    width: 1280
+    height: 720
+
+  flippervideo:
+    file: flippervideo
+    width: 1280
+    height: 720
+
+  bluemailvideo:
+    file: bluemailvideo
+    width: 1280
+    height: 720
+
+  redshieldvideo:
+    file: redshieldvideo
+    width: 1280
+    height: 720

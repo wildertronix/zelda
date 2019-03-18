@@ -1,0 +1,40 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_modestart: green-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart: black-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart1: white-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart1: black-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart2: white-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart2: black-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart3: white-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart3: black-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart4: white-f200ms
+
+- time: '+1'
+  lights:
+    l_modestart4: black-f200ms

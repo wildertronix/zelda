@@ -1,0 +1,13 @@
+#show_version=5
+- time: 0
+  lights:
+    l_boss: 'DFEE83'
+    l_ganon: 'DFEE83'
+    l_magicmirror: 'DFEE83'
+
+
+- time: '+1'
+  lights:
+    l_boss: '3E6900'
+    l_ganon: '3E6900'
+    l_magicmirror: '3E6900'

@@ -1,0 +1,6 @@
+#show_version=5
+- time: 0
+  lights:
+    l_boss: black
+    l_ganon: black
+    l_magicmirror: black

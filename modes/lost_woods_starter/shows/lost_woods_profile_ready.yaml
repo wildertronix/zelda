@@ -1,0 +1,83 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_mastersword: ffffff-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: e6ffe6-f100ms
+
+
+- time: '+1'
+  lights:
+    l_mastersword: ccffcc-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: b3ffb3-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 99ff99-f100ms
+
+
+- time: '+1'
+  lights:
+    l_mastersword: 80ff80-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 66ff66-f100ms
+
+
+- time: '+1'
+  lights:
+    l_mastersword: 4dff4d-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 33ff33-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 1aff1a-f100ms
+
+
+- time: '+1'
+  lights:
+    l_mastersword: 00ff00-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 00e600-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 00b300-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 009900-f100ms
+
+
+- time: '+1'
+  lights:
+    l_mastersword: 008000-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 006600-f100ms
+
+
+- time: '+1'
+  lights:
+    l_mastersword: 004d00-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 003300-f100ms
+
+- time: '+1'
+  lights:
+    l_mastersword: 001a00-f100ms

@@ -1,0 +1,37 @@
+#show_version=5
+
+- duration: 5s
+  slides:
+    first_instructions:
+      widgets:
+      - type: Text
+        text: Find
+        color: Gold
+        y: top-100
+        x: left+400
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: A Way
+        color: Gold
+        y: top-100
+        x : right-400
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: Into The
+        style: hyruletext
+        font_size: 180
+        color: Gold
+        y: middle
+        x: middle
+      - type: Text
+        text: Castle
+        style: hyruletext
+        font_size: 180
+        color: gold
+        y: bottom+100
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left

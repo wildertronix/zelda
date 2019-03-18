@@ -1,0 +1,9 @@
+#show_version=5
+
+
+- time: 0
+  lights:
+    l_heart1: red
+    l_heart2: red
+    l_heart: red
+

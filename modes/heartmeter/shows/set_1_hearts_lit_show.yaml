@@ -1,0 +1,77 @@
+#show_version=5
+
+- time: 0
+  lights: 
+    hearts1: red-f200ms
+
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: red-f200ms
+
+- time: '+250ms'
+  lights: 
+    hearts1: black-f200ms
+
+
+

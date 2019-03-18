@@ -1,0 +1,20 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_mode1: gold
+    l_mode2: black
+    l_mode3: black
+    l_mode4: black
+    l_mode5: black
+    l_mode6: black
+
+- time: '+1200ms'
+  lights:
+    l_mode1: black
+    l_mode2: black
+    l_mode3: black
+    l_mode4: black
+    l_mode5: black
+    l_mode6: black
+

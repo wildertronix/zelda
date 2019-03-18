@@ -1,0 +1,51 @@
+#show_version=5
+- duration: 6s
+  slides:
+    darkworld2_slide:
+      widgets:
+      - type: Text
+        text: Face 
+        color: Gold
+        y: top-100
+        x: middle-325
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: GANON
+        color: 'be6ddb'
+        y: top-100
+        x: middle+240
+        style: hyruletext
+        font_size: 180
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1
+      - type: Text
+        text: OR
+        color: Gold
+        y: top-300
+        x: middle
+        style: hyruletext
+        font_size: 100
+      - type: Text
+        text: Continue to Grind
+        color: Gold
+        y: top-450
+        x: middle
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: For Items
+        color: Gold
+        y: top-600
+        x: middle
+        style: hyruletext
+        font_size: 200
+
+

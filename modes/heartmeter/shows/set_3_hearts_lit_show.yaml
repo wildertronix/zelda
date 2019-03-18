@@ -1,0 +1,7 @@
+#show_version=5
+
+- time: 0
+  lights: 
+    hearts1: red-f200ms
+    hearts2: red-f200ms
+    hearts3: red-f200ms

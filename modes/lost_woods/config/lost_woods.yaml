@@ -1,0 +1,101 @@
+#config_version=5
+
+mode: 
+  start_events: start_lost_woods
+  stop_events: master_sword_found, game_ending
+  priority: 900
+  stop_on_ball_end: false
+
+event_player:
+  master_sword_complete: master_sword_found
+  sw_pathfound_active{device.counters.path_counter.value==1}: 8togo
+  sw_pathfound_active{device.counters.path_counter.value==2}: 7togo, lostwoods_path_1_found
+  sw_pathfound_active{device.counters.path_counter.value==3}: 6togo
+  sw_pathfound_active{device.counters.path_counter.value==4}: 5togo
+  sw_pathfound_active{device.counters.path_counter.value==5}: 4togo, lostwoods_path_2_found
+  sw_pathfound_active{device.counters.path_counter.value==6}: 3togo
+  sw_pathfound_active{device.counters.path_counter.value==7}: 2togo
+  sw_pathfound_active{device.counters.path_counter.value==8}: 1togo, lostwoods_path_3_found
+  heart_target_hit: disable_heart_target
+  middle_drop_target_hit: disable_middle_drop_target
+  modestart_outhole_hit: disable_modestart_outhole
+  z_ramp_lostwoods_hit: disable_z_ramp_lostwoods
+  l_ramp_lostwoods_hit: disable_l_ramp_lostwoods
+  d_ramp_lostwoods_hit: disable_d_ramp_lostwoods
+  abyss_shot_hit: disable_abyss_shot
+  lostwoods_left_inlane_hit: disable_lostwoods_left_inlane
+  crane_shot_hit: disable_crane_shot
+
+accruals:
+  master_sword_accrual:
+    events:
+     - 8togo
+     - 7togo
+     - 6togo
+     - 5togo
+     - 4togo
+     - 3togo
+     - 2togo
+     - 1togo
+    events_when_complete: master_sword_complete
+
+counters:
+  path_counter:
+    count_events: sw_pathfound_active
+    count_complete_value: 9
+
+
+shots:
+  heart_target:
+    switch: s_heart
+    disable_events: disable_heart_target
+  middle_drop_target:
+    switch: s_droptarget2
+    disable_events: disable_middle_drop_target
+  modestart_outhole:
+    switch: s_modestart
+    disable_events: disable_modestart_outhole
+  z_ramp_lostwoods:
+    switch: s_optoz1
+    disable_events: disable_z_ramp_lostwoods
+  l_ramp_lostwoods:
+    switch: s_optol
+    disable_events: disable_l_ramp_lostwoods
+  d_ramp_lostwoods:
+    switch: s_optod
+    disable_events: disable_d_ramp_lostwoods
+  abyss_shot:
+    switch: s_abyss
+    disable_events: disable_abyss_shot
+  lostwoods_left_inlane:
+    switch: s_left_inlane
+    disable_events: disable_lostwoods_left_inlane
+  crane_shot:
+    switch: s_cranehole
+    disable_events: disable_crane_shot
+
+
+track_player:
+  mode_lost_woods_started:
+    music:
+      action: set_volume
+      volume: 0.3
+      fade: 1s
+
+  lostwoods_path_1_found:
+    music:
+      action: set_volume
+      volume: 0.5
+      fade: 1s
+
+  lostwoods_path_2_found:
+    music:
+      action: set_volume
+      volume: 0.7
+      fade: 1s
+
+  lostwoods_path_3_found:
+    music:
+      action: set_volume
+      volume: 1.0
+      fade: 1s

@@ -1,0 +1,20 @@
+#show_version=5
+
+- duration: 4s
+  slides:
+    press_start:
+      widgets:
+      - type: Text
+        text: EXTRA BALL
+        style: hyruletext
+        color: gold
+        font_size: 200
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .2s
+            - property: opacity
+              value: 1
+              duration: .2s
+              repeat: -1

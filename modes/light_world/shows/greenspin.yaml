@@ -1,0 +1,276 @@
+#show_version=5
+- time: 0
+  lights:
+      l_b: '009900'
+      l_item1: '009900'
+      l_item10: '009900'
+      l_item2: '009900'
+      l_item3: '009900'
+      l_item4: '009900'
+      l_item5: '009900'
+      l_item6: '009900'
+      l_item7: '009900'
+      l_item8: '009900'
+      l_item9: '009900'
+      l_m: '007500'
+      l_mode1: '009900'
+      l_mode2: '009900'
+      l_mode4: '009900'
+      l_mode5: '009900'
+      l_mode6: '009900'
+      l_o: '009900'
+      l_powerstrike: '009900'
+      l_shootagain: '009900'
+    
+- time: '+1'
+  lights:
+      l_5: '009900'
+      l_heart: '009900'
+      l_lout: '009900'
+      l_m: '000000'
+      l_mode5: '000000'
+    
+- time: '+1'
+  lights:
+      l_heart1: '009900'
+      l_item10: '005800'
+      l_mode6: '008100'
+      l_shootagain: '000000'
+    
+- time: '+1'
+  lights:
+      l_heart2: '009900'
+      l_item10: '000000'
+      l_item6: '000000'
+      l_item7: '000000'
+      l_item8: '000000'
+      l_item9: '000000'
+      l_mode2: '000000'
+      l_mode6: '001E00'
+      l_zrupee: '009900'
+    
+- time: '+1'
+  lights:
+      l_item1: '000000'
+      l_item2: '000000'
+      l_item3: '000000'
+      l_item4: '000000'
+      l_item5: '000000'
+      l_mode6: '000000'
+      l_zitem: '007100'
+    
+- time: '+1'
+  lights:
+      l_powerstrike: '000000'
+      l_z: '000100'
+      l_zitem: '009900'
+    
+- time: '+1'
+  lights:
+      l_mode1: '000000'
+      l_mode4: '000000'
+      l_o: '000000'
+      l_z: '009900'
+    
+- time: '+1'
+  lights:
+      l_2x: '007900'
+      l_b: '000000'
+    
+- time: '+1'
+  lights:
+      l_2x: '009900'
+      l_heart: '007800'
+      l_lout: '000000'
+    
+- time: '+1'
+  lights:
+      l_3x: '009900'
+      l_5: '000000'
+      l_cranerupee: '009900'
+      l_erupee: '009900'
+      l_heart: '000000'
+    
+- time: '+1'
+  lights:
+      l_14: '009900'
+      l_drop1: '009600'
+      l_erupee: '006700'
+      l_heart1: '000000'
+      l_jackpot: '009900'
+      l_magicmirror: '000A00'
+      l_zrupee: '003800'
+    
+- time: '+1'
+  lights:
+      l_boss: '009900'
+      l_drop1: '009900'
+      l_drupee: '009900'
+      l_erupee: '000700'
+      l_ganon: '009900'
+      l_heart2: '000000'
+      l_litem: '007F00'
+      l_lrupee: '009900'
+      l_magicmirror: '009900'
+      l_zrupee: '000000'
+    
+- time: '+1'
+  lights:
+      l_d: '009900'
+      l_ditem: '009900'
+      l_erupee: '000000'
+      l_litem: '000000'
+      l_zitem: '000000'
+    
+- time: '+1'
+  lights:
+      l_z: '000000'
+    
+- time: '+1'
+  lights:
+      l_10: '009900'
+      l_drop2: '009500'
+      l_mastersword: '009900'
+    
+- time: '+1'
+  lights:
+      l_10: '009A00'
+      l_14: '009A00'
+      l_2x: '000000'
+      l_3x: '009A00'
+      l_boss: '009A00'
+      l_cranerupee: '009A00'
+      l_d: '009A00'
+      l_ditem: '009A00'
+      l_drop1: '009A00'
+      l_drop2: '009A00'
+      l_drupee: '009A00'
+      l_ganon: '009A00'
+      l_jackpot: '009A00'
+      l_lrupee: '009A00'
+      l_magicmirror: '009A00'
+      l_mastersword: '007600'
+    
+- time: '+1'
+  lights:
+      l_3x: '000000'
+      l_a: '009A00'
+      l_mastersword: '000000'
+    
+- time: '+1'
+  lights:
+      l_14: '000000'
+      l_aitem: '009A00'
+      l_cranerupee: '000000'
+      l_drop3: '009A00'
+    
+- time: '+1'
+  lights:
+      l_arupee: '009A00'
+      l_drop1: '000000'
+      l_jackpot: '000000'
+      l_lrupee: '004B00'
+      l_magicmirror: '000000'
+    
+- time: '+1'
+  lights:
+      l_33: '004D00'
+      l_boss: '000000'
+      l_ditem: '000000'
+      l_drupee: '000000'
+      l_ganon: '000000'
+      l_lrupee: '000000'
+      l_plungerlane3: '009A00'
+    
+- time: '+1'
+  lights:
+      l_33: '009A00'
+      l_d: '000000'
+      l_modestart: '009A00'
+      l_plungerlane2: '009A00'
+    
+- time: '+1'
+  lights:
+      l_modestart1: '002900'
+      l_modestart4: '004600'
+      l_plungerlane1: '009A00'
+    
+- time: '+1'
+  lights:
+      l_10: '000000'
+      l_drop2: '000000'
+      l_modestart1: '009A00'
+      l_modestart3: '001100'
+      l_modestart4: '009A00'
+      l_rout: '009A00'
+    
+- time: '+1'
+  lights:
+      l_a: '001100'
+      l_b2: '009A00'
+      l_mode3: '005800'
+      l_modestart2: '009A00'
+      l_modestart3: '009A00'
+    
+- time: '+1'
+  lights:
+      l_a: '000000'
+      l_aitem: '000A00'
+      l_drop3: '007500'
+      l_m: '009A00'
+      l_mode3: '009A00'
+      l_mode5: '009A00'
+    
+- time: '+1'
+  lights:
+      l_aitem: '000000'
+      l_drop3: '000000'
+      l_shootagain: '009A00'
+    
+- time: '+1'
+  lights:
+      l_arupee: '000000'
+      l_item10: '009A00'
+      l_item6: '009A00'
+      l_item7: '009A00'
+      l_item8: '009A00'
+      l_item9: '009A00'
+      l_mode6: '003F00'
+    
+- time: '+1'
+  lights:
+      l_33: '000000'
+      l_item1: '009A00'
+      l_item2: '009A00'
+      l_item3: '009A00'
+      l_item4: '009A00'
+      l_item5: '009A00'
+      l_mode2: '009A00'
+      l_mode6: '009600'
+      l_plungerlane3: '000000'
+    
+- time: '+1'
+  lights:
+      l_mode6: '009A00'
+      l_modestart: '000000'
+      l_plungerlane2: '000000'
+      l_powerstrike: '009A00'
+    
+- time: '+1'
+  lights:
+      l_mode1: '006500'
+      l_mode4: '008D00'
+      l_modestart1: '000000'
+      l_modestart4: '000000'
+      l_o: '009A00'
+      l_plungerlane1: '000000'
+      l_rout: '000000'
+    
+- time: '+1'
+  lights:
+      l_b: '009A00'
+      l_mode1: '009A00'
+      l_mode4: '009A00'
+      l_modestart2: '009000'
+      l_modestart3: '000000'
+    

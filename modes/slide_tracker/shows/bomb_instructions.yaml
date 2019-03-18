@@ -1,0 +1,28 @@
+#show_version=5
+- duration: 5s
+  slides:
+    first_instructions:
+      widgets:
+      - type: Text
+        text: Bomb
+        color: Gold
+        y: top-100
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: Spots
+        style: hyruletext
+        font_size: 180
+        color: Gold
+        y: middle
+        x: middle
+      - type: Text
+        text: Item
+        style: hyruletext
+        font_size: 180
+        color: gold
+        y: bottom+100
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left

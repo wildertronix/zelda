@@ -1,0 +1,51 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_item6: blue-f200ms
+    l_item1: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_item6: black-f200ms
+    l_item1: black-f200ms
+
+- time: '+1'
+  lights:
+    l_item2: blue-f200ms
+    l_item7: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_item2: black-f200ms
+    l_item7: black-f200ms
+
+- time: '+1'
+  lights:
+    l_item3: blue-f200ms
+    l_item8: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_item3: black-f200ms
+    l_item8: black-f200ms
+
+- time: '+1'
+  lights:
+    l_item4: blue-f200ms
+    l_item9: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_item4: black-f200ms
+    l_item9: black-f200ms
+
+- time: '+1'
+  lights:
+    l_item5: blue-f200ms
+    l_item10: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_item5: black-f200ms
+    l_item10: black-f200ms
+

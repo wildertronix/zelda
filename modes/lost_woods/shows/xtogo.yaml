@@ -1,0 +1,29 @@
+#show_version=5
+
+- duration: 4s
+  slides:
+    xtogo:
+      widgets:
+      - type: Text
+        text: Path Found!
+        color: Gold
+        y: top-300
+        x: middle
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: (remaining) Paths Left!
+        color: Gold
+        y: top-425
+        x: middle
+        style: hyruletext
+        font_size: 85
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1

@@ -1,0 +1,209 @@
+#config_version=5
+#Zelda
+
+game:
+  balls_per_game: 3
+  allow_start_with_ball_in_drain: true
+  allow_start_with_loose_balls: true
+
+config:
+- hardware.yaml
+- keyboard.yaml
+- videos.yaml
+
+modes:
+- attract
+- base
+- ball_save
+- extraball
+- escape_starter
+- escape
+- 2ballqualifier
+- 2ballescape
+- escapehurryup
+- light_world
+- lost_woods_starter
+- lost_woods
+- master_sword_buildup
+- agahnim_multiball
+- darkworld
+- music_player
+- video_player
+- item_tracker
+- slide_tracker
+- mode_tracker
+- heart_tracker
+- bomb_finder
+- ball_hold_tracker
+- heartmeter
+- unusual_show_tracker
+- 5waycombotracker
+- highscore
+
+window:
+  title: Legend of Zelda
+  height: 720
+  width: 1280
+
+
+displays:
+  window:
+    height: 720
+    width: 1280
+  dmd:
+    height: 720
+    width: 1280
+  lcd:
+    height: 720
+    width: 1280
+    default: true
+
+sound_player:
+  game_will_end:
+    timeoffalling:
+      action: stop
+    hyrulecastle:
+      action: stop
+    light_world_theme:
+      action: stop
+    rainout:
+      action: stop
+    rainin:
+      action: stop
+    forest:
+      action: stop
+    battle:
+      action: stop
+    darkworld:
+      action: stop
+
+
+
+# slide_player:
+#   game_will_end:
+#     gameovervideo:
+#       target: lcd
+#       expire: 2s
+
+# slides:
+#   gameovervideo:
+#     widgets:
+#       - type: video
+#         video: linkdyingvideo
+#         width: 1280
+#         height: 720
+
+sound_system:
+    master_volume: 1.0
+    tracks:
+       music:
+          simultaneous_sounds: 2
+          volume: 0.5
+       voice:
+          simultaneous_sounds: 1
+          volume: 0.7
+       sfx:
+          simultaneous_sounds: 8
+          volume: 0.9
+
+
+sounds:
+  linkhurt1:
+    volume: 0.7
+  linkhurt2:
+    volume: 0.7
+  linkhurt3:
+    volume: 0.7
+
+
+
+assets:
+    sounds:
+        default:
+            load: preload
+        music:
+            track: music
+        sfx:
+            track: sfx
+        voice:
+            track: voice
+    videos:
+        default:
+            load: preload
+
+widget_styles:
+  default:
+    font_name: Quadrit
+    font_size: 10
+    crop_top: 2
+    crop_bottom: 3
+  space title huge:
+    font_name: DEADJIM
+    font_size: 29
+    antialias: true
+    crop_top: 3
+    crop_bottom: 3
+  space title:
+    font_name: DEADJIM
+    font_size: 21
+    antialias: true
+    crop_top: 2
+    crop_bottom: 3
+  medium:
+    font_name: pixelmix
+    font_size: 8
+    crop_top: 1
+    crop_bottom: 1
+  small:
+    font_name: smallest_pixel-7
+    font_size: 9
+    crop_top: 2
+    crop_bottom: 3
+  tall title:
+    font_name: big_noodle_titling
+    font_size: 20
+  hyruletext:
+    font_name: Triforce
+    font_size: 72
+
+shot_profiles:
+   tri_state:
+       states:
+       - name: unlit
+         show: off
+       - name: lit
+         show: flash
+       - name: complete
+         show: on 
+   on_off:
+       states:
+       - name: unlit
+         show: off
+       - name: lit
+         show: on
+   flash:
+       states:
+       - name: lit
+         show: flash
+       - name: unlit
+         show: off
+
+multiballs:
+  s2ballescape_multiball:
+    ball_count: 2
+    ball_locks: bd_abyss
+    ball_count_type: total
+    shoot_again: 90s
+    enable_events: zelda_2ball_complete
+    start_events: multiball_lock_2ballescape_locked_ball
+    stop_events: mode_2ballescape_multiball_stopping, 2ballescape_complete
+    disable_events: flippers_alive
+
+  agahnim_multiball:
+    ball_count: 3
+    ball_count_type: total
+    shoot_again: 30s
+    enable_events: cue_3ball_multi
+    start_events: slide_masterswordvideo_removed
+    stop_events: agahnim_complete
+    disable_events: agahnim_complete

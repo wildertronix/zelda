@@ -1,0 +1,32 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_drop1: ee82ee-f200ms
+
+- time: '+1'
+  lights:
+    l_drop1: black-f200ms
+
+- time: '+1'
+  lights:
+    l_drop2: ee82ee-f200ms
+
+- time: '+1'
+  lights:
+    l_drop2: black-f200ms
+
+- time: '+1'
+  lights:
+    l_drop3: ee82ee-f200ms
+
+- time: '+1'
+  lights:
+    l_drop3: black-f200ms
+
+- time: '+1'
+  lights:
+    l_drop2: ee82ee-f200ms
+
+- time: '+1'
+  lights:
+    l_drop2: black-f200ms

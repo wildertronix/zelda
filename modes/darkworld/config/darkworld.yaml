@@ -1,0 +1,737 @@
+#config_version=5
+
+mode: 
+  start_events: slide_agahnimdefeatedvideo_removed
+  stop_events: game_ending, slide_maiden7_removed
+  priority: 1100
+  stop_on_ball_end: false
+
+event_player:
+  dungeon_1_complete: disable_dungeon_1
+  dungeon_2_complete: disable_dungeon_2
+  dungeon_3_complete: disable_dungeon_3
+  dungeon_4_complete: disable_dungeon_4
+  dungeon_5_complete: disable_dungeon_5
+  dungeon_6_complete: disable_dungeon_6
+  dungeon_7_complete: disable_dungeon_7
+  darkworld_zelda_cutscene: darkworld_mode_complete
+
+
+shots:
+  darkworld_z_ramp: #dungeon 1
+    switch: s_optoz1
+    profile: darkworld_z_ramp_profile
+    disable_events: disable_dungeon_1
+
+  darkworld_a_orbit:
+    switch: s_optoa
+    profile: darkworld_a_orbit_profile
+    disable_events: disable_dungeon_1
+
+
+  darkworld_mode_start_shot: #dungeon 2
+    switch: s_modestart
+    profile: darkworld_mode_start_shot_profile
+    disable_events: disable_dungeon_2
+    enable_events: disable_dungeon_1
+
+  darkworld_drop3:
+    switch: s_droptarget3
+    profile: darkworld_drop3_profile
+    disable_events: disable_dungeon_2
+    enable_events: disable_dungeon_1
+
+  darkworld_heart:
+    switch: s_heart
+    profile: darkworld_heart_profile
+    disable_events: disable_dungeon_2
+    enable_events: disable_dungeon_1
+
+
+  darkworld_drop2: #dungeon 3
+    switch: s_droptarget2
+    profile: darkworld_drop2_profile
+    disable_events: disable_dungeon_3
+    enable_events: disable_dungeon_2
+
+  darkworld_z_ramp_dungeon3: 
+    switch: s_optoz1
+    profile: darkworld_z_ramp_dungeon3_profile
+    disable_events: disable_dungeon_3
+    enable_events: disable_dungeon_2
+
+  darkworld_a_orbit_dungeon3:
+    switch: s_optoa
+    profile: darkworld_a_orbit_dungeon3_profile
+    disable_events: disable_dungeon_3
+    enable_events: disable_dungeon_2
+
+  darkworld_right_inlane:
+    switch: s_right_inlane
+    profile: darkworld_right_inlane_profile
+    disable_events: disable_dungeon_3
+    enable_events: disable_dungeon_2
+
+  darkworld_drop1: #dungeon 4
+    switch: s_droptarget1
+    profile: darkworld_drop1_profile
+    disable_events: disable_dungeon_4
+    enable_events: disable_dungeon_3
+
+  darkworld_z_ramp_dungeon4: 
+    switch: s_optoz1
+    profile: darkworld_z_ramp_dungeon4_profile
+    disable_events: disable_dungeon_4
+    enable_events: disable_dungeon_3
+
+  darkworld_heart_dungeon4:
+    switch: s_heart
+    profile: darkworld_heart_dungeon4_profile
+    disable_events: disable_dungeon_4
+    enable_events: disable_dungeon_3
+
+  darkworld_mode_start_shot_dungeon4:
+    switch: s_modestart
+    profile: darkworld_mode_start_shot_dungeon4_profile
+    disable_events: disable_dungeon_4
+    enable_events: disable_dungeon_3
+
+  darkworld_pop:
+    switch: s_toppop
+    profile: darkworld_pop_profile
+    disable_events: disable_dungeon_4
+    enable_events: disable_dungeon_3
+
+
+  darkworld_abyss: #dungeon 5
+    switch: s_abyss
+    profile: darkworld_abyss_profile
+    disable_events: disable_dungeon_5
+    enable_events: disable_dungeon_4
+
+  darkworld_bosshit:
+    switch: s_cranehole
+    profile: darkworld_bosshit_profile
+    disable_events: disable_dungeon_5
+    enable_events: disable_dungeon_4
+
+  darkworld_drop3_dungeon5:
+    switch: s_droptarget3
+    profile: darkworld_drop3_dungeon5_profile
+    disable_events: disable_dungeon_5
+    enable_events: disable_dungeon_4
+
+  darkworld_heart_dungeon5:
+    switch: s_heart
+    profile: darkworld_heart_dungeon5_profile
+    disable_events: disable_dungeon_5
+    enable_events: disable_dungeon_4
+
+  darkworld_pop_dungeon5:
+    switch: s_toppop
+    profile: darkworld_pop_dungeon5_profile
+    disable_events: disable_dungeon_5
+    enable_events: disable_dungeon_4
+
+  darkworld_d_ramp:
+    switch: s_optod
+    profile: darkworld_d_ramp_profile
+    disable_events: disable_dungeon_5
+    enable_events: disable_dungeon_4
+
+
+  darkworld_left_inlane: # dungeon 6
+    switch: s_left_inlane
+    profile: darkworld_left_inlane_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+  darkworld_right_inlane_dungeon6:
+    switch: s_right_inlane
+    profile: darkworld_right_inlane_dungeon6_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+  darkworld_drop2_dungeon6: 
+    switch: s_droptarget2
+    profile: darkworld_drop2_dungeon6_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+  darkworld_a_orbit_dungeon6:
+    switch: s_optoa
+    profile: darkworld_a_orbit_dungeon6_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+  darkworld_d_ramp_dungeon6:
+    switch: s_optod
+    profile: darkworld_d_ramp_dungeon6_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+  darkworld_drop1_dungeon6: 
+    switch: s_droptarget1
+    profile: darkworld_drop1_dungeon6_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+  darkworld_heart_dungeon6:
+    switch: s_heart
+    profile: darkworld_heart_dungeon6_profile
+    disable_events: disable_dungeon_6
+    enable_events: disable_dungeon_5
+
+
+  darkworld_drop1_dungeon7: #dungeon 7
+    switch: s_droptarget1
+    profile: darkworld_drop1_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+  darkworld_drop2_dungeon7:
+    switch: s_droptarget2
+    profile: darkworld_drop2_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+  darkworld_drop3_dungeon7:
+    switch: s_droptarget3
+    profile: darkworld_drop3_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+  darkworld_mode_start_shot_dungeon7:
+    switch: s_modestart
+    profile: darkworld_mode_start_shot_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+  darkworld_heart_dungeon7:
+    switch: s_heart
+    profile: darkworld_heart_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+  darkworld_z_ramp_dungeon7: 
+    switch: s_optoz1
+    profile: darkworld_z_ramp_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+  darkworld_bosshit_dungeon7:
+    switch: s_cranehole
+    profile: darkworld_bosshit_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6 
+
+  darkworld_abyss_dungeon7: 
+    switch: s_abyss
+    profile: darkworld_abyss_dungeon7_profile
+    disable_events: disable_dungeon_7
+    enable_events: disable_dungeon_6
+
+
+  darkworld_zelda_rescue:  #final shot
+    switch: s_abyss
+    profile: darkworld_zelda_rescue_profile
+    enable_events: disable_dungeon_7
+
+
+
+
+
+sequence_shots:
+  darkworld_e_shot:
+    switch_sequence: 
+      - s_optoe 
+      - s_optol
+    sequence_timeout: 1s
+  darkworld_l_shot:
+    switch_sequence: 
+      - s_optol 
+      - s_optoe   
+    sequence_timeout: 1s
+
+
+accruals:
+  dungeon_1:
+    events:
+      - darkworld_z_ramp_ready_hit
+      - darkworld_a_orbit_ready_hit
+    events_when_complete: dungeon_1_complete
+    disable_events: disable_dungeon_1
+
+  dungeon_2:
+    events:
+      - darkworld_mode_start_shot_ready_hit
+      - darkworld_drop3_ready_hit
+      - darkworld_heart_ready_hit
+    events_when_complete: dungeon_2_complete
+    enable_events: dungeon_1_complete
+    disable_events: disable_dungeon_2
+
+  dungeon_3:
+    events:
+      - darkworld_drop2_ready_hit
+      - darkworld_z_ramp_dungeon3_ready_hit
+      - darkworld_a_orbit_dungeon3_ready_hit
+      - darkworld_right_inlane_ready_hit
+    events_when_complete: dungeon_3_complete
+    enable_events: dungeon_2_complete
+    disable_events: disable_dungeon_3
+
+  dungeon_4:
+    events:
+      - darkworld_drop1_ready_hit
+      - darkworld_z_ramp_dungeon4_ready_hit
+      - darkworld_heart_dungeon4_ready_hit
+      - darkworld_mode_start_shot_dungeon4_ready_hit
+      - darkworld_pop_ready_hit
+    events_when_complete: dungeon_4_complete
+    enable_events: dungeon_3_complete
+    disable_events: disable_dungeon_4
+
+  dungeon_5:
+    events:
+      - darkworld_abyss_ready_hit
+      - darkworld_bosshit_ready_hit
+      - darkworld_drop3_dungeon5_ready_hit
+      - darkworld_heart_dungeon5_ready_hit
+      - darkworld_pop_dungeon5_ready_hit
+      - darkworld_d_ramp_ready_hit
+    events_when_complete: dungeon_5_complete
+    enable_events: dungeon_4_complete
+    disable_events: disable_dungeon_5
+
+  dungeon_6:
+    events: 
+      - darkworld_left_inlane_ready_hit
+      - darkworld_right_inlane_dungeon6_ready_hit
+      - darkworld_drop2_dungeon6_ready_hit
+      - darkworld_a_orbit_dungeon6_ready_hit
+      - darkworld_d_ramp_dungeon6_ready_hit
+      - darkworld_drop1_dungeon6_ready_hit
+      - darkworld_heart_dungeon6_ready_hit
+    events_when_complete: dungeon_6_complete
+    enable_events: dungeon_5_complete
+    disable_events: disable_dungeon_6
+
+  dungeon_7:
+    events:
+      - darkworld_drop1_dungeon7_ready_hit
+      - darkworld_drop2_dungeon7_ready_hit
+      - darkworld_drop3_dungeon7_ready_hit
+      - darkworld_mode_start_shot_dungeon7_ready_hit
+      - darkworld_heart_dungeon7_ready_hit
+      - darkworld_z_ramp_dungeon7_ready_hit
+      - darkworld_bosshit_dungeon7_ready_hit
+      - darkworld_abyss_dungeon7_ready_hit
+    events_when_complete: dungeon_7_complete
+    enable_events: dungeon_6_complete
+    disable_events: disable_dungeon_7
+
+  darkworld_rescue_zelda_shot:
+    events:
+      - darkworld_zelda_rescue_ready_hit
+    events_when_complete: darkworld_zelda_cutscene
+    enable_events: dungeon_7_complete
+    disable_events: darkworld_mode_complete
+
+
+sequences:
+  finish_dungeon_1:
+    events: dungeon_1_complete
+    events_when_complete: maiden_1_rescued
+
+  finish_dungeon_2:
+    events: dungeon_2_complete
+    events_when_complete: maiden_2_rescued
+
+  finish_dungeon_3:
+    events: dungeon_3_complete
+    events_when_complete: maiden_3_rescued
+
+  finish_dungeon_4:
+    events: dungeon_4_complete
+    events_when_complete: maiden_4_rescued
+
+  finish_dungeon_5:
+    events: dungeon_5_complete
+    events_when_complete: maiden_5_rescued
+
+  finish_dungeon_6:
+    events: dungeon_6_complete
+    events_when_complete: maiden_6_rescued
+
+  finish_dungeon_7:
+    events: dungeon_7_complete
+
+  finish_rescue_zelda:
+    events: darkworld_zelda_cutscene
+    events_when_complete: maiden_7_rescued
+
+
+
+
+shot_profiles:
+  darkworld_mode_start_shot_profile:
+    states:
+      - name: ready
+        show: darkworld_mode_start_shot_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_mode_start_shot_lit
+
+  darkworld_drop1_profile:
+    states:
+      - name: ready
+        show: darkworld_drop1_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop1_lit
+
+  darkworld_drop2_profile:
+    states:
+      - name: ready
+        show: darkworld_drop2_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop2_lit
+
+  darkworld_drop3_profile:
+    states:
+      - name: ready
+        show: darkworld_drop3_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop3_lit
+
+  darkworld_heart_profile:
+    states:
+      - name: ready
+        show: darkworld_heart_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_heart_lit
+
+  darkworld_z_ramp_profile:
+    states:
+      - name: ready
+        show: darkworld_z_ramp_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_z_ramp_lit
+
+  darkworld_d_ramp_profile:
+    states:
+      - name: ready
+        show: darkworld_d_ramp_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_d_ramp_lit
+
+  darkworld_a_orbit_profile:
+    states:
+      - name: ready
+        show: darkworld_a_orbit_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_a_orbit_lit
+
+  darkworld_pop_profile:
+    states:
+      - name: ready
+        show: darkworld_pop_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_pop_lit
+
+  darkworld_abyss_profile:
+    states:
+      - name: ready
+        show: darkworld_abyss_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_abyss_lit
+
+  darkworld_bosshit_profile:
+    states:
+      - name: ready
+        show: darkworld_bosshit_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_bosshit_lit
+
+  darkworld_left_inlane_profile:
+    states:
+      - name: ready
+        show: darkworld_left_inlane_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_left_inlane_lit
+
+  darkworld_right_inlane_profile:
+    states:
+      - name: ready
+        show: darkworld_right_inlane_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_right_inlane_lit
+
+  darkworld_z_ramp_dungeon3_profile:
+    states:
+      - name: ready
+        show: darkworld_z_ramp_dungeon3_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_z_ramp_dungeon3_lit
+
+  darkworld_a_orbit_dungeon3_profile:
+    states:
+      - name: ready
+        show: darkworld_a_orbit_dungeon3_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_a_orbit_dungeon3_lit
+
+  darkworld_z_ramp_dungeon4_profile:
+    states:
+      - name: ready
+        show: darkworld_z_ramp_dungeon4_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_z_ramp_dungeon4_lit
+
+  darkworld_heart_dungeon4_profile:
+    states:
+      - name: ready
+        show: darkworld_heart_dungeon4_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_heart_dungeon4_lit
+
+  darkworld_mode_start_shot_dungeon4_profile:
+    states:
+      - name: ready
+        show: darkworld_mode_start_shot_dungeon4_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_mode_start_shot_dungeon4_lit
+
+  darkworld_drop3_dungeon5_profile:
+    states:
+      - name: ready
+        show: darkworld_drop3_dungeon5_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop3_dungeon5_lit
+
+  darkworld_heart_dungeon5_profile:
+    states:
+      - name: ready
+        show: darkworld_heart_dungeon5_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_heart_dungeon5_lit
+
+  darkworld_pop_dungeon5_profile:
+    states:
+      - name: ready
+        show: darkworld_pop_dungeon5_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_pop_dungeon5_lit
+
+  darkworld_right_inlane_dungeon6_profile:
+    states:
+      - name: ready
+        show: darkworld_right_inlane_dungeon6_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_right_inlane_dungeon6_lit
+
+  darkworld_drop2_dungeon6_profile:
+    states:
+      - name: ready
+        show: darkworld_drop2_dungeon6_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop2_dungeon6_lit
+
+  darkworld_a_orbit_dungeon6_profile:
+    states:
+      - name: ready
+        show: darkworld_a_orbit_dungeon6_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_a_orbit_dungeon6_lit
+
+  darkworld_d_ramp_dungeon6_profile:
+    states:
+      - name: ready
+        show: darkworld_d_ramp_dungeon6_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_d_ramp_dungeon6_lit
+
+  darkworld_drop1_dungeon6_profile:
+    states:
+      - name: ready
+        show: darkworld_drop1_dungeon6_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop1_dungeon6_lit
+
+  darkworld_heart_dungeon6_profile:
+    states:
+      - name: ready
+        show: darkworld_heart_dungeon6_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_heart_dungeon6_lit
+
+  darkworld_drop1_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_drop1_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop1_dungeon7_lit
+
+  darkworld_drop2_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_drop2_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop2_dungeon7_lit
+
+  darkworld_drop3_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_drop3_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_drop3_dungeon7_lit
+
+  darkworld_mode_start_shot_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_mode_start_shot_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_mode_start_shot_dungeon7_lit
+
+  darkworld_heart_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_heart_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_heart_dungeon7_lit
+
+  darkworld_z_ramp_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_z_ramp_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_z_ramp_dungeon7_lit
+
+  darkworld_bosshit_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_bosshit_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_bosshit_dungeon7_lit
+
+
+  darkworld_abyss_dungeon7_profile:
+    states:
+      - name: ready
+        show: darkworld_abyss_dungeon7_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_abyss_dungeon7_lit
+
+  darkworld_zelda_rescue_profile:
+    states:
+      - name: ready
+        show: darkworld_zelda_rescue_ready
+        sync_ms: 150
+        loops: -1
+        speed: 2
+      - name: lit
+        show: darkworld_zelda_rescue_lit

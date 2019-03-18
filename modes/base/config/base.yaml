@@ -1,0 +1,98 @@
+#config_version=5
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 100
+
+event_player:
+  eopto_hit: left_orbit_made
+  lopto_hit: right_orbit_made
+
+
+slide_player:
+  mode_base_started: slide_2
+  player_added:
+    slide_3:
+      expire: 2s
+      priority: 1
+
+sound_player:
+  sw_inlane: inlanefx
+  sw_slingshot: slingshot
+  sw_jets: jets
+  powerup: charge
+  flipoff: chargeshot
+  sw_drop: shatter
+  sw_heart: heart
+
+
+
+coil_player:
+  s_optoz1_active:
+    crane:
+      action: pulse
+
+sequence_shots:
+  eopto:
+    switch_sequence: s_optoe s_optol
+    sequence_timeout: 1s
+  lopto:
+    switch_sequence: s_optol s_optoe
+    sequence_timeout: 1s
+
+
+
+show_player:
+  mode_base_started:
+    escape_mode_flash:
+      loops: -1
+      speed: 3
+    gi:
+      loops: -1
+
+  ball_ending:
+    ball_end:
+      loops: 0
+      speed: 15
+      block_queue: yes
+
+  mode_escape_started:
+    escape_mode_flash:
+      action: stop
+
+
+
+
+slides:
+
+  slide_2:
+  - type: text
+    text: (score)
+    number_grouping: true
+    min_digits: 2
+    font_size: 288
+    style: hyruletext
+  - type: text
+    text: PLAYER (number)
+    anchor_y: bottom
+    anchor_x: left
+    style: hyruletext
+    x: left
+    y: bottom
+    font_size: 60
+  - type: text
+    text: BALL (ball)
+    anchor_y: bottom
+    anchor_x: right
+    style: hyruletext
+    x: right
+    y: bottom
+    font_size: 60
+
+  slide_3:
+  - type: text
+    text: PLAYER (num) ADDED
+    style: hyruletext
+    font_size: 144
+
+

@@ -1,0 +1,39 @@
+#config_version=5
+
+
+mode:
+  start_events: ball_starting
+  priority: 100
+
+
+ball_holds:
+  modestart:
+    balls_to_hold: 1
+    hold_devices: bd_modestart
+    enable_events: begin_escape
+    release_one_events: slide_escape_instructions_removed
+    disable_events: slide_escape_instructions_removed
+
+  pulling_the_sword:
+    balls_to_hold: 1
+    hold_devices: bd_lostwoods
+    enable_events: cue_3ball_multi
+    release_one_events: slide_masterswordvideo_removed
+    disable_events: slide_masterswordvideo_removed
+
+  darkworld_transition:
+    balls_to_hold: 1
+    hold_devices: bd_lostwoods
+    enable_events: agahnim_complete
+    release_one_events: slide_darkworldstart_removed
+    disable_events: slide_darkworldstart_removed
+
+  darkworld_zelda_rescue_hold:
+    balls_to_hold: 1
+    hold_devices: bd_abyss
+    enable_events: darkworld_zelda_rescue_ready_hit
+    release_one_events: slide_darkworld2_slide_removed, slide_darkworld2_slide_removed
+    disable_events: slide_darkworld2_slide_removed, slide_darkworld2_slide_removed
+
+
+

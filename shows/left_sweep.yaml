@@ -1,0 +1,177 @@
+#show_version=5
+- time: 0
+  lights:
+    l_b: blue
+    l_lout: blue
+    l_heart: blue
+    l_heart1: blue
+    l_heart2: blue
+    l_z: blue
+    l_zitem: blue
+    l_zrupee: blue
+    l_5: blue
+    l_3x: blue
+    l_2x: blue
+
+- time: '+1'
+  lights:
+    l_powerstrike: blue
+    l_o: blue
+    l_l: blue
+    l_litem: blue
+    l_lrupee: blue
+    l_14: blue
+    l_jackpot: blue
+    l_cranerupee: blue
+    l_e: blue
+    l_eitem: blue
+    l_erupee: blue
+
+- time: '+1'
+  lights:
+    l_drop2: blue
+    l_drop1: blue
+    l_mode1: blue
+    l_mode2: blue
+    l_mode3: blue
+    l_item1: blue
+    l_item2: blue
+    l_item3: blue
+    l_item4: blue
+    l_item5: blue
+    l_magicmirror: blue
+    l_boss: blue
+    l_ganon: blue
+    l_d: blue
+    l_ditem: blue
+    l_drupee: blue
+
+- time: '+1'
+  lights:
+    l_drop3: blue
+    l_mode4: blue
+    l_mode5: blue
+    l_mode6: blue
+    l_item6: blue
+    l_item7: blue
+    l_item8: blue
+    l_item9: blue
+    l_item10: blue
+    l_arupee: blue
+    l_33: blue
+
+- time: '+1'
+  lights:
+    l_b: black
+    l_lout: black
+    l_heart: black
+    l_heart1: black
+    l_heart2: black
+    l_z: black
+    l_zitem: black
+    l_zrupee: black
+    l_5: black
+    l_3x: black
+    l_2x: black
+
+- time: '+1'
+  lights:
+    l_shootagain: blue
+    l_b2: blue
+    l_a: blue
+    l_aitem: blue
+    l_modestart3: blue
+    l_modestart1: blue
+
+- time: '+1'
+  lights:
+    l_powerstrike: black
+    l_o: black
+    l_l: black
+    l_litem: black
+    l_lrupee: black
+    l_14: black
+    l_jackpot: black
+    l_cranerupee: black
+    l_e: black
+    l_eitem: black
+    l_erupee: black
+
+- time: '+1'
+  lights:
+    l_modestart: blue
+    l_modestart2: blue
+    l_modestart4: blue
+    l_m: blue
+
+- time: '+1'
+  lights:
+    l_drop2: black
+    l_drop1: black
+    l_mode1: black
+    l_mode2: black
+    l_mode3: black
+    l_item1: black
+    l_item2: black
+    l_item3: black
+    l_item4: black
+    l_item5: black
+    l_magicmirror: black
+    l_boss: black
+    l_ganon: black
+    l_d: black
+    l_ditem: black
+    l_drupee: black
+
+- time: '+1'
+  lights:
+    l_rout: blue
+    l_10: blue
+
+
+- time: '+1'
+  lights:
+    l_drop3: black
+    l_mode4: black
+    l_mode5: black
+    l_mode6: black
+    l_item6: black
+    l_item7: black
+    l_item8: black
+    l_item9: black
+    l_item10: black
+    l_arupee: black
+    l_33: black
+
+- time: '+1'
+  lights:
+    l_plungerlane1: blue
+    l_plungerlane2: blue
+    l_plungerlane3: blue
+    l_mastersword: blue
+
+
+- time: '+1'
+  lights:
+    l_shootagain: black
+    l_b2: black
+    l_a: black
+    l_aitem: black
+    l_modestart3: black
+    l_modestart1: black
+
+- time: '+1'
+  lights:
+    l_rout: black
+    l_10: black
+    l_modestart: black
+    l_modestart2: black
+    l_modestart4:  black
+    l_m: black
+
+- time: '+1'
+  lights:
+    l_plungerlane1: black
+    l_plungerlane2: black
+    l_plungerlane3: black
+    l_mastersword: black

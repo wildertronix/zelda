@@ -1,0 +1,46 @@
+#show_version=5
+
+- duration: 5s
+  slides:
+    escape_instructions:
+      widgets:
+      - type: Text
+        text: Shoot
+        color: Gold
+        y: top-100
+        x: left+400
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: Shots
+        color: Gold
+        y: top-100
+        x : right-400
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: IN ORDER
+        style: hyruletext
+        font_size: 180
+        color: red
+        y: middle
+        x: middle
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1
+      - type: Text
+        text: To ESCAPE
+        style: hyruletext
+        font_size: 180
+        color: gold
+        y: bottom+100
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left

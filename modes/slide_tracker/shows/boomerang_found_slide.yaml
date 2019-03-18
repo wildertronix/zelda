@@ -1,0 +1,28 @@
+#show_version=5
+- duration: 4s
+  slides:
+    boomerang_slide:
+      widgets:
+      - type: Text
+        text: ITEM FOUND
+        color: Gold
+        y: top-250
+        x: middle
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: BOOMERANG
+        color: Gold
+        y: top-500
+        x: middle
+        style: hyruletext
+        font_size: 90
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1

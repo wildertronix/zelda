@@ -1,0 +1,84 @@
+# config_version=3
+Mode:
+    start_events: ball_starting
+    priority: 100
+
+SlidePlayer:
+    
+    player_score:
+      - type: Text
+        text: "%value"
+        number_grouping: true
+        v_pos: center
+      - type: Text
+        text: PLAYER %number%
+        v_pos: bottom
+        h_pos: left
+        font: small
+      - type: Text
+        text: BALL %ball%
+        v_pos: bottom
+        h_pos: right
+        font: small
+        
+    mode_base_started:
+      - type: Text
+        text: "%score%"
+        number_grouping: true
+        double_zeros: true
+        v_pos: center
+      - type: Text
+        text: PLAYER %number%
+        v_pos: bottom
+        h_pos: left
+        font: small
+      - type: Text
+        text: BALL %ball%
+        v_pos: bottom
+        h_pos: right
+        font: small
+        
+    player_add_success:
+      - type: Text
+        text: PLAYER %num ADDED
+        expire: 2s
+        priority: 1
+
+
+Soundplayer:
+    background music:
+        start_events: mode_base_started
+        sound: overworld
+        loops: -1
+        volume: .5
+    inlane fx:
+        start_events: sw_inlane
+        sound: inlanefx
+        track: sfx
+    slingshot fx:
+        start_events: sw_slingshot
+        sound: slingshot
+        track: sfx
+    jet fx:
+        start_events: sw_jets
+        sound: jets
+        track: sfx
+    flippercharge:
+        start_events: powerup
+        sound: charge
+    chargeshot:
+        start_events: flipoff
+        sound: chargeshot
+    droptarget:
+        start_events: sw_drop
+        sound: shatter
+
+Scoring:
+    sw_inlane:
+        score: 5000
+    sw_slingshot:
+        score: 500
+    sw_jets:
+        score: 550
+    sw_drop:
+        score: 2250

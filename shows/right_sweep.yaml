@@ -1,0 +1,179 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_plungerlane1: red
+    l_plungerlane2: red
+    l_plungerlane3: red
+    l_mastersword: red
+
+- time: '+1'
+  lights:
+    l_rout: red
+    l_10: red
+
+- time: '+1'
+  lights:
+    l_modestart: red
+    l_modestart2: red
+    l_modestart4: red
+    l_m: red
+
+- time: '+1'
+  lights:
+    l_shootagain: red
+    l_b2: red
+    l_a: red
+    l_aitem: red
+    l_modestart3: red
+    l_modestart1: red
+
+- time: '+1'
+  lights:
+    l_plungerlane1: black
+    l_plungerlane2: black
+    l_plungerlane3: black
+    l_mastersword: black
+
+- time: '+1'
+  lights:
+    l_drop3: red
+    l_mode4: red
+    l_mode5: red
+    l_mode6: red
+    l_item6: red
+    l_item7: red
+    l_item8: red
+    l_item9: red
+    l_item10: red
+    l_arupee: red
+    l_33: red
+
+
+- time: '+1'
+  lights:
+    l_rout: black
+    l_10: black
+    l_modestart: black
+    l_modestart2: black
+    l_modestart4:  black
+    l_m: black
+
+- time: '+1'
+  lights:
+    l_drop2: red
+    l_drop1: red
+    l_mode1: red
+    l_mode2: red
+    l_mode3: red
+    l_item1: red
+    l_item2: red
+    l_item3: red
+    l_item4: red
+    l_item5: red
+    l_magicmirror: red
+    l_boss: red
+    l_ganon: red
+    l_d: red
+    l_ditem: red
+    l_drupee: red
+
+- time: '+1'
+  lights:
+    l_shootagain: black
+    l_b2: black
+    l_a: black
+    l_aitem: black
+    l_modestart3: black
+    l_modestart1: black
+
+- time: '+1'
+  lights:
+    l_powerstrike: red
+    l_o: red
+    l_l: red
+    l_litem: red
+    l_lrupee: red
+    l_14: red
+    l_jackpot: red
+    l_cranerupee: red
+    l_e: red
+    l_eitem: red
+    l_erupee: red
+- time: '+1'
+  lights:
+    l_drop3: black
+    l_mode4: black
+    l_mode5: black
+    l_mode6: black
+    l_item6: black
+    l_item7: black
+    l_item8: black
+    l_item9: black
+    l_item10: black
+    l_arupee: black
+    l_33: black
+
+- time: '+1'
+  lights:
+    l_b: red
+    l_lout: red
+    l_heart: red
+    l_heart1: red
+    l_heart2: red
+    l_z: red
+    l_zitem: red
+    l_zrupee: red
+    l_5: red
+    l_3x: red
+    l_2x: red
+
+
+- time: '+1'
+  lights:
+    l_drop2: black
+    l_drop1: black
+    l_mode1: black
+    l_mode2: black
+    l_mode3: black
+    l_item1: black
+    l_item2: black
+    l_item3: black
+    l_item4: black
+    l_item5: black
+    l_magicmirror: black
+    l_boss: black
+    l_ganon: black
+    l_d: black
+    l_ditem: black
+    l_drupee: black
+
+- time: '+1'
+  lights:
+    l_powerstrike: black
+    l_o: black
+    l_l: black
+    l_litem: black
+    l_lrupee: black
+    l_14: black
+    l_jackpot: black
+    l_cranerupee: black
+    l_e: black
+    l_eitem: black
+    l_erupee: black
+
+- time: '+1'
+  lights:
+    l_b: black
+    l_lout: black
+    l_heart: black
+    l_heart1: black
+    l_heart2: black
+    l_z: black
+    l_zitem: black
+    l_zrupee: black
+    l_5: black
+    l_3x: black
+    l_2x: black
+
+

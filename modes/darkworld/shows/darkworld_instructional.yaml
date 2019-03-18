@@ -1,0 +1,13 @@
+#show_version=5
+
+- duration: 8s
+  slides:
+    darkworld_instructional:
+      background_color: black
+      widgets:
+      - type: image
+        image: darkworld_instructional
+      transition:
+         type: move_in
+         duration: 1
+         direction: top

@@ -1,0 +1,169 @@
+#config_version=5
+
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 900
+  stop_on_ball_end: false
+
+show_player:
+  ball_started{ball==1}:
+    first_instructions:
+      loops: 0
+
+  slide_the_journey_begins_removed:
+    escape_instructions:
+      loops: 0
+
+  start_2ball_multiball: 
+    lock_a_ball_instructions:
+      loops: 0
+
+  slide_zelda_found_removed:
+    2ballqualifier_instructions:
+      loops: 0
+
+  heart_piece_earned:
+    heart_tracker_instructions:
+      loops: 0
+
+  slide_heart_piece_extraball_removed:
+    extra_ball_slide:
+      loops: 0
+
+  slide_bombvideo_removed:
+    bomb_instructions:
+      loops: 0
+
+  mode_light_world_started:
+    light_world_instructions:
+      loops: 0
+
+  slide_lost_woods_start_movie_removed:
+    lost_woods_instructions:
+      loops: 0
+
+  8togo:
+    lostwoods_8_togo:
+      loops: 0
+      priority: 10
+  7togo:
+    lostwoods_7_togo:
+      loops: 0
+      priority: 20
+  6togo:
+    lostwoods_6_togo:
+      loops: 0
+      priority: 30
+  5togo:
+    lostwoods_5_togo:
+      loops: 0
+      priority: 40
+  4togo:
+    lostwoods_4_togo:
+      loops: 0
+      priority: 50
+  3togo:
+    lostwoods_3_togo:
+      loops: 0
+      priority: 60
+  2togo:
+    lostwoods_2_togo:
+      loops: 0
+      priority: 70
+  1togo:
+    lostwoods_1_togo:
+      loops: 0
+      priority: 80
+
+  flippers_alive_agahnim:
+    agahnim_instructional:
+      loops: 0
+
+  slide_agahnimstartvideo_removed:
+    agahnim_instructional:
+      loops: 0
+
+  slide_5waycombovideo_removed:
+    5waycomplete_slide:
+      loops: 0
+
+  slide_redshieldvideo_removed:
+    redshield_found_slide:
+      loops: 0
+
+  slide_bluemailvideo_removed:
+    bluemail_found_slide:
+      loops: 0
+
+  slide_flippervideo_removed:
+    flippers_found_slide:
+      loops: 0
+
+  slide_hammervideo_removed:
+    hammer_found_slide:
+      loops: 0
+
+  slide_hookshotvideo_removed:
+    hookshot_found_slide:
+      loops: 0
+
+  slide_item2award_removed:
+    boomerang_found_slide:
+      loops: 0
+
+  slide_item3award_removed:
+    bow_found_slide:
+      loops: 0
+
+  slide_item4award_removed:
+    moonpearl_found_slide:
+      loops: 0
+
+  slide_item5award_removed:
+    mirror_found_slide:
+      loops: 0
+
+  slide_dungeon7boss_removed:
+    darkworld_rescue_zelda_slide:
+      loops: 0
+
+  slide_maiden7_removed:
+    darkworld2_slide:
+      loops: 0
+
+
+sound_player:
+  ball_started{ball==1}: slide_txt_sfx
+  slide_the_journey_begins_removed: slide_txt_sfx
+  slide_zelda_found_removed: slide_txt_sfx
+  start_2ball_multiball: slide_txt_sfx
+  slide_bombvideo_removed: slide_txt_sfx
+  heart_piece_earned: heart_piece_sfx
+  award_heart_extraball: extraballsfx
+  mode_light_world_started: slide_txt_sfx
+  slide_lost_woods_start_movie_removed: slide_txt_sfx
+  8togo: slide_txt_sfx
+  7togo: slide_txt_sfx
+  6togo: slide_txt_sfx
+  5togo: slide_txt_sfx
+  4togo: slide_txt_sfx
+  3togo: slide_txt_sfx
+  2togo: slide_txt_sfx
+  1togo: slide_txt_sfx
+  slide_agahnimstartvideo_removed: slide_txt_sfx
+  slide_redshieldvideo_removed: slide_txt_sfx
+  slide_bluemailvideo_removed: slide_txt_sfx
+  slide_flippervideo_removed: slide_txt_sfx
+  slide_hammervideo_removed: slide_txt_sfx
+  slide_hookshotvideo_removed: slide_txt_sfx
+  slide_darkworld_slide_active: slide_txt_sfx
+  slide_5waycombovideo_removed: slide_txt_sfx
+  slide_darkworld_instructional_active: slide_txt_sfx
+  slide_item2award_removed: slide_txt_sfx
+  slide_item3award_removed: slide_txt_sfx
+  slide_item4award_removed: slide_txt_sfx
+  slide_item5award_removed: slide_txt_sfx
+  slide_dungeon7boss_removed: slide_txt_sfx
+  slide_maiden7_removed: slide_txt_sfx

@@ -1,0 +1,378 @@
+# config_version=4
+# Zelda
+
+machine:
+  balls_installed: 4
+  min_balls: 1
+
+hardware:
+  platform: p_roc
+  driverboards: wpc
+
+# modes:
+# - base
+
+switches:
+  leftflipperbutton:
+    events_when_activated: powerup|2s
+    events_when_deactivated:
+    - flipoff
+    number: SF4
+    tags: flip
+  rightflipperbutton:
+    events_when_activated: powerup|2s
+    events_when_deactivated:
+    - flipoff
+    number: SF6
+    tags: flip
+  trough1:
+    number: S81
+    type: NC
+  trough2:
+    number: S82
+    type: NC
+  trough3:
+    number: S83
+    type: NC
+  trough4:
+    number: S84
+    type: NC
+  trough5:
+    number: S85
+    type: NC
+  trough6:
+    number: S86
+    type: NC
+  troughjam:
+    number: S87
+    type: NC
+  plungerlane:
+    number: S41
+    tags:
+  start:
+    number: S13
+    tags: start
+  plungerlaunch:
+    number: S12
+    tags: launch
+  s_right_inlane:
+    number: SRL
+    tags: playfield_active, points_please, inlane
+  s_left_inlane:
+    number: SLL
+    tags: playfield_active, points_please, inlane
+  s_right_outlane:
+    number: SRO
+    tags: playfield_active, outlane
+  s_left_outlane:
+    number: SLO
+    tags: playfield_active, outlane
+  s_lightmb:
+    number: LMB
+    tags: playfield_active
+  s_optom:
+    number: OPTM
+    tags: playfield_active
+  s_optou:
+    number: OPTU
+    tags: playfield_active
+  s_optol:
+    number: OPTL
+    tags: playfield_active
+  s_optot:
+    number: OPTT
+    tags: playfield_active
+  s_spinner:
+    number: SPIN
+    tags: playfield_active
+  s_cavestar:
+    number: CVS
+    tags: playfield_active
+  s_rampopto:
+    number: ROP
+    tags: playfield_active
+  s_lostwoodsopto:
+    number: LWO
+    tags: playfield_active
+  s_droptarget1:
+    number: DT1
+    tags: playfield_active, drop
+  s_droptarget2:
+    number: DT2
+    tags: playfield_active, drop
+  s_droptarget3:
+    number: DT3
+    tags: playfield_active, drop
+  s_abyss:
+    number: ABY11
+  s_modestart:
+    number: SMO1
+  s_leftslingshot:
+    number: LSL
+    tags: slingshot, playfield_active
+  s_rightslingshot:
+    number: RSL
+    tags: slingshot, playfield_active
+  s_toppop:
+    number: TPOP
+    tags: jets
+  s_rightpop:
+    number: RPOP
+    tags: jets
+  s_leftpop:
+    number: LPOP
+    tags: jets
+
+coils:
+  flipperleftmain:
+    number: FLLM
+    pulse_ms: 20
+  flipperlefthold:
+    number: FLLH
+  flipperrightmain:
+    number: FLRM
+    pulse_ms: 20
+  flipperrighthold:
+    number: FLRH
+  flippertopleftmain:
+    number: C110
+    pulse_ms: 20
+  flippertoplefthold:
+    number: C111
+    pulse_ms: 20
+  flippertoprightmain:
+    number: C112
+    pulse_ms: 20
+  flippertoprighthold:
+    number: C113
+    pulse_ms: 20
+  trougheject:
+    number: C13
+    pulse_ms: 20
+  plungereject:
+    number: C08
+    pulse_ms: 20
+  droptargetreset:
+    number: C100
+    pulse_ms: 20
+  abyss:
+    number: C101
+    pulse_ms: 20
+  modestart:
+    number: C102
+    pulse_ms: 20
+  catapulthole:
+    number: C103
+    pulse_ms: 20
+  lostwoodshole:
+    number: C104
+    pulse_ms: 20
+  toppop:
+    number: C105
+    pulse_ms: 20
+  rightpop:
+    number: C106
+    pulse_ms: 20
+  leftpop:
+    number: C107
+    pulse_ms: 20
+  leftslingshot:
+    number: C108
+    pulse_ms: 20
+  rightslingshot:
+    number: C109
+    pulse_ms: 20
+  ballrelease:
+    number: C115
+    pulse_ms: 20
+  plungergate:
+    number: C116
+    pulse_ms: 20
+
+autofire coils:
+  left_slingshot:
+    coil: leftslingshot
+    switch: s_leftslingshot
+  right_slingshot:
+    coil: rightslingshot
+    switch: s_rightslingshot
+  topjet:
+    coil: toppop
+    switch: s_toppop
+  leftjet:
+    coil: leftpop
+    switch: s_leftpop
+  rightjet:
+    coil: rightpop
+    switch: s_rightpop
+
+flippers:
+  leftflipper:
+    main_coil: flipperLeftMain
+    hold_coil: flipperLeftHold
+    activation_switch: leftFlipperButton
+  rightflipper:
+    main_coil: flipperRightMain
+    hold_coil: flipperRightHold
+    activation_switch: rightFlipperButton
+  topleftflipper:
+    main_coil: flippertopleftmain
+    hold_coil: flippertoplefthold
+    activation_switch: leftflipperbutton
+  toprightflipper:
+    main_coil: flippertoprightmain
+    hold_coil: flippertoprighthold
+    activation_switch: rightflipperbutton
+
+
+virtual_platform_start_active_switches: trough1 trough2 trough3 trough4
+
+keyboard:
+  z:
+    switch: leftFlipperButton
+  /:
+    switch: rightFlipperButton
+  1:
+    switch: trough1
+    toggle: true
+  2:
+    switch: trough2
+    toggle: true
+  3:
+    switch: trough3
+    toggle: true
+  4:
+    switch: trough4
+    toggle: true
+  5:
+    switch: trough5
+    toggle: true
+  6:
+    switch: trough6
+    toggle: true
+  p:
+    switch: plungerLane
+    toggle: true
+  s:
+    switch: start
+  l:
+    switch: plungerLaunch
+  q:
+    switch: s_right_inlane
+  w:
+    switch: s_leftslingshot
+  e:
+    switch: s_rightpop
+  r:
+    switch: s_droptarget1
+
+
+
+ball_devices:
+  trough:
+    ball_switches: trough1, trough2, trough3, trough4, troughJam
+    entrance_count_delay: 300ms
+    eject_coil: troughEject
+    confirm_eject_type: target
+    eject_targets: plunger
+    tags: trough, home, drain
+  plunger:
+    ball_switches: plungerLane, plungerLaunch
+    entrance_count_delay: 300ms
+    exit_count_delay: 3s
+    eject_coil: plungerEject
+    confirm_eject_type: target
+    tags: ball_add_live
+  bd_abyss:
+    ball_switches: s_abyss
+    eject_coil: abyss
+  bd_modestart:
+    ball_switches: s_modestart
+    eject_coil: modestart
+
+physical_dmd:
+  width: 128
+  height: 32
+
+window:
+  title: Legend of Zelda
+
+slide_player:
+  mode_attract_started: attract_started
+  ball_live_added: ball_added
+  ball_started: ball_started
+  mc_ready:
+    window_slide_1:
+      target: window
+
+displays:
+  window:
+    height: 600
+    width: 800
+  dmd:
+    width: 128
+    height: 32
+    default: true
+
+slides:
+  window_slide_1:
+  - type: dmd
+    width: 512
+    height: 128
+    pixel_color: ff6600
+    dark_color: 220000
+  - type: rectangle
+    width: 516
+    height: 132
+    color: aaaaaa
+  - type: text
+    style: tall title
+    text: Zelda
+    anchor_y: top
+    y: top-60
+    font_size: 100
+    z: 1
+    color: ee9900
+  attract_started:
+    - type: Text
+      text: PRESS START
+  ball_added:
+    - type: Text
+      text: BALL LIVE!
+      expire: 2s
+  ball_started:
+    - type: Text
+      text: PLAYER (player) BALL (ball)
+      expire: 2s
+
+widget_styles:
+  default:
+    font_name: Quadrit
+    font_size: 10
+    crop_top: 2
+    crop_bottom: 3
+  space title huge:
+    font_name: DEADJIM
+    font_size: 29
+    antialias: true
+    crop_top: 3
+    crop_bottom: 3
+  space title:
+    font_name: DEADJIM
+    font_size: 21
+    antialias: true
+    crop_top: 2
+    crop_bottom: 3
+  medium:
+    font_name: pixelmix
+    font_size: 8
+    crop_top: 1
+    crop_bottom: 1
+  small:
+    font_name: smallest_pixel-7
+    font_size: 9
+    crop_top: 2
+    crop_bottom: 3
+  tall title:
+    font_name: big_noodle_titling
+    font_size: 20

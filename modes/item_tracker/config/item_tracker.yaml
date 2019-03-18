@@ -1,0 +1,100 @@
+#config_version=5
+
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 500
+  stop_on_ball_end: false
+
+event_player: 
+  play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
+  play_treasure_sfx{device.counters.item_counter.value==2}: bow_found
+  play_treasure_sfx{device.counters.item_counter.value==3}: moonpearl_found
+  play_treasure_sfx{device.counters.item_counter.value==4}: mirror_found
+  logicblock_hookshot_counter_complete: hookshot_found
+  logicblock_hammer_counter_complete: hammer_found
+  logicblock_flipper_counter_complete: flippers_found
+  logicblock_bluemail_counter_complete: bluemail_found
+  logicblock_redshield_counter_complete: redshield_found
+
+sound_player:
+  hookshot_found: treasure_sfx2
+  hammer_found: treasure_sfx2
+  flippers_found: treasure_sfx2
+  bluemail_found: treasure_sfx2
+  redshield_found: treasure_sfx2
+
+counters:
+  item_counter:
+    count_events: play_treasure_sfx
+    count_complete_value: 4
+    reset_on_complete: false
+
+  hookshot_counter:
+    count_events: sw_ramp_hit
+    count_complete_value: 60
+    reset_on_complete: false
+
+  hammer_counter:
+    count_events: sw_drop
+    count_complete_value: 39
+    reset_on_complete: false
+
+  flipper_counter:
+    count_events: sw_jets
+    count_complete_value: 100
+    reset_on_complete: false
+
+  bluemail_counter:
+    count_events: sw_spinner
+    count_complete_value: 100
+    reset_on_complete: false
+
+  redshield_counter:
+    count_events: sw_slingshot
+    count_complete_value: 35
+    reset_on_complete: false
+
+show_player:
+  mode_item_tracker_started:
+    lamp_lit:
+      loops: -1
+
+  boomerang_found:
+    boomerang_lit:
+      loops: -1
+
+  bow_found:
+    bow_lit:
+      loops: -1
+
+  moonpearl_found:
+    moonpearl_lit:
+      loops: -1
+
+  mirror_found:
+    mirror_lit:
+      loops: -1
+
+  hookshot_found:
+    hookshot_lit:
+      loops: -1
+
+  hammer_found:
+    hammer_lit:
+      loops: -1
+
+  flippers_found:
+    flippers_lit:
+      loops: -1
+
+  bluemail_found:
+    bluemail_lit:
+      loops: -1
+
+  redshield_found:
+    redshield_lit:
+      loops: -1
+
+

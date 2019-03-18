@@ -1,0 +1,25 @@
+#show_version=5
+- time: 0
+  lights:
+    l_cranerupee: purple
+    l_14: black
+    l_jackpot: black
+
+- time: '+1'
+  lights:
+    l_cranerupee: black
+    l_14: purple
+    l_jackpot: black
+
+- time: '+1'
+  lights:
+    l_cranerupee: black
+    l_14: black
+    l_jackpot: purple
+
+- time: '+1'
+  lights:
+    l_cranerupee: black
+    l_14: black
+    l_jackpot: black
+

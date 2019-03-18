@@ -1,0 +1,21 @@
+#config_version=5
+
+mode:
+  start_events: escape_hurryup
+  stop_events: mode_light_world_started, game_ending
+  priority: 500
+
+event_player:
+  escape_hurryup_complete: lightworld_start
+  mode_escapehurryup_started: escape_complete_disable_flippers
+  ball_save_escape_ballsave_disabled: flippers_alive
+
+ball_saves:
+  escape_ballsave:
+    active_time: 15s
+    hurry_up_time: 6s
+    grace_period: 2s
+    enable_events: mode_escapehurryup_started
+    auto_launch: no
+    balls_to_save: 1
+

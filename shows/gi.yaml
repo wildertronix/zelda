@@ -1,0 +1,21 @@
+#show_version=5
+- time : 0
+  lights : 
+      gi_1 : white
+      gi_2 : white
+      gi_3 : white
+      gi_4 : white
+      gi_5 : white
+      gi_6 : white
+      gi_7 : white
+      gi_8 : white
+      gi_9 : white
+      gi_10 : white
+      gi_11 : white
+      gi_12 : white
+      gi_13 : white
+      gi_14 : white
+      gi_15 : white
+      gi_16 : white
+      gi_17 : white
+      gi_18 : white

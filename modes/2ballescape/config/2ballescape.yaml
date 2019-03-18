@@ -1,0 +1,333 @@
+#config_version=5
+
+mode:
+  start_events: multiball_lock_2ballescape_locked_ball
+  stop_events: 2ballescape_complete, game_ending
+  stop_on_ball_end: false
+  priority: 400
+
+
+event_player:
+  2ballescape_complete: escape_hurryup
+  escaped_one_complete: disable_2ballescape_first_shot enable_2ballescape_second_shot
+  escaped_two_complete: disable_2ballescape_second_shot enable_2ballescape_third_shot
+  escaped_three_complete: disable_2ballescape_third_shot
+  timer_first_shot_timer_complete: first_shot_expired
+  timer_second_shot_timer_complete: second_shot_expired
+  timer_third_shot_timer_complete: third_shot_expired
+
+shots:
+  2ballescape_first_shot_z:
+    switch: s_optoz1
+    profile: 2ballescape_shot_one_z_profile
+    disable_events: disable_2ballescape_first_shot
+    reset_events: first_shot_expired
+  2ballescape_first_shot_a:
+    switch: s_optoa
+    profile: 2ballescape_shot_one_a_profile
+    disable_events: disable_2ballescape_first_shot
+    reset_events: first_shot_expired
+  2ballescape_second_shot_e:
+    advance_events: finished_2ballescape_second_shot_e
+    profile: 2ballescape_shot_two_e_profile
+    enable_events: enable_2ballescape_second_shot
+    disable_events: disable_2ballescape_second_shot
+    reset_events: second_shot_expired
+  2ballescape_second_shot_l:
+    advance_events: finished_2ballescape_second_shot_l
+    profile: 2ballescape_shot_two_l_profile
+    enable_events: enable_2ballescape_second_shot
+    disable_events: disable_2ballescape_second_shot
+    reset_events: second_shot_expired
+  2ballescape_second_shot_d:
+    advance_events: finished_2ballescape_second_shot_d
+    profile: 2ballescape_shot_two_d_profile
+    enable_events: enable_2ballescape_second_shot
+    disable_events: disable_2ballescape_second_shot
+    reset_events: second_shot_expired
+  2ballescape_third_shot_z:
+    switch: s_optoz1
+    advance_events: finished_2ballescape_third_shot_e
+    profile: 2ballescape_shot_three_z_profile
+    enable_events: enable_2ballescape_third_shot
+    disable_events: disable_2ballescape_third_shot
+    reset_events: third_shot_expired
+  2ballescape_third_shot_e:
+    advance_events: finished_2ballescape_third_shot_e
+    profile: 2ballescape_shot_three_e_profile
+    enable_events: enable_2ballescape_third_shot
+    disable_events: disable_2ballescape_third_shot
+    reset_events: third_shot_expired
+  2ballescape_third_shot_l:
+    advance_events: finished_2ballescape_third_shot_l
+    profile: 2ballescape_shot_three_l_profile
+    enable_events: enable_2ballescape_third_shot
+    disable_events: disable_2ballescape_third_shot
+    reset_events: third_shot_expired
+  2ballescape_third_shot_d:
+    advance_events: finished_2ballescape_third_shot_d
+    profile: 2ballescape_shot_three_d_profile
+    enable_events: enable_2ballescape_third_shot
+    disable_events: disable_2ballescape_third_shot
+    reset_events: third_shot_expired
+  2ballescape_third_shot_a:
+    advance_events: finished_2ballescape_third_shot_a
+    profile: 2ballescape_shot_three_a_profile
+    enable_events: enable_2ballescape_third_shot
+    disable_events: disable_2ballescape_third_shot
+    reset_events: third_shot_expired
+
+sequence_shots:
+  2ballescape_sequence_shot_two_e:
+    switch_sequence: s_optoe s_optol
+    sequence_timeout: 2s
+  2ballescape_sequence_shot_two_l:
+    switch_sequence: s_optol s_optoe
+    sequence_timeout: 2s
+  2ballescape_sequence_shot_three_e:
+    switch_sequence: s_optoe s_optol
+    sequence_timeout: 2s
+  2ballescape_sequence_shot_three_l:
+    switch_sequence: s_optol s_optoe
+    sequence_timeout: 2s
+
+accruals:
+  finish_2ballescape_first_shot:
+    events_when_complete: escaped_one_complete
+    events:
+      - 2ballescape_first_shot_a_ready_hit
+      - 2ballescape_first_shot_z_ready_hit
+  finish_2ballescape_second_shot_e:
+    events_when_complete: finished_2ballescape_second_shot_e
+    enable_events: enable_2ballescape_second_shot
+    disable_events: finished_2ballescape_second_shot_e
+    events:
+      - 2ballescape_sequence_shot_two_e_hit
+    restart_events: second_shot_expired
+  finish_2ballescape_second_shot_l:
+    events_when_complete: finished_2ballescape_second_shot_l
+    enable_events: finished_2ballescape_second_shot_e
+    disable_events: finished_2ballescape_second_shot_l second_shot_expired
+    events:
+      - 2ballescape_sequence_shot_two_l_hit
+    reset_events: second_shot_expired
+  finish_2ballescape_second_shot_d:
+    events_when_complete: finished_2ballescape_second_shot_d
+    enable_events: finished_2ballescape_second_shot_l
+    disable_events: finished_2ballescape_second_shot_d second_shot_expired
+    events:
+      - s_optod_active
+    reset_events: second_shot_expired
+  finish_2ballescape_third_shot_z:
+    events_when_complete: finished_2ballescape_third_shot_z
+    enable_events: enable_2ballescape_third_shot
+    disable_events: finished_2ballescape_third_shot_z third_shot_expired
+    events:
+      - s_optoz1_active
+    restart_events: third_shot_expired
+  finish_2ballescape_third_shot_e:
+    events_when_complete: finished_2ballescape_third_shot_e
+    enable_events: finished_2ballescape_third_shot_z
+    disable_events: finished_2ballescape_third_shot_e third_shot_expired
+    events:
+      - 2ballescape_sequence_shot_three_e_hit
+    restart_events: third_shot_expired
+  finish_2ballescape_third_shot_l:
+    events_when_complete: finished_2ballescape_third_shot_l
+    enable_events: finished_2ballescape_third_shot_e
+    disable_events: finished_2ballescape_third_shot_l third_shot_expired
+    events:
+      - 2ballescape_sequence_shot_three_l_hit
+    reset_events: third_shot_expired
+  finish_2ballescape_third_shot_d:
+    events_when_complete: finished_2ballescape_third_shot_d
+    enable_events: finished_2ballescape_third_shot_l
+    disable_events: finished_2ballescape_third_shot_d third_shot_expired
+    events:
+      - s_optod_active
+    reset_events: third_shot_expired
+  finish_2ballescape_third_shot_a:
+    events_when_complete: finished_2ballescape_third_shot_a
+    enable_events: finished_2ballescape_third_shot_d
+    disable_events: finished_2ballescape_third_shot_a third_shot_expired
+    events:
+      - s_optoa_active
+    reset_events: third_shot_expired
+
+# timers:
+#   first_shot_timer:
+#     start_value: 10
+#     end_value: 0
+#     direction: down
+#     control_events:
+#       - action: start
+#         event: 2ballescape_first_shot_z_ready_hit
+#       - action: stop 
+#         event: escaped_one_complete
+#       - action: stop 
+#         event: first_shot_expired
+#       - action: reset
+#         event: escaped_one_complete
+#       - action: reset
+#         event: first_shot_expired
+#   second_shot_timer:
+#     start_value: 15
+#     end_value: 0
+#     direction: down
+#     control_events:
+#       - action: start
+#         event: 2ballescape_sequence_shot_two_e_hit
+#       - action: stop 
+#         event: escaped_two_complete
+#       - action: stop 
+#         event: second_shot_expired
+#       - action: reset
+#         event: escaped_two_complete
+#       - action: reset
+#         event: second_shot_expired
+#   third_shot_timer:
+#     start_value: 25
+#     end_value: 0
+#     direction: down
+#     control_events:
+#       - action: start
+#         event: 2ballescape_third_shot_z_ready_hit
+#       - action: stop 
+#         event: escaped_three_complete
+#       - action: stop 
+#         event: third_shot_expired
+#       - action: reset
+#         event: escaped_three_complete
+#       - action: reset
+#         event: third_shot_expired
+
+sequences:
+  finish_2ballescape:
+    events:
+      - escaped_one_complete
+      - escaped_two_complete
+      - escaped_three_complete
+    events_when_complete: 2ballescape_complete
+  finish_2ballescape_second_shot:
+    events_when_complete: escaped_two_complete
+    events:
+      - finished_2ballescape_second_shot_e
+      - finished_2ballescape_second_shot_l
+      - finished_2ballescape_second_shot_d
+    reset_events: second_shot_expired
+  finish_2ballescape_third_shot:
+    events_when_complete: escaped_three_complete
+    events:
+      - finished_2ballescape_third_shot_z
+      - finished_2ballescape_third_shot_e
+      - finished_2ballescape_third_shot_l
+      - finished_2ballescape_third_shot_d
+      - finished_2ballescape_third_shot_a
+    reset_events: third_shot_expired
+
+shot_profiles:
+  2ballescape_shot_one_z_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_one_z_ready
+        sync_ms: 150
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_one_z_lit
+  2ballescape_shot_one_a_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_one_a_ready
+        sync_ms: 150
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_one_a_lit
+  2ballescape_shot_two_e_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_two_e_ready
+        sync_ms: 150
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_two_e_lit
+  2ballescape_shot_two_l_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_two_l_ready
+        sync_ms: 150
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_two_l_lit
+  2ballescape_shot_two_d_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_two_d_ready
+        sync_ms: 150
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_two_d_lit
+  2ballescape_shot_three_z_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_three_z_ready
+        sync_ms: 500
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_three_z_lit
+  2ballescape_shot_three_e_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_three_e_ready
+        sync_ms: 500
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_three_e_lit
+  2ballescape_shot_three_l_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_three_l_ready
+        sync_ms: 500
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_three_l_lit
+  2ballescape_shot_three_d_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_three_d_ready
+        sync_ms: 500
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_three_d_lit
+  2ballescape_shot_three_a_profile:
+    states:
+      - name: ready
+        show: 2ballescape_shot_three_a_ready
+        sync_ms: 500
+        loops: -1
+        speed: 18
+      - name: lit
+        show: 2ballescape_shot_three_a_lit
+
+sound_player:
+  sw_spinner: magic
+  first_shot_expired: error
+  second_shot_expired: error
+  third_shot_expired: error
+
+sound_pools:
+  linkhurt:
+    track: sfx
+    type: random
+    sounds:
+       - linkhurt1
+       - linkhurt2
+       - linkhurt3

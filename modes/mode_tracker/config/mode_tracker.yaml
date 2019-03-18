@@ -1,0 +1,43 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  priority: 100
+
+show_player:
+
+  mode_escape_started:
+    mode_show1:
+      loops: -1
+      speed: 3
+
+  mode_light_world_started:
+    mode_show2:
+      loops: -1
+      speed: 3
+    mode_show1:
+      action: stop
+
+  mode_lost_woods_started:
+    mode_show3:
+      loops: -1
+      speed: 3
+    mode_show2:
+      action: stop
+
+  mode_agahnim_multiball_started:
+    mode_show4:
+      loops: -1
+      speed: 3
+    mode_show3:
+      action: stop
+
+  mode_darkworld_started:
+    mode_show5:
+      loops: -1
+      speed: 3
+    mode_show4:
+      action: stop
+
+
+

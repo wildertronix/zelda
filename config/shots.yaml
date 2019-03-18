@@ -1,0 +1,49 @@
+#congif_version=5
+
+shots:
+  left_outlane:
+    switch: s_left_outlane
+  left_inlane:
+    swtich: s_left_inlane
+  right_inlane:
+    switch: s_right_inlane
+  right_outlane:
+    switch: s_right_outlane
+  modestart:
+    switch: s_modestart
+    show_tokens:
+       led: l_modestart
+  zopto:
+    switch: s_optoz1
+  eopto:
+    switch_sequence: s_optoe s_optol
+    time: 1s
+  lopto:
+    switch_sequence: s_optol s_optoe
+    time: 1s
+  dopto:
+    switch: s_optod
+  aopto:
+    switch: s_optoa
+
+
+
+
+    #droptargets
+  drop1:
+
+    switch: 
+        
+  drop2:
+    switch:
+        
+  drop3:
+    switch:
+
+        
+        
+
+        
+
+
+

@@ -1,0 +1,75 @@
+#show_version=5
+- time: 0
+  lights:
+    l_33: white-f200ms
+    l_5: white-f200ms
+
+- time: '+1'
+  lights:
+    l_33: black-f200ms
+    l_5: black-f200ms
+
+- time: '+1'
+  lights:
+    l_zrupee: white-f200ms
+    l_erupee: white-f200ms
+    l_lrupee: white-f200ms
+    l_drupee: white-f200ms
+    l_arupee: white-f200ms
+
+- time: '+1'
+  lights:
+    l_zrupee: black-f200ms
+    l_erupee: black-f200ms
+    l_lrupee: black-f200ms
+    l_drupee: black-f200ms
+    l_arupee: black-f200ms
+
+- time: '+1'
+  lights:
+    l_zitem: white-f200ms
+    l_eitem: white-f200ms
+    l_litem: white-f200ms
+    l_ditem: white-f200ms
+    l_aitem: white-f200ms
+
+- time: '+1'
+  lights:
+    l_zitem: black-f200ms
+    l_eitem: black-f200ms
+    l_litem: black-f200ms
+    l_ditem: black-f200ms
+    l_aitem: black-f200ms
+
+- time: '+1'
+  lights:
+    l_z: red-f200ms
+    l_e: red-f200ms
+    l_l: red-f200ms
+    l_d: red-f200ms
+    l_a: red-f200ms
+
+- time: '+1'
+  lights:
+    l_z: black-f200ms
+    l_e: black-f200ms
+    l_l: black-f200ms
+    l_d: black-f200ms
+    l_a: black-f200ms
+
+- time: '+1'
+  lights:
+    l_z: red-f200ms
+    l_e: red-f200ms
+    l_l: red-f200ms
+    l_d: red-f200ms
+    l_a: red-f200ms
+
+- time: '+1'
+  lights:
+    l_z: black-f200ms
+    l_e: black-f200ms
+    l_l: black-f200ms
+    l_d: black-f200ms
+    l_a: black-f200ms
+

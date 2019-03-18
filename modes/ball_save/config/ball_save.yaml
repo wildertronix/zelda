@@ -1,0 +1,26 @@
+#config_version=5
+mode:
+  start_events: ball_starting
+  stop_events: ball_save_default_saving_ball
+  priority: 100
+
+event_player:   
+  balldevice_bd_plunger_lane_ball_eject_success: start_ballsave
+
+ball_saves:
+  default:
+    active_time: 10s
+    hurry_up_time: 3s
+    grace_period: 3s
+    enable_events: mode_base_started
+    disable_events: ball_save_default_saving_ball
+    timer_start_events: start_ballsave
+    auto_launch: yes
+    balls_to_save: 1
+    debug: yes
+
+
+show_player:
+  start_ballsave:
+    ball_save_show:
+      loops: 0

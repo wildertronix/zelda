@@ -1,0 +1,27 @@
+#config_version=5
+keyboard:
+  z:
+    switch: leftflipperbutton
+  x:
+    switch: rightflipperbutton
+  1:
+    switch: trough1
+    toggle: true
+  2:
+    switch: trough2
+    toggle: true
+  p:
+    switch: plungerlane
+    toggle: true
+  s:
+    switch: start
+  
+  q:
+    switch: s_right_inlane
+  w:
+    switch: s_leftslingshot
+  e:
+    switch: s_rightpop
+  r:
+    switch: s_droptarget1
+   

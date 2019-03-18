@@ -1,0 +1,32 @@
+#config_version=5
+mode:
+  start_events: ball_starting
+  stop_events:  game_ending
+  priority: 100
+
+show_player:
+  agahnim_complete:
+    darkworldwarp:
+      loops: 0
+      speed: 5
+
+  slide_agahnimdefeatedvideo_removed:
+    darkworldstoryslide:
+      loops: 0
+      speed: 1
+
+  slide_darkworld_slide_removed:
+    darkworld_instructional:
+      loops: 0
+      speed: 1
+
+  flipper_cancel:
+    darkworldwarp:
+      action: stop
+
+    darkworldstoryslide:
+      action: stop
+
+    darkworld2_slide:
+      action: stop
+

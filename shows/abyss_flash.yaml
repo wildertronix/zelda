@@ -1,0 +1,12 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_magicmirror: red-f200ms
+    l_boss: green-f200ms
+    l_ganon: blue-f200ms
+
+- time: '+1'
+  lights:
+    l_magicmirror: black-f200ms
+    l_boss: black-f200ms
+    l_ganon: black-f200ms

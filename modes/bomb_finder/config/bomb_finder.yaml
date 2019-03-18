@@ -1,0 +1,163 @@
+#config_version=5
+
+
+mode:
+  start_events: begin_escape, flippers_alive, start_lost_woods, mode_agahnim_multiball_started
+  stop_events: disable_bomb_finder
+  stop_on_ball_end: true
+  priority: 400
+
+event_player: 
+  logicblock_bomb_counter_complete: spot_treasure_chest
+  bomb_lanes_complete: play_bomb_sfx
+  hidden_z_ramp_hit: play_treasure_sfx
+  hidden_e_ramp_hit: play_treasure_sfx
+  hidden_l_ramp_hit: play_treasure_sfx
+  hidden_d_ramp_hit: play_treasure_sfx
+  hidden_a_ramp_hit: play_treasure_sfx
+  play_treasure_sfx: disable_bomb_finder
+
+random_event_player:
+  spot_treasure_chest:
+    - hidden_z_ramp_spotted
+    - hidden_e_ramp_spotted
+    - hidden_l_ramp_spotted
+    - hidden_d_ramp_spotted
+    - hidden_a_ramp_spotted
+
+shots:
+  b_bomb:
+    switch: s_left_outlane
+    profile: bomb_lane_profile
+    show_tokens:
+      lane: l_lout
+
+  o_bomb:
+    switch: s_left_inlane
+    profile: bomb_lane_profile
+    show_tokens:
+      lane: l_b
+
+  m_bomb:
+    switch: s_right_inlane
+    profile: bomb_lane_profile
+    show_tokens:
+      lane: l_b2
+
+  b2_bomb:
+    switch: s_right_outlane
+    profile: bomb_lane_profile
+    show_tokens:
+      lane: l_rout
+
+  hidden_z_ramp:
+    switch: s_optoz1
+    profile: hidden_z_ramp_profile
+    enable_events: hidden_z_ramp_spotted
+
+
+  hidden_e_ramp:
+    switch: s_optoe
+    profile: hidden_e_ramp_profile
+    enable_events: hidden_e_ramp_spotted
+
+  hidden_l_ramp:
+    switch: s_optol
+    profile: hidden_l_ramp_profile
+    enable_events: hidden_l_ramp_spotted
+
+  hidden_d_ramp:
+    switch: s_optod
+    profile: hidden_d_ramp_profile
+    enable_events: hidden_d_ramp_spotted
+
+  hidden_a_ramp:
+    switch: s_optoa
+    profile: hidden_a_ramp_profile
+    enable_events: hidden_a_ramp_spotted
+
+
+
+counters:
+  bomb_counter:
+    count_events: bomb_lanes_complete
+    count_complete_value: 1
+    reset_on_complete: false
+    restart_events: bomb_lanes_complete
+    disable_events: disable_bomb_finder
+
+
+
+
+shot_groups:
+  bomb_lanes:
+    shots: b_bomb, o_bomb, m_bomb, b2_bomb
+    rotate_left_events: leftflipperbutton_active
+    rotate_right_events: rightflipperbutton_active
+    reset_events: play_treasure_sfx
+    enable_events: ball_started
+    disable_events: ball_ending
+
+
+
+
+shot_profiles:
+  bomb_lane_profile:
+    show: bomb_lane_selected
+    states:
+      - name: unlit
+        show: bomb_lane_off
+        loops: 0
+      - name: lit
+        show: bomb_lane_on
+
+  hidden_z_ramp_profile:
+    states:
+      - name: ready
+        show: hidden_z_ramp_profile_ready
+        loops: -1
+        speed: 5
+      - name: lit
+        show: hidden_z_ramp_profile_lit
+
+  hidden_e_ramp_profile:
+    states:
+      - name: ready
+        show: hidden_e_ramp_profile_ready
+        loops: -1
+        speed: 5
+      - name: lit
+        show: hidden_e_ramp_profile_lit
+
+  hidden_l_ramp_profile:
+    states:
+      - name: ready
+        show: hidden_l_ramp_profile_ready
+        loops: -1
+        speed: 5
+      - name: lit
+        show: hidden_l_ramp_profile_lit
+
+  hidden_d_ramp_profile:
+    states:
+      - name: ready
+        show: hidden_d_ramp_profile_ready
+        loops: -1
+        speed: 5
+      - name: lit
+        show: hidden_d_ramp_profile_lit
+
+  hidden_a_ramp_profile:
+    states:
+      - name: ready
+        show: hidden_a_ramp_profile_ready
+        loops: -1
+        speed: 5
+      - name: lit
+        show: hidden_a_ramp_profile_lit
+
+show_player:
+  bomb_lanes_complete:
+    bomb_show:
+      loops: 1
+      speed: 30

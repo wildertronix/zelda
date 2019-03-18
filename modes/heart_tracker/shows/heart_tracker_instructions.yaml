@@ -1,0 +1,32 @@
+#show_version=5
+
+- duration: 4s
+  slides:
+    heart_couter_slide:
+      widgets:
+      - type: image
+        image: heartimage
+      - type: Text
+        text: Heart
+        color: Gold
+        y: top-100
+        x: left+400
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: Piece
+        color: Gold
+        y: top-100
+        x : right-400
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: Found!
+        style: hyruletext
+        font_size: 180
+        color: gold
+        y: bottom+100
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left

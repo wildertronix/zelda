@@ -1,0 +1,13 @@
+#config_version=5
+show_player:
+  mode_attract_started:
+
+    attract_display_loop:
+      speed: 1
+    
+    tendergreenblue:
+      loops: -1
+      speed: 15
+    gi:
+      loops: -1
+  

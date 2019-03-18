@@ -1,0 +1,204 @@
+#show_version=5
+- time: 0
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: off
+    flipperrighthold: off
+
+
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: off
+    flipperrighthold: off
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: off
+    flipperrighthold: off
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: off
+    flipperrighthold: off
+
+
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: off
+    flipperrighthold: off
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: off
+    flipperrighthold: off
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: off
+    flipperrighthold: off
+
+
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: off
+    flipperrighthold: off
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: pulse
+    flippertoplefthold: pulse
+    flippertoprightmain: off
+    flippertoprighthold: off
+    flipperleftmain: off
+    flipperlefthold: off
+    flipperrightmain: pulse
+    flipperrighthold: pulse
+
+- time: '+500ms'
+  coils:
+    flippertopleftmain: off
+    flippertoplefthold: off
+    flippertoprightmain: pulse
+    flippertoprighthold: pulse
+    flipperleftmain: pulse
+    flipperlefthold: pulse
+    flipperrightmain: off
+    flipperrighthold: off

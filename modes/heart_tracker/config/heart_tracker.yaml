@@ -1,0 +1,170 @@
+#config_version=5
+
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 100
+  stop_on_ball_end: false
+
+event_player:
+  logicblock_heart_counter_complete: award_heart_extraball
+  s_heart_active{device.counters.heart_counter.value==6}: heart_piece_earned
+  s_heart_active{device.counters.heart_counter.value==12}: heart_piece_earned
+  s_heart_active{device.counters.heart_counter.value==18}: heart_piece_earned
+
+
+counters:
+  heart_counter:
+    count_events: s_heart_active
+    count_complete_value: 24
+    reset_on_complete: false
+
+
+
+
+show_player:
+  s_heart_active{device.counters.heart_counter.value==1}:
+    heart_target_hit_1:
+      loops: -1
+
+  s_heart_active{device.counters.heart_counter.value==2}:
+    heart_target_hit_2:
+      loops: -1
+    heart_target_hit_1:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==3}:
+    heart_target_hit_3:
+      loops: -1
+    heart_target_hit_2:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==4}:
+    heart_target_hit_4:
+      loops: -1
+    heart_target_hit_3:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==5}:
+    heart_target_hit_5:
+      loops: -1
+    heart_target_hit_4:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==6}:
+    heart_target_hit_6:
+      loops: 1
+    heart_target_hit_5:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==7}:
+    heart_target_hit_7:
+      loops: -1
+    heart_target_hit_6:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==8}:
+    heart_target_hit_8:
+      loops: -1
+    heart_target_hit_7:
+      action: stop
+
+
+  s_heart_active{device.counters.heart_counter.value==9}:
+    heart_target_hit_9:
+      loops: -1
+    heart_target_hit_8:
+      action: stop
+
+
+  s_heart_active{device.counters.heart_counter.value==10}:
+    heart_target_hit_10:
+      loops: -1
+    heart_target_hit_9:
+      action: stop
+
+
+  s_heart_active{device.counters.heart_counter.value==11}:
+    heart_target_hit_11:
+      loops: -1
+    heart_target_hit_10:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==12}:
+    heart_target_hit_12:
+      loops: 0
+    heart_target_hit_11:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==13}:
+    heart_target_hit_13:
+      loops: -1
+    heart_target_hit_12:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==14}:
+    heart_target_hit_14:
+      loops: -1
+    heart_target_hit_13:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==15}:
+    heart_target_hit_15:
+      loops: -1
+    heart_target_hit_14:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==16}:
+    heart_target_hit_16:
+      loops: -1
+    heart_target_hit_15:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==17}:
+    heart_target_hit_17:
+      loops: -1
+    heart_target_hit_16:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==18}:
+    heart_target_hit_18:
+      loops: 0
+    heart_target_hit_17:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==19}:
+    heart_target_hit_19:
+      loops: -1
+    heart_target_hit_18:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==20}:
+    heart_target_hit_20:
+      loops: -1
+    heart_target_hit_19:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==21}:
+    heart_target_hit_21:
+      loops: -1
+    heart_target_hit_20:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==22}:
+    heart_target_hit_22:
+      loops: -1
+    heart_target_hit_21:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==23}:
+    heart_target_hit_23:
+      loops: -1
+    heart_target_hit_22:
+      action: stop
+
+  s_heart_active{device.counters.heart_counter.value==24}:
+    heart_target_hit_24:
+      loops: -1
+    heart_target_hit_23:
+      action: stop

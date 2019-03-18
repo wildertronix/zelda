@@ -1,0 +1,654 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 100
+  stop_on_ball_end: false
+  
+slide_player:
+  begin_escape:
+    the_journey_begins:
+      target: lcd
+      expire: 6s
+
+  flipper_cancel:        
+    the_journey_begins:
+      target: lcd
+      action: remove
+
+    agahnimdefeatedvideo:
+      target: lcd
+      action: remove
+
+    darkworldstart:
+      target: lcd
+      action: remove
+
+    maiden7:
+      target: lcd
+      action: remove
+
+  zelda_2ball_shot_one_ready_hit:
+    search_the_castle1:
+      target: lcd
+      expire: 5s
+
+  zelda_2ball_shot_five_ready_hit:
+    search_the_castle2:
+      target: lcd
+      expire: 3s
+
+  multiball_lock_2ballescape_locked_ball:
+    zelda_found:
+      target: lcd
+      expire: 3s
+
+  escaped_one_complete:
+    combo1complete:
+      target: lcd 
+      expire: 6s
+
+  escaped_two_complete:
+    combo2complete:
+      target: lcd 
+      expire: 5s
+
+  boomerang_found:
+    item2award:
+      target: lcd
+      expire: 4s
+
+  bow_found:
+    item3award:
+      target: lcd
+      expire: 4s
+
+  moonpearl_found:
+    item4award:
+      target: lcd
+      expire: 5s
+
+  mirror_found:
+    item5award:
+      target: lcd
+      expire: 2s
+
+  award_heart_extraball:
+    heart_piece_extraball:
+      target: lcd
+      expire: 4.5s
+
+  play_bomb_sfx:
+    bombvideo:
+      target: lcd
+      expire: 2s
+
+  mode_escapehurryup_started:
+    mode1finished:
+      target: lcd
+      expire: 5s
+
+  boss1_progress1:
+    boss1progress1:
+      target: lcd
+      expire: 5s
+
+  boss1_progress2:
+    boss1progress2:
+      target: lcd
+      expire: 5s
+
+  first_pendant_found:
+    boss1progress3:
+      target: lcd
+      expire: 2.5s
+
+  boss2_progress1:
+    boss2progress1:
+      target: lcd
+      expire: 4s
+
+  boss2_progress2:
+    boss2progress2:
+      target: lcd
+      expire: 4s
+
+  second_pendant_found:
+    boss2progress3:
+      target: lcd
+      expire: 2.5s
+
+  boss3_progress1:
+    boss3progress1:
+      target: lcd
+      expire: 2s
+
+  boss3_progress2:
+    boss3progress2:
+      target: lcd
+      expire: 5s
+
+  third_pendant_found:
+    boss3progress3:
+      target: lcd
+      expire: 2.5s
+
+  start_lost_woods:
+    lost_woods_start_movie:
+      target: lcd
+      expire: 6s
+
+  lostwoods_path_1_found:
+    lostwoods_path_1:
+      target: lcd
+      expire: 4s
+
+  master_sword_complete:
+    lostwoods_path_3:
+      target: lcd
+      expire: 4s
+
+  cue_3ball_multi:
+    masterswordvideo:
+      target: lcd
+      expire: 12s
+
+  slide_masterswordvideo_removed:
+    agahnimstartvideo:
+      target: lcd
+      expire: 7s
+
+  agahnim_attack:
+    agahnimstrikevideo:
+      target: lcd
+      expire: 1.5s
+
+  agahnim_shot_hit:
+    agahnimhitvideo:
+      target: lcd
+      expire: 2s
+
+  agahnim_shot_two_hit:
+    agahnimhitvideo:
+      target: lcd
+      expire: 2s
+
+  agahnim_complete:
+    agahnimdefeatedvideo:
+      target: lcd
+      expire: 18s
+
+
+  slide_darkworld_instructional_removed:
+    darkworldstart:
+      target: lcd
+      expire: 2.5s
+
+  dungeon_1_complete:
+    dungeon1boss:
+      target: lcd
+      expire: 2s
+
+  dungeon_2_complete:
+    dungeon2boss:
+      target: lcd
+      expire: 4s
+
+  dungeon_3_complete:
+    dungeon3boss:
+      target: lcd
+      expire: 3.5s
+
+  dungeon_4_complete:
+    dungeon4boss:
+      target: lcd
+      expire: 2.5s
+
+  dungeon_5_complete:
+    dungeon5boss:
+      target: lcd
+      expire: 2.5s
+
+  dungeon_6_complete:
+    dungeon6boss:
+      target: lcd
+      expire: 2.5s
+
+  dungeon_7_complete:
+    dungeon7boss:
+      target: lcd
+      expire: 2.5s
+
+  slide_dungeon1boss_removed:
+    maiden1:
+      target: lcd
+      expire: 2s
+
+  slide_dungeon2boss_removed:
+    maiden2:
+      target: lcd
+      expire: 2s
+
+  slide_dungeon3boss_removed:
+    maiden3:
+      target: lcd
+      expire: 2s
+
+  slide_dungeon4boss_removed:
+    maiden4:
+      target: lcd
+      expire: 2s
+
+  slide_dungeon5boss_removed:
+    maiden5:
+      target: lcd
+      expire: 2s
+
+  slide_dungeon6boss_removed:
+    maiden6:
+      target: lcd
+      expire: 2s
+
+  darkworld_zelda_rescue_ready_hit:
+    maiden7:
+      target: lcd
+      expire: 42s
+
+  5way_combo_complete:
+    5waycombovideo:
+      target: lcd
+      expire: 7s
+
+  hookshot_found:
+    hookshotvideo:
+      target: lcd
+      expire: 3s
+
+  hammer_found:
+    hammervideo:
+      target: lcd
+      expire: 3s
+
+  flippers_found:
+    flippervideo:
+      target: lcd
+      expire: 4s
+
+  bluemail_found:
+    bluemailvideo:
+      target: lcd
+      expire: 2s
+
+  redshield_found:
+    redshieldvideo:
+      target: lcd
+      expire: 5s
+
+
+
+slides:
+  the_journey_begins:
+    - type: video
+      video: mode1startvideo
+      width: 1280
+      height: 720
+      control_events:
+        - event: flipper_cancel
+          action: stop
+
+  search_the_castle1:
+    widgets:
+      - type: video
+        video: castlestairs
+        width: 1280
+        height: 720
+
+  search_the_castle2:
+    widgets:
+      - type: video
+        video: mode1chaseprogression
+        width: 1280
+        height: 720
+
+  zelda_found:
+    widgets:
+      - type: video
+        video: zeldafound
+        width: 1280
+        height: 720
+
+  combo1complete:
+    widgets:
+      - type: video
+        video: mode1progression
+        width: 1280
+        height: 720
+
+  combo2complete:
+    widgets:
+      - type: video
+        video: mode1progression2
+        width: 1280
+        height: 720
+
+  item2award:
+    widgets:
+      - type: video
+        video: boomerangfound
+        width: 1280
+        height: 720
+
+  item3award:
+    widgets:
+      - type: video
+        video: bowfound
+        width: 1280
+        height: 720
+
+  item4award:
+    widgets:
+      - type: video
+        video: moonpearlfound
+        width: 1280
+        height: 720
+
+  item5award:
+    widgets:
+      - type: video
+        video: mirrorvideo
+        width: 1280
+        height: 720
+
+  heart_piece_extraball:
+    widgets:
+      - type: video
+        video: extraball
+        width: 1280
+        height: 720
+
+  bombvideo:
+    widgets:
+      - type: video
+        video: bombblastvideo
+        width: 1280
+        height: 720
+
+  mode1finished:
+    widgets:
+      - type: video
+        video: mode1finish
+        width: 1280
+        height: 720
+
+  boss1progress1:
+    widgets:
+      - type: video
+        video: boss1progress1
+        width: 1280
+        height: 720
+
+  boss1progress2:
+    widgets:
+      - type: video
+        video: boss1progress2
+        width: 1280
+        height: 720
+
+  boss1progress3:
+    widgets:
+      - type: video
+        video: pendant1found
+        width: 1280
+        height: 720
+
+  boss2progress1:
+    widgets:
+      - type: video
+        video: boss2progress1
+        width: 1280
+        height: 720
+
+  boss2progress2:
+    widgets:
+      - type: video
+        video: boss2progress2
+        width: 1280
+        height: 720
+
+  boss2progress3:
+    widgets:
+      - type: video
+        video: pendant2found
+        width: 1280
+        height: 720
+
+  boss3progress1:
+    widgets:
+      - type: video
+        video: boss3progress1
+        width: 1280
+        height: 720
+
+  boss3progress2:
+    widgets:
+      - type: video
+        video: boss3progress2
+        width: 1280
+        height: 720
+
+  boss3progress3:
+    widgets:
+      - type: video
+        video: pendant3found
+        width: 1280
+        height: 720
+
+  lost_woods_start_movie:
+    widgets:
+      - type: video
+        video: mode3startmovie
+        width: 1280
+        height: 720
+
+  lostwoods_path_1:
+    widgets:
+      - type: video
+        video: mode3progress1
+        width: 1280
+        height: 720
+
+  lostwoods_path_3:
+    widgets:
+      - type: video
+        video: mode3progress3
+        width: 1280
+        height: 720
+
+  masterswordvideo:
+    widgets:
+      - type: video
+        video: masterswordpulled
+        width: 1280
+        height: 720
+
+  agahnimstartvideo:
+    widgets:
+      - type: video
+        video: confrontagahnim
+        width: 1280
+        height: 720
+
+  agahnimstrikevideo:
+    widgets:
+      - type: video
+        video: agahnimstrikevideo
+        width: 1280
+        height: 720
+
+  agahnimhitvideo:
+    widgets:
+      - type: video
+        video: agahnimhitvideo
+        width: 1280
+        height: 720
+
+  agahnimdefeatedvideo:
+    widgets:
+      - type: video
+        video: agahnimdefeatedvideo
+        width: 1280
+        height: 720
+        control_events:
+          - event: flipper_cancel
+            action: stop
+
+  darkworldstart:
+    widgets:
+      - type: video
+        video: darkworldstart
+        width: 1280
+        height: 720
+        control_events:
+          - event: flipper_cancel
+            action: stop
+
+  dungeon1boss:
+    widgets:
+      - type: video
+        video: dungeon1boss
+        width: 1280
+        height: 720
+
+  dungeon2boss:
+    widgets:
+      - type: video
+        video: dungeon2boss
+        width: 1280
+        height: 720
+
+  dungeon3boss:
+    widgets:
+      - type: video
+        video: dungeon3boss
+        width: 1280
+        height: 720
+
+  dungeon4boss:
+    widgets:
+      - type: video
+        video: dungeon4boss
+        width: 1280
+        height: 720
+
+  dungeon5boss:
+    widgets:
+      - type: video
+        video: dungeon5boss
+        width: 1280
+        height: 720
+
+  dungeon6boss:
+    widgets:
+      - type: video
+        video: dungeon6boss
+        width: 1280
+        height: 720
+
+  dungeon7boss:
+    widgets:
+      - type: video
+        video: dungeon7boss
+        width: 1280
+        height: 720
+
+  maiden1:
+    widgets:
+      - type: video
+        video: maiden1
+        width: 1280
+        height: 720
+
+  maiden2:
+    widgets:
+      - type: video
+        video: maiden2
+        width: 1280
+        height: 720
+
+  maiden3:
+    widgets:
+      - type: video
+        video: maiden3
+        width: 1280
+        height: 720
+
+  maiden4:
+    widgets:
+      - type: video
+        video: maiden4
+        width: 1280
+        height: 720
+
+  maiden5:
+    widgets:
+      - type: video
+        video: maiden5
+        width: 1280
+        height: 720
+
+  maiden6:
+    widgets:
+      - type: video
+        video: maiden6
+        width: 1280
+        height: 720
+
+  maiden7:
+    widgets:
+      - type: video
+        video: maiden7
+        width: 1280
+        height: 720
+
+  5waycombovideo:
+    widgets:
+      - type: video
+        video: 5waycombovideo
+        width: 1280
+        height: 720
+
+  hookshotvideo:
+    widgets:
+      - type: video
+        video: hookshotvideo
+        width: 1280
+        height: 720
+
+  hammervideo:
+    widgets:
+      - type: video
+        video: hammervideo
+        width: 1280
+        height: 720
+
+  flippervideo:
+    widgets:
+      - type: video
+        video: flippervideo
+        width: 1280
+        height: 720
+
+  bluemailvideo:
+    widgets:
+      - type: video
+        video: bluemailvideo
+        width: 1280
+        height: 720
+
+  redshieldvideo:
+    widgets:
+      - type: video
+        video: redshieldvideo
+        width: 1280
+        height: 720

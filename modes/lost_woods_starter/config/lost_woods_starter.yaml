@@ -1,0 +1,31 @@
+#config_version=5
+
+mode: 
+  start_events: find_master_sword
+  stop_events: end_lostwoods_starter, game_ending
+  priority: 800
+  restart_on_next_ball: true
+
+
+
+event_player: 
+  lost_woods_orbit_hit: start_lost_woods
+  mode_lost_woods_starting: end_lostwoods_starter
+
+shots:
+  lost_woods_orbit:
+    switch: s_lostwoods
+    profile: lost_woods_profile
+
+
+shot_profiles:
+  lost_woods_profile:
+    states:
+      - name: ready
+        show: lost_woods_profile_ready
+        loops: -1
+        speed: 6
+      - name: lit
+        show: lost_woods_profile_lit
+        loops: -1
+        speed: 10

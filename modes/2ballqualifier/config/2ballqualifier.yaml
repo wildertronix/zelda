@@ -1,0 +1,157 @@
+#config_version=5
+mode:
+  start_events: mode_escape_started
+  stop_events: mode_2ballescape_started, game_ending, game_ended
+  priority: 300
+  stop_on_ball_end: false
+
+event_player:
+  zelda_2ball_complete: start_2ball_multiball
+
+shots:
+  zelda_2ball_shot_one:
+    switch: s_optoz1
+    profile: zelda_2ball_shot_one_profile
+  zelda_2ball_shot_two:
+    advance_events: left_orbit_made
+    profile: zelda_2ball_shot_two_profile
+  zelda_2ball_shot_three:
+    advance_events: right_orbit_made
+    profile: zelda_2ball_shot_three_profile
+  zelda_2ball_shot_four:
+    switch: s_optod
+    profile: zelda_2ball_shot_four_profile
+  zelda_2ball_shot_five:
+    switch: s_optoa
+    profile: zelda_2ball_shot_five_profile
+
+
+sequence_shots:
+  zelda_2ball_shot_two:
+    switch_sequence: 
+      - s_optoe 
+      - s_optol
+    sequence_timeout: 1s
+  zelda_2ball_shot_three:
+    switch_sequence: 
+      - s_optol 
+      - s_optoe   
+    sequence_timeout: 1s
+
+#shot_groups:
+ # 2ballone:
+  #  shots: zelda_2ball_shot_two
+  #2balltwo:
+   # shots: zelda_2ball_shot_three
+
+
+
+
+
+accruals:
+  zelda_2ball_qualifying_shots:
+    events:
+      - zelda_2ball_shot_one_ready_hit
+      - left_orbit_made
+      - right_orbit_made
+      - zelda_2ball_shot_four_ready_hit
+      - zelda_2ball_shot_five_ready_hit
+    events_when_complete: zelda_2ball_complete
+
+
+shot_profiles:
+  zelda_2ball_shot_one_profile:
+    states:
+      - name: ready
+        show: zelda_2ball_shot_one_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: zelda_2ball_shot_one_lit
+ 
+  zelda_2ball_shot_two_profile:
+    states:
+      - name: ready
+        show: zelda_2ball_shot_two_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: zelda_2ball_shot_two_lit
+
+  zelda_2ball_shot_three_profile:
+    states:
+      - name: ready
+        show: zelda_2ball_shot_three_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: zelda_2ball_shot_three_lit
+
+  zelda_2ball_shot_four_profile:
+    states:
+      - name: ready
+        show: zelda_2ball_shot_four_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: zelda_2ball_shot_four_lit
+
+  zelda_2ball_shot_five_profile:
+    states:
+      - name: ready
+        show: zelda_2ball_shot_five_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: zelda_2ball_shot_five_lit
+
+multiball_locks:
+  2ballescape:
+        balls_to_lock: 1
+        lock_devices: bd_abyss
+        enable_events: start_2ball_multiball
+        disable_events: points_please
+
+show_player:
+  start_2ball_multiball:
+    multi_ready:
+      loops: -1
+      speed: 6
+  multiball_lock_2ballescape_locked_ball:
+    multi_ready:
+      action: stop
+  zelda_2ball_shot_one_ready_hit:
+    bluespin:
+      loops: 0
+      speed: 15
+  zelda_2ball_shot_four_ready_hit:
+    bluespin:
+      loops: 0
+      speed: 15
+  zelda_2ball_shot_five_ready_hit:
+    bluespin:
+      loops: 0
+      speed: 15
+
+sound_player:
+  sw_spinner: waterwalk
+
+sound_pools:
+  linkhurt:
+    track: sfx
+    type: random
+    sounds:
+       - linkhurt1
+       - linkhurt2
+       - linkhurt3
+
+
+
+variable_player:
+  sw_escape_rupee:
+    score: 1

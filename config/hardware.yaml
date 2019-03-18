@@ -1,0 +1,655 @@
+#config_version=5
+hardware:
+  platform: fast
+  driverboards: fast
+
+fast:
+  ports: \\.\COM11 \\.\COM12
+
+machine:
+  balls_installed: 4
+
+playfields:
+    playfield:
+         tags: default
+         default_source_device: bd_plunger_lane
+
+slides:
+  window_slide_1:
+  - type: display
+    width: 640
+    height: 160
+    source_display: dmd
+    effects:
+    - type: dmd  
+      dot_color: ff6600
+      background_color: 2200ff
+
+  ball_added:
+    - type: Text
+      text: BALL LIVE!
+      expire: 2s
+  ball_started:
+    - type: Text
+      text: PLAYER (player) BALL (ball)
+      expire: 2s
+
+slide_player:
+  ball_live_added: ball_added
+  ball_started: ball_started
+  mc_ready:
+    window_slide_1:
+      target: window
+
+
+ball_devices:
+  bd_drain:
+    ball_switches: trough1 
+    eject_coil: draineject
+    eject_targets: bd_trough
+    eject_timeouts: 1s
+    confirm_eject_type: target
+    tags: drain
+    debug: true
+  bd_trough:
+    entrance_switch: trough2
+    entrance_switch_full_timeout: 3s
+    ball_capacity: 3
+    eject_coil: troughrelease
+    eject_targets: bd_plunger_lane
+    confirm_eject_type: target
+    tags: trough, home
+    debug: true
+  bd_plunger_lane:
+    ball_switches: plungerlane
+    eject_coil: autoplunger
+    mechanical_eject: true
+    eject_timeouts: 1s
+    debug: true
+  bd_lostwoods:
+    ball_switches: s_lostwoods
+    eject_coil: lostwoods
+    eject_timeouts: 2s
+  bd_cranehole:
+    ball_switches: s_cranehole
+    eject_coil: catapulthole
+    eject_timeouts: 2s
+  bd_abyss:
+    ball_switches: s_abyss
+    eject_coil: abyss
+    eject_timeouts: 2s
+  bd_modestart:
+    ball_switches: s_modestart
+    eject_coil: modestart
+    eject_timeouts: 2s
+
+
+switches:
+  leftflipperbutton:
+    platform_settings:
+      debounce_open: 3
+      debounce_close: 3
+    events_when_activated: powerup|2s
+    events_when_deactivated:
+      - flipoff
+    number: 0
+    tags: flip, left_flipper
+  rightflipperbutton:
+    platform_settings:
+      debounce_open: 3
+      debounce_close: 3
+    events_when_activated: powerup|2s
+    events_when_deactivated:
+      - flipoff
+    number: 1
+    tags: flip, right_flipper
+  s_leftslingshot:
+    number: 2
+    tags: slingshot, playfield_active
+  s_rightslingshot:
+    number: 3
+    tags: slingshot, playfield_active
+  trough1:
+    number: 4
+    tags: drain
+  trough2:
+    number: 5
+  s_modestart:
+    number: 6
+    tags: modestart, pathfound
+  s_abyss:
+    number: 7
+    tags: pathfound
+  plungerlane:
+    number: 46
+  s_right_inlane:
+    number: 9
+    tags: playfield_active, points_please, inlane
+  s_right_outlane:
+    number: 10
+    tags: playfield_active, outlane, points_please
+  s_spinner:
+    number: 11
+    tags: playfield_active, spinner
+  s_left_inlane:
+    number: 12
+    tags: playfield_active, points_please, inlane, pathfound
+  s_left_outlane:
+    number: 13
+    tags: playfield_active, outlane, points_please
+  s_heart:
+    number: 14
+    tags: playfield_active, heart, pathfound
+  s_popexit:
+    number: 15
+    tags: playfield_active
+  #s_optoz:
+    #number: 
+    #type: NC
+    #tags: playfield_active
+  start:
+    number: 18
+    tags: start
+  s_coin1:
+    number: 19
+    tags: 
+  s_coin2:
+    number: 20
+    tags:
+#21-31 unused
+  s_droptarget1:
+    number: 32
+    tags: playfield_active, drop
+  s_droptarget2:
+    number: 33
+    tags: playfield_active, drop, pathfound
+  s_droptarget3:
+    number: 34
+    tags: playfield_active, drop
+  s_cranehole:
+    number: 35
+    tags: pathfound
+  s_rightpop:
+    number: 38
+    tags: jets
+  s_toppop:
+    number: 36
+    tags: jets
+  s_leftpop: 
+    number: 37
+    tags: jets
+  s_lostwoods:
+    number: 39
+#Optos
+  s_optoz1:
+    number: 41
+    type: NC
+    tags: playfield_active, ramp_hit, pathfound, escape_rupee
+    platform_settings:
+      debounce_open: 3
+      debounce_close: 3
+  s_optoe:
+    number: 42
+    type: NC
+    tags: playfield_active
+  s_optol:
+    number: 43
+    type: NC
+    tags: playfield_active, pathfound
+  s_optod:
+    number: 45
+    type: NC
+    tags: playfield_active, ramp_hit, pathfound
+  s_optoa:
+    number: 44
+    type: NC
+    tags: playfield_active
+
+
+
+
+coils:
+  flippertopleftmain:
+    number: 0
+    default_pulse_ms: 80
+    tags: coils
+  flippertoplefthold:
+    number: 1
+    default_pulse_ms: 20
+    default_hold_power: 1.0
+    tags: coils
+  flipperleftmain:
+    number: 2
+    default_pulse_ms: 80
+    tags: coils
+  flipperrightmain:
+    number: 3
+    default_pulse_ms: 80  
+    tags: coils
+  flipperlefthold:
+    number: 4
+    default_pulse_ms: 20 
+    default_hold_power: 1.0 
+    tags: coils
+  flipperrighthold:
+    number: 5
+    default_pulse_ms: 20 
+    default_hold_power: 1.0
+    tags: coils
+  flippertoprightmain:
+    number: 6
+    default_pulse_ms: 80
+    tags: coils
+  flippertoprighthold:
+    number: 7
+    default_pulse_ms: 20
+    default_hold_power: 1.0
+    tags: coils
+  leftslingshot:
+    number: 8
+    default_pulse_ms: 20
+  rightslingshot:
+    number: 9
+    default_pulse_ms: 20
+  draineject:
+    number: 21
+    default_pulse_ms: 20
+    default_hold_power: 1.0
+  troughrelease:
+    number: 11
+    default_pulse_ms: 400
+    default_hold_power: 1.0
+  droptargetreset:
+    number: 12
+    default_pulse_ms: 250
+  modestart:
+    number: 13
+    default_pulse_ms: 60
+  abyss:
+    number: 14
+    default_pulse_ms: 120
+    default_hold_power: 1.0
+  crane:
+    number: 15
+    default_pulse_ms: 2s
+    default_hold_power: 1.0
+  toppop:
+    number: 16
+    default_pulse_ms: 20
+  rightpop:
+    number: 17
+    default_pulse_ms: 20
+  leftpop:
+    number: 18
+    default_pulse_ms: 20
+  lostwoods:
+    number: 19
+    default_pulse_ms: 60
+  catapulthole:
+    number: 20
+    default_pulse_ms: 80
+
+  autoplunger:
+    number: 23
+    default_pulse_ms: 80
+
+
+
+
+
+drop_targets:
+  dt_drop1:
+    switch: s_droptarget1
+  dt_drop2:
+    switch: s_droptarget2
+  dt_drop3:
+    switch: s_droptarget3
+
+drop_target_banks:
+  maindrop:
+    drop_targets:
+    - dt_drop1
+    - dt_drop2
+    - dt_drop3
+    reset_on_complete: 1s
+    reset_coils: droptargetreset
+    reset_events: ball_starting
+
+autofire_coils:
+  left_slingshot:
+    switch: s_leftslingshot
+    coil: leftslingshot
+  right_slingshot:
+    switch: s_rightslingshot
+    coil: rightslingshot
+  topjet:
+    switch: s_toppop
+    coil: toppop
+  leftjet:
+    switch: s_leftpop
+    coil: leftpop
+  rightjet:
+    switch: s_rightpop
+    coil: rightpop
+
+flippers:
+  leftflipper:
+    main_coil: flipperleftmain
+    hold_coil: flipperlefthold
+    activation_switch: leftflipperbutton
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
+  rightflipper:
+    main_coil: flipperrightmain
+    hold_coil: flipperrighthold
+    activation_switch: rightflipperbutton
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
+  topleftflipper:
+    main_coil: flippertopleftmain
+    hold_coil: flippertoplefthold
+    activation_switch: leftflipperbutton
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
+  toprightflipper:
+    main_coil: flippertoprightmain
+    hold_coil: flippertoprighthold
+    activation_switch: rightflipperbutton
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
+
+
+lights:
+    l_l:
+      type: grb
+      number: 0
+    l_litem:
+      type: grb
+      number: 1
+    l_lrupee:
+      type: grb
+      number: 2
+    l_e:
+      type: grb
+      number: 3
+    l_eitem:
+      type: grb
+      number: 4
+    l_erupee:
+      type: grb
+      number: 5
+    l_drupee:
+      type: grb
+      number: 6
+    l_ditem:
+      type: grb
+      number: 7
+    l_d:
+      type: grb
+      number: 8
+    l_mastersword:
+      type: grb
+      number: 9
+    l_10:
+      type: grb
+      number: 10
+    l_boss:
+      type: grb
+      number: 11
+    l_jackpot:
+      type: grb
+      number: 12
+    l_magicmirror:
+      type: grb
+      number: 13
+    l_14:
+      type: grb
+      number: 14
+    l_ganon:
+      type: grb
+      number: 15
+    l_cranerupee:
+      type: grb
+      number: 16
+    l_3x:
+      type: grb
+      number: 17
+    l_2x:
+      type: grb
+      number: 18
+    l_z:
+      type: grb
+      number: 64
+    l_zitem:
+      type: grb
+      number: 65
+    l_heart:
+      type: grb
+      number: 66
+    l_heart2:
+      type: grb
+      number: 67
+    l_zrupee:
+      type: grb
+      number: 68
+    l_5:
+      type: grb
+      number: 69
+    l_heart1:
+      type: grb
+      number: 70
+    l_lout:
+      type: grb
+      number: 71
+    l_b:
+      type: grb
+      number: 72
+    l_o:
+      type: grb
+      number: 73
+    l_powerstrike:
+      type: grb
+      number: 74
+    l_item1:
+      type: grb
+      number: 75
+    l_item2:
+      type: grb
+      number: 76
+    l_item3:
+      type: grb
+      number: 77
+    l_item4:
+      type: grb
+      number: 78
+    l_item5:
+      type: grb
+      number: 79
+    l_mode1:
+      type: grb
+      number: 80
+    l_mode4:
+      type: grb
+      number: 81
+    l_mode6:
+      type: grb
+      number: 82
+    l_drop1:
+      type: grb
+      number: 83
+    l_drop2:
+      type: grb
+      number: 84
+    l_drop3:
+      type: grb
+      number: 85
+    l_mode5:
+      type: grb
+      number: 86
+    l_mode2:
+      type: grb
+      number: 87
+    l_mode3:
+      type: grb
+      number: 88
+    l_item10:
+      type: grb
+      number: 89
+    l_item9:
+      type: grb
+      number: 90
+    l_item8:
+      type: grb
+      number: 91
+    l_item7:
+      type: grb
+      number: 92
+    l_item6:
+      type: grb
+      number: 93
+    l_shootagain:
+      type: grb
+      number: 94
+    l_modestart:
+      type: grb
+      number: 95
+    l_modestart1:
+      type: grb
+      number: 96
+    l_33:
+      type: grb
+      number: 97
+    l_arupee:
+      type: grb
+      number: 98
+    l_aitem:
+      type: grb
+      number: 99
+    l_a:
+      type: grb
+      number: 100
+    l_plungerlane3:
+      type: grb
+      number: 101
+    l_plungerlane2:
+      type: grb
+      number: 102
+    l_plungerlane1:
+      type: grb
+      number: 103
+    l_rout:
+      type: grb
+      number: 104
+    l_modestart2:
+      type: grb
+      number: 105
+    l_modestart3:
+      type: grb
+      number: 106
+    l_b2:
+      type: grb
+      number: 107
+    l_m:
+      type: grb
+      number: 108
+    l_modestart4:
+      type: grb
+      number: 109
+
+    gi_1:
+      type: grb
+      number: 128
+    gi_2:
+      type: grb
+      number: 129
+    gi_3:
+      type: grb
+      number: 130
+    gi_4:
+      type: grb
+      number: 131
+    gi_5:
+      type: grb
+      number: 132
+    gi_6:
+      type: grb
+      number: 133
+    gi_7:
+      type: grb
+      number: 134
+    gi_8:
+      type: grb
+      number: 135
+    gi_9:
+      type: grb
+      number: 136
+    gi_10:
+      type: grb
+      number: 137
+    gi_11:
+      type: grb
+      number: 138
+    gi_12:
+      type: grb
+      number: 139
+    gi_13:
+      type: grb
+      number: 140
+    gi_14:
+      type: grb
+      number: 141
+    gi_15:
+      type: grb
+      number: 142
+    gi_16:
+      type: grb
+      number: 143
+    gi_17:
+      type: grb
+      number: 144
+    gi_18:
+      number: 145
+      type: grb
+    hearts1:
+      type: grb
+      number: 192
+    hearts2:
+      type: grb
+      number: 193
+    hearts3:
+      type: grb
+      number: 194
+    hearts4:
+      type: grb
+      number: 195
+    hearts5:
+      type: grb
+      number: 196
+    hearts6:
+      type: grb
+      number: 197
+
+    apron1:
+      type: grb
+      number: 198
+    apron2:
+      type: grb
+      number: 199
+    apron3:
+      type: grb
+      number: 200
+    apron4:
+      type: grb
+      number: 201
+    apron5:
+      type: grb
+      number: 202
+    apronn6:
+      type: grb
+      number: 203
+
+
+
+
+light_settings:
+   default_fade_ms: 150

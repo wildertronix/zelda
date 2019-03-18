@@ -1,0 +1,32 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_5: red-f200ms
+
+- time: '+1'
+  lights:
+    l_5: black-f200ms
+
+- time: '+1'
+  lights:
+    l_zrupee: red-f200ms
+
+- time: '+1'
+  lights:
+    l_zrupee: black-f200ms
+
+- time: '+1'
+  lights:
+    l_zitem: red-f200ms
+
+- time: '+1'
+  lights:
+    l_zitem: black-f200ms
+
+- time: '+1'
+  lights:
+    l_z: red-f200ms
+
+- time: '+1'
+  lights:
+    l_z: black-f200ms

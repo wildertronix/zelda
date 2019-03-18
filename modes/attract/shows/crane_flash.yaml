@@ -1,0 +1,12 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_14: orchid-f200ms
+    l_jackpot: purple-f200ms
+    l_cranerupee: palegreen-f200ms
+
+- time: '+1'
+  lights:
+    l_14: black-f200ms
+    l_jackpot: black-f200ms
+    l_cranerupee: black-f200ms

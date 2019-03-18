@@ -1,0 +1,153 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending, game_ended
+  priority: 100
+
+sound_player:
+
+  mode_escape_starter_started:
+    timeoffalling:
+      action: play
+      loops: -1
+    rainout:
+      loops: 2
+      volume: 0.5
+  mode_escape_starter_stopped:
+    timeoffalling:
+      action: stop
+    rainout:
+      action: stop
+
+  ball_started{ball==3}:
+    low_health:
+      action: play
+      loops: 7
+      fade_out: 0.5s
+
+  ball_ending:
+    linkhurt:
+      loops: 0
+      volume: 0.5
+
+  play_bomb_sfx: 
+    bomb_spots_item:
+      action: play
+      loops: 0
+      volume: 1.0
+
+  play_treasure_sfx:
+    treasure_sfx:
+      action: play
+      loops: 0
+      volume: 1.0
+
+  lostwoods_path_1_found:
+    lost_woods_correct:
+      action: play
+      loops: 0
+      volume: 1.0
+
+  lostwoods_path_2_found:
+    lost_woods_correct:
+      action: play
+      loops: 0
+      volume: 1.0
+
+  lostwoods_path_3_found:
+    lost_woods_correct:
+      action: play
+      loops: 0
+      volume: 1.0
+
+  light_world_complete:
+    light_world_finished:
+      action: play
+      loops: 0
+      volume: 1.0
+    light_world_theme:
+      action: stop
+      fade_out: 1s
+
+  cue_3ball_multi:
+    forest:
+      action: stop
+      fade_out: 2s
+
+  start_lost_woods:
+    forest:
+      action: play
+      loops: 0
+      volume: 0.5
+
+    light_world_finished:
+      action: stop
+      fade_out: 2s
+
+  mode_escape_started:
+    hyrulecastle:
+      loops: -1
+      volume: 0.5
+    rainin:
+      loops: 1
+      volume: 0.5
+      fade_out: 2s
+    timeoffalling:
+      action: stop
+      fade_out: 1s
+    rainout:
+      action: stop
+      fade_out: 3s
+
+  mode_escapehurryup_started:
+    hyrulecastle:
+      action: stop
+      fade_out: 1s
+    princess_zeldas_rescue:
+      loops: -1
+      volume: 0.5
+
+  mode_light_world_started:
+    princess_zeldas_rescue:
+      action: stop
+      fade_out: 1s
+    light_world_theme:
+      loops: -1
+      volume: 0.5
+
+  slide_masterswordvideo_removed:
+    battle:
+      action: play
+      loops: -1
+      volume: 0.5
+
+  slide_agahnimdefeatedvideo_removed:
+    battle:
+      action: stop
+      fade_out: 1s
+    darkworld:
+      action: play
+      loops: -1
+      volume: 0.5
+
+  darkworld_zelda_rescue_ready_hit:
+    darkworld:
+      action: stop
+      fade_out: 1s
+
+    darkworld_rescue:
+      action: play
+      loops: 0
+      volume: 0.5
+
+  slide_maiden7_removed:
+    darkworld_rescue:
+      action: stop
+      fade_out: 1s
+
+    darkworld2:
+      action: play
+      loops: -1
+      volume: 0.7
+

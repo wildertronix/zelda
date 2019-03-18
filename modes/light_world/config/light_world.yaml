@@ -1,0 +1,185 @@
+#config_version=5
+
+
+mode: 
+  start_events: flippers_alive
+  stop_on_ball_end: false
+  stop_events: game_ending, mode_lost_woods_starting
+  priority: 600
+
+event_player:
+  light_world_complete: find_master_sword
+  logicblock_ramp_counter_complete: first_pendant_found
+  logicblock_pop_counter_complete: second_pendant_found
+  logicblock_drop_counter_complete: third_pendant_found
+  sw_ramp_hit_active{device.counters.ramp_counter.value==3}: boss1_progress1
+  sw_ramp_hit_active{device.counters.ramp_counter.value==5}: boss1_progress2
+  sw_jets_active{device.counters.pop_counter.value==8}: boss2_progress1
+  sw_jets_active{device.counters.pop_counter.value==16}: boss2_progress2
+  drop_target_bank_maindrop_up{device.counters.drop_counter.value==2}: boss3_progress1
+  drop_target_bank_maindrop_up{device.counters.drop_counter.value==3}: boss3_progress2
+
+accruals:
+  find_3_pendants:
+    events:
+      - first_pendant_found
+      - second_pendant_found
+      - third_pendant_found
+    events_when_complete: light_world_complete
+
+counters:
+  ramp_counter:
+    count_events: sw_ramp_hit_active
+    count_complete_value: 8
+
+  pop_counter:
+    count_events: sw_jets_active
+    count_complete_value: 25
+
+  drop_counter:
+    count_events: drop_target_bank_maindrop_up
+    count_complete_value: 3
+
+shots:
+  lw_z_ramp:
+    switch: s_optoz1
+    profile: lw_z_ramp_profile
+    disable_events: first_pendant_found
+
+  lw_e_ramp:
+    advance_events: e_orbit_hit
+
+  lw_l_ramp:
+    advance_events: l_orbit_hit
+
+  lw_d_ramp:
+    switch: s_optod
+    profile: lw_d_ramp_profile
+    disable_events: first_pendant_found
+
+  lw_a_ramp:
+    switch: s_optoa
+    profile: lw_a_profile
+    disable_events: second_pendant_found
+
+  toppop:
+    switch: s_toppop
+    hit_events: pop_hit
+
+  leftpop:
+    switch: s_leftpop
+    hit_events: pop_hit
+
+  rightpop:
+    switch: s_rightpop
+    hit_events: pop_hit
+
+  drop1:
+    switch: s_droptarget1
+    profile: drop1_profile
+    reset_events: drop_target_bank_maindrop_up
+    disable_events: third_pendant_found
+  drop2:
+    switch: s_droptarget2
+    profile: drop2_profile
+    reset_events: drop_target_bank_maindrop_up
+    disable_events: third_pendant_found
+  drop3:
+    switch: s_droptarget3
+    profile: drop3_profile
+    reset_events: drop_target_bank_maindrop_up
+    disable_events: third_pendant_found
+
+shot_profiles:
+    drop1_profile:
+        states:
+          - name: lit
+            show: drop1_profile
+          - name: hit
+            show: "off"
+
+    drop2_profile:
+        states:
+          - name: lit
+            show: drop2_profile
+          - name: hit
+            show: "off"
+
+    drop3_profile:
+        states:
+          - name: lit
+            show: drop3_profile
+          - name: hit
+            show: "off"
+
+    lw_z_ramp_profile:
+      states: 
+          - name: lit
+            show: lw_z_ramp_profile
+            speed: 18
+
+    lw_d_ramp_profile:
+      states: 
+          - name: lit
+            show: lw_d_ramp_profile
+            speed: 18
+
+    lw_a_profile:
+      states:
+          - name: lit
+            show: lw_a_profile
+            speed: 18
+
+sequence_shots:
+  e_orbit:
+    switch_sequence: s_optoe s_optol
+  l_orbit:
+    switch_sequence: s_optol s_optoe
+
+
+sound_pools:
+  linkhurt:
+    track: sfx
+    type: random
+    sounds:
+       - linkhurt1
+       - linkhurt2
+       - linkhurt3
+
+show_player:
+  boss1_progress1:
+    greenspin:
+      loops: 0
+      speed: 15
+  boss1_progress2:
+    greenspin:
+      loops: 0
+      speed: 15
+  first_pendant_found:
+    firstpendantfound:
+      loops: 0
+      speed: 15
+  boss2_progress1:
+    bluespin:
+      loops: 0
+      speed: 15
+  boss2_progress2:
+    bluespin:
+      loops: 0
+      speed: 15
+  second_pendant_found:
+    secondpendantfound:
+      loops: 0
+      speed: 15
+  boss3_progress1:
+    redspin:
+      loops: 0
+      speed: 15
+  boss3_progress2:
+    redspin:
+      loops: 0
+      speed: 15
+  third_pendant_found:
+    thirdpendantfound:
+      loops: 0
+      speed: 15
