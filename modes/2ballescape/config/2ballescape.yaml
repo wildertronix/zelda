@@ -3,7 +3,7 @@
 mode:
   start_events: multiball_lock_2ballescape_locked_ball
   stop_events: 2ballescape_complete, game_ending
-  stop_on_ball_end: false
+  restart_on_next_ball: true
   priority: 400
 
 
@@ -97,6 +97,7 @@ accruals:
     events:
       - 2ballescape_first_shot_a_ready_hit
       - 2ballescape_first_shot_z_ready_hit
+    persist_state: true
   finish_2ballescape_second_shot_e:
     events_when_complete: finished_2ballescape_second_shot_e
     enable_events: enable_2ballescape_second_shot
@@ -104,6 +105,7 @@ accruals:
     events:
       - 2ballescape_sequence_shot_two_e_hit
     restart_events: second_shot_expired
+    persist_state: true
   finish_2ballescape_second_shot_l:
     events_when_complete: finished_2ballescape_second_shot_l
     enable_events: finished_2ballescape_second_shot_e
@@ -111,6 +113,7 @@ accruals:
     events:
       - 2ballescape_sequence_shot_two_l_hit
     reset_events: second_shot_expired
+    persist_state: true
   finish_2ballescape_second_shot_d:
     events_when_complete: finished_2ballescape_second_shot_d
     enable_events: finished_2ballescape_second_shot_l
@@ -118,6 +121,7 @@ accruals:
     events:
       - s_optod_active
     reset_events: second_shot_expired
+    persist_state: true
   finish_2ballescape_third_shot_z:
     events_when_complete: finished_2ballescape_third_shot_z
     enable_events: enable_2ballescape_third_shot
@@ -125,6 +129,7 @@ accruals:
     events:
       - s_optoz1_active
     restart_events: third_shot_expired
+    persist_state: true
   finish_2ballescape_third_shot_e:
     events_when_complete: finished_2ballescape_third_shot_e
     enable_events: finished_2ballescape_third_shot_z
@@ -132,6 +137,7 @@ accruals:
     events:
       - 2ballescape_sequence_shot_three_e_hit
     restart_events: third_shot_expired
+    persist_state: true
   finish_2ballescape_third_shot_l:
     events_when_complete: finished_2ballescape_third_shot_l
     enable_events: finished_2ballescape_third_shot_e
@@ -139,6 +145,7 @@ accruals:
     events:
       - 2ballescape_sequence_shot_three_l_hit
     reset_events: third_shot_expired
+    persist_state: true
   finish_2ballescape_third_shot_d:
     events_when_complete: finished_2ballescape_third_shot_d
     enable_events: finished_2ballescape_third_shot_l
@@ -146,6 +153,7 @@ accruals:
     events:
       - s_optod_active
     reset_events: third_shot_expired
+    persist_state: true
   finish_2ballescape_third_shot_a:
     events_when_complete: finished_2ballescape_third_shot_a
     enable_events: finished_2ballescape_third_shot_d
@@ -153,6 +161,7 @@ accruals:
     events:
       - s_optoa_active
     reset_events: third_shot_expired
+    persist_state: true
 
 # timers:
 #   first_shot_timer:
@@ -208,6 +217,7 @@ sequences:
       - escaped_two_complete
       - escaped_three_complete
     events_when_complete: 2ballescape_complete
+    persist_state: true
   finish_2ballescape_second_shot:
     events_when_complete: escaped_two_complete
     events:
@@ -215,6 +225,7 @@ sequences:
       - finished_2ballescape_second_shot_l
       - finished_2ballescape_second_shot_d
     reset_events: second_shot_expired
+    persist_state: true
   finish_2ballescape_third_shot:
     events_when_complete: escaped_three_complete
     events:
@@ -224,6 +235,7 @@ sequences:
       - finished_2ballescape_third_shot_d
       - finished_2ballescape_third_shot_a
     reset_events: third_shot_expired
+    persist_state: true
 
 shot_profiles:
   2ballescape_shot_one_z_profile:

@@ -4,8 +4,7 @@ mode:
   start_events: ball_starting
   stop_events: game_ending
   priority: 100
-  stop_on_ball_end: false
-  
+
 slide_player:
   begin_escape:
     the_journey_begins:

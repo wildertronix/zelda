@@ -4,7 +4,7 @@ mode:
   start_events: slide_agahnimdefeatedvideo_removed
   stop_events: game_ending, slide_maiden7_removed
   priority: 1100
-  stop_on_ball_end: false
+  restart_on_next_ball: true
 
 event_player:
   dungeon_1_complete: disable_dungeon_1
@@ -261,6 +261,7 @@ accruals:
       - darkworld_a_orbit_ready_hit
     events_when_complete: dungeon_1_complete
     disable_events: disable_dungeon_1
+    persist_state: true
 
   dungeon_2:
     events:
@@ -270,6 +271,7 @@ accruals:
     events_when_complete: dungeon_2_complete
     enable_events: dungeon_1_complete
     disable_events: disable_dungeon_2
+    persist_state: true
 
   dungeon_3:
     events:
@@ -280,6 +282,7 @@ accruals:
     events_when_complete: dungeon_3_complete
     enable_events: dungeon_2_complete
     disable_events: disable_dungeon_3
+    persist_state: true
 
   dungeon_4:
     events:
@@ -291,6 +294,7 @@ accruals:
     events_when_complete: dungeon_4_complete
     enable_events: dungeon_3_complete
     disable_events: disable_dungeon_4
+    persist_state: true
 
   dungeon_5:
     events:
@@ -303,6 +307,7 @@ accruals:
     events_when_complete: dungeon_5_complete
     enable_events: dungeon_4_complete
     disable_events: disable_dungeon_5
+    persist_state: true
 
   dungeon_6:
     events: 
@@ -316,6 +321,7 @@ accruals:
     events_when_complete: dungeon_6_complete
     enable_events: dungeon_5_complete
     disable_events: disable_dungeon_6
+    persist_state: true
 
   dungeon_7:
     events:
@@ -330,6 +336,7 @@ accruals:
     events_when_complete: dungeon_7_complete
     enable_events: dungeon_6_complete
     disable_events: disable_dungeon_7
+    persist_state: true
 
   darkworld_rescue_zelda_shot:
     events:
@@ -337,39 +344,48 @@ accruals:
     events_when_complete: darkworld_zelda_cutscene
     enable_events: dungeon_7_complete
     disable_events: darkworld_mode_complete
+    persist_state: true
 
 
 sequences:
   finish_dungeon_1:
     events: dungeon_1_complete
     events_when_complete: maiden_1_rescued
+    persist_state: true
 
   finish_dungeon_2:
     events: dungeon_2_complete
     events_when_complete: maiden_2_rescued
+    persist_state: true
 
   finish_dungeon_3:
     events: dungeon_3_complete
     events_when_complete: maiden_3_rescued
+    persist_state: true
 
   finish_dungeon_4:
     events: dungeon_4_complete
     events_when_complete: maiden_4_rescued
+    persist_state: true
 
   finish_dungeon_5:
     events: dungeon_5_complete
     events_when_complete: maiden_5_rescued
+    persist_state: true
 
   finish_dungeon_6:
     events: dungeon_6_complete
     events_when_complete: maiden_6_rescued
+    persist_state: true
 
   finish_dungeon_7:
     events: dungeon_7_complete
+    persist_state: true
 
   finish_rescue_zelda:
     events: darkworld_zelda_cutscene
     events_when_complete: maiden_7_rescued
+    persist_state: true
 
 
 

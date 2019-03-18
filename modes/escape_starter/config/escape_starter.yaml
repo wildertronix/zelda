@@ -5,7 +5,8 @@ mode:
   start_events: ball_started{ball==1}
   stop_events: mode_escape_started, game_ending, game_ended
   priority: 100
-  stop_on_ball_end: false
+  # stop_on_ball_end: false
+  
 
 
 event_player:
@@ -18,13 +19,5 @@ shots:
     switch: s_modestart
 
 
-sound_pools:
-  linkhurt:
-    track: sfx
-    type: random
-    sounds:
-       - linkhurt1
-       - linkhurt2
-       - linkhurt3
 
 

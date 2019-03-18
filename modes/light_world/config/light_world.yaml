@@ -3,9 +3,9 @@
 
 mode: 
   start_events: flippers_alive
-  stop_on_ball_end: false
   stop_events: game_ending, mode_lost_woods_starting
   priority: 600
+  restart_on_next_ball: true
 
 event_player:
   light_world_complete: find_master_sword
@@ -26,19 +26,23 @@ accruals:
       - second_pendant_found
       - third_pendant_found
     events_when_complete: light_world_complete
+    persist_state: true
 
 counters:
   ramp_counter:
     count_events: sw_ramp_hit_active
     count_complete_value: 8
+    persist_state: true
 
   pop_counter:
     count_events: sw_jets_active
     count_complete_value: 25
+    persist_state: true
 
   drop_counter:
     count_events: drop_target_bank_maindrop_up
     count_complete_value: 3
+    persist_state: true
 
 shots:
   lw_z_ramp:

@@ -3,7 +3,8 @@ mode:
   start_events: mode_escape_started
   stop_events: mode_2ballescape_started, game_ending, game_ended
   priority: 300
-  stop_on_ball_end: false
+  restart_on_next_ball: true
+
 
 event_player:
   zelda_2ball_complete: start_2ball_multiball
@@ -38,15 +39,6 @@ sequence_shots:
       - s_optoe   
     sequence_timeout: 1s
 
-#shot_groups:
- # 2ballone:
-  #  shots: zelda_2ball_shot_two
-  #2balltwo:
-   # shots: zelda_2ball_shot_three
-
-
-
-
 
 accruals:
   zelda_2ball_qualifying_shots:
@@ -57,6 +49,7 @@ accruals:
       - zelda_2ball_shot_four_ready_hit
       - zelda_2ball_shot_five_ready_hit
     events_when_complete: zelda_2ball_complete
+    persist_state: true
 
 
 shot_profiles:
@@ -69,7 +62,7 @@ shot_profiles:
         loops: -1
       - name: lit
         show: zelda_2ball_shot_one_lit
- 
+
   zelda_2ball_shot_two_profile:
     states:
       - name: ready
@@ -141,14 +134,6 @@ show_player:
 sound_player:
   sw_spinner: waterwalk
 
-sound_pools:
-  linkhurt:
-    track: sfx
-    type: random
-    sounds:
-       - linkhurt1
-       - linkhurt2
-       - linkhurt3
 
 
 

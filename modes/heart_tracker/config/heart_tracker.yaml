@@ -5,7 +5,6 @@ mode:
   start_events: ball_starting
   stop_events: game_ending
   priority: 100
-  stop_on_ball_end: false
 
 event_player:
   logicblock_heart_counter_complete: award_heart_extraball
@@ -19,6 +18,7 @@ counters:
     count_events: s_heart_active
     count_complete_value: 24
     reset_on_complete: false
+    persist_state: true
 
 
 

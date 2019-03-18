@@ -76,22 +76,24 @@ sound_player:
       action: stop
     darkworld:
       action: stop
+    darkworld2:
+      action: stop
 
 
 
-# slide_player:
-#   game_will_end:
-#     gameovervideo:
-#       target: lcd
-#       expire: 2s
+slide_player:
+  game_ending:
+    gameovervideo:
+      target: lcd
+      expire: 2s
 
-# slides:
-#   gameovervideo:
-#     widgets:
-#       - type: video
-#         video: linkdyingvideo
-#         width: 1280
-#         height: 720
+slides:
+  gameovervideo:
+    widgets:
+      - type: video
+        video: linkdyingvideo
+        width: 1280
+        height: 720
 
 sound_system:
     master_volume: 1.0
@@ -202,7 +204,7 @@ multiballs:
   agahnim_multiball:
     ball_count: 3
     ball_count_type: total
-    shoot_again: 30s
+    shoot_again: 90s
     enable_events: cue_3ball_multi
     start_events: slide_masterswordvideo_removed
     stop_events: agahnim_complete

@@ -5,7 +5,6 @@ mode:
   start_events: ball_starting
   stop_events: game_ending
   priority: 900
-  stop_on_ball_end: false
 
 show_player:
   ball_started{ball==1}:
@@ -135,7 +134,7 @@ show_player:
 
 
 sound_player:
-  ball_started{ball==1}: slide_txt_sfx
+  slide_first_instructions_active: slide_txt_sfx
   slide_the_journey_begins_removed: slide_txt_sfx
   slide_zelda_found_removed: slide_txt_sfx
   start_2ball_multiball: slide_txt_sfx

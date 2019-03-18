@@ -4,7 +4,7 @@ mode:
   start_events: start_lost_woods
   stop_events: master_sword_found, game_ending
   priority: 900
-  stop_on_ball_end: false
+  restart_on_next_ball: true
 
 event_player:
   master_sword_complete: master_sword_found
@@ -38,11 +38,13 @@ accruals:
      - 2togo
      - 1togo
     events_when_complete: master_sword_complete
+    persist_state: true
 
 counters:
   path_counter:
     count_events: sw_pathfound_active
     count_complete_value: 9
+    persist_state: true
 
 
 shots:

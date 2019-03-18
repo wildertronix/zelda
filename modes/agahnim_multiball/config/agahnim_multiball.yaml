@@ -4,7 +4,7 @@ mode:
   start_events: slide_masterswordvideo_removed
   stop_events: agahnim_complete, game_ending
   priority: 1000
-  stop_on_ball_end: false
+  restart_on_next_ball: true
 
 event_player:
   timer_agahnim_strike_tick{ticks_remaining == 5}: agahnim_charge_up
@@ -60,6 +60,7 @@ counters:
     count_complete_value: 6
     reset_on_complete: false
     disable_events: logicblock_agahnim_health_counter_complete
+    persist_state: true
 
 show_player:
   agahnim_attack: 

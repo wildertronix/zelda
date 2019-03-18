@@ -5,7 +5,8 @@ mode:
   start_events: ball_starting
   stop_events: game_ending
   priority: 500
-  stop_on_ball_end: false
+  restart_on_next_ball: true
+
 
 event_player: 
   play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
@@ -30,31 +31,37 @@ counters:
     count_events: play_treasure_sfx
     count_complete_value: 4
     reset_on_complete: false
+    persist_state: true
 
   hookshot_counter:
     count_events: sw_ramp_hit
     count_complete_value: 60
     reset_on_complete: false
+    persist_state: true
 
   hammer_counter:
     count_events: sw_drop
     count_complete_value: 39
     reset_on_complete: false
+    persist_state: true
 
   flipper_counter:
     count_events: sw_jets
     count_complete_value: 100
     reset_on_complete: false
+    persist_state: true
 
   bluemail_counter:
     count_events: sw_spinner
     count_complete_value: 100
     reset_on_complete: false
+    persist_state: true
 
   redshield_counter:
     count_events: sw_slingshot
     count_complete_value: 35
     reset_on_complete: false
+    persist_state: true
 
 show_player:
   mode_item_tracker_started:

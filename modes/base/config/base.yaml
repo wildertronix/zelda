@@ -15,6 +15,12 @@ slide_player:
     slide_3:
       expire: 2s
       priority: 1
+  ball_live_added: ball_added
+
+
+
+
+
 
 sound_player:
   sw_inlane: inlanefx
@@ -94,5 +100,3 @@ slides:
     text: PLAYER (num) ADDED
     style: hyruletext
     font_size: 144
-
-

@@ -14,32 +14,32 @@ playfields:
          tags: default
          default_source_device: bd_plunger_lane
 
-slides:
-  window_slide_1:
-  - type: display
-    width: 640
-    height: 160
-    source_display: dmd
-    effects:
-    - type: dmd  
-      dot_color: ff6600
-      background_color: 2200ff
+# slides:
+#   window_slide_1:
+#   - type: display
+#     width: 640
+#     height: 160
+#     source_display: dmd
+#     effects:
+#     - type: dmd  
+#       dot_color: ff6600
+#       background_color: 2200ff
 
-  ball_added:
-    - type: Text
-      text: BALL LIVE!
-      expire: 2s
-  ball_started:
-    - type: Text
-      text: PLAYER (player) BALL (ball)
-      expire: 2s
+#   ball_added:
+#     - type: Text
+#       text: BALL LIVE!
+#       expire: 2s
+#   ball_started:
+#     - type: Text
+#       text: PLAYER (player) BALL (ball)
+#       expire: 2s
 
-slide_player:
-  ball_live_added: ball_added
-  ball_started: ball_started
-  mc_ready:
-    window_slide_1:
-      target: window
+# slide_player:
+#   ball_live_added: ball_added
+#   ball_started: ball_started
+#   mc_ready:
+#     window_slide_1:
+#       target: window
 
 
 ball_devices:
