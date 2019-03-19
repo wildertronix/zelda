@@ -1,16 +1,16 @@
 score:
 - !!python/tuple
-  - BRI
-  - 4242
+  - WIL
+  - 12
 - !!python/tuple
-  - GHK
-  - 2323
+  - W
+  - 10
 - !!python/tuple
-  - JK
-  - 1337
+  - W
+  - 9
 - !!python/tuple
-  - QC
-  - 42
+  - SEF
+  - 6
 - !!python/tuple
-  - MPF
-  - 23
+  - JAM
+  - 3

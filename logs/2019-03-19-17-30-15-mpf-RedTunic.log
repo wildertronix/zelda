@@ -1,0 +1,13 @@
+2019-03-19 17:30:15,640 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.12
+2019-03-19 17:30:15,641 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'logfile': 'logs\\2019-03-19-17-30-15-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None}
+2019-03-19 17:30:15,641 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-19 17:30:15,642 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-19 17:30:15,642 : INFO : Machine : Platform: win32
+2019-03-19 17:30:15,642 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-19 17:30:15,642 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-19 17:30:16,144 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-19 17:30:16,145 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-19 17:30:16,148 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-19 17:30:16,149 : INFO : Machine : Initialise MPF.
+2019-03-19 17:30:16,176 : DEBUG : FAST : Configuring FAST hardware.
+2019-03-19 17:30:16,410 : INFO : FAST : Connecting to \\.\COM11 at 921600bps

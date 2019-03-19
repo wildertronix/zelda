@@ -1,9 +1,9 @@
 events:
-  game_ended: 167
-  game_started: 1450
+  game_ended: 172
+  game_started: 1460
 player:
   score:
-    average: 2937.6213017751443
+    average: 2853.488505747123
     top:
     - 66050
     - 52050
@@ -15,7 +15,7 @@ player:
     - 33500
     - 33500
     - 28100
-    total: 169
+    total: 174
 shots:
   2ballescape_first_shot_a: 169
   2ballescape_first_shot_z: 204
@@ -93,63 +93,63 @@ shots:
   lw_a_ramp: 147
   lw_d_ramp: 446
   lw_z_ramp: 157
-  m_bomb: 541
+  m_bomb: 547
   middle_drop_target: 54
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 741
-  o_bomb: 323
+  modestartmade: 747
+  o_bomb: 324
   pull_master_sword: 78
   rightpop: 90
   toppop: 1453
   z_ramp_lostwoods: 57
   zelda_2ball_shot_five: 302
   zelda_2ball_shot_four: 331
-  zelda_2ball_shot_one: 632
+  zelda_2ball_shot_one: 688
   zelda_2ball_shot_three: 105
   zelda_2ball_shot_two: 91
 switches:
-  leftflipperbutton: 6272
-  plungerlane: 2365
+  leftflipperbutton: 6332
+  plungerlane: 2393
   plungerlaunch: 0
-  rightflipperbutton: 6527
+  rightflipperbutton: 6558
   s_abyss: 511
   s_cavestar: 0
   s_coin1: 450
   s_coin2: 0
   s_cranehole: 867
-  s_droptarget1: 1334
-  s_droptarget2: 862
-  s_droptarget3: 827
+  s_droptarget1: 1335
+  s_droptarget2: 863
+  s_droptarget3: 829
   s_heart: 976
-  s_left_inlane: 804
-  s_left_outlane: 203
+  s_left_inlane: 806
+  s_left_outlane: 204
   s_leftpop: 505
-  s_leftslingshot: 399
+  s_leftslingshot: 402
   s_lightmb: 1
   s_lostwoods: 2465
   s_lostwoodsopto: 0
-  s_modestart: 1284
+  s_modestart: 1300
   s_optoa: 1289
   s_optod: 1750
-  s_optoe: 2284
-  s_optol: 2234
+  s_optoe: 2293
+  s_optol: 2241
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 1588
+  s_optoz1: 1644
   s_popexit: 332
   s_rampopto: 0
-  s_right_inlane: 1323
+  s_right_inlane: 1330
   s_right_outlane: 159
   s_rightpop: 463
-  s_rightslingshot: 773
-  s_spinner: 5872
+  s_rightslingshot: 783
+  s_spinner: 5879
   s_toppop: 4009
-  start: 9
-  trough1: 1999
-  trough2: 2287
+  start: 15
+  trough1: 2032
+  trough2: 2317
   trough3: 0
   trough4: 0
   trough5: 1

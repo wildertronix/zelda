@@ -19,13 +19,35 @@ keyboard:
   q:
     switch: s_right_inlane
   w:
-    switch: s_leftslingshot
+    switch: s_left_inlane
   e:
     switch: s_rightpop
+  t:
+    switch: s_leftpop
+  y:
+    switch: s_toppop
+  m:
+    switch: s_abyss
   r:
     switch: s_droptarget1
+  u: 
+    switch: s_droptarget2
+  i:
+    switch: s_droptarget3
+  o: 
+    switch: s_heart
   a:
     switch: s_modestart
 
   d:
     switch: s_optoz1
+  f:
+    switch: s_optoe
+  g:
+    switch: s_optol
+  h:
+    switch: s_optod
+  j:
+    switch: s_optoa
+  k:
+    switch: s_lostwoods
