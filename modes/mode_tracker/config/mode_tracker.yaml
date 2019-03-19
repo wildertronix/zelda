@@ -3,6 +3,7 @@
 mode:
   start_events: ball_starting
   priority: 100
+  stop_events: game_ending
 
 show_player:
 

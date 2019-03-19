@@ -24,4 +24,8 @@ keyboard:
     switch: s_rightpop
   r:
     switch: s_droptarget1
-   
+  a:
+    switch: s_modestart
+
+  d:
+    switch: s_optoz1

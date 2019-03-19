@@ -1,7 +1,7 @@
 #config_version=5
 mode:
   start_events: ball_starting
-  stop_events: ball_save_default_saving_ball
+  stop_events: ball_save_default_saving_ball, game_ending
   priority: 100
 
 event_player:   

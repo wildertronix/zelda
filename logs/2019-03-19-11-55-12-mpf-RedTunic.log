@@ -1,0 +1,30 @@
+2019-03-19 11:55:12,854 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.12
+2019-03-19 11:55:12,854 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'logfile': 'logs\\2019-03-19-11-55-12-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None}
+2019-03-19 11:55:12,855 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-19 11:55:12,855 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-19 11:55:12,855 : INFO : Machine : Platform: win32
+2019-03-19 11:55:12,855 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-19 11:55:12,855 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-19 11:55:13,318 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-19 11:55:13,346 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-19 11:55:13,348 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-19 11:55:13,349 : INFO : Machine : Initialise MPF.
+2019-03-19 11:55:13,377 : DEBUG : FAST : Configuring FAST hardware.
+2019-03-19 11:55:13,560 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-03-19 11:55:13,612 : ERROR : Machine : ERROR: Failed to initialise MPF: could not open port '\\\\.\\COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2019-03-19 11:55:13,703 : INFO : Machine : Starting the main run loop.
+2019-03-19 11:55:13,807 : ERROR : root : Event loop is closed
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 208, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 664, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 702, in _run_loop
+    self.clock.run(self.stop_future)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\clock.py", line 82, in run
+    self.loop.run_until_complete(stop_future)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 443, in run_until_complete
+    self._check_closed()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\base_events.py", line 357, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed

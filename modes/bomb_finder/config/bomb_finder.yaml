@@ -3,7 +3,7 @@
 
 mode:
   start_events: begin_escape, flippers_alive, start_lost_woods, mode_agahnim_multiball_started
-  stop_events: disable_bomb_finder
+  stop_events: disable_bomb_finder, game_ending
   stop_on_ball_end: true
   priority: 400
 

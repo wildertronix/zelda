@@ -3,7 +3,7 @@ mode:
   priority: 500
   start_events: game_ending, start_high_score
   use_wait_queue: true
-  game_mode: false
+
 
 
 
@@ -122,4 +122,4 @@ slides:
     color: 4040FF
     font_size: 80
     number_grouping: true
-    min_digits: 2
+    min_digits: 1

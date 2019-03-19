@@ -1,0 +1,16 @@
+score:
+- !!python/tuple
+  - BRI
+  - 4242
+- !!python/tuple
+  - GHK
+  - 2323
+- !!python/tuple
+  - JK
+  - 1337
+- !!python/tuple
+  - QC
+  - 42
+- !!python/tuple
+  - MPF
+  - 23

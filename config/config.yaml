@@ -38,7 +38,7 @@ modes:
 - heartmeter
 - unusual_show_tracker
 - 5waycombotracker
-- highscore
+- high_score
 
 window:
   title: Legend of Zelda
@@ -82,7 +82,7 @@ sound_player:
 
 
 slide_player:
-  game_ending:
+  game_will_end:
     gameovervideo:
       target: lcd
       expire: 2s
