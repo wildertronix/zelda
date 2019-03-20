@@ -343,3 +343,25 @@ sound_pools:
        - linkhurt1
        - linkhurt2
        - linkhurt3
+
+variable_player:
+  2ballescape_first_shot_a_ready_hit:
+    score: 1
+  2ballescape_first_shot_z_ready_hit:
+    score: 1
+  finished_2ballescape_second_shot_e:
+    score: 1
+  finished_2ballescape_second_shot_l:
+    score: 1
+  finished_2ballescape_second_shot_d:
+    score: 1
+  finished_2ballescape_third_shot_z:
+    score: 1
+  finished_2ballescape_third_shot_e:
+    score: 1
+  finished_2ballescape_third_shot_l:
+    score: 1
+  finished_2ballescape_third_shot_d:
+    score: 1
+  finished_2ballescape_third_shot_a:
+    score: 1

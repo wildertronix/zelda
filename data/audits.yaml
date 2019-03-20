@@ -1,6 +1,6 @@
 events:
   game_ended: 180
-  game_started: 1480
+  game_started: 1484
 player:
   score:
     average: 2728.450549450546
@@ -110,7 +110,7 @@ shots:
   zelda_2ball_shot_two: 91
 switches:
   leftflipperbutton: 6444
-  plungerlane: 2502
+  plungerlane: 2505
   plungerlaunch: 0
   rightflipperbutton: 6636
   s_abyss: 511
