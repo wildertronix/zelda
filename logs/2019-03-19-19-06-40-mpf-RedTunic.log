@@ -1,0 +1,279 @@
+2019-03-19 19:06:40,548 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.12
+2019-03-19 19:06:40,549 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'logfile': 'logs\\2019-03-19-19-06-40-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None}
+2019-03-19 19:06:40,549 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-19 19:06:40,549 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-19 19:06:40,549 : INFO : Machine : Platform: win32
+2019-03-19 19:06:40,549 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-19 19:06:40,549 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-19 19:06:41,033 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-19 19:06:41,035 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-19 19:06:41,035 : INFO : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2019-03-19 19:06:41,035 : DEBUG : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-03-19 19:06:41,134 : INFO : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-03-19 19:06:41,136 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.yaml.
+2019-03-19 19:06:41,136 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-19 19:06:41,173 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-19 19:06:41,173 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-03-19 19:06:41,340 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-03-19 19:06:41,342 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-03-19 19:06:41,354 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-03-19 19:06:41,357 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-03-19 19:06:41,409 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-03-19 19:06:41,417 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-19 19:06:41,419 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-19 19:06:41,420 : INFO : Machine : Initialise MPF.
+2019-03-19 19:06:41,452 : DEBUG : FAST : Configuring FAST hardware.
+2019-03-19 19:06:41,631 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-03-19 19:06:41,664 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.02
+2019-03-19 19:06:41,664 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.02', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,664 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,665 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-03-19 19:06:41,728 : INFO : FAST : Connecting to \\.\COM12 at 921600bps
+2019-03-19 19:06:41,776 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-03-19 19:06:41,776 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,776 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,777 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,858 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-03-19 19:06:41,861 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,861 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.50.12', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,861 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.50.12, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,861 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,862 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,862 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,862 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,863 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,863 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-03-19 19:06:41,863 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-03-19 19:06:41,920 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-03-19 19:06:41,929 : DEBUG : ModeController : Loaded mode attract
+2019-03-19 19:06:41,930 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-03-19 19:06:41,933 : DEBUG : ModeController : Loaded mode heart_tracker
+2019-03-19 19:06:41,934 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-03-19 19:06:41,937 : DEBUG : ModeController : Loaded mode base
+2019-03-19 19:06:41,937 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\10a6a590bbb9b0438569045f4aac79d9.mpf_cache
+2019-03-19 19:06:41,941 : DEBUG : ModeController : Loaded mode escape
+2019-03-19 19:06:41,941 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-03-19 19:06:41,945 : DEBUG : ModeController : Loaded mode music_player
+2019-03-19 19:06:41,946 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-03-19 19:06:41,950 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-03-19 19:06:41,951 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-03-19 19:06:41,962 : DEBUG : ModeController : Loaded mode high_score
+2019-03-19 19:06:41,963 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-03-19 19:06:41,967 : DEBUG : ModeController : Loaded mode light_world
+2019-03-19 19:06:41,968 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-03-19 19:06:41,972 : DEBUG : ModeController : Loaded mode ball_save
+2019-03-19 19:06:41,972 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-03-19 19:06:41,976 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-03-19 19:06:41,977 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-03-19 19:06:41,985 : DEBUG : ModeController : Loaded mode game
+2019-03-19 19:06:41,985 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-03-19 19:06:41,991 : DEBUG : ModeController : Loaded mode heartmeter
+2019-03-19 19:06:41,991 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-03-19 19:06:41,995 : DEBUG : ModeController : Loaded mode 2ballqualifier
+2019-03-19 19:06:41,995 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-03-19 19:06:41,999 : DEBUG : ModeController : Loaded mode slide_tracker
+2019-03-19 19:06:41,999 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-03-19 19:06:42,004 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-03-19 19:06:42,004 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-03-19 19:06:42,007 : DEBUG : ModeController : Loaded mode extraball
+2019-03-19 19:06:42,007 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-03-19 19:06:42,010 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-03-19 19:06:42,010 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-03-19 19:06:42,013 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-03-19 19:06:42,013 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-03-19 19:06:42,017 : DEBUG : ModeController : Loaded mode darkworld
+2019-03-19 19:06:42,017 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-03-19 19:06:42,021 : DEBUG : ModeController : Loaded mode ball_hold_tracker
+2019-03-19 19:06:42,021 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-03-19 19:06:42,024 : DEBUG : ModeController : Loaded mode unusual_show_tracker
+2019-03-19 19:06:42,024 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-03-19 19:06:42,027 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-03-19 19:06:42,027 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-03-19 19:06:42,032 : DEBUG : ModeController : Loaded mode video_player
+2019-03-19 19:06:42,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-03-19 19:06:42,035 : DEBUG : ModeController : Loaded mode lost_woods
+2019-03-19 19:06:42,035 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-03-19 19:06:42,038 : DEBUG : ModeController : Loaded mode 5waycombotracker
+2019-03-19 19:06:42,038 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\e44f2e5e1ef00181aa9bc27df94a0c3d.mpf_cache
+2019-03-19 19:06:42,042 : DEBUG : ModeController : Loaded mode escape_starter
+2019-03-19 19:06:42,043 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-03-19 19:06:42,047 : DEBUG : ModeController : Loaded mode item_tracker
+2019-03-19 19:06:42,047 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-03-19 19:06:42,051 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-03-19 19:06:42,104 : DEBUG : ball_device.bd_drain : Configuring device with settings: '{'ball_switches': [<switch.trough1>], 'eject_coil': <coil.draineject>, 'eject_targets': [<ball_device.bd_trough>], 'eject_timeouts': [1000], 'confirm_eject_type': 'target', 'tags': ['drain'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': [], 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-03-19 19:06:42,104 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'entrance_switch': <switch.trough2>, 'entrance_switch_full_timeout': 3000, 'ball_capacity': 3, 'eject_coil': <coil.troughrelease>, 'eject_targets': [<ball_device.bd_plunger_lane>], 'confirm_eject_type': 'target', 'tags': ['trough', 'home'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'eject_timeouts': [], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_switches': [], 'request_ball_events': [], 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-03-19 19:06:42,105 : DEBUG : ball_device.bd_plunger_lane : Configuring device with settings: '{'ball_switches': [<switch.plungerlane>], 'eject_coil': <coil.autoplunger>, 'mechanical_eject': True, 'eject_timeouts': [1000], 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'confirm_eject_type': 'target', 'captures_from': <playfield.playfield>, 'eject_targets': [<playfield.playfield>], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': [], 'eject_events': {}, 'eject_all_events': {}, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-03-19 19:06:42,131 : DEBUG : ball_save.default : Configuring device with settings: '{'active_time': 10000, 'hurry_up_time': 3000, 'grace_period': 3000, 'enable_events': {'mode_base_started': 0}, 'disable_events': {'ball_save_default_saving_ball': 0}, 'timer_start_events': {'start_ballsave': 0}, 'auto_launch': True, 'balls_to_save': 1, 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'source_playfield': <playfield.playfield>, 'eject_delay': 0, 'only_last_ball': False, 'early_ball_save_events': {}, 'delayed_eject_events': {}}'
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,209 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,210 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,211 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,212 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,213 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,214 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-03-19 19:06:42,239 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 00
+2019-03-19 19:06:42,240 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 01
+2019-03-19 19:06:42,240 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 02
+2019-03-19 19:06:42,240 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 03
+2019-03-19 19:06:42,241 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 04
+2019-03-19 19:06:42,241 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 05
+2019-03-19 19:06:42,241 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 06
+2019-03-19 19:06:42,242 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 07
+2019-03-19 19:06:42,242 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 08
+2019-03-19 19:06:42,242 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 09
+2019-03-19 19:06:42,242 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0A
+2019-03-19 19:06:42,243 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0B
+2019-03-19 19:06:42,243 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0C
+2019-03-19 19:06:42,243 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0D
+2019-03-19 19:06:42,244 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0E
+2019-03-19 19:06:42,244 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0F
+2019-03-19 19:06:42,244 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 10
+2019-03-19 19:06:42,244 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 11
+2019-03-19 19:06:42,245 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 12
+2019-03-19 19:06:42,245 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 40
+2019-03-19 19:06:42,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 41
+2019-03-19 19:06:42,246 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 42
+2019-03-19 19:06:42,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 43
+2019-03-19 19:06:42,247 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 44
+2019-03-19 19:06:42,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 45
+2019-03-19 19:06:42,248 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 46
+2019-03-19 19:06:42,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 47
+2019-03-19 19:06:42,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 48
+2019-03-19 19:06:42,249 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 49
+2019-03-19 19:06:42,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4A
+2019-03-19 19:06:42,250 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4B
+2019-03-19 19:06:42,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4C
+2019-03-19 19:06:42,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4D
+2019-03-19 19:06:42,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4E
+2019-03-19 19:06:42,251 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4F
+2019-03-19 19:06:42,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 50
+2019-03-19 19:06:42,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 51
+2019-03-19 19:06:42,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 52
+2019-03-19 19:06:42,252 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 53
+2019-03-19 19:06:42,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 54
+2019-03-19 19:06:42,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 55
+2019-03-19 19:06:42,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 56
+2019-03-19 19:06:42,253 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 57
+2019-03-19 19:06:42,254 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 58
+2019-03-19 19:06:42,254 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 59
+2019-03-19 19:06:42,254 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5A
+2019-03-19 19:06:42,255 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5B
+2019-03-19 19:06:42,255 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5C
+2019-03-19 19:06:42,255 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5D
+2019-03-19 19:06:42,256 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5E
+2019-03-19 19:06:42,256 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5F
+2019-03-19 19:06:42,256 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 60
+2019-03-19 19:06:42,256 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 61
+2019-03-19 19:06:42,257 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 62
+2019-03-19 19:06:42,257 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 63
+2019-03-19 19:06:42,257 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 64
+2019-03-19 19:06:42,258 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 65
+2019-03-19 19:06:42,258 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 66
+2019-03-19 19:06:42,258 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 67
+2019-03-19 19:06:42,258 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 68
+2019-03-19 19:06:42,259 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 69
+2019-03-19 19:06:42,259 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6A
+2019-03-19 19:06:42,259 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6B
+2019-03-19 19:06:42,260 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6C
+2019-03-19 19:06:42,260 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6D
+2019-03-19 19:06:42,260 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 80
+2019-03-19 19:06:42,261 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 81
+2019-03-19 19:06:42,261 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 82
+2019-03-19 19:06:42,261 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 83
+2019-03-19 19:06:42,261 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 84
+2019-03-19 19:06:42,262 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 85
+2019-03-19 19:06:42,262 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 86
+2019-03-19 19:06:42,262 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 87
+2019-03-19 19:06:42,262 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 88
+2019-03-19 19:06:42,263 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 89
+2019-03-19 19:06:42,263 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8A
+2019-03-19 19:06:42,263 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8B
+2019-03-19 19:06:42,263 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8C
+2019-03-19 19:06:42,264 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8D
+2019-03-19 19:06:42,264 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8E
+2019-03-19 19:06:42,264 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8F
+2019-03-19 19:06:42,265 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 90
+2019-03-19 19:06:42,265 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 91
+2019-03-19 19:06:42,265 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C0
+2019-03-19 19:06:42,266 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C1
+2019-03-19 19:06:42,266 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C2
+2019-03-19 19:06:42,266 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C3
+2019-03-19 19:06:42,266 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C4
+2019-03-19 19:06:42,267 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C5
+2019-03-19 19:06:42,267 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C6
+2019-03-19 19:06:42,267 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C7
+2019-03-19 19:06:42,267 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C8
+2019-03-19 19:06:42,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C9
+2019-03-19 19:06:42,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CA
+2019-03-19 19:06:42,268 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CB
+2019-03-19 19:06:42,276 : INFO : EventManager : Event: ======'drop_target_bank_maindrop_up'====== Args={}
+2019-03-19 19:06:42,278 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-03-19 19:06:42,280 : INFO : SwitchController : Found active switch: trough1
+2019-03-19 19:06:42,280 : INFO : SwitchController : Found active switch: trough2
+2019-03-19 19:06:42,281 : DEBUG : FAST : Enabling Flow Control for RGB connection. Messages in flight: 4, Max setting: 3
+2019-03-19 19:06:42,356 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/high_scores.yaml
+2019-03-19 19:06:42,361 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'HYRULE CHAMPION', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,361 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'WILDE', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,361 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,361 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'WIL', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'W', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'W', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,362 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2019-03-19 19:06:42,413 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-03-19 19:06:42,418 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-03-19 19:06:42,434 : DEBUG : FAST : Enabling Flow Control for NET connection. Messages in flight: 11, Max setting: 10
+2019-03-19 19:06:43,431 : WARNING : FAST : Port \\.\COM11 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-03-19 19:06:43,437 : DEBUG : FAST : Enabling Flow Control for NET connection. Messages in flight: 11, Max setting: 10
+2019-03-19 19:06:44,429 : WARNING : FAST : Port \\.\COM11 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-03-19 19:06:44,434 : DEBUG : FAST : Enabling Flow Control for NET connection. Messages in flight: 11, Max setting: 10
+2019-03-19 19:06:45,427 : WARNING : FAST : Port \\.\COM11 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-03-19 19:06:45,435 : DEBUG : FAST : Enabling Flow Control for NET connection. Messages in flight: 11, Max setting: 10
+2019-03-19 19:06:46,426 : WARNING : FAST : Port \\.\COM11 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-03-19 19:06:46,435 : DEBUG : FAST : Enabling Flow Control for NET connection. Messages in flight: 11, Max setting: 10
+2019-03-19 19:06:47,424 : WARNING : FAST : Port \\.\COM11 was blocked for more than 1s. Reseting send queue! If this happens frequently report a bug!
+2019-03-19 19:06:47,768 : DEBUG : FAST : Enabling Flow Control for NET connection. Messages in flight: 11, Max setting: 10

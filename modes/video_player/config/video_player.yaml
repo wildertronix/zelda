@@ -2,10 +2,17 @@
 
 mode:
   start_events: ball_starting
-  stop_events: game_ending
+  stop_events: mode_high_score_stopped
   priority: 100
 
+
 slide_player:
+  # game_will_end:
+  #   gameovervideo:
+  #     target: lcd
+  #     expire: 2s
+  #     force: true
+
   begin_escape:
     the_journey_begins:
       target: lcd
@@ -287,6 +294,13 @@ slide_player:
 
 
 slides:
+  # gameovervideo:
+  #   widgets:
+  #     - type: video
+  #       video: linkdyingvideo
+  #       width: 1280
+  #       height: 720
+
   the_journey_begins:
     - type: video
       video: mode1startvideo

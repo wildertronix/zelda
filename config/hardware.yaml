@@ -184,7 +184,7 @@ switches:
   s_optoz1:
     number: 41
     type: NC
-    tags: playfield_active, ramp_hit, pathfound, escape_rupee
+    tags: playfield_active, ramp_hit, pathfound,
     platform_settings:
       debounce_open: 3
       debounce_close: 3

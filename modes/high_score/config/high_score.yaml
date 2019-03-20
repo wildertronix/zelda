@@ -1,15 +1,22 @@
 #config_version=5
 mode:
   priority: 500
-  start_events: game_ending, start_high_score
+  start_events: game_ending, start_high_score, move_to_highscore
   use_wait_queue: true
+
+
+sound_player:
+  high_score_enter_initials: 
+    highscore:
+      action: play
+      loops: 1
 
 
 
 
 high_score:
   _overwrite: True
-  enter_initials_timeout: 60
+  enter_initials_timeout: 90
   award_slide_display_time: 4s 
   categories: !!omap
   - score:
@@ -26,18 +33,20 @@ high_score:
       - JF: 2
       - Test: 1
 
-
-
 # optional: change the slides (you can omit all the following)
 slide_player:
   _overwrite: True
-  high_score_enter_initials: high_score_enter_initials
-  high_score_award_display: high_score_award_display
+  high_score_enter_initials: high_score_enter_initials_mine
+  high_score_award_display: high_score_award_display_mine
+
+      
+
 
 
 
 slides:
-  high_score_enter_initials:
+
+  high_score_enter_initials_mine:
     - type: text
       style: hyruletext
       font_size: 120
@@ -51,10 +60,10 @@ slides:
       dynamic_x: false
       key: high_score
       style: hyruletext
-      font_size: 120
-      max_chars: 5
+      font_size: 160
+      max_chars: 8
       x: middle
-      y: middle
+      y: middle-175
       shift_left_event: sw_left_flipper
       shift_right_event: sw_right_flipper
       select_event: sw_start
@@ -65,7 +74,7 @@ slides:
       text: '<       >'
       font_size: 120
       x: middle
-      y: middle
+      y: middle-200
       color: gold
 
 
@@ -75,7 +84,7 @@ slides:
       font_size: 80
       style: hyruletext
       x: middle
-      y: middle+75
+      y: middle
       color: gold
       animations:
         show_slide:
@@ -89,7 +98,7 @@ slides:
           repeat: true
           easing: in_out_quint
 
-  high_score_award_display:
+  high_score_award_display_mine:
     - type: text
       text: (player_name)
       font_size: 120
