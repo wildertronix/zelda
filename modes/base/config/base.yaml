@@ -24,12 +24,29 @@ slide_player:
 
 sound_player:
   sw_inlane: inlanefx
-  sw_slingshot: slingshot
   sw_jets: jets
   powerup: charge
-  flipoff: chargeshot
   sw_drop: shatter
   sw_heart: heart
+
+sound_pools:
+  sw_flip:
+    load: preload
+    type: random
+    track: sfx
+    sounds: 
+      - sword1|2
+      - sword2|2
+      - swordsilence|6
+  sw_slingshot:
+    load: preload
+    type: random
+    track: sfx
+    sounds:
+      - slingshot|9
+      - enemykill|1
+
+
 
 
 

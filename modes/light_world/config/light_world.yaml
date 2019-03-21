@@ -64,19 +64,22 @@ shots:
   lw_a_ramp:
     switch: s_optoa
     profile: lw_a_profile
-    disable_events: second_pendant_found
+    disable_events: first_pendant_found
 
   toppop:
     switch: s_toppop
     hit_events: pop_hit
+    disable_events: second_pendant_found
 
   leftpop:
     switch: s_leftpop
     hit_events: pop_hit
+    disable_events: second_pendant_found
 
   rightpop:
     switch: s_rightpop
     hit_events: pop_hit
+    disable_events: second_pendant_found
 
   drop1:
     switch: s_droptarget1
@@ -187,3 +190,15 @@ show_player:
     thirdpendantfound:
       loops: 0
       speed: 15
+
+variable_player:
+  sw_ramp_hit_active:
+    score: 1
+  sw_jets_active:
+    score: 1
+  drop1_hit:
+    score: 1
+  drop2_hit:
+    score: 1
+  drop3_hit:
+    score: 1

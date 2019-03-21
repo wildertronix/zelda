@@ -13,47 +13,47 @@
                <rdf:li rdf:parseType="Resource">
                   <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
                   <xmpDM:trackType>Cue</xmpDM:trackType>
-                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+                  <xmpDM:frameRate>f22050</xmpDM:frameRate>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
                   <xmpDM:trackType>Track</xmpDM:trackType>
-                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+                  <xmpDM:frameRate>f22050</xmpDM:frameRate>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
                   <xmpDM:trackType>InOut</xmpDM:trackType>
-                  <xmpDM:frameRate>f44100</xmpDM:frameRate>
+                  <xmpDM:frameRate>f22050</xmpDM:frameRate>
                </rdf:li>
             </rdf:Bag>
          </xmpDM:Tracks>
-         <xmp:MetadataDate>2018-11-29T14:49:51-05:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2018-11-29T14:49:51-05:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:1400c2c5-425d-7b40-bb98-eddb3f0ec9ad</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:1400c2c5-425d-7b40-bb98-eddb3f0ec9ad</xmpMM:DocumentID>
-         <xmpMM:OriginalDocumentID>xmp.did:8495790f-5098-5b4f-9fb8-97af1da83ec4</xmpMM:OriginalDocumentID>
+         <xmp:MetadataDate>2019-03-21T13:28:11-04:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2019-03-21T13:28:11-04:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:6924688b-8b1f-4248-b1a0-0256d2683ffe</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:6924688b-8b1f-4248-b1a0-0256d2683ffe</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:a1b5ac8a-9346-1840-9565-a4c13eacc6f6</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:8495790f-5098-5b4f-9fb8-97af1da83ec4</stEvt:instanceID>
-                  <stEvt:when>2018-11-29T14:49:51-05:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:a1b5ac8a-9346-1840-9565-a4c13eacc6f6</stEvt:instanceID>
+                  <stEvt:when>2019-03-21T13:28:11-04:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2018.1 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:1400c2c5-425d-7b40-bb98-eddb3f0ec9ad</stEvt:instanceID>
-                  <stEvt:when>2018-11-29T14:49:51-05:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:6924688b-8b1f-4248-b1a0-0256d2683ffe</stEvt:instanceID>
+                  <stEvt:when>2019-03-21T13:28:11-04:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2018.1 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:8495790f-5098-5b4f-9fb8-97af1da83ec4</stRef:instanceID>
-            <stRef:documentID>xmp.did:8495790f-5098-5b4f-9fb8-97af1da83ec4</stRef:documentID>
-            <stRef:originalDocumentID>xmp.did:8495790f-5098-5b4f-9fb8-97af1da83ec4</stRef:originalDocumentID>
+            <stRef:instanceID>xmp.iid:a1b5ac8a-9346-1840-9565-a4c13eacc6f6</stRef:instanceID>
+            <stRef:documentID>xmp.did:a1b5ac8a-9346-1840-9565-a4c13eacc6f6</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:a1b5ac8a-9346-1840-9565-a4c13eacc6f6</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>audio/ogg; codec="vorbis"</dc:format>
       </rdf:Description>

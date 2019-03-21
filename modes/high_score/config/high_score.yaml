@@ -129,7 +129,12 @@ slides:
       style: hyruletext
       x: middle
       y: middle-250
-      color: GOLD
+      color: gold
       font_size: 120
       number_grouping: true
       min_digits: 1
+
+sound_player:
+  sw_left_flipper: menu_cursor
+  sw_right_flipper: menu_cursor
+  sw_start: menu_select
