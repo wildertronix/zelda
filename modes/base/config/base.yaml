@@ -28,9 +28,11 @@ sound_player:
   powerup: charge
   sw_drop: shatter
   sw_heart: heart
+  sw_flip: flippool
+  sw_slingshot: slingpool
 
 sound_pools:
-  sw_flip:
+  flippool:
     load: preload
     type: random
     track: sfx
@@ -38,7 +40,7 @@ sound_pools:
       - sword1|2
       - sword2|2
       - swordsilence|6
-  sw_slingshot:
+  slingpool:
     load: preload
     type: random
     track: sfx

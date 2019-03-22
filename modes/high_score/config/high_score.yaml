@@ -10,6 +10,9 @@ sound_player:
     highscore:
       action: play
       loops: 1
+  sw_left_flipper: menu_cursor
+  sw_right_flipper: menu_cursor
+  sw_start: menu_select
 
 
 
@@ -134,7 +137,3 @@ slides:
       number_grouping: true
       min_digits: 1
 
-sound_player:
-  sw_left_flipper: menu_cursor
-  sw_right_flipper: menu_cursor
-  sw_start: menu_select
