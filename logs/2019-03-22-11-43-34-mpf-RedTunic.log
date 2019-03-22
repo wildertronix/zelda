@@ -1,0 +1,14 @@
+2019-03-22 11:43:34,645 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.1
+2019-03-22 11:43:34,646 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-03-22-11-43-34-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-03-22 11:43:34,647 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-22 11:43:34,647 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-22 11:43:34,647 : INFO : Machine : Platform: win32
+2019-03-22 11:43:34,647 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-22 11:43:34,647 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-22 11:43:34,647 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-22 11:43:34,649 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-22 11:43:34,653 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-22 11:43:34,654 : INFO : Machine : Initialise MPF.
+2019-03-22 11:43:35,922 : INFO : ConfigValidator : Config spec file cache created: C:\Users\Wilder\AppData\Local\Temp\config_spec.mpf_cache
+2019-03-22 11:43:35,943 : ERROR : Machine : ERROR: Failed to initialise MPF: Unknown platform drivers
+2019-03-22 11:43:35,943 : INFO : root : MPF run loop ended.

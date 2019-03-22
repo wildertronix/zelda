@@ -1,0 +1,105 @@
+2019-03-22 12:03:46,878 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.1
+2019-03-22 12:03:46,879 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-03-22-12-03-46-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-03-22 12:03:46,879 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-22 12:03:46,879 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-22 12:03:46,879 : INFO : Machine : Platform: win32
+2019-03-22 12:03:46,879 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-22 12:03:46,879 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-22 12:03:46,879 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-22 12:03:46,881 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-22 12:03:46,884 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-22 12:03:46,885 : INFO : Machine : Initialise MPF.
+2019-03-22 12:03:46,919 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2019-03-22 12:03:47,136 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,205 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-03-22 12:03:47,207 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,207 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.1', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,207 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.1, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,208 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,208 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,208 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,208 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,208 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,208 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-03-22 12:03:47,209 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-03-22 12:03:47,257 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-03-22 12:03:47,260 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-03-22 12:03:47,260 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-03-22 12:03:47,263 : DEBUG : ModeController : Loaded mode extraball
+2019-03-22 12:03:47,263 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-03-22 12:03:47,271 : DEBUG : ModeController : Loaded mode high_score
+2019-03-22 12:03:47,271 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-03-22 12:03:47,275 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-03-22 12:03:47,275 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-03-22 12:03:47,279 : DEBUG : ModeController : Loaded mode heartmeter
+2019-03-22 12:03:47,279 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-03-22 12:03:47,284 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-03-22 12:03:47,284 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-03-22 12:03:47,289 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-03-22 12:03:47,289 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-03-22 12:03:47,293 : DEBUG : ModeController : Loaded mode lost_woods
+2019-03-22 12:03:47,294 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-03-22 12:03:47,301 : DEBUG : ModeController : Loaded mode attract
+2019-03-22 12:03:47,301 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-03-22 12:03:47,308 : DEBUG : ModeController : Loaded mode game
+2019-03-22 12:03:47,309 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-03-22 12:03:47,312 : DEBUG : ModeController : Loaded mode video_player
+2019-03-22 12:03:47,312 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-03-22 12:03:47,317 : DEBUG : ModeController : Loaded mode unusual_show_tracker
+2019-03-22 12:03:47,317 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-03-22 12:03:47,322 : DEBUG : ModeController : Loaded mode slide_tracker
+2019-03-22 12:03:47,322 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-03-22 12:03:47,326 : DEBUG : ModeController : Loaded mode item_tracker
+2019-03-22 12:03:47,326 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-03-22 12:03:47,331 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-03-22 12:03:47,331 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-03-22 12:03:47,335 : DEBUG : ModeController : Loaded mode ball_save
+2019-03-22 12:03:47,335 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-03-22 12:03:47,340 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-03-22 12:03:47,340 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-03-22 12:03:47,345 : DEBUG : ModeController : Loaded mode music_player
+2019-03-22 12:03:47,345 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-03-22 12:03:47,351 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-03-22 12:03:47,351 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-03-22 12:03:47,356 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-03-22 12:03:47,356 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\10a6a590bbb9b0438569045f4aac79d9.mpf_cache
+2019-03-22 12:03:47,360 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe... to False.',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe... to False.',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 284, in _load_mode
+    return mode_class(self.machine, config, mode_string, mode_path)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 93, in __init__
+    "False also set game_mode to False.", 1)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in Mode.escape: All game modes need to stop at ball end. If you want to set stop_on_ball_end to False also set game_mode to False. Error Code: CFE-Mode.escape-1
+2019-03-22 12:03:47,364 : INFO : Machine : Starting the main run loop.
+2019-03-22 12:03:47,365 : INFO : Machine : Shutting down...
+2019-03-22 12:03:47,365 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-03-22 12:03:47,474 : ERROR : root : Config File Error in Mode.escape: All game modes need to stop at ball end. If you want to set stop_on_ball_end to False also set game_mode to False. Error Code: CFE-Mode.escape-1
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 284, in _load_mode
+    return mode_class(self.machine, config, mode_string, mode_path)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 93, in __init__
+    "False also set game_mode to False.", 1)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in Mode.escape: All game modes need to stop at ball end. If you want to set stop_on_ball_end to False also set game_mode to False. Error Code: CFE-Mode.escape-1

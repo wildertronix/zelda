@@ -3,5 +3,5 @@ mode:
   start_events: begin_escape
   stop_events: mode_2ballqualifier_started, game_ending
   priority: 200
-  stop_on_ball_end: false
+  # stop_on_ball_end: false
 

@@ -7,12 +7,15 @@ fast:
   ports: \\.\COM11 \\.\COM12
 
 machine:
-  balls_installed: 4
+  min_balls: 4
 
 playfields:
     playfield:
          tags: default
          default_source_device: bd_plunger_lane
+
+virtual_platform_start_active_switches: trough1 trough2
+
 
 # slides:
 #   window_slide_1:
@@ -105,13 +108,12 @@ switches:
     tags: flip, right_flipper
   s_leftslingshot:
     number: 2
-    tags: slingshot, playfield_active
+    tags: slingshot
   s_rightslingshot:
     number: 3
-    tags: slingshot, playfield_active
+    tags: slingshot
   trough1:
     number: 4
-    tags: drain
   trough2:
     number: 5
   s_modestart:
@@ -159,13 +161,13 @@ switches:
 #21-31 unused
   s_droptarget1:
     number: 32
-    tags: playfield_active, drop
+    tags: drop
   s_droptarget2:
     number: 33
-    tags: playfield_active, drop, pathfound
+    tags: drop, pathfound
   s_droptarget3:
     number: 34
-    tags: playfield_active, drop
+    tags: drop
   s_cranehole:
     number: 35
     tags: pathfound

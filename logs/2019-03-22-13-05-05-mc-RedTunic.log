@@ -1,0 +1,25 @@
+2019-03-22 13:05:05,476 : kivy : Factory: 194 symbols loaded
+2019-03-22 13:05:05,492 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2019-03-22 13:05:05,648 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2019-03-22 13:05:05,648 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2019-03-22 13:05:05,679 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-03-22 13:05:05,679 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2019-03-22 13:05:05,679 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2019-03-22 13:05:05,741 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-03-22 13:05:05,741 : kivy : Video: Provider: gstplayer
+2019-03-22 13:05:05,819 : kivy : Loading MPF-MC controller
+2019-03-22 13:05:05,819 : mpfmc : Mission Pinball Framework Media Controller v0.52.1
+2019-03-22 13:05:05,819 : mpfmc : Mission Pinball Framework Game Engine v0.52.1
+2019-03-22 13:05:05,819 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-03-22 13:05:05,819 : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config
+2019-03-22 13:05:05,819 : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-03-22 13:05:05,819 : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-03-22 13:05:05,928 : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-03-22 13:05:05,944 : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.
+2019-03-22 13:05:05,944 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-22 13:05:06,006 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config
+2019-03-22 13:05:06,006 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-03-22 13:05:06,272 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-03-22 13:05:06,272 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-03-22 13:05:06,287 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-03-22 13:05:06,303 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml

@@ -1,0 +1,106 @@
+2019-03-22 11:33:42,540 : INFO : Machine : Mission Pinball Framework Core Engine v0.50.12
+2019-03-22 11:33:42,541 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'logfile': 'logs\\2019-03-22-11-33-42-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None}
+2019-03-22 11:33:42,541 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-22 11:33:42,541 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-22 11:33:42,541 : INFO : Machine : Platform: win32
+2019-03-22 11:33:42,541 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-22 11:33:42,541 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-22 11:33:43,022 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-22 11:33:43,024 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-22 11:33:43,026 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-22 11:33:43,027 : INFO : Machine : Initialise MPF.
+2019-03-22 11:33:43,102 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2019-03-22 11:33:43,292 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.50.12', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.50.12, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-03-22 11:33:43,382 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-03-22 11:33:43,442 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-03-22 11:33:43,452 : DEBUG : ModeController : Loaded mode heartmeter
+2019-03-22 11:33:43,452 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-03-22 11:33:43,462 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-03-22 11:33:43,462 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-03-22 11:33:43,472 : DEBUG : ModeController : Loaded mode base
+2019-03-22 11:33:43,472 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-03-22 11:33:43,482 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-03-22 11:33:43,482 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-03-22 11:33:43,492 : DEBUG : ModeController : Loaded mode ball_hold_tracker
+2019-03-22 11:33:43,492 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-03-22 11:33:43,502 : DEBUG : ModeController : Loaded mode game
+2019-03-22 11:33:43,502 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-03-22 11:33:43,512 : DEBUG : ModeController : Loaded mode ball_save
+2019-03-22 11:33:43,512 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-03-22 11:33:43,522 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-03-22 11:33:43,522 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-03-22 11:33:43,532 : DEBUG : ModeController : Loaded mode music_player
+2019-03-22 11:33:43,532 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\e44f2e5e1ef00181aa9bc27df94a0c3d.mpf_cache
+2019-03-22 11:33:43,542 : DEBUG : ModeController : Loaded mode escape_starter
+2019-03-22 11:33:43,542 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-03-22 11:33:43,552 : DEBUG : ModeController : Loaded mode darkworld
+2019-03-22 11:33:43,552 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-03-22 11:33:43,562 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-03-22 11:33:43,562 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-03-22 11:33:43,572 : DEBUG : ModeController : Loaded mode video_player
+2019-03-22 11:33:43,572 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-03-22 11:33:43,582 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-03-22 11:33:43,582 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-03-22 11:33:43,592 : DEBUG : ModeController : Loaded mode light_world
+2019-03-22 11:33:43,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-03-22 11:33:43,602 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-03-22 11:33:43,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\10a6a590bbb9b0438569045f4aac79d9.mpf_cache
+2019-03-22 11:33:43,612 : DEBUG : ModeController : Loaded mode escape
+2019-03-22 11:33:43,612 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-03-22 11:33:43,622 : DEBUG : ModeController : Loaded mode 5waycombotracker
+2019-03-22 11:33:43,622 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-03-22 11:33:43,632 : DEBUG : ModeController : Loaded mode slide_tracker
+2019-03-22 11:33:43,633 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-03-22 11:33:43,637 : DEBUG : ModeController : Loaded mode heart_tracker
+2019-03-22 11:33:43,639 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-03-22 11:33:43,643 : DEBUG : ModeController : Loaded mode 2ballqualifier
+2019-03-22 11:33:43,643 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-03-22 11:33:43,648 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-03-22 11:33:43,648 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-03-22 11:33:43,659 : DEBUG : ModeController : Loaded mode extraball
+2019-03-22 11:33:43,659 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-03-22 11:33:43,669 : DEBUG : ModeController : Loaded mode lost_woods
+2019-03-22 11:33:43,669 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-03-22 11:33:43,679 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-03-22 11:33:43,679 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-03-22 11:33:43,689 : DEBUG : ModeController : Loaded mode item_tracker
+2019-03-22 11:33:43,689 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-03-22 11:33:43,699 : DEBUG : ModeController : Loaded mode unusual_show_tracker
+2019-03-22 11:33:43,699 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-03-22 11:33:43,709 : DEBUG : ModeController : Loaded mode attract
+2019-03-22 11:33:43,709 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-03-22 11:33:43,719 : DEBUG : ModeController : Loaded mode high_score
+2019-03-22 11:33:43,779 : DEBUG : ball_device.bd_drain : Configuring device with settings: '{'ball_switches': [<switch.trough1>], 'eject_coil': <coil.draineject>, 'eject_targets': [<ball_device.bd_trough>], 'eject_timeouts': [1000], 'confirm_eject_type': 'target', 'tags': ['drain'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': [], 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-03-22 11:33:43,779 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'entrance_switch': <switch.trough2>, 'entrance_switch_full_timeout': 3000, 'ball_capacity': 3, 'eject_coil': <coil.troughrelease>, 'eject_targets': [<ball_device.bd_plunger_lane>], 'confirm_eject_type': 'target', 'tags': ['trough', 'home'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'eject_timeouts': [], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_switches': [], 'request_ball_events': [], 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-03-22 11:33:43,779 : DEBUG : ball_device.bd_plunger_lane : Configuring device with settings: '{'ball_switches': [<switch.plungerlane>], 'eject_coil': <coil.autoplunger>, 'mechanical_eject': True, 'eject_timeouts': [1000], 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'confirm_eject_type': 'target', 'captures_from': <playfield.playfield>, 'eject_targets': [<playfield.playfield>], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': [], 'eject_events': {}, 'eject_all_events': {}, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-03-22 11:33:43,815 : DEBUG : ball_save.default : Configuring device with settings: '{'active_time': 10000, 'hurry_up_time': 3000, 'grace_period': 3000, 'enable_events': {'mode_base_started': 0}, 'disable_events': {'ball_save_default_saving_ball': 0}, 'timer_start_events': {'start_ballsave': 0}, 'auto_launch': True, 'balls_to_save': 1, 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'source_playfield': <playfield.playfield>, 'eject_delay': 0, 'only_last_ball': False, 'early_ball_save_events': {}, 'delayed_eject_events': {}}'
+2019-03-22 11:33:43,908 : INFO : EventManager : Event: ======'drop_target_bank_maindrop_up'====== Args={}
+2019-03-22 11:33:43,908 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-03-22 11:33:44,033 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/high_scores.yaml
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'HYRULE CHAMPION', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'WILDER', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'WILDER', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'WILDE', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'WIL', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'ZZZZZZZZ', 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2019-03-22 11:33:44,033 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-03-22 11:33:44,049 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
