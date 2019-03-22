@@ -45,15 +45,14 @@ window:
   title: Legend of Zelda
   height: 720
   width: 1280
+  resizable: true
+  fullscreen: false
+  borderless: false
+  exit_on_escape: true
+  source_display: window
 
 
 displays:
-  window:
-    height: 720
-    width: 1280
-  dmd:
-    height: 720
-    width: 1280
   lcd:
     height: 720
     width: 1280
