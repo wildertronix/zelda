@@ -1,8 +1,8 @@
 #config_version=5
 
 mode: 
-  start_events: slide_masterswordvideo_removed
-  stop_events: agahnim_complete, game_ending
+  start_events: multiball_agahnim_multiball_started
+  stop_events: agahnim_complete game_ending
   priority: 1000
   restart_on_next_ball: true
 

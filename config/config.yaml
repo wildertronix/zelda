@@ -49,7 +49,6 @@ window:
   fullscreen: false
   borderless: false
   exit_on_escape: true
-  source_display: window
 
 
 displays:

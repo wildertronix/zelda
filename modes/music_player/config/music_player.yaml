@@ -112,6 +112,8 @@ sound_player:
     princess_zeldas_rescue:
       action: stop
       fade_out: 1s
+
+  mode_escapehurryup_stopped:
     light_world_theme:
       loops: -1
       volume: 0.5
@@ -146,8 +148,11 @@ sound_player:
       action: stop
       fade_out: 1s
 
+  slide_darkworld2_slide_active:
     darkworld2:
       action: play
       loops: -1
       volume: 0.7
+
+      
 

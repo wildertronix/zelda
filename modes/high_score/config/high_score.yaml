@@ -10,6 +10,9 @@ sound_player:
     highscore:
       action: play
       loops: 1
+  mode_high_score_stopping:
+    highscore:
+      action: stop
   sw_left_flipper: menu_cursor
   sw_right_flipper: menu_cursor
   sw_start: menu_select

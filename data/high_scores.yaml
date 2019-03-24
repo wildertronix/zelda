@@ -1,16 +1,16 @@
 score:
 - !!python/tuple
+  - W
+  - 81
+- !!python/tuple
+  - W
+  - 59
+- !!python/tuple
+  - WWWWWWWW
+  - 57
+- !!python/tuple
   - WILDER
   - 25
 - !!python/tuple
   - WILDER
   - 17
-- !!python/tuple
-  - WILDE
-  - 16
-- !!python/tuple
-  - WIL
-  - 12
-- !!python/tuple
-  - ZZZZZZZZ
-  - 11
