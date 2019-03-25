@@ -192,13 +192,19 @@ show_player:
       speed: 15
 
 variable_player:
-  sw_ramp_hit_active:
+  lw_z_ramp_lit_hit:
     score: 1
-  sw_jets_active:
+  lw_d_ramp_lit_hit:
     score: 1
-  drop1_hit:
+  toppop_lit_hit:
     score: 1
-  drop2_hit:
+  leftpop_lit_hit:
     score: 1
-  drop3_hit:
+  rightpop_lit_hit:
+    score: 1
+  drop1_lit_hit:
+    score: 1
+  drop2_lit_hit:
+    score: 1
+  drop3_lit_hit:
     score: 1
