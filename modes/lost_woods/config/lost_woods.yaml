@@ -101,3 +101,7 @@ track_player:
       action: set_volume
       volume: 1.0
       fade: 1s
+
+variable_player:
+  sw_pathfound_active:
+    score: 1

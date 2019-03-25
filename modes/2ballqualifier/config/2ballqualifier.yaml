@@ -133,6 +133,12 @@ show_player:
 
 sound_player:
   sw_spinner: waterwalk
+  s_optod_active: cannonball
+  s_optoa_active: cannonball
+  s_modestart_active: doubledoor
+
+
+
 
 
 

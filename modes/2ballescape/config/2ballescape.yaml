@@ -334,7 +334,8 @@ sound_player:
   first_shot_expired: error
   second_shot_expired: error
   third_shot_expired: error
-
+  s_abyss_active: rat
+  
 sound_pools:
   linkhurt:
     track: sfx

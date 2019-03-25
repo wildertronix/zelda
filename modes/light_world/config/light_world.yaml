@@ -153,6 +153,9 @@ sound_pools:
        - linkhurt2
        - linkhurt3
 
+sound_player:
+  sw_spinner: dash
+
 show_player:
   boss1_progress1:
     greenspin:

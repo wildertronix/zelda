@@ -30,6 +30,8 @@ sound_player:
   sw_heart: heart
   sw_flip: flippool
   sw_slingshot: slingpool
+  s_left_outlane_active: linkfall
+  s_right_outlane_active: linkfall
 
 sound_pools:
   flippool:
@@ -45,8 +47,8 @@ sound_pools:
     type: random
     track: sfx
     sounds:
-      - slingshot|9
-      - enemykill|1
+      - slingshot|7
+      - enemykill|3
 
 
 
