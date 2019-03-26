@@ -2,7 +2,7 @@
 
 
 mode: 
-  start_events: ball_started{ball==1}
+  start_events: ball_starting{ball==1 and not is_extra_ball} 
   stop_events: mode_2ballqualifier_started, game_ending, game_ended
   priority: 100
   # stop_on_ball_end: false
