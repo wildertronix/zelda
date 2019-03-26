@@ -8,11 +8,9 @@ mode:
   # stop_on_ball_end: false
 
 
-
 event_player:
   modestartmade_hit: begin_escape
-
-
+  # might have to remove this event player if its starting the mode twice
 
 shots:
   modestartmade:

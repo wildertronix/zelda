@@ -1,6 +1,6 @@
 #config_version=5
 mode:
-  start_events: mode_escape_started
+  start_events: begin_escape
   stop_events: mode_2ballescape_started, game_ending, game_ended
   priority: 300
   restart_on_next_ball: true

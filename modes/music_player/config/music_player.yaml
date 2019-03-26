@@ -85,7 +85,7 @@ sound_player:
       action: stop
       fade_out: 2s
 
-  mode_escape_started:
+  mode_2ballqualifier_started:
     hyrulecastle:
       loops: -1
       volume: 0.5
@@ -154,5 +154,5 @@ sound_player:
       loops: -1
       volume: 0.7
 
-      
+
 

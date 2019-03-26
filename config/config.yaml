@@ -17,7 +17,7 @@ modes:
 - ball_save
 - extraball
 - escape_starter
-- escape
+# - escape
 - 2ballqualifier
 - 2ballescape
 - escapehurryup

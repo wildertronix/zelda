@@ -7,7 +7,12 @@ mode:
 event_player:
   eopto_hit: left_orbit_made
   lopto_hit: right_orbit_made
+  modestartmade_hit{ball_started==1 and current_player.initial_mode_start < 1}: begin_escape
 
+counters:
+  initial_mode_start:
+    count_events: modestartmade_hit
+    persist_state: true
 
 slide_player:
   mode_base_started: slide_2
@@ -16,10 +21,6 @@ slide_player:
       expire: 2s
       priority: 1
   ball_live_added: ball_added
-
-
-
-
 
 
 sound_player:
