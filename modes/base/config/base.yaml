@@ -7,7 +7,8 @@ mode:
 event_player:
   eopto_hit: left_orbit_made
   lopto_hit: right_orbit_made
-  modestartmade_hit{ball_started==1 and current_player.initial_mode_start < 1}: begin_escape
+  modestartmade_hit{ball_started==1 and current_player.initial_mode_start_count < 1}: begin_escape
+
 
 counters:
   initial_mode_start:
@@ -84,7 +85,7 @@ show_player:
       speed: 15
       block_queue: yes
 
-  mode_escape_started:
+  mode_2ballqualifier_started:
     escape_mode_flash:
       action: stop
 

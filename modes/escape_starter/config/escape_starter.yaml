@@ -3,14 +3,14 @@
 
 mode: 
   start_events: ball_started{ball==1}
-  stop_events: mode_escape_started, game_ending, game_ended
+  stop_events: mode_2ballqualifier_started, game_ending, game_ended
   priority: 100
   # stop_on_ball_end: false
 
 
 event_player:
   modestartmade_hit: begin_escape
-  # might have to remove this event player if its starting the mode twice
+
 
 shots:
   modestartmade:
