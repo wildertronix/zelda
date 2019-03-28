@@ -2,19 +2,19 @@
 
 
 mode: 
-  start_events: ball_starting{ball==1 and not is_extra_ball} 
+  start_events: ball_started{ball==1}
   stop_events: mode_2ballqualifier_started, game_ending, game_ended
   priority: 100
   # stop_on_ball_end: false
+  #restart_on_next_ball: true
+
+# event_player:
+#   modestartmade_hit: begin_escape
 
 
-event_player:
-  modestartmade_hit: begin_escape
-
-
-shots:
-  modestartmade:
-    switch: s_modestart
+# shots:
+#   modestartmade:
+#     switch: s_modestart
 
 
 

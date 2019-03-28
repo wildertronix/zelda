@@ -7,7 +7,11 @@ mode:
 event_player:
   eopto_hit: left_orbit_made
   lopto_hit: right_orbit_made
-  modestartmade_hit{ball_started==1 and current_player.initial_mode_start_count < 1}: begin_escape
+  modestartmade_hit{ball==1 and device.counters.initial_mode_start.value < 1}: begin_escape
+
+shots:
+  modestartmade:
+    switch: s_modestart
 
 
 counters:

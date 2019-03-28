@@ -7,11 +7,7 @@ mode:
 
 
 slide_player:
-  # game_will_end:
-  #   gameovervideo:
-  #     target: lcd
-  #     expire: 2s
-  #     force: true
+
 
   begin_escape:
     the_journey_begins:

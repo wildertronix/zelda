@@ -1,0 +1,150 @@
+2019-03-26 22:08:39,789 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.1
+2019-03-26 22:08:39,790 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-03-26-22-08-39-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-03-26 22:08:39,790 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-26 22:08:39,790 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-26 22:08:39,790 : INFO : Machine : Platform: win32
+2019-03-26 22:08:39,790 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-26 22:08:39,790 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-26 22:08:39,791 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-26 22:08:39,792 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-26 22:08:39,795 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-26 22:08:39,796 : INFO : Machine : Initialise MPF.
+2019-03-26 22:08:39,850 : DEBUG : FAST : Configuring FAST hardware.
+2019-03-26 22:08:40,073 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-03-26 22:08:40,096 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.02
+2019-03-26 22:08:40,097 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.02', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,097 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,097 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-03-26 22:08:40,160 : INFO : FAST : Connecting to \\.\COM12 at 921600bps
+2019-03-26 22:08:40,192 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-03-26 22:08:40,192 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,193 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,193 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,255 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-03-26 22:08:40,258 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 81, 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,258 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.1', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,258 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.1, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,258 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,258 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,259 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,259 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,259 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,259 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-03-26 22:08:40,259 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-03-26 22:08:40,329 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-03-26 22:08:40,333 : DEBUG : ModeController : Loaded mode base
+2019-03-26 22:08:40,334 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-03-26 22:08:40,337 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-03-26 22:08:40,338 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-03-26 22:08:40,347 : DEBUG : ModeController : Loaded mode high_score
+2019-03-26 22:08:40,348 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\e44f2e5e1ef00181aa9bc27df94a0c3d.mpf_cache
+2019-03-26 22:08:40,351 : DEBUG : ModeController : Loaded mode escape_starter
+2019-03-26 22:08:40,352 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-03-26 22:08:40,355 : DEBUG : ModeController : Loaded mode item_tracker
+2019-03-26 22:08:40,356 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-03-26 22:08:40,361 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-03-26 22:08:40,362 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-03-26 22:08:40,366 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-03-26 22:08:40,366 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-03-26 22:08:40,370 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-03-26 22:08:40,371 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-03-26 22:08:40,376 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-03-26 22:08:40,376 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-03-26 22:08:40,380 : DEBUG : ModeController : Loaded mode 5waycombotracker
+2019-03-26 22:08:40,380 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-03-26 22:08:40,384 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-03-26 22:08:40,385 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\music_player\config\music_player.yaml
+2019-03-26 22:08:40,385 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\music_player\config\music_player.yaml.
+2019-03-26 22:08:40,385 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\music_player\config\music_player.yaml
+2019-03-26 22:08:40,442 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 3\'',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 3\'',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 104, in get_single_data
+    return self.construct_document(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 114, in construct_document
+    for dummy in generator:
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 611, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "ball_starting{ball==1 and not is_extra_ball}" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\music_player\\config\\music_player.yaml", line 16, column 3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 212, in load
+    raise ValueError(msg)
+ValueError: Error found in file C:\Users\Wilder\zelda\modes\music_player\config\music_player.yaml: 'Key "ball_starting{ball==1 and not is_extra_ball}" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\music_player\\config\\music_player.yaml", line 16, column 3'
+2019-03-26 22:08:40,593 : INFO : Machine : Starting the main run loop.
+2019-03-26 22:08:40,593 : INFO : Machine : Shutting down...
+2019-03-26 22:08:40,593 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-03-26 22:08:40,595 : ERROR : FAST : Stop called on serial connection \\.\COM12
+2019-03-26 22:08:40,597 : ERROR : FAST : Stop called on serial connection \\.\COM11
+2019-03-26 22:08:40,932 : ERROR : root : Error found in file C:\Users\Wilder\zelda\modes\music_player\config\music_player.yaml: 'Key "ball_starting{ball==1 and not is_extra_ball}" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\music_player\\config\\music_player.yaml", line 16, column 3'
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 104, in get_single_data
+    return self.construct_document(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 114, in construct_document
+    for dummy in generator:
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 611, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "ball_starting{ball==1 and not is_extra_ball}" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\music_player\\config\\music_player.yaml", line 16, column 3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 212, in load
+    raise ValueError(msg)
+ValueError: Error found in file C:\Users\Wilder\zelda\modes\music_player\config\music_player.yaml: 'Key "ball_starting{ball==1 and not is_extra_ball}" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\music_player\\config\\music_player.yaml", line 16, column 3'
