@@ -18,4 +18,5 @@ ball_saves:
     enable_events: mode_escapehurryup_started
     auto_launch: no
     balls_to_save: 1
+    only_last_ball: true
 

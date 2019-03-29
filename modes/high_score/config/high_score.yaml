@@ -13,6 +13,7 @@ sound_player:
   mode_high_score_stopping:
     highscore:
       action: stop
+      fade_out: 2s
   sw_left_flipper: menu_cursor
   sw_right_flipper: menu_cursor
   sw_start: menu_select

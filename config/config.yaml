@@ -16,7 +16,7 @@ modes:
 - base
 - ball_save
 - extraball
-- escape_starter
+# - escape_starter
 # - escape
 - 2ballqualifier
 - 2ballescape
@@ -178,6 +178,6 @@ multiballs:
     ball_count_type: total
     shoot_again: 90s
     enable_events: cue_3ball_multi
-    start_events: slide_masterswordvideo_removed
+    start_events: slide_agahnimstartvideo_created
     stop_events: agahnim_complete
     disable_events: agahnim_complete

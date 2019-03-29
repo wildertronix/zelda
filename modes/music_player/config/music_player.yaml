@@ -5,20 +5,33 @@ mode:
   stop_events: game_ending
   priority: 100
 
+event_player: 
+  start_initial_slide_and_music: i_heard_the_start_event
+
 sound_player:
 
-  mode_escape_starter_started:
+  start_initial_slide_and_music:
     timeoffalling:
       action: play
       loops: -1
     rainout:
       loops: 2
       volume: 0.5
-  mode_escape_starter_stopped:
+
+  mode_2ballqualifier_started:
+    hyrulecastle:
+      loops: -1
+      volume: 0.5
+    rainin:
+      loops: 1
+      volume: 0.5
+      fade_out: 2s
     timeoffalling:
       action: stop
+      fade_out: 1s
     rainout:
       action: stop
+      fade_out: 3s
 
   ball_started{ball==3}:
     low_health:
@@ -85,21 +98,6 @@ sound_player:
       action: stop
       fade_out: 2s
 
-  mode_2ballqualifier_started:
-    hyrulecastle:
-      loops: -1
-      volume: 0.5
-    rainin:
-      loops: 1
-      volume: 0.5
-      fade_out: 2s
-    timeoffalling:
-      action: stop
-      fade_out: 1s
-    rainout:
-      action: stop
-      fade_out: 3s
-
   mode_escapehurryup_started:
     hyrulecastle:
       action: stop
@@ -118,7 +116,7 @@ sound_player:
       loops: -1
       volume: 0.5
 
-  slide_masterswordvideo_removed:
+  slide_agahnimstartvideo_created:
     battle:
       action: play
       loops: -1

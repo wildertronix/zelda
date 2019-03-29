@@ -51,3 +51,5 @@ keyboard:
     switch: s_optoa
   k:
     switch: s_lostwoods
+  b:
+    switch: s_cranehole
