@@ -8,23 +8,23 @@ mode:
 
 event_player:
   master_sword_complete: master_sword_found
-  sw_pathfound_active{device.counters.path_counter.value==1}: 8togo
-  sw_pathfound_active{device.counters.path_counter.value==2}: 7togo, lostwoods_path_1_found
-  sw_pathfound_active{device.counters.path_counter.value==3}: 6togo
-  sw_pathfound_active{device.counters.path_counter.value==4}: 5togo
-  sw_pathfound_active{device.counters.path_counter.value==5}: 4togo, lostwoods_path_2_found
-  sw_pathfound_active{device.counters.path_counter.value==6}: 3togo
-  sw_pathfound_active{device.counters.path_counter.value==7}: 2togo
-  sw_pathfound_active{device.counters.path_counter.value==8}: 1togo, lostwoods_path_3_found
-  heart_target_hit: disable_heart_target
-  middle_drop_target_hit: disable_middle_drop_target
-  modestart_outhole_hit: disable_modestart_outhole
-  z_ramp_lostwoods_hit: disable_z_ramp_lostwoods
-  l_ramp_lostwoods_hit: disable_l_ramp_lostwoods
-  d_ramp_lostwoods_hit: disable_d_ramp_lostwoods
-  abyss_shot_hit: disable_abyss_shot
-  lostwoods_left_inlane_hit: disable_lostwoods_left_inlane
-  crane_shot_hit: disable_crane_shot
+  lw_pathfound{device.counters.path_counter.value==1}: 8togo
+  lw_pathfound{device.counters.path_counter.value==2}: 7togo, lostwoods_path_1_found
+  lw_pathfound{device.counters.path_counter.value==3}: 6togo
+  lw_pathfound{device.counters.path_counter.value==4}: 5togo
+  lw_pathfound{device.counters.path_counter.value==5}: 4togo, lostwoods_path_2_found
+  lw_pathfound{device.counters.path_counter.value==6}: 3togo
+  lw_pathfound{device.counters.path_counter.value==7}: 2togo
+  lw_pathfound{device.counters.path_counter.value==8}: 1togo, lostwoods_path_3_found
+  lw_heart_target_ready_hit: lw_pathfound
+  lw_middle_drop_target_ready_hit: lw_pathfound
+  lw_modestart_outhole_ready_hit: lw_pathfound
+  z_ramp_lostwoods_ready_hit: lw_pathfound
+  l_ramp_lostwoods_ready_hit: lw_pathfound
+  d_ramp_lostwoods_ready_hit: lw_pathfound
+  lw_abyss_shot_ready_hit: lw_pathfound
+  lostwoods_left_inlane_ready_hit: lw_pathfound
+  lw_crane_shot_ready_hit: lw_pathfound
 
 accruals:
   master_sword_accrual:
@@ -42,39 +42,131 @@ accruals:
 
 counters:
   path_counter:
-    count_events: sw_pathfound_active
+    count_events: lw_pathfound
     count_complete_value: 9
     persist_state: true
 
 
 shots:
-  heart_target:
+  lw_heart_target:
     switch: s_heart
-    disable_events: disable_heart_target
-  middle_drop_target:
+    profile: lw_heart_target_profile
+  lw_middle_drop_target:
     switch: s_droptarget2
-    disable_events: disable_middle_drop_target
-  modestart_outhole:
+    profile: lw_middle_drop_target_profile
+  lw_modestart_outhole:
     switch: s_modestart
-    disable_events: disable_modestart_outhole
+    profile: lw_modestart_outhole_profile
   z_ramp_lostwoods:
     switch: s_optoz1
-    disable_events: disable_z_ramp_lostwoods
+    profile: z_ramp_lostwoods_profile
   l_ramp_lostwoods:
     switch: s_optol
-    disable_events: disable_l_ramp_lostwoods
+    profile: l_ramp_lostwoods_profile
   d_ramp_lostwoods:
     switch: s_optod
-    disable_events: disable_d_ramp_lostwoods
-  abyss_shot:
+    profile: d_ramp_lostwoods_profile
+  lw_abyss_shot:
     switch: s_abyss
-    disable_events: disable_abyss_shot
+    profile: lw_abyss_shot_profile
   lostwoods_left_inlane:
     switch: s_left_inlane
-    disable_events: disable_lostwoods_left_inlane
-  crane_shot:
+    profile: lostwoods_left_inlane_profile
+  lw_crane_shot:
     switch: s_cranehole
-    disable_events: disable_crane_shot
+    profile: lw_crane_shot_profile
+
+
+shot_profiles:
+  lw_heart_target_profile:
+    states:
+      - name: ready
+        show: lw_heart_target_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: lw_heart_target_lit
+
+  lw_middle_drop_target_profile:
+    states:
+      - name: ready
+        show: lw_middle_drop_target_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: lw_middle_drop_target_lit
+
+  lw_modestart_outhole_profile:
+    states:
+      - name: ready
+        show: lw_modestart_outhole_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: lw_modestart_outhole_lit
+
+  z_ramp_lostwoods_profile:
+    states:
+      - name: ready
+        show: z_ramp_lostwoods_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: z_ramp_lostwoods_lit
+
+  l_ramp_lostwoods_profile:
+    states:
+      - name: ready
+        show: l_ramp_lostwoods_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: l_ramp_lostwoods_lit
+
+  d_ramp_lostwoods_profile:
+    states:
+      - name: ready
+        show: d_ramp_lostwoods_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: d_ramp_lostwoods_lit
+
+  lw_abyss_shot_profile:
+    states:
+      - name: ready
+        show: lw_abyss_shot_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: lw_abyss_shot_lit
+
+  lostwoods_left_inlane_profile:
+    states:
+      - name: ready
+        show: lostwoods_left_inlane_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: lostwoods_left_inlane_lit
+
+  lw_crane_shot_profile:
+    states:
+      - name: ready
+        show: lw_crane_shot_ready
+        sync_ms: 500
+        speed: 11
+        loops: -1
+      - name: lit
+        show: lw_crane_shot_lit
 
 
 track_player:

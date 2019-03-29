@@ -195,19 +195,19 @@ show_player:
       speed: 15
 
 variable_player:
-  lw_z_ramp_lit_hit:
+  lw_z_ramp_hit:
     score: 1
-  lw_d_ramp_lit_hit:
+  lw_d_ramp_hit:
     score: 1
-  toppop_lit_hit:
+  toppop_hit:
     score: 1
-  leftpop_lit_hit:
+  leftpop_hit:
     score: 1
-  rightpop_lit_hit:
+  rightpop_hit:
     score: 1
-  drop1_lit_hit:
+  drop1_hit:
     score: 1
-  drop2_lit_hit:
+  drop2_hit:
     score: 1
-  drop3_lit_hit:
+  drop3_hit:
     score: 1
