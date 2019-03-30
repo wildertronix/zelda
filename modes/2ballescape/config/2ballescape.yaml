@@ -346,23 +346,26 @@ sound_pools:
        - linkhurt3
 
 variable_player:
+
+  increment_multiplier:
+    multiplier: 1
   2ballescape_first_shot_a_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_first_shot_z_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_second_shot_e_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_second_shot_l_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_second_shot_d_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_third_shot_z_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_third_shot_e_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_third_shot_l_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_third_shot_d_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   2ballescape_third_shot_a_hit:
-    score: 1
+    score: 1 * current_player.multiplier

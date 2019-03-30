@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1562
+  game_started: 1568
 player:
   score:
     average: 2588.5260416666633
@@ -17,8 +17,8 @@ player:
     - 28100
     total: 192
 shots:
-  2ballescape_first_shot_a: 199
-  2ballescape_first_shot_z: 236
+  2ballescape_first_shot_a: 200
+  2ballescape_first_shot_z: 237
   2ballescape_second_shot_d: 1
   2ballescape_shot_one: 16
   2ballescape_shot_three: 37
@@ -96,31 +96,32 @@ shots:
   lw_heart_target: 3
   lw_modestart_outhole: 2
   lw_z_ramp: 194
-  m_bomb: 611
+  m_bomb: 612
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 909
+  modestartmade: 914
   o_bomb: 352
   pull_master_sword: 112
   rightpop: 91
+  spinnermultiplier: 312
   toppop: 1924
   z_ramp_lostwoods: 58
-  zelda_2ball_shot_five: 346
-  zelda_2ball_shot_four: 382
-  zelda_2ball_shot_one: 1033
-  zelda_2ball_shot_three: 150
-  zelda_2ball_shot_two: 130
+  zelda_2ball_shot_five: 347
+  zelda_2ball_shot_four: 387
+  zelda_2ball_shot_one: 1037
+  zelda_2ball_shot_three: 152
+  zelda_2ball_shot_two: 148
 switches:
-  leftflipperbutton: 6971
-  plungerlane: 2687
+  leftflipperbutton: 6972
+  plungerlane: 2694
   plungerlaunch: 0
-  rightflipperbutton: 7064
-  s_abyss: 608
+  rightflipperbutton: 7065
+  s_abyss: 609
   s_cavestar: 0
   s_coin1: 450
   s_coin2: 0
-  s_cranehole: 1250
+  s_cranehole: 1253
   s_droptarget1: 1515
   s_droptarget2: 987
   s_droptarget3: 978
@@ -130,29 +131,29 @@ switches:
   s_leftpop: 591
   s_leftslingshot: 435
   s_lightmb: 1
-  s_lostwoods: 2903
+  s_lostwoods: 2905
   s_lostwoodsopto: 0
-  s_modestart: 1525
-  s_optoa: 1545
-  s_optod: 2307
-  s_optoe: 2532
-  s_optol: 2490
+  s_modestart: 1530
+  s_optoa: 1547
+  s_optod: 2312
+  s_optoe: 2552
+  s_optol: 2510
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 2225
+  s_optoz1: 2231
   s_popexit: 367
   s_rampopto: 0
-  s_right_inlane: 1425
+  s_right_inlane: 1426
   s_right_outlane: 169
   s_rightpop: 507
   s_rightslingshot: 845
-  s_spinner: 6990
-  s_toppop: 5017
+  s_spinner: 7302
+  s_toppop: 5019
   start: 64
   trough1: 2323
-  trough2: 2608
+  trough2: 2614
   trough3: 0
   trough4: 0
   trough5: 1

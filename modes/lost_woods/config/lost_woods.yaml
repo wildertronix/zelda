@@ -195,5 +195,21 @@ track_player:
       fade: 1s
 
 variable_player:
-  sw_pathfound_active:
+  lw_heart_target_hit:
+    score: 1
+  lw_middle_drop_target_hit:
+    score: 1
+  lw_modestart_outhole_hit:
+    score: 1
+  z_ramp_lostwoods_hit:
+    score: 1
+  l_ramp_lostwoods_hit:
+    score: 1
+  d_ramp_lostwoods_hit:
+    score: 1
+  lw_abyss_shot_hit:
+    score: 1
+  lostwoods_left_inlane_hit:
+    score: 1
+  lw_crane_shot_hit:
     score: 1

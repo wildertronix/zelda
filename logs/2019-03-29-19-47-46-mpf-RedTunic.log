@@ -1,0 +1,94 @@
+2019-03-29 19:47:46,582 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.1
+2019-03-29 19:47:46,583 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-03-29-19-47-46-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-03-29 19:47:46,584 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-03-29 19:47:46,584 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-03-29 19:47:46,584 : INFO : Machine : Platform: win32
+2019-03-29 19:47:46,584 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-03-29 19:47:46,584 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-03-29 19:47:46,584 : INFO : Machine : Machine config file #1: config.yaml
+2019-03-29 19:47:46,586 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-29 19:47:46,587 : INFO : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2019-03-29 19:47:46,587 : DEBUG : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-03-29 19:47:46,752 : INFO : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-03-29 19:47:46,770 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.yaml.
+2019-03-29 19:47:46,770 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-29 19:47:46,824 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config.yaml
+2019-03-29 19:47:46,825 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-03-29 19:47:47,067 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-03-29 19:47:47,070 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-03-29 19:47:47,097 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-03-29 19:47:47,100 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-03-29 19:47:47,188 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-03-29 19:47:47,197 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-03-29 19:47:47,199 : DEBUG : asyncio : Using selector: SelectSelector
+2019-03-29 19:47:47,200 : INFO : Machine : Initialise MPF.
+2019-03-29 19:47:47,243 : DEBUG : FAST : Configuring FAST hardware.
+2019-03-29 19:47:47,421 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-03-29 19:47:47,454 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.02
+2019-03-29 19:47:47,454 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.02', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,454 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,455 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-03-29 19:47:47,518 : INFO : FAST : Connecting to \\.\COM12 at 921600bps
+2019-03-29 19:47:47,566 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-03-29 19:47:47,566 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,566 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,567 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,629 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-03-29 19:47:47,632 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,633 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.1', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,633 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.1, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,633 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,633 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,634 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,634 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,634 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,634 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-03-29 19:47:47,634 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-03-29 19:47:47,694 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-03-29 19:47:47,697 : DEBUG : ModeController : Loaded mode extraball
+2019-03-29 19:47:47,697 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-03-29 19:47:47,700 : DEBUG : ModeController : Loaded mode video_player
+2019-03-29 19:47:47,701 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-03-29 19:47:47,704 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-03-29 19:47:47,705 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-03-29 19:47:47,710 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-03-29 19:47:47,710 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-03-29 19:47:47,716 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-03-29 19:47:47,716 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...s' folder?",)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...s' folder?",)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 264, in _load_mode
+    mode_path = self._find_mode_path(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 135, in _find_mode_path
+    .format(mode_string))
+ValueError: No folder found for mode 'playfield_multiplier'. Is your mode folder in your machine's 'modes' folder?
+2019-03-29 19:47:47,750 : INFO : Machine : Starting the main run loop.
+2019-03-29 19:47:47,751 : INFO : Machine : Shutting down...
+2019-03-29 19:47:47,751 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-03-29 19:47:47,753 : ERROR : FAST : Stop called on serial connection \\.\COM12
+2019-03-29 19:47:47,754 : ERROR : FAST : Stop called on serial connection \\.\COM11
+2019-03-29 19:47:48,139 : ERROR : root : No folder found for mode 'playfield_multiplier'. Is your mode folder in your machine's 'modes' folder?
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 264, in _load_mode
+    mode_path = self._find_mode_path(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 135, in _find_mode_path
+    .format(mode_string))
+ValueError: No folder found for mode 'playfield_multiplier'. Is your mode folder in your machine's 'modes' folder?

@@ -138,24 +138,23 @@ sound_player:
   s_modestart_active: doubledoor
 
 
-
-
-
-
-
 variable_player:
+
+  increment_multiplier:
+    multiplier: 1
+
   zelda_2ball_shot_one_hit:
-    score: 1
+    score: 1 * current_player.multiplier
 
   zelda_2ball_shot_two_hit:
-    score: 1
+    score: 1 * current_player.multiplier
 
   zelda_2ball_shot_three_hit:
-    score: 1
+    score: 1 * current_player.multiplier
 
   zelda_2ball_shot_four_hit:
-    score: 1
+    score: 1 * current_player.multiplier
 
   zelda_2ball_shot_five_hit:
-    score: 1
+    score: 1 * current_player.multiplier
   

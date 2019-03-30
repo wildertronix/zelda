@@ -1,0 +1,22 @@
+#config_version=5
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 100
+
+event_player:
+  sw_spinner{device.counters.spinner_counter.value==150}: increment_multiplier
+  sw_spinner{device.counters.spinner_counter.value==250}: increment_multiplier   #these will be 200 and 300 after testing
+
+shots:
+  spinnermultiplier:
+    switch: s_spinner
+
+counters:
+  spinner_counter:
+    count_events: sw_spinner
+    count_complete_value: 251
+
+show_player:
+  sw_spinner{device.counters.spinner_counter.value==15}: 2xlightshow
+  sw_spinner{device.counters.spinner_counter.value==25}: 3xlightshow

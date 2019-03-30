@@ -40,6 +40,7 @@ modes:
 - 5waycombotracker
 - high_score
 - gameoverplayer
+- playfield_multiplier
 
 window:
   title: Legend of Zelda
@@ -181,3 +182,10 @@ multiballs:
     start_events: slide_agahnimstartvideo_created
     stop_events: agahnim_complete
     disable_events: agahnim_complete
+
+
+
+player_vars:
+  multiplier:
+    value_type: int
+    initial_value: 1
