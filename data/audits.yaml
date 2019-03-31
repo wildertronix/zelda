@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1568
+  game_started: 1572
 player:
   score:
     average: 2588.5260416666633
@@ -17,13 +17,13 @@ player:
     - 28100
     total: 192
 shots:
-  2ballescape_first_shot_a: 200
-  2ballescape_first_shot_z: 237
+  2ballescape_first_shot_a: 201
+  2ballescape_first_shot_z: 238
   2ballescape_second_shot_d: 1
   2ballescape_shot_one: 16
   2ballescape_shot_three: 37
   2ballescape_shot_two: 26
-  2ballescape_third_shot_z: 347
+  2ballescape_third_shot_z: 348
   5way_combo_d: 34
   5way_combo_d2: 28
   5way_combo_z: 30
@@ -73,7 +73,7 @@ shots:
   darkworld_zelda_rescue: 18
   drop1: 384
   drop2: 254
-  drop3: 261
+  drop3: 264
   eopto: 81
   heart_target: 80
   heart_target1: 14
@@ -95,65 +95,65 @@ shots:
   lw_d_ramp: 571
   lw_heart_target: 3
   lw_modestart_outhole: 2
-  lw_z_ramp: 194
+  lw_z_ramp: 202
   m_bomb: 612
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 914
+  modestartmade: 919
   o_bomb: 352
   pull_master_sword: 112
   rightpop: 91
-  spinnermultiplier: 312
-  toppop: 1924
+  spinnermultiplier: 405
+  toppop: 1949
   z_ramp_lostwoods: 58
-  zelda_2ball_shot_five: 347
-  zelda_2ball_shot_four: 387
-  zelda_2ball_shot_one: 1037
-  zelda_2ball_shot_three: 152
-  zelda_2ball_shot_two: 148
+  zelda_2ball_shot_five: 349
+  zelda_2ball_shot_four: 388
+  zelda_2ball_shot_one: 1044
+  zelda_2ball_shot_three: 157
+  zelda_2ball_shot_two: 155
 switches:
   leftflipperbutton: 6972
-  plungerlane: 2694
+  plungerlane: 2703
   plungerlaunch: 0
   rightflipperbutton: 7065
-  s_abyss: 609
+  s_abyss: 611
   s_cavestar: 0
   s_coin1: 450
   s_coin2: 0
-  s_cranehole: 1253
+  s_cranehole: 1255
   s_droptarget1: 1515
   s_droptarget2: 987
-  s_droptarget3: 978
-  s_heart: 1170
+  s_droptarget3: 988
+  s_heart: 1171
   s_left_inlane: 881
   s_left_outlane: 212
   s_leftpop: 591
   s_leftslingshot: 435
   s_lightmb: 1
-  s_lostwoods: 2905
+  s_lostwoods: 2907
   s_lostwoodsopto: 0
-  s_modestart: 1530
-  s_optoa: 1547
-  s_optod: 2312
-  s_optoe: 2552
-  s_optol: 2510
+  s_modestart: 1535
+  s_optoa: 1551
+  s_optod: 2315
+  s_optoe: 2571
+  s_optol: 2530
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 2231
+  s_optoz1: 2250
   s_popexit: 367
   s_rampopto: 0
   s_right_inlane: 1426
   s_right_outlane: 169
   s_rightpop: 507
   s_rightslingshot: 845
-  s_spinner: 7302
-  s_toppop: 5019
+  s_spinner: 7395
+  s_toppop: 5046
   start: 64
-  trough1: 2323
-  trough2: 2614
+  trough1: 2329
+  trough2: 2624
   trough3: 0
   trough4: 0
   trough5: 1
