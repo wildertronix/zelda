@@ -53,3 +53,5 @@ keyboard:
     switch: s_lostwoods
   b:
     switch: s_cranehole
+  v:
+    switch: s_spinner
