@@ -3,11 +3,16 @@ mode:
   start_events: ball_starting
   stop_events: game_ending
   priority: 100
-  restart_on_next_ball: true
+  # restart_on_next_ball: true
 
 event_player:
   sw_spinner{device.counters.spinner_counter.value==15}: increment_multiplier
   sw_spinner{device.counters.spinner_counter.value==25}: increment_multiplier   #these will be 200 and 300 after testing
+  # ball_started: set_multiplier_count
+  # set_multiplier_count: update_multiplier_lights|10ms
+  # update_multiplier_lights{current_player.multiplier_count == 1}: set1xlightshow
+  # update_multiplier_lights{current_player.multiplier_count == 2}: set2xlightshow
+  # update_multiplier_lights{current_player.multiplier_count == 3}: set3xlightshow
 
 shots:
   spinnermultiplier:
@@ -22,3 +27,18 @@ counters:
 show_player:
   sw_spinner{device.counters.spinner_counter.value==15}: 2xlightshow
   sw_spinner{device.counters.spinner_counter.value==25}: 3xlightshow
+#   set1xlightshow:
+#     1xlightshow:
+#       loops: 0
+#   set2xlightshow:
+#     2xlightshow:
+#       loops: -1
+#   set3xlightshow:
+#     3xlightshow:
+#       loops: -1
+
+# variable_player:
+#   set_multiplier_count:
+#     multiplier:
+#       int: 1
+#       action: set

@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1572
+  game_started: 1577
 player:
   score:
     average: 2588.5260416666633
@@ -100,21 +100,21 @@ shots:
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 919
+  modestartmade: 924
   o_bomb: 352
   pull_master_sword: 112
   rightpop: 91
-  spinnermultiplier: 405
+  spinnermultiplier: 624
   toppop: 1949
   z_ramp_lostwoods: 58
-  zelda_2ball_shot_five: 349
+  zelda_2ball_shot_five: 350
   zelda_2ball_shot_four: 388
   zelda_2ball_shot_one: 1044
-  zelda_2ball_shot_three: 157
-  zelda_2ball_shot_two: 155
+  zelda_2ball_shot_three: 158
+  zelda_2ball_shot_two: 156
 switches:
   leftflipperbutton: 6972
-  plungerlane: 2703
+  plungerlane: 2711
   plungerlaunch: 0
   rightflipperbutton: 7065
   s_abyss: 611
@@ -131,29 +131,29 @@ switches:
   s_leftpop: 591
   s_leftslingshot: 435
   s_lightmb: 1
-  s_lostwoods: 2907
+  s_lostwoods: 2908
   s_lostwoodsopto: 0
-  s_modestart: 1535
-  s_optoa: 1551
+  s_modestart: 1540
+  s_optoa: 1552
   s_optod: 2315
-  s_optoe: 2571
-  s_optol: 2530
+  s_optoe: 2573
+  s_optol: 2532
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
   s_optoz1: 2250
-  s_popexit: 367
+  s_popexit: 368
   s_rampopto: 0
   s_right_inlane: 1426
   s_right_outlane: 169
   s_rightpop: 507
   s_rightslingshot: 845
-  s_spinner: 7395
-  s_toppop: 5046
+  s_spinner: 7614
+  s_toppop: 5054
   start: 64
-  trough1: 2329
-  trough2: 2624
+  trough1: 2333
+  trough2: 2632
   trough3: 0
   trough4: 0
   trough5: 1
