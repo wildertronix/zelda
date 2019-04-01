@@ -347,8 +347,8 @@ sound_pools:
 
 variable_player:
 
-  increment_multiplier:
-    multiplier: 1
+  # increment_multiplier:
+  #   multiplier: 1
   2ballescape_first_shot_a_hit:
     score: 1 * current_player.multiplier
   2ballescape_first_shot_z_hit:

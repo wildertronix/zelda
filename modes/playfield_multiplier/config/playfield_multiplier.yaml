@@ -8,12 +8,11 @@ mode:
 event_player:
   sw_spinner{device.counters.spinner_counter.value==15}: increment_multiplier
   sw_spinner{device.counters.spinner_counter.value==25}: increment_multiplier   #these will be 200 and 300 after testing
-  increment_multiplier : set_multiplier_count
+  increment_multiplier : update_multiplier_lights|10ms
   ball_started: set_multiplier_count
-  set_multiplier_count: update_multiplier_lights|10ms
-  update_multiplier_lights{current_player.multiplier_count == 1}: set1xlightshow
-  update_multiplier_lights{current_player.multiplier_count == 2}: set2xlightshow
-  update_multiplier_lights{current_player.multiplier_count == 3}: set3xlightshow
+  update_multiplier_lights{current_player.multiplier == 1}: set1xlightshow
+  update_multiplier_lights{current_player.multiplier == 2}: set2xlightshow
+  update_multiplier_lights{current_player.multiplier == 3}: set3xlightshow
 
 shots:
   spinnermultiplier:
@@ -39,7 +38,9 @@ show_player:
       loops: -1
 
 variable_player:
-  set_multiplier_count:
+  increment_multiplier:
+    multiplier: 1
+  reset_multiplier_count:
     multiplier:
-      int: 0
-      action: add
+      int: 1
+      action: set
