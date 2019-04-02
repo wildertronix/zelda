@@ -35,6 +35,8 @@ variable_player:
     mode4_started: 1
   mode_darkworld_started:
     mode5_started: 1
+  mode_ganon_battle_started:
+    mode6_started: 1
 
 
 

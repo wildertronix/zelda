@@ -9,6 +9,23 @@ mode:
 
 
 event_player: 
+  ball_started: update_item_tracker|5ms
+  increment_item_tracker: update_item_tracker|10ms
+  update_item_tracker{current_player.item_count ==1 }: set_item2_lightshow
+  update_item_tracker{current_player.item_count ==2 }: set_item3_lightshow
+  update_item_tracker{current_player.item_count ==3 }: set_item4_lightshow
+  update_item_tracker{current_player.item_count ==4 }: set_item5_lightshow
+  boomerang_found{current_player.boomerang_count < 1}: increment_item_tracker
+  bow_found{current_player.bow_count < 1}: increment_item_tracker
+  moonpearl_found{current_player.moonpearl_count < 1}: increment_item_tracker
+  mirror_found{current_player.mirror_count < 1}: increment_item_tracker
+  hookshot_found{current_player.hookshot_count < 1}: set_hookshot_show
+  hammer_found{current_player.hammer_count < 1}: set_hammer_show
+  flippers_found{current_player.flipper_count < 1}: set_flippers_show
+  bluemail_found{current_player.bluemail_count < 1}: set_bluemail_show
+  redshield_found{current_player.redshield_count < 1}: set_redshield_show
+
+
   play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
   play_treasure_sfx{device.counters.item_counter.value==2}: bow_found
   play_treasure_sfx{device.counters.item_counter.value==3}: moonpearl_found
@@ -18,6 +35,31 @@ event_player:
   logicblock_flipper_counter_complete: flippers_found
   logicblock_bluemail_counter_complete: bluemail_found
   logicblock_redshield_counter_complete: redshield_found
+
+variable_player:
+  increment_item_tracker:
+    item_count: 1
+  boomerang_found:
+    boomerang_count: 1
+  bow_found:
+    bow_count: 1
+  moonpearl_found:
+    moonpearl_count: 1
+  mirror_found:
+    mirror_count: 1
+  hookshot_found:
+    hookshot_count: 1
+  hammer_found:
+    hammer_count: 1
+  flippers_found:
+    flipper_count: 1
+  bluemail_found:
+    bluemail_count: 1
+  redshield_found:
+    redshield_count: 1
+
+
+
 
 sound_player:
   hookshot_found: treasure_sfx2
@@ -68,39 +110,39 @@ show_player:
     lamp_lit:
       loops: -1
 
-  boomerang_found:
+  set_item2_lightshow:
     boomerang_lit:
       loops: -1
 
-  bow_found:
+  set_item3_lightshow:
     bow_lit:
       loops: -1
 
-  moonpearl_found:
+  set_item4_lightshow:
     moonpearl_lit:
       loops: -1
 
-  mirror_found:
+  set_item5_lightshow:
     mirror_lit:
       loops: -1
 
-  hookshot_found:
+  set_hookshot_show:
     hookshot_lit:
       loops: -1
 
-  hammer_found:
+  set_hammer_show:
     hammer_lit:
       loops: -1
 
-  flippers_found:
+  set_flippers_show:
     flippers_lit:
       loops: -1
 
-  bluemail_found:
+  set_bluemail_show:
     bluemail_lit:
       loops: -1
 
-  redshield_found:
+  set_redshield_show:
     redshield_lit:
       loops: -1
 
