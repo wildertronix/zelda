@@ -14,34 +14,52 @@ event_player:
   update_mode_tracker{current_player.mode_count ==4 }: set_mode4_lightshow
   update_mode_tracker{current_player.mode_count ==5 }: set_mode5_lightshow
   # update_mode_tracker{current_player.mode_count ==6}: set_mode6_lightshow
+  mode_2ballqualifier_started{current_player.mode1_started < 1}: increment_mode_tracker
+  mode_light_world_started{current_player.mode2_started < 1}: increment_mode_tracker
+  mode_lost_woods_started{current_player.mode3_started < 1}: increment_mode_tracker
+  mode_agahnim_multiball_started{current_player.mode4_started < 1}: increment_mode_tracker
+  mode_darkworld_started{current_player.mode5_started < 1}: increment_mode_tracker
+  # mode_ganon_battle_started{current_player.mode6_started <1}: increment_mode_tracker
 
 
 variable_player:
   increment_mode_tracker:
     mode_count: 1
+  mode_2ballqualifier_started:
+    mode1_started: 1
+  mode_light_world_started:
+    mode2_started: 1
+  mode_lost_woods_started:
+    mode3_started: 1
+  mode_agahnim_multiball_started:
+    mode4_started: 1
+  mode_darkworld_started:
+    mode5_started: 1
+
+
 
 show_player:
 
-  mode_2ballqualifier_started:
+  set_mode1_lightshow:
     mode_show1:
       loops: -1
       speed: 3
 
-  mode_light_world_started:
+  set_mode2_lightshow:
     mode_show2:
       loops: -1
       speed: 3
     mode_show1:
       action: stop
 
-  mode_lost_woods_started:
+  set_mode3_lightshow:
     mode_show3:
       loops: -1
       speed: 3
     mode_show2:
       action: stop
 
-  mode_agahnim_multiball_started:
+  set_mode4_lightshow:
     mode_show4:
       loops: -1
       speed: 3
@@ -55,18 +73,18 @@ show_player:
     mode_show4:
       action: stop
 
-achievements:
-  2ballescape_achievement:
-    show_tokens:
-      leds: l_mode1
-    show_when_selected: flash
-    show_when_started: flash
-    show_when_completed: on
-    events_when_started: 2ballescape_achievement_started
-    restart_after_stop_possible: true
-    events_when_completed: 2ballescape_achievement_completed
-    complete_events: mode_light_world_started
-    enable_events: mode_2ballqualifier
+# achievements:
+#   2ballescape_achievement:
+#     show_tokens:
+#       leds: l_mode1
+#     show_when_selected: flash
+#     show_when_started: flash
+#     show_when_completed: on
+#     events_when_started: 2ballescape_achievement_started
+#     restart_after_stop_possible: true
+#     events_when_completed: 2ballescape_achievement_completed
+#     complete_events: mode_light_world_started
+#     enable_events: mode_2ballqualifier
 
 
 
