@@ -11,20 +11,22 @@ mode:
 event_player: 
   ball_started: update_item_tracker|10ms
   increment_item_tracker: update_item_tracker|10ms
-  update_item_tracker{current_player.item_count ==1 }: set_item2_lightshow
-  update_item_tracker{current_player.item_count ==2 }: set_item3_lightshow
-  update_item_tracker{current_player.item_count ==3 }: set_item4_lightshow
-  update_item_tracker{current_player.item_count ==4 }: set_item5_lightshow
-
-  boomerang_found{current_player.boomerang_count < 1}: increment_item_tracker
-  bow_found{current_player.bow_count < 1}: increment_item_tracker
-  moonpearl_found{current_player.moonpearl_count < 1}: increment_item_tracker
-  mirror_found{current_player.mirror_count < 1}: increment_item_tracker
 
   play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
   play_treasure_sfx{device.counters.item_counter.value==2}: bow_found
   play_treasure_sfx{device.counters.item_counter.value==3}: moonpearl_found
   play_treasure_sfx{device.counters.item_counter.value==4}: mirror_found
+
+  update_item_tracker{current_player.item_count ==1 }: set_item1_lightshow
+  update_item_tracker{current_player.item_count ==2 }: set_item2_lightshow
+  update_item_tracker{current_player.item_count ==3 }: set_item3_lightshow
+  update_item_tracker{current_player.item_count ==4 }: set_item4_lightshow
+  update_item_tracker{current_player.item_count ==5 }: set_item5_lightshow
+
+  boomerang_found{current_player.boomerang_count < 1}: increment_item_tracker
+  bow_found{current_player.bow_count < 1}: increment_item_tracker
+  moonpearl_found{current_player.moonpearl_count < 1}: increment_item_tracker
+  mirror_found{current_player.mirror_count < 1}: increment_item_tracker
 
   logicblock_hookshot_counter_complete: hookshot_found
   logicblock_hammer_counter_complete: hammer_found
@@ -110,7 +112,7 @@ counters:
     persist_state: true
 
 show_player:
-  mode_item_tracker_started:
+  set_item1_lightshow:
     lamp_lit:
       loops: -1
 

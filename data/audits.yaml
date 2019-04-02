@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1593
+  game_started: 1598
 player:
   score:
     average: 2588.5260416666633
@@ -31,8 +31,8 @@ shots:
   agahnim_shot: 106
   agahnim_shot_three: 33
   agahnim_shot_two: 59
-  b2_bomb: 91
-  b_bomb: 118
+  b2_bomb: 92
+  b_bomb: 119
   crane_shot: 3
   d_ramp_lostwoods: 44
   darkworld_a_orbit: 20
@@ -82,7 +82,7 @@ shots:
   hidden_d_ramp: 43
   hidden_e_ramp: 29
   hidden_l_ramp: 23
-  hidden_z_ramp: 25
+  hidden_z_ramp: 26
   l_ramp_lostwoods: 83
   leftpop: 135
   lopto: 95
@@ -96,20 +96,20 @@ shots:
   lw_heart_target: 3
   lw_modestart_outhole: 2
   lw_z_ramp: 202
-  m_bomb: 621
+  m_bomb: 622
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 942
-  o_bomb: 355
+  modestartmade: 945
+  o_bomb: 356
   pull_master_sword: 112
   rightpop: 91
-  spinnermultiplier: 1102
+  spinnermultiplier: 1203
   toppop: 1949
   z_ramp_lostwoods: 58
   zelda_2ball_shot_five: 353
   zelda_2ball_shot_four: 391
-  zelda_2ball_shot_one: 1228
+  zelda_2ball_shot_one: 1229
   zelda_2ball_shot_three: 163
   zelda_2ball_shot_two: 159
 switches:
@@ -126,14 +126,14 @@ switches:
   s_droptarget2: 1027
   s_droptarget3: 989
   s_heart: 1172
-  s_left_inlane: 884
-  s_left_outlane: 215
+  s_left_inlane: 885
+  s_left_outlane: 216
   s_leftpop: 786
   s_leftslingshot: 435
   s_lightmb: 1
   s_lostwoods: 2910
   s_lostwoodsopto: 0
-  s_modestart: 1558
+  s_modestart: 1561
   s_optoa: 1559
   s_optod: 2326
   s_optoe: 2594
@@ -142,18 +142,18 @@ switches:
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 2446
+  s_optoz1: 2447
   s_popexit: 368
   s_rampopto: 0
-  s_right_inlane: 1435
-  s_right_outlane: 172
+  s_right_inlane: 1436
+  s_right_outlane: 173
   s_rightpop: 507
   s_rightslingshot: 845
-  s_spinner: 8092
+  s_spinner: 8193
   s_toppop: 5054
   start: 64
-  trough1: 2346
-  trough2: 2644
+  trough1: 2347
+  trough2: 2645
   trough3: 0
   trough4: 0
   trough5: 1
