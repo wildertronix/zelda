@@ -9,7 +9,7 @@ mode:
 
 
 event_player: 
-  ball_started: update_item_tracker|10ms
+  mode_item_tracker_started: update_item_tracker
   increment_item_tracker: update_item_tracker|10ms
 
   play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
@@ -34,11 +34,11 @@ event_player:
   logicblock_bluemail_counter_complete: bluemail_found
   logicblock_redshield_counter_complete: redshield_found
 
-  hookshot_found{current_player.hookshot_count < 1}: set_hookshot_show
-  hammer_found{current_player.hammer_count < 1}: set_hammer_show
-  flippers_found{current_player.flipper_count < 1}: set_flippers_show
-  bluemail_found{current_player.bluemail_count < 1}: set_bluemail_show
-  redshield_found{current_player.redshield_count < 1}: set_redshield_show
+  hookshot_found{current_player.hookshot_count > 0}: set_hookshot_show
+  hammer_found{current_player.hammer_count > 0}: set_hammer_show
+  flippers_found{current_player.flipper_count > 0}: set_flippers_show
+  bluemail_found{current_player.bluemail_count > 0}: set_bluemail_show
+  redshield_found{current_player.redshield_count > 0}: set_redshield_show
 
 
 
