@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1590
+  game_started: 1593
 player:
   score:
     average: 2588.5260416666633
@@ -31,8 +31,8 @@ shots:
   agahnim_shot: 106
   agahnim_shot_three: 33
   agahnim_shot_two: 59
-  b2_bomb: 88
-  b_bomb: 115
+  b2_bomb: 91
+  b_bomb: 118
   crane_shot: 3
   d_ramp_lostwoods: 44
   darkworld_a_orbit: 20
@@ -79,10 +79,10 @@ shots:
   heart_target1: 14
   heart_target2: 11
   hidden_a_ramp: 35
-  hidden_d_ramp: 42
+  hidden_d_ramp: 43
   hidden_e_ramp: 29
-  hidden_l_ramp: 22
-  hidden_z_ramp: 24
+  hidden_l_ramp: 23
+  hidden_z_ramp: 25
   l_ramp_lostwoods: 83
   leftpop: 135
   lopto: 95
@@ -96,22 +96,22 @@ shots:
   lw_heart_target: 3
   lw_modestart_outhole: 2
   lw_z_ramp: 202
-  m_bomb: 612
+  m_bomb: 621
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 935
-  o_bomb: 352
+  modestartmade: 942
+  o_bomb: 355
   pull_master_sword: 112
   rightpop: 91
-  spinnermultiplier: 881
+  spinnermultiplier: 1102
   toppop: 1949
   z_ramp_lostwoods: 58
   zelda_2ball_shot_five: 353
-  zelda_2ball_shot_four: 390
-  zelda_2ball_shot_one: 1050
-  zelda_2ball_shot_three: 162
-  zelda_2ball_shot_two: 158
+  zelda_2ball_shot_four: 391
+  zelda_2ball_shot_one: 1228
+  zelda_2ball_shot_three: 163
+  zelda_2ball_shot_two: 159
 switches:
   leftflipperbutton: 6972
   plungerlane: 2714
@@ -123,37 +123,37 @@ switches:
   s_coin2: 0
   s_cranehole: 1255
   s_droptarget1: 1515
-  s_droptarget2: 987
-  s_droptarget3: 988
-  s_heart: 1171
-  s_left_inlane: 881
-  s_left_outlane: 212
-  s_leftpop: 591
+  s_droptarget2: 1027
+  s_droptarget3: 989
+  s_heart: 1172
+  s_left_inlane: 884
+  s_left_outlane: 215
+  s_leftpop: 786
   s_leftslingshot: 435
   s_lightmb: 1
   s_lostwoods: 2910
   s_lostwoodsopto: 0
-  s_modestart: 1551
+  s_modestart: 1558
   s_optoa: 1559
-  s_optod: 2325
-  s_optoe: 2592
-  s_optol: 2554
+  s_optod: 2326
+  s_optoe: 2594
+  s_optol: 2556
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 2268
+  s_optoz1: 2446
   s_popexit: 368
   s_rampopto: 0
-  s_right_inlane: 1426
-  s_right_outlane: 169
+  s_right_inlane: 1435
+  s_right_outlane: 172
   s_rightpop: 507
   s_rightslingshot: 845
-  s_spinner: 7871
+  s_spinner: 8092
   s_toppop: 5054
   start: 64
-  trough1: 2343
-  trough2: 2641
+  trough1: 2346
+  trough2: 2644
   trough3: 0
   trough4: 0
   trough5: 1

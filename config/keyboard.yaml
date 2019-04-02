@@ -15,23 +15,23 @@ keyboard:
     toggle: true
   s:
     switch: start
-  z:
+  r:
     switch: s_right_outlane
-  x:
-    switch: s_left_outlane
   q:
+    switch: s_left_outlane
+  e:
     switch: s_right_inlane
   w:
     switch: s_left_inlane
-  e:
+  n:
     switch: s_rightpop
-  t:
+  9:
     switch: s_leftpop
-  y:
+  t:
     switch: s_toppop
   m:
     switch: s_abyss
-  r:
+  y:
     switch: s_droptarget1
   u: 
     switch: s_droptarget2

@@ -4,12 +4,12 @@
 mode:
   start_events: ball_starting
   stop_events: game_ending
-  priority: 500
-  restart_on_next_ball: true
+  priority: 100
+  # restart_on_next_ball: true
 
 
 event_player: 
-  ball_started: update_item_tracker|5ms
+  ball_started: update_item_tracker|10ms
   increment_item_tracker: update_item_tracker|10ms
   update_item_tracker{current_player.item_count ==1 }: set_item2_lightshow
   update_item_tracker{current_player.item_count ==2 }: set_item3_lightshow
@@ -31,7 +31,7 @@ event_player:
   logicblock_flipper_counter_complete: flippers_found
   logicblock_bluemail_counter_complete: bluemail_found
   logicblock_redshield_counter_complete: redshield_found
-  
+
   hookshot_found{current_player.hookshot_count < 1}: set_hookshot_show
   hammer_found{current_player.hammer_count < 1}: set_hammer_show
   flippers_found{current_player.flipper_count < 1}: set_flippers_show

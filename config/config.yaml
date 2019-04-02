@@ -193,3 +193,7 @@ player_vars:
   multiplier:
     value_type: int
     initial_value: 1
+
+  item_count:
+    value_type: int
+    initial_value: 1
