@@ -195,19 +195,19 @@ show_player:
       speed: 15
 
 variable_player:
-  lw_z_ramp_hit:
-    score: 1
-  lw_d_ramp_hit:
-    score: 1
-  toppop_hit:
-    score: 1
-  leftpop_hit:
-    score: 1
-  rightpop_hit:
-    score: 1
-  drop1_hit:
-    score: 1
-  drop2_hit:
-    score: 1
-  drop3_hit:
-    score: 1
+  s_optoz1_hit:
+    score: 1 * current_player.multiplier
+  s_optod_hit:
+    score: 1 * current_player.multiplier
+  s_toppop_hit:
+    score: 1 * current_player.multiplier
+  s_leftpop_hit:
+    score: 1 * current_player.multiplier
+  s_rightpop_hit:
+    score: 1 * current_player.multiplier
+  s_droptarget1_hit:
+    score: 1 * current_player.multiplier
+  s_droptarget2_hit:
+    score: 1 * current_player.multiplier
+  s_droptarget2_hit:
+    score: 1 * current_player.multiplier

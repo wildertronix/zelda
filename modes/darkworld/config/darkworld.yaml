@@ -751,3 +751,12 @@ shot_profiles:
         speed: 2
       - name: lit
         show: darkworld_zelda_rescue_lit
+
+show_player:
+  slide_dungeon7boss_removed:
+    darkworld_rescue_zelda_slide:
+      loops: 0
+
+  slide_maiden7_removed:
+    darkworld2_slide:
+      loops: 0

@@ -100,3 +100,8 @@ sound_player:
   agahnim_attack: fireball
   agahnim_shift: agahnim_dash
   agahnim_shift_again: agahnim_dash
+
+
+variable_player:
+  mode_agahnim_will_stop:
+    score: 100 * current_player.multiplier

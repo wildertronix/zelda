@@ -247,3 +247,23 @@ show_player:
     lostwoods_1_togo:
       loops: 0
       priority: 80
+
+variable_player:
+  s_heart:
+    score: 1 * current_player.multiplier
+  s_droptarget2:
+    score: 1 * current_player.multiplier
+  s_modestart:
+    score: 1 * current_player.multiplier
+  s_optoz1:
+    score: 1 * current_player.multiplier
+  s_optod:
+    score: 1 * current_player.multiplier
+  s_optol:
+    score: 1 * current_player.multiplier
+  s_abyss:
+    score: 1 * current_player.multiplier
+  s_left_inlane:
+    score: 1 * current_player.multiplier
+  s_cranehole:
+    score: 1 * current_player.multiplier
