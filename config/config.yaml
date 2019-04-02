@@ -78,10 +78,10 @@ sound_player:
       action: stop
     darkworld2:
       action: stop
-  ball_started(ball==1):
-    highscore:
-      action: stop
-      fade_out: 2s
+  # ball_started(ball==1):
+  #   highscore:
+  #     action: stop
+  #     fade_out: 2s
 
 
 

@@ -2,4 +2,7 @@
 
 - time: 0
   lights:
+    l_item1: white
+    l_item2: white
+    l_item3: white
     l_item4: white

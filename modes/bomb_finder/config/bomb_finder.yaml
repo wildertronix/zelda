@@ -161,3 +161,5 @@ show_player:
     bomb_show:
       loops: 1
       speed: 30
+
+      

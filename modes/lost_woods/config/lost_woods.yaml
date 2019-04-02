@@ -213,3 +213,37 @@ variable_player:
     score: 1
   lw_crane_shot_hit:
     score: 1
+
+show_player:
+  8togo:
+    lostwoods_8_togo:
+      loops: 0
+      priority: 10
+  7togo:
+    lostwoods_7_togo:
+      loops: 0
+      priority: 20
+  6togo:
+    lostwoods_6_togo:
+      loops: 0
+      priority: 30
+  5togo:
+    lostwoods_5_togo:
+      loops: 0
+      priority: 40
+  4togo:
+    lostwoods_4_togo:
+      loops: 0
+      priority: 50
+  3togo:
+    lostwoods_3_togo:
+      loops: 0
+      priority: 60
+  2togo:
+    lostwoods_2_togo:
+      loops: 0
+      priority: 70
+  1togo:
+    lostwoods_1_togo:
+      loops: 0
+      priority: 80

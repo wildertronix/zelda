@@ -107,7 +107,7 @@ counters:
 
   bluemail_counter:
     count_events: sw_spinner
-    count_complete_value: 100
+    count_complete_value: 200
     reset_on_complete: false
     persist_state: true
 
@@ -158,4 +158,38 @@ show_player:
     redshield_lit:
       loops: -1
 
+  slide_redshieldvideo_removed:
+    redshield_found_slide:
+      loops: 0
 
+  slide_bluemailvideo_removed:
+    bluemail_found_slide:
+      loops: 0
+
+  slide_flippervideo_removed:
+    flippers_found_slide:
+      loops: 0
+
+  slide_hammervideo_removed:
+    hammer_found_slide:
+      loops: 0
+
+  slide_hookshotvideo_removed:
+    hookshot_found_slide:
+      loops: 0
+
+  slide_item2award_removed:
+    boomerang_found_slide:
+      loops: 0
+
+  slide_item3award_removed:
+    bow_found_slide:
+      loops: 0
+
+  slide_item4award_removed:
+    moonpearl_found_slide:
+      loops: 0
+
+  slide_item5award_removed:
+    mirror_found_slide:
+      loops: 0

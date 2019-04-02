@@ -290,12 +290,7 @@ slide_player:
 
 
 slides:
-  # gameovervideo:
-  #   widgets:
-  #     - type: video
-  #       video: linkdyingvideo
-  #       width: 1280
-  #       height: 720
+
 
   the_journey_begins:
     - type: video

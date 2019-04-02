@@ -120,3 +120,8 @@ timers:
         event: 5way_combo_complete
       - action: stop 
         event: combo_expired
+
+show_player:
+  slide_5waycombovideo_removed:
+    5waycomplete_slide:
+      loops: 0

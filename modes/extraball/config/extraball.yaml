@@ -10,3 +10,8 @@ mode:
 extra_balls:
   heart_extra_ball:
     award_events: award_heart_extraball
+
+show_player:
+  slide_heart_piece_extraball_removed:
+    extra_ball_slide:
+      loops: 0
