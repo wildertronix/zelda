@@ -18,7 +18,7 @@ sound_player:
       loops: 2
       volume: 0.5
 
-  mode_2ballqualifier_started:
+  begin_escape:
     hyrulecastle:
       loops: -1
       volume: 0.5

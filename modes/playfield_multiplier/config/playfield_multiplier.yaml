@@ -9,7 +9,7 @@ event_player:
   sw_spinner{device.counters.spinner_counter.value==15}: increment_multiplier
   sw_spinner{device.counters.spinner_counter.value==25}: increment_multiplier   #these will be 200 and 300 after testing
   increment_multiplier : update_multiplier_lights|10ms
-  ball_started: set_multiplier_count
+  ball_started: update_multiplier_lights|5ms
   update_multiplier_lights{current_player.multiplier == 1}: set1xlightshow
   update_multiplier_lights{current_player.multiplier == 2}: set2xlightshow
   update_multiplier_lights{current_player.multiplier == 3}: set3xlightshow
