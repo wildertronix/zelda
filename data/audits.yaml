@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1587
+  game_started: 1589
 player:
   score:
     average: 2588.5260416666633
@@ -100,7 +100,7 @@ shots:
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 933
+  modestartmade: 934
   o_bomb: 352
   pull_master_sword: 112
   rightpop: 91
@@ -133,7 +133,7 @@ switches:
   s_lightmb: 1
   s_lostwoods: 2910
   s_lostwoodsopto: 0
-  s_modestart: 1549
+  s_modestart: 1550
   s_optoa: 1556
   s_optod: 2322
   s_optoe: 2586

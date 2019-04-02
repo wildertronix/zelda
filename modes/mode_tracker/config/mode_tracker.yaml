@@ -6,7 +6,7 @@ mode:
   stop_events: game_ending
 
 event_player:
-  ball_starting: update_mode_tracker|5ms
+  ball_started: update_mode_tracker|5ms
   increment_mode_tracker: update_mode_tracker|10ms
   update_mode_tracker{current_player.mode_count ==1 }: set_mode1_lightshow
   update_mode_tracker{current_player.mode_count ==2 }: set_mode2_lightshow
@@ -66,25 +66,20 @@ show_player:
     mode_show3:
       action: stop
 
-  mode_darkworld_started:
+  set_mode5_lightshow:
     mode_show5:
       loops: -1
       speed: 3
     mode_show4:
       action: stop
 
-# achievements:
-#   2ballescape_achievement:
-#     show_tokens:
-#       leds: l_mode1
-#     show_when_selected: flash
-#     show_when_started: flash
-#     show_when_completed: on
-#     events_when_started: 2ballescape_achievement_started
-#     restart_after_stop_possible: true
-#     events_when_completed: 2ballescape_achievement_completed
-#     complete_events: mode_light_world_started
-#     enable_events: mode_2ballqualifier
+  # set_mode6_lightshow:
+  #   mode_show6:
+  #     loops: -1
+  #     speed: 3
+  #   mode_show5:
+  #     action: stop
 
+ 
 
 
