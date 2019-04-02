@@ -34,11 +34,17 @@ event_player:
   logicblock_bluemail_counter_complete: bluemail_found
   logicblock_redshield_counter_complete: redshield_found
 
-  hookshot_found{current_player.hookshot_count > 0}: set_hookshot_show
-  hammer_found{current_player.hammer_count > 0}: set_hammer_show
-  flippers_found{current_player.flipper_count > 0}: set_flippers_show
-  bluemail_found{current_player.bluemail_count > 0}: set_bluemail_show
-  redshield_found{current_player.redshield_count > 0}: set_redshield_show
+  hookshot_found{current_player.hookshot_count < 1}: set_hookshot_show
+  hammer_found{current_player.hammer_count < 1}: set_hammer_show
+  flippers_found{current_player.flipper_count < 1}: set_flippers_show
+  bluemail_found{current_player.bluemail_count < 1}: set_bluemail_show
+  redshield_found{current_player.redshield_count < 1}: set_redshield_show
+
+  update_item_tracker{current_player.hookshot_count > 0 }: set_hookshot_show
+  update_item_tracker{current_player.hammer_count > 0 }: set_hammer_show
+  update_item_tracker{current_player.flippers_count > 0 }: set_flippers_show
+  update_item_tracker{current_player.bluemail_count > 0 }: set_bluemail_show
+  update_item_tracker{current_player.redshield_count > 0 }: set_redshield_show
 
 
 

@@ -1,6 +1,6 @@
 events:
   game_ended: 190
-  game_started: 1603
+  game_started: 1608
 player:
   score:
     average: 2588.5260416666633
@@ -31,8 +31,8 @@ shots:
   agahnim_shot: 106
   agahnim_shot_three: 33
   agahnim_shot_two: 59
-  b2_bomb: 96
-  b_bomb: 123
+  b2_bomb: 98
+  b_bomb: 125
   crane_shot: 3
   d_ramp_lostwoods: 44
   darkworld_a_orbit: 20
@@ -78,10 +78,10 @@ shots:
   heart_target: 80
   heart_target1: 14
   heart_target2: 11
-  hidden_a_ramp: 36
+  hidden_a_ramp: 37
   hidden_d_ramp: 43
   hidden_e_ramp: 29
-  hidden_l_ramp: 25
+  hidden_l_ramp: 26
   hidden_z_ramp: 27
   l_ramp_lostwoods: 83
   leftpop: 135
@@ -96,22 +96,22 @@ shots:
   lw_heart_target: 3
   lw_modestart_outhole: 2
   lw_z_ramp: 202
-  m_bomb: 626
+  m_bomb: 628
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 949
-  o_bomb: 360
+  modestartmade: 954
+  o_bomb: 362
   pull_master_sword: 112
   rightpop: 91
-  spinnermultiplier: 1203
+  spinnermultiplier: 1608
   toppop: 1949
   z_ramp_lostwoods: 58
-  zelda_2ball_shot_five: 354
+  zelda_2ball_shot_five: 355
   zelda_2ball_shot_four: 391
   zelda_2ball_shot_one: 1230
   zelda_2ball_shot_three: 164
-  zelda_2ball_shot_two: 160
+  zelda_2ball_shot_two: 161
 switches:
   leftflipperbutton: 6972
   plungerlane: 2714
@@ -122,22 +122,22 @@ switches:
   s_coin1: 450
   s_coin2: 0
   s_cranehole: 1255
-  s_droptarget1: 1528
-  s_droptarget2: 1207
-  s_droptarget3: 1103
-  s_heart: 1182
-  s_left_inlane: 889
-  s_left_outlane: 220
+  s_droptarget1: 1575
+  s_droptarget2: 1262
+  s_droptarget3: 1160
+  s_heart: 1193
+  s_left_inlane: 891
+  s_left_outlane: 222
   s_leftpop: 853
   s_leftslingshot: 435
   s_lightmb: 1
   s_lostwoods: 2910
   s_lostwoodsopto: 0
-  s_modestart: 1565
-  s_optoa: 1560
+  s_modestart: 1570
+  s_optoa: 1561
   s_optod: 2326
-  s_optoe: 2596
-  s_optol: 2558
+  s_optoe: 2597
+  s_optol: 2559
   s_optom: 0
   s_optot: 0
   s_optou: 0
@@ -145,15 +145,15 @@ switches:
   s_optoz1: 2448
   s_popexit: 368
   s_rampopto: 0
-  s_right_inlane: 1440
-  s_right_outlane: 177
+  s_right_inlane: 1442
+  s_right_outlane: 179
   s_rightpop: 552
   s_rightslingshot: 845
-  s_spinner: 8193
+  s_spinner: 8598
   s_toppop: 5054
   start: 65
-  trough1: 2349
-  trough2: 2647
+  trough1: 2352
+  trough2: 2650
   trough3: 0
   trough4: 0
   trough5: 1
