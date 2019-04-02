@@ -15,10 +15,23 @@ event_player:
   update_item_tracker{current_player.item_count ==2 }: set_item3_lightshow
   update_item_tracker{current_player.item_count ==3 }: set_item4_lightshow
   update_item_tracker{current_player.item_count ==4 }: set_item5_lightshow
+
   boomerang_found{current_player.boomerang_count < 1}: increment_item_tracker
   bow_found{current_player.bow_count < 1}: increment_item_tracker
   moonpearl_found{current_player.moonpearl_count < 1}: increment_item_tracker
   mirror_found{current_player.mirror_count < 1}: increment_item_tracker
+
+  play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
+  play_treasure_sfx{device.counters.item_counter.value==2}: bow_found
+  play_treasure_sfx{device.counters.item_counter.value==3}: moonpearl_found
+  play_treasure_sfx{device.counters.item_counter.value==4}: mirror_found
+
+  logicblock_hookshot_counter_complete: hookshot_found
+  logicblock_hammer_counter_complete: hammer_found
+  logicblock_flipper_counter_complete: flippers_found
+  logicblock_bluemail_counter_complete: bluemail_found
+  logicblock_redshield_counter_complete: redshield_found
+  
   hookshot_found{current_player.hookshot_count < 1}: set_hookshot_show
   hammer_found{current_player.hammer_count < 1}: set_hammer_show
   flippers_found{current_player.flipper_count < 1}: set_flippers_show
@@ -26,15 +39,6 @@ event_player:
   redshield_found{current_player.redshield_count < 1}: set_redshield_show
 
 
-  play_treasure_sfx{device.counters.item_counter.value==1}: boomerang_found
-  play_treasure_sfx{device.counters.item_counter.value==2}: bow_found
-  play_treasure_sfx{device.counters.item_counter.value==3}: moonpearl_found
-  play_treasure_sfx{device.counters.item_counter.value==4}: mirror_found
-  logicblock_hookshot_counter_complete: hookshot_found
-  logicblock_hammer_counter_complete: hammer_found
-  logicblock_flipper_counter_complete: flippers_found
-  logicblock_bluemail_counter_complete: bluemail_found
-  logicblock_redshield_counter_complete: redshield_found
 
 variable_player:
   increment_item_tracker:
