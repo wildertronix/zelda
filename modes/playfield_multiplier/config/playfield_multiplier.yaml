@@ -44,3 +44,8 @@ variable_player:
     multiplier:
       int: 1
       action: set
+
+  set2xlightshow:
+    rupee_value: 5
+  set3xlightshow:
+    rupee_value: 10

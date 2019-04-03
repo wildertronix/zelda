@@ -1,0 +1,102 @@
+#config_version=5
+
+
+
+mode:
+  start_events: ball_starting
+  stop_events: disable_rupee_finder, game_ending
+  priority: 2000
+
+event_player: 
+  logicblock_rupee_counter_complete: rupee_award
+
+
+
+shots:
+  z_rupee:
+    switch: s_optoz1
+    profile: rupee_lane_profile
+    show_tokens:
+      lane: l_zrupee
+  e_rupee:
+    switch: s_optoe
+    profile: rupee_lane_profile
+    show_tokens:
+      lane: l_erupee
+  crane_rupee:
+    switch: s_cranehole
+    profile: rupee_lane_profile
+    show_tokens:
+      lane: l_cranerupee
+  l_rupee:
+    switch: s_optoe
+    profile: rupee_lane_profile
+    show_tokens:
+      lane: l_lrupee
+  d_rupee:
+    switch: s_optoa
+    profile: rupee_lane_profile
+    show_tokens:
+      lane: l_drupee
+  a_rupee:
+    switch: s_optoa
+    profile: rupee_lane_profile
+    show_tokens:
+      lane: l_arupee
+
+
+shot_groups:
+  rupee_lanes:
+    shots:  z_rupee, e_rupee, crane_rupee, l_rupee, d_rupee, a_rupee
+    rotate_left_events: leftflipperbutton_active
+    rotate_right_events: rightflipperbutton_active
+    reset_events: rupee_lanes_complete
+    enable_events: ball_started
+    disable_events: ball_ending
+
+counters:
+  rupee_counter:
+    count_events: rupee_lanes_complete
+    count_complete_value: 1
+    reset_on_complete: true
+    restart_events: rupee_lanes_complete
+    disable_events: disable_rupee_counter
+
+
+
+
+shot_profiles:
+  rupee_lane_profile:
+    show: rupee_lane_selected
+    states:
+      - name: unlit
+        show: rupee_lane_off
+        loops: 0
+      - name: lit
+        show: rupee_lane_on
+
+
+# show_player:    ##not created yet
+#   rupee_lanes_complete:
+#     rupee_complete_show:
+#       speed:
+#       loops: 0
+
+
+variable_player:
+  z_rupee_lit_hit: 
+    score: 1 * current_player.rupee_value
+  e_rupee_lit_hit:
+    score: 1 * current_player.rupee_value
+  crane_rupee_lit_hit:
+    score: 1 * current_player.rupee_value
+  l_rupee_lit_hit:
+    score: 1 * current_player.rupee_value
+  d_rupee_lit_hit:
+    score: 1 * current_player.rupee_value
+  a_rupee_lit_hit:
+    score: 1 * current_player.rupee_value
+  rupee_lanes_complete:
+    score: 10 * current_player.multiplier
+
+

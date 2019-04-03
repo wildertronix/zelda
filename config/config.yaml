@@ -41,6 +41,7 @@ modes:
 - high_score
 - gameoverplayer
 - playfield_multiplier
+- rupee_finder
 
 window:
   title: Legend of Zelda
