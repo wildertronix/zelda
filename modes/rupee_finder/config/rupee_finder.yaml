@@ -4,7 +4,7 @@
 
 mode:
   start_events: ball_starting
-  stop_events: disable_rupee_finder, game_ending
+  stop_events: disable_rupee_finder, game_ending, set2xlightshow
   priority: 2000
 
 event_player: 
@@ -19,7 +19,7 @@ shots:
     show_tokens:
       lane: l_zrupee
   e_rupee:
-    switch: s_optoe
+    hit_events: rupee_sequence_shot_e_hit
     profile: rupee_lane_profile
     show_tokens:
       lane: l_erupee
@@ -29,12 +29,12 @@ shots:
     show_tokens:
       lane: l_cranerupee
   l_rupee:
-    switch: s_optoe
+    hit_events: rupee_sequence_shot_l_hit
     profile: rupee_lane_profile
     show_tokens:
       lane: l_lrupee
   d_rupee:
-    switch: s_optoa
+    switch: s_optod
     profile: rupee_lane_profile
     show_tokens:
       lane: l_drupee
@@ -43,6 +43,20 @@ shots:
     profile: rupee_lane_profile
     show_tokens:
       lane: l_arupee
+
+sequence_shots:
+  rupee_sequence_shot_e:
+    switch_sequence: 
+      - s_optoe 
+      - s_optol
+    sequence_timeout: 1s
+  rupee_sequence_shot_l:
+    switch_sequence: 
+      - s_optol 
+      - s_optoe   
+    sequence_timeout: 1s
+
+
 
 
 shot_groups:
@@ -97,6 +111,8 @@ variable_player:
   a_rupee_lit_hit:
     score: 1 * current_player.rupee_value
   rupee_lanes_complete:
-    score: 10 * current_player.multiplier
+    score: 5 * current_player.multiplier
 
 
+sound_player: 
+  rupee_lanes_complete: rupeesfx

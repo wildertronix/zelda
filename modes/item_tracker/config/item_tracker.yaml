@@ -95,7 +95,7 @@ counters:
 
   hammer_counter:
     count_events: sw_drop
-    count_complete_value: 39
+    count_complete_value: 30
     reset_on_complete: false
     persist_state: true
 

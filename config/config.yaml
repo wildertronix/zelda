@@ -42,6 +42,8 @@ modes:
 - gameoverplayer
 - playfield_multiplier
 - rupee_finder
+- rupee2x_finder
+- rupee3x_finder
 
 window:
   title: Legend of Zelda

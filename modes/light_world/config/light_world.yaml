@@ -209,5 +209,5 @@ variable_player:
     score: 1 * current_player.multiplier
   s_droptarget2_hit:
     score: 1 * current_player.multiplier
-  s_droptarget2_hit:
+  s_droptarget3_hit:
     score: 1 * current_player.multiplier

@@ -1,9 +1,9 @@
 events:
-  game_ended: 192
-  game_started: 1611
+  game_ended: 194
+  game_started: 1625
 player:
   score:
-    average: 2562.0463917525744
+    average: 2536.755102040813
     top:
     - 66050
     - 52050
@@ -15,26 +15,33 @@ player:
     - 33500
     - 33500
     - 28100
-    total: 194
+    total: 196
 shots:
-  2ballescape_first_shot_a: 204
-  2ballescape_first_shot_z: 240
+  2ballescape_first_shot_a: 211
+  2ballescape_first_shot_z: 241
   2ballescape_second_shot_d: 1
   2ballescape_shot_one: 16
   2ballescape_shot_three: 37
   2ballescape_shot_two: 26
-  2ballescape_third_shot_z: 351
+  2ballescape_third_shot_z: 353
   5way_combo_d: 34
   5way_combo_d2: 28
   5way_combo_z: 30
+  a_rupee: 18
+  a_rupeex2: 1
   abyss_shot: 29
   agahnim_shot: 106
   agahnim_shot_three: 33
   agahnim_shot_two: 59
-  b2_bomb: 99
-  b_bomb: 126
+  b2_bomb: 101
+  b_bomb: 128
+  crane_rupee: 23
+  crane_rupeex2: 1
   crane_shot: 3
-  d_ramp_lostwoods: 44
+  d_ramp_lostwoods: 45
+  d_rupee: 21
+  d_rupeex2: 1
+  d_rupeex3: 1
   darkworld_a_orbit: 20
   darkworld_a_orbit_dungeon3: 18
   darkworld_a_orbit_dungeon6: 16
@@ -71,9 +78,12 @@ shots:
   darkworld_z_ramp_dungeon4: 18
   darkworld_z_ramp_dungeon7: 17
   darkworld_zelda_rescue: 18
-  drop1: 386
-  drop2: 256
-  drop3: 266
+  drop1: 389
+  drop2: 257
+  drop3: 268
+  e_rupee: 62
+  e_rupeex2: 7
+  e_rupeex3: 4
   eopto: 81
   heart_target: 80
   heart_target1: 14
@@ -81,79 +91,85 @@ shots:
   hidden_a_ramp: 37
   hidden_d_ramp: 44
   hidden_e_ramp: 29
-  hidden_l_ramp: 26
+  hidden_l_ramp: 30
   hidden_z_ramp: 27
-  l_ramp_lostwoods: 83
+  l_ramp_lostwoods: 85
+  l_rupee: 53
+  l_rupeex2: 4
+  l_rupeex3: 2
   leftpop: 135
   lopto: 95
   lost_woods_entry: 68
-  lost_woods_orbit: 84
+  lost_woods_orbit: 85
   lostwoods_left_inlane: 19
   lostwoods_right_inlane: 47
-  lw_a_ramp: 153
+  lw_a_ramp: 157
   lw_abyss_shot: 2
-  lw_d_ramp: 577
+  lw_d_ramp: 585
   lw_heart_target: 3
   lw_modestart_outhole: 2
   lw_z_ramp: 204
-  m_bomb: 631
+  m_bomb: 635
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 962
-  o_bomb: 363
+  modestartmade: 987
+  o_bomb: 366
   pull_master_sword: 112
   rightpop: 91
-  spinnermultiplier: 1635
-  toppop: 1950
+  spinnermultiplier: 1880
+  toppop: 1975
   z_ramp_lostwoods: 58
-  zelda_2ball_shot_five: 357
-  zelda_2ball_shot_four: 394
-  zelda_2ball_shot_one: 1234
-  zelda_2ball_shot_three: 170
-  zelda_2ball_shot_two: 168
+  z_rupee: 13
+  z_rupeex2: 3
+  z_rupeex3: 1
+  zelda_2ball_shot_five: 361
+  zelda_2ball_shot_four: 404
+  zelda_2ball_shot_one: 1247
+  zelda_2ball_shot_three: 189
+  zelda_2ball_shot_two: 192
 switches:
-  leftflipperbutton: 7000
-  plungerlane: 2732
+  leftflipperbutton: 7206
+  plungerlane: 2758
   plungerlaunch: 0
-  rightflipperbutton: 7098
-  s_abyss: 615
+  rightflipperbutton: 7317
+  s_abyss: 621
   s_cavestar: 0
   s_coin1: 450
   s_coin2: 0
-  s_cranehole: 1265
-  s_droptarget1: 1593
-  s_droptarget2: 1274
-  s_droptarget3: 1172
-  s_heart: 1217
-  s_left_inlane: 896
-  s_left_outlane: 228
-  s_leftpop: 858
-  s_leftslingshot: 437
+  s_cranehole: 1289
+  s_droptarget1: 1611
+  s_droptarget2: 1282
+  s_droptarget3: 1181
+  s_heart: 1220
+  s_left_inlane: 912
+  s_left_outlane: 231
+  s_leftpop: 859
+  s_leftslingshot: 447
   s_lightmb: 1
-  s_lostwoods: 2916
+  s_lostwoods: 2948
   s_lostwoodsopto: 0
-  s_modestart: 1578
-  s_optoa: 1567
-  s_optod: 2388
-  s_optoe: 2617
-  s_optol: 2577
+  s_modestart: 1603
+  s_optoa: 1587
+  s_optod: 2423
+  s_optoe: 2712
+  s_optol: 2669
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 2458
-  s_popexit: 369
+  s_optoz1: 2479
+  s_popexit: 375
   s_rampopto: 0
-  s_right_inlane: 1449
-  s_right_outlane: 182
-  s_rightpop: 555
-  s_rightslingshot: 849
-  s_spinner: 8625
-  s_toppop: 5067
-  start: 65
-  trough1: 2372
-  trough2: 2669
+  s_right_inlane: 1467
+  s_right_outlane: 189
+  s_rightpop: 556
+  s_rightslingshot: 888
+  s_spinner: 8870
+  s_toppop: 5115
+  start: 72
+  trough1: 2387
+  trough2: 2696
   trough3: 0
   trough4: 0
   trough5: 1

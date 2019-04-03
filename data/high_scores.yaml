@@ -1,5 +1,8 @@
 score:
 - !!python/tuple
+  - WILDER
+  - 139
+- !!python/tuple
   - W
   - 81
 - !!python/tuple
@@ -11,6 +14,3 @@ score:
 - !!python/tuple
   - ''
   - 64
-- !!python/tuple
-  - W
-  - 59

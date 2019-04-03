@@ -1,0 +1,121 @@
+#config_version=5
+
+
+
+mode:
+  start_events: set2xlightshow
+  stop_events: disable_rupeex2_finder, game_ending, set3xlightshow
+  priority: 2000
+
+event_player: 
+  logicblock_rupee_counterx2_complete: rupee_award
+
+
+
+shots:
+  z_rupeex2:
+    switch: s_optoz1
+    profile: rupeex2_lane_profile
+    show_tokens:
+      lane: l_zrupee
+  e_rupeex2:
+    hit_events: rupeex2_sequence_shot_e_hit
+    profile: rupeex2_lane_profile
+    show_tokens:
+      lane: l_erupee
+  crane_rupeex2:
+    switch: s_cranehole
+    profile: rupeex2_lane_profile
+    show_tokens:
+      lane: l_cranerupee
+  l_rupeex2:
+    hit_events: rupeex2_sequence_shot_l_hit
+    profile: rupeex2_lane_profile
+    show_tokens:
+      lane: l_lrupee
+  d_rupeex2:
+    switch: s_optod
+    profile: rupeex2_lane_profile
+    show_tokens:
+      lane: l_drupee
+  a_rupeex2:
+    switch: s_optoa
+    profile: rupeex2_lane_profile
+    show_tokens:
+      lane: l_arupee
+
+sequence_shots:
+  rupeex2_sequence_shot_e:
+    switch_sequence: 
+      - s_optoe 
+      - s_optol
+    sequence_timeout: 1s
+  rupeex2_sequence_shot_l:
+    switch_sequence: 
+      - s_optol 
+      - s_optoe   
+    sequence_timeout: 1s
+
+
+
+
+shot_groups:
+  rupeex2_lanes:
+    shots:  z_rupeex2, e_rupeex2, crane_rupeex2, l_rupeex2, d_rupeex2, a_rupeex2
+    rotate_left_events: leftflipperbutton_active
+    rotate_right_events: rightflipperbutton_active
+    reset_events: rupeex2_lanes_complete
+    enable_events: set2xlightshow
+    disable_events: ball_ending
+
+counters:
+  rupee_counterx2:
+    count_events: rupeex2_lanes_complete
+    count_complete_value: 1
+    reset_on_complete: true
+    restart_events: rupeex2_lanes_complete
+    disable_events: disable_rupeex2_counter
+
+
+
+
+shot_profiles:
+  rupeex2_lane_profile:
+    show: rupeex2_lane_selected
+    states:
+      - name: unlit
+        show: rupeex2_lane_off
+        loops: 0
+      - name: lit
+        show: rupeex2_lane_on
+
+
+# show_player:    ##not created yet
+#   rupee_lanes_complete:
+#     rupee_complete_show:
+#       speed:
+#       loops: 0
+
+
+variable_player:
+  z_rupeex2_lit_hit: 
+    score: 5
+  e_rupeex2_lit_hit:
+    score: 5
+  crane_rupeex2_lit_hit:
+    score: 5
+  l_rupeex2_lit_hit:
+    score: 5
+  d_rupeex2_lit_hit:
+    score: 5
+  a_rupeex2_lit_hit:
+    score: 5
+  rupeex2_lanes_complete:
+    score: 5 * current_player.multiplier
+  # mode_rupeex2_finder_started:
+  #   rupee_value: 5
+
+
+
+sound_player: 
+  rupeex2_lanes_complete: rupeesfx

@@ -194,25 +194,6 @@ track_player:
       volume: 1.0
       fade: 1s
 
-variable_player:
-  lw_heart_target_hit:
-    score: 1
-  lw_middle_drop_target_hit:
-    score: 1
-  lw_modestart_outhole_hit:
-    score: 1
-  z_ramp_lostwoods_hit:
-    score: 1
-  l_ramp_lostwoods_hit:
-    score: 1
-  d_ramp_lostwoods_hit:
-    score: 1
-  lw_abyss_shot_hit:
-    score: 1
-  lostwoods_left_inlane_hit:
-    score: 1
-  lw_crane_shot_hit:
-    score: 1
 
 show_player:
   8togo:
@@ -249,21 +230,21 @@ show_player:
       priority: 80
 
 variable_player:
-  s_heart:
+  s_heart_hit:
     score: 1 * current_player.multiplier
-  s_droptarget2:
+  s_droptarget2_hit:
     score: 1 * current_player.multiplier
-  s_modestart:
+  s_modestart_hit:
     score: 1 * current_player.multiplier
-  s_optoz1:
+  s_optoz1_hit:
     score: 1 * current_player.multiplier
-  s_optod:
+  s_optod_hit:
     score: 1 * current_player.multiplier
-  s_optol:
+  s_optol_hit:
     score: 1 * current_player.multiplier
-  s_abyss:
+  s_abyss_hit:
     score: 1 * current_player.multiplier
-  s_left_inlane:
+  s_left_inlane_hit:
     score: 1 * current_player.multiplier
-  s_cranehole:
+  s_cranehole_hit:
     score: 1 * current_player.multiplier
