@@ -1,0 +1,190 @@
+2019-04-06 15:05:39,261 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.1
+2019-04-06 15:05:39,261 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-04-06-15-05-39-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-04-06 15:05:39,262 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-04-06 15:05:39,262 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-04-06 15:05:39,262 : INFO : Machine : Platform: win32
+2019-04-06 15:05:39,262 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-04-06 15:05:39,262 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-04-06 15:05:39,262 : INFO : Machine : Machine config file #1: config.yaml
+2019-04-06 15:05:39,264 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-06 15:05:39,264 : INFO : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2019-04-06 15:05:39,264 : DEBUG : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-04-06 15:05:39,447 : INFO : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-04-06 15:05:39,466 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.yaml.
+2019-04-06 15:05:39,466 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-06 15:05:39,526 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-06 15:05:39,526 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-04-06 15:05:39,841 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-04-06 15:05:39,845 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-04-06 15:05:39,881 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-04-06 15:05:39,884 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-04-06 15:05:39,976 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-04-06 15:05:39,985 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-04-06 15:05:39,987 : DEBUG : asyncio : Using selector: SelectSelector
+2019-04-06 15:05:39,988 : INFO : Machine : Initialise MPF.
+2019-04-06 15:05:40,018 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2019-04-06 15:05:40,215 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,290 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-04-06 15:05:40,292 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 795, 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,292 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.1', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,292 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.1, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,293 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,293 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,293 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,293 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,293 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,293 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-04-06 15:05:40,294 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-04-06 15:05:40,348 : WARNING : ConfigProcessor : Cache file not found: C:\Users\Wilder\AppData\Local\Temp\34c6448537d1c95c89cf73a07c0f99c9.mpf_cache
+2019-04-06 15:05:40,348 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\bottle_filler\config\bottle_filler.yaml.
+2019-04-06 15:05:40,349 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\bottle_filler\config\bottle_filler.yaml
+2019-04-06 15:05:40,389 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\modes\bottle_filler\config\bottle_filler.yaml
+2019-04-06 15:05:40,390 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\34c6448537d1c95c89cf73a07c0f99c9.mpf_cache
+2019-04-06 15:05:40,393 : DEBUG : ModeController : Loaded mode bottle_filler
+2019-04-06 15:05:40,393 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-04-06 15:05:40,396 : DEBUG : ModeController : Loaded mode 2ballqualifier
+2019-04-06 15:05:40,396 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-04-06 15:05:40,402 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-04-06 15:05:40,402 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-04-06 15:05:40,407 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-04-06 15:05:40,407 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-04-06 15:05:40,412 : DEBUG : ModeController : Loaded mode light_world
+2019-04-06 15:05:40,412 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-04-06 15:05:40,417 : DEBUG : ModeController : Loaded mode item_tracker
+2019-04-06 15:05:40,418 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-04-06 15:05:40,423 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-04-06 15:05:40,423 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6eb8b6e4728e10ce756703e43167d298.mpf_cache
+2019-04-06 15:05:40,427 : DEBUG : ModeController : Loaded mode rupee2x_finder
+2019-04-06 15:05:40,427 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-04-06 15:05:40,431 : DEBUG : ModeController : Loaded mode slide_tracker
+2019-04-06 15:05:40,431 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-04-06 15:05:40,435 : DEBUG : ModeController : Loaded mode unusual_show_tracker
+2019-04-06 15:05:40,435 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-04-06 15:05:40,439 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-04-06 15:05:40,439 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-04-06 15:05:40,443 : DEBUG : ModeController : Loaded mode lost_woods
+2019-04-06 15:05:40,443 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\96294a9578657f44941f2a8ec647ae36.mpf_cache
+2019-04-06 15:05:40,447 : DEBUG : ModeController : Loaded mode rupee3x_finder
+2019-04-06 15:05:40,448 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-04-06 15:05:40,457 : DEBUG : ModeController : Loaded mode attract
+2019-04-06 15:05:40,457 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-04-06 15:05:40,461 : DEBUG : ModeController : Loaded mode video_player
+2019-04-06 15:05:40,461 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\playfield_multiplier\config\playfield_multiplier.yaml
+2019-04-06 15:05:40,461 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\playfield_multiplier\config\playfield_multiplier.yaml.
+2019-04-06 15:05:40,461 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\playfield_multiplier\config\playfield_multiplier.yaml
+2019-04-06 15:05:40,484 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\modes\playfield_multiplier\config\playfield_multiplier.yaml
+2019-04-06 15:05:40,484 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\d9d23a2a9a3117f1553491692ff1c689.mpf_cache
+2019-04-06 15:05:40,488 : DEBUG : ModeController : Loaded mode playfield_multiplier
+2019-04-06 15:05:40,488 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-04-06 15:05:40,493 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-04-06 15:05:40,493 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-04-06 15:05:40,497 : DEBUG : ModeController : Loaded mode 5waycombotracker
+2019-04-06 15:05:40,497 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-04-06 15:05:40,501 : DEBUG : ModeController : Loaded mode ball_save
+2019-04-06 15:05:40,501 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-04-06 15:05:40,505 : DEBUG : ModeController : Loaded mode heartmeter
+2019-04-06 15:05:40,505 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-04-06 15:05:40,510 : DEBUG : ModeController : Loaded mode base
+2019-04-06 15:05:40,511 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-04-06 15:05:40,519 : DEBUG : ModeController : Loaded mode game
+2019-04-06 15:05:40,519 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-04-06 15:05:40,524 : DEBUG : ModeController : Loaded mode heart_tracker
+2019-04-06 15:05:40,524 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\high_score\config\high_score.yaml
+2019-04-06 15:05:40,524 : INFO : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\high_score\config\high_score.yaml.
+2019-04-06 15:05:40,525 : DEBUG : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2019-04-06 15:05:40,576 : INFO : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\high_score\config\high_score.yaml
+2019-04-06 15:05:40,577 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\high_score\config\high_score.yaml.
+2019-04-06 15:05:40,577 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\high_score\config\high_score.yaml
+2019-04-06 15:05:40,646 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\modes\high_score\config\high_score.yaml
+2019-04-06 15:05:40,649 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-04-06 15:05:40,656 : DEBUG : ModeController : Loaded mode high_score
+2019-04-06 15:05:40,656 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fc1a42fdd0d487285862f5b943c745e.mpf_cache
+2019-04-06 15:05:40,660 : DEBUG : ModeController : Loaded mode rupee_finder
+2019-04-06 15:05:40,660 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-04-06 15:05:40,665 : DEBUG : ModeController : Loaded mode ball_hold_tracker
+2019-04-06 15:05:40,665 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-04-06 15:05:40,669 : DEBUG : ModeController : Loaded mode music_player
+2019-04-06 15:05:40,669 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-04-06 15:05:40,673 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-04-06 15:05:40,673 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-04-06 15:05:40,677 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-04-06 15:05:40,677 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-04-06 15:05:40,681 : DEBUG : ModeController : Loaded mode extraball
+2019-04-06 15:05:40,681 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-04-06 15:05:40,685 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-04-06 15:05:40,685 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-04-06 15:05:40,689 : DEBUG : ModeController : Loaded mode darkworld
+2019-04-06 15:05:40,777 : DEBUG : ball_device.bd_drain : Configuring device with settings: '{'ball_switches': [<switch.trough1>], 'eject_coil': <coil.draineject>, 'eject_targets': [<ball_device.bd_trough>], 'eject_timeouts': [1000], 'confirm_eject_type': 'target', 'tags': ['drain'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_ignore_window_ms': 0, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-04-06 15:05:40,778 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'entrance_switch': <switch.trough2>, 'entrance_switch_full_timeout': 3000, 'ball_capacity': 3, 'eject_coil': <coil.troughrelease>, 'eject_targets': [<ball_device.bd_plunger_lane>], 'confirm_eject_type': 'target', 'tags': ['trough', 'home'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch_ignore_window_ms': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'eject_timeouts': [], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_switches': [], 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-04-06 15:05:40,780 : DEBUG : ball_device.bd_plunger_lane : Configuring device with settings: '{'ball_switches': [<switch.plungerlane>], 'eject_coil': <coil.autoplunger>, 'mechanical_eject': True, 'eject_timeouts': [1000], 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_ignore_window_ms': 0, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'confirm_eject_type': 'target', 'captures_from': <playfield.playfield>, 'eject_targets': [<playfield.playfield>], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-04-06 15:05:40,879 : DEBUG : ball_save.default : Configuring device with settings: '{'active_time': 10000, 'hurry_up_time': 3000, 'grace_period': 3000, 'enable_events': {'mode_base_started': 0}, 'disable_events': {'ball_save_default_saving_ball': 0}, 'timer_start_events': {'start_ballsave': 0}, 'auto_launch': True, 'balls_to_save': 1, 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'source_playfield': <playfield.playfield>, 'eject_delay': 0, 'only_last_ball': False, 'early_ball_save_events': {}, 'delayed_eject_events': {}}'
+2019-04-06 15:05:41,039 : INFO : EventManager : Event: ======'drop_target_bank_maindrop_up'====== Args={}
+2019-04-06 15:05:41,046 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-04-06 15:05:41,048 : INFO : SwitchController : Found active switch: ('4', <Platform.Virtual>)
+2019-04-06 15:05:41,048 : INFO : SwitchController : Found active switch: ('5', <Platform.Virtual>)
+2019-04-06 15:05:41,087 : ERROR : asyncio : Exception in callback EventManager._done(<Task finishe...speed': 5}",)>)
+handle: <Handle EventManager._done(<Task finishe...speed': 5}",)>)>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 34, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 60, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 128, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 201, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 268, in validate_config
+    validation_failure_info=(validation_failure_info, k))
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 307, in validate_config_item
+    validation_failure_info)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 711, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 440, in _validate_type_enum
+    item, str(param)))
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 731, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry show_player:show_player:action = "-1" is not valid. Entry "-1" is not valid for enum. Valid values are: play,stop,pause,resume,advance,step_back,update Error Code: CFE-ConfigValidator-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 690, in _done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 102, in initialise_modes
+    mode.initialise_mode()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 594, in initialise_mode
+    **item.kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 134, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 106, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\device_config_player.py", line 37, in validate_config_entry
+    name, self.show_section, settings), 1, self.log.name) from e
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in show_player: Failed to load config player fill_bottle_1_red:shows {'loops': -1, 'speed': 5} Error Code: CFE-show_player-1
+2019-04-06 15:05:41,132 : INFO : Machine : Starting the main run loop.
+2019-04-06 15:05:41,133 : INFO : Machine : Shutting down...
+2019-04-06 15:05:41,134 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-04-06 15:05:41,139 : DEBUG : ball_device.bd_drain : Stopping ball device
+2019-04-06 15:05:41,309 : ERROR : root : 'NoneType' object has no attribute 'stop'
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 765, in _run_loop
+    self._do_stop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 728, in _do_stop
+    self.shutdown()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 734, in shutdown
+    self.device_manager.stop_devices()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\device_manager.py", line 128, in stop_devices
+    device.stop_device()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 138, in stop_device
+    self.ball_count_handler.stop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 44, in stop
+    self.counter.stop()
+AttributeError: 'NoneType' object has no attribute 'stop'

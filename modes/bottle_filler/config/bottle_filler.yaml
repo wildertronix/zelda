@@ -1,0 +1,188 @@
+#config_version=5
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 100
+  restart_on_next_ball: true
+
+
+event_player:
+  sw_switch_hit{device.counters.bottle_filler_counter.value==12}: fill_bottle_1_red
+  sw_switch_hit{device.counters.bottle_filler_counter.value==25}: fill_bottle_2_red
+  sw_switch_hit{device.counters.bottle_filler_counter.value==37}: fill_bottle_3_red
+  sw_switch_hit{device.counters.bottle_filler_counter.value==50}: fill_bottle_4_red
+  sw_switch_hit{device.counters.bottle_filler_counter.value==62}: fill_bottle_1_blue
+  sw_switch_hit{device.counters.bottle_filler_counter.value==75}: fill_bottle_2_blue
+  sw_switch_hit{device.counters.bottle_filler_counter.value==97}: fill_bottle_3_blue
+  sw_switch_hit{device.counters.bottle_filler_counter.value==109}: fill_bottle_4_blue
+  sw_switch_hit{device.counters.bottle_filler_counter.value==121}: fill_bottle_1_green
+  sw_switch_hit{device.counters.bottle_filler_counter.value==133}: fill_bottle_2_green
+  sw_switch_hit{device.counters.bottle_filler_counter.value==145}: fill_bottle_3_green
+  sw_switch_hit{device.counters.bottle_filler_counter.value==157}: fill_bottle_4_green
+  sw_switch_hit{device.counters.bottle_filler_counter.value==169}: fill_bottle_1_white
+  sw_switch_hit{device.counters.bottle_filler_counter.value==181}: fill_bottle_2_white
+  sw_switch_hit{device.counters.bottle_filler_counter.value==193}: fill_bottle_3_white
+  sw_switch_hit{device.counters.bottle_filler_counter.value==200}: fill_bottle_4_white
+
+  sw_modestart{current_player.sw_switch_hit_count > 12}: award_1_red_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 25}: award_2_red_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 37}: award_3_red_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 50}: award_4_red_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 62}: award_1_blue_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 75}: award_2_blue_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 97}: award_3_blue_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 109}: award_4_blue_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 121}: award_1_green_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 133}: award_2_green_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 145}: award_3_green_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 157}: award_4_green_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 169}: award_1_white_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 181}: award_2_white_bottle
+  sw_modestart{current_player.sw_switch_hit_count > 193}: award_3_white_bottle
+  sw_modestart{current_player.sw_switch_hit_count == 200}: award_4_white_bottle
+
+
+
+
+counters:
+  bottle_filler_counter:
+    count_events: sw_switch_hit
+    count_complete_value: 400
+    reset_events: sw_modestart
+
+
+show_player: 
+  fill_bottle_1_red:
+    one_red_bottle:
+      loops: -1
+      speed: 1
+  fill_bottle_2_red:
+    two_red_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_3_red:
+    three_red_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_4_red:
+    four_red_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_1_blue:
+    one_blue_bottle:
+      loops: -1
+      speed: 1
+  fill_bottle_2_blue:
+    two_blue_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_3_blue:
+    three_blue_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_4_blue:
+    four_blue_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_1_green:
+    one_green_bottle:
+      loops: -1
+      speed: 1
+  fill_bottle_2_green:
+    two_green_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_3_green:
+    three_green_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_4_green:
+    four_green_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_1_white:
+    one_white_bottle:
+      loops: -1
+      speed: 1
+  fill_bottle_2_white:
+    two_white_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_3_white:
+    three_white_bottles:
+      loops: -1
+      speed: 1
+  fill_bottle_4_white:
+    four_white_bottles:
+      loops: -1
+      speed: 1
+  sw_modestart:
+    one_red_bottle:
+      action: stop
+    two_red_bottles:
+      action: stop
+    three_red_bottles:
+      action: stop
+    four_red_bottles:
+      action: stop
+    one_blue_bottle:
+      action: stop
+    two_blue_bottles:
+      action: stop
+    three_blue_bottles:
+      action: stop
+    four_blue_bottles:
+      action: stop
+    one_green_bottle:
+      action: stop
+    two_green_bottles:
+      action: stop
+    three_green_bottles:
+      action: stop
+    four_green_bottles:
+      action: stop
+    one_white_bottle:
+      action: stop
+    two_white_bottle:
+      action: stop
+    three_white_bottle:
+      action: stop
+    four_white_bottle:
+      action: stop
+
+
+variable_player:
+  sw_switch_hit:
+    sw_switch_hit_count: 1
+  award_1_red_bottle:
+    score: 1
+  award_2_red_bottle:
+    score: 2
+  award_3_red_bottle:
+    score: 3
+  award_4_red_bottle:
+    score: 4
+  award_1_blue_bottle:
+    score: 5
+  award_2_blue_bottle:
+    score: 6
+  award_3_blue_bottle:
+    score: 7
+  award_4_blue_bottle:
+    score: 8
+  award_1_green_bottle:
+    score: 9
+  award_2_green_bottle:
+    score: 10
+  award_3_green_bottle:
+    score: 11
+  award_4_green_bottle:
+    score: 12
+  award_1_white_bottle:
+    score: 13
+  award_2_white_bottle:
+    score: 14
+  award_3_white_bottle:
+    score: 15
+  award_4_white_bottle:
+    score: 16

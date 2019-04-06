@@ -108,10 +108,10 @@ switches:
     tags: flip, right_flipper
   s_leftslingshot:
     number: 2
-    tags: slingshot
+    tags: slingshot, switch_hit
   s_rightslingshot:
     number: 3
-    tags: slingshot
+    tags: slingshot, switch_hit
   trough1:
     number: 4
   trough2:
@@ -121,30 +121,30 @@ switches:
     tags: modestart, pathfound
   s_abyss:
     number: 7
-    tags: pathfound
+    tags: pathfound, switch_hit
   plungerlane:
     number: 46
   s_right_inlane:
     number: 9
-    tags: playfield_active, points_please, inlane
+    tags: playfield_active, points_please, inlane, switch_hit
   s_right_outlane:
     number: 10
-    tags: playfield_active, outlane, points_please
+    tags: playfield_active, outlane, points_please, switch_hit
   s_spinner:
     number: 11
-    tags: playfield_active, spinner
+    tags: playfield_active, spinner, switch_hit
   s_left_inlane:
     number: 12
-    tags: playfield_active, points_please, inlane, pathfound
+    tags: playfield_active, points_please, inlane, pathfound, switch_hit
   s_left_outlane:
     number: 13
-    tags: playfield_active, outlane, points_please
+    tags: playfield_active, outlane, points_please, switch_hit
   s_heart:
     number: 14
-    tags: playfield_active, heart, pathfound
+    tags: playfield_active, heart, pathfound, switch_hit
   s_popexit:
     number: 15
-    tags: playfield_active
+    tags: playfield_active, switch_hit
   #s_optoz:
     #number: 
     #type: NC
@@ -161,32 +161,32 @@ switches:
 #21-31 unused
   s_droptarget1:
     number: 32
-    tags: drop
+    tags: drop, switch_hit
   s_droptarget2:
     number: 33
-    tags: drop, pathfound
+    tags: drop, pathfound, switch_hit
   s_droptarget3:
     number: 34
-    tags: drop
+    tags: drop, switch_hit
   s_cranehole:
     number: 35
-    tags: pathfound
+    tags: pathfound, switch_hit
   s_rightpop:
     number: 38
-    tags: jets
+    tags: jets, switch_hit
   s_toppop:
     number: 36
-    tags: jets
+    tags: jets, switch_hit
   s_leftpop: 
     number: 37
-    tags: jets
+    tags: jets, switch_hit
   s_lostwoods:
     number: 39
 #Optos
   s_optoz1:
     number: 41
     type: NC
-    tags: playfield_active, ramp_hit, pathfound,
+    tags: playfield_active, ramp_hit, pathfound, switch_hit
     platform_settings:
       debounce_open: 3
       debounce_close: 3
@@ -201,11 +201,11 @@ switches:
   s_optod:
     number: 45
     type: NC
-    tags: playfield_active, ramp_hit, pathfound
+    tags: playfield_active, ramp_hit, pathfound, switch_hit
   s_optoa:
     number: 44
     type: NC
-    tags: playfield_active
+    tags: playfield_active, switch_hit
 
 
 

@@ -1,0 +1,10 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_modestart1: bc0000-f300ms
+- time: '+1'
+  lights:
+    l_modestart1: 560002-f300ms
+
+

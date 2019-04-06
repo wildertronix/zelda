@@ -44,6 +44,7 @@ modes:
 - rupee_finder
 - rupee2x_finder
 - rupee3x_finder
+- bottle_filler
 
 window:
   title: Legend of Zelda

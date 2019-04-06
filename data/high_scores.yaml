@@ -1,16 +1,16 @@
 score:
 - !!python/tuple
+  - JF
+  - 795
+- !!python/tuple
+  - JF
+  - 251
+- !!python/tuple
+  - JF
+  - 153
+- !!python/tuple
   - WILDER
   - 139
 - !!python/tuple
   - W
-  - 81
-- !!python/tuple
-  - W
-  - 64
-- !!python/tuple
-  - W
-  - 64
-- !!python/tuple
-  - ''
-  - 64
+  - 86

@@ -86,17 +86,17 @@ shot_profiles:
 #       loops: 0
 
 variable_player:
-  z_rupeex3_lit_hit: 
+  z_rupeex3_hit: 
     score: 10
-  e_rupeex3_lit_hit:
+  e_rupeex3_hit:
     score: 10
-  crane_rupeex3_lit_hit:
+  crane_rupeex3_hit:
     score: 10
-  l_rupeex3_lit_hit:
+  l_rupeex3_hit:
     score: 10
-  d_rupeex3_lit_hit:
+  d_rupeex3_hit:
     score: 10
-  a_rupeex3_lit_hit:
+  a_rupeex3_hit:
     score: 10
   rupeex3_lanes_complete:
     score: 5 * current_player.multiplier

@@ -98,17 +98,17 @@ shot_profiles:
 
 
 variable_player:
-  z_rupee_lit_hit: 
+  z_rupee_hit: 
     score: 1 * current_player.rupee_value
-  e_rupee_lit_hit:
+  e_rupee_hit:
     score: 1 * current_player.rupee_value
-  crane_rupee_lit_hit:
+  crane_rupee_hit:
     score: 1 * current_player.rupee_value
-  l_rupee_lit_hit:
+  l_rupee_hit:
     score: 1 * current_player.rupee_value
-  d_rupee_lit_hit:
+  d_rupee_hit:
     score: 1 * current_player.rupee_value
-  a_rupee_lit_hit:
+  a_rupee_hit:
     score: 1 * current_player.rupee_value
   rupee_lanes_complete:
     score: 5 * current_player.multiplier

@@ -1,0 +1,14 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_modestart1: ff7afc-f300ms
+    l_modestart4: ff7afc-f300ms
+    l_modestart2: ff7afc-f300ms
+    l_modestart3: 01a01c-f300ms
+- time: '+1'
+  lights:
+    l_modestart1: ffb7fc-f300ms
+    l_modestart4: ffb7fc-f300ms
+    l_modestart2: ffb7fc-f300ms
+    l_modestart3: 017c16-f300ms
