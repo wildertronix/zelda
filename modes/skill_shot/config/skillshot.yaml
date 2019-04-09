@@ -1,0 +1,76 @@
+#config_version=5
+mode:
+    start_events: ball_starting
+    priority: 100
+
+event_player:
+  sw_switch_hit{device.counters.skillshot_counter.value==0 and current_player.skillshot_award_counter_count < 1}: skillshot_failed, skillshot_award
+  sw_switch_hit{device.counters.skillshot_counter.value==1 and current_player.skillshot_award_counter_count < 1}: skillshot_rupee_award, skillshot_award
+  sw_switch_hit{device.counters.skillshot_counter.value==2 and current_player.skillshot_award_counter_count < 1}: skillshot_ballsave_award, skillshot_award
+  sw_switch_hit{device.counters.skillshot_counter.value==3 and current_player.skillshot_award_counter_count < 1}: skillshot_heart_award, skillshot_award
+
+
+
+
+
+counters:
+  skillshot_counter:
+    count_events: skillshot_timing_step
+    count_complete_value: 4
+    disable_on_complete: false
+    enable_events: mode_skillshot_started
+    disable_events: mode_skillshot_timing_stopped sw_switch_hit
+    reset_events: mode_skillshot_timing_started
+
+  skillshot_award_counter:
+    count_events: skillshot_award
+    enable_events: mode_skillshot_started
+    reset_events: mode_skillshot_started
+
+
+variable_player:
+  skillshot_rupee_award:
+    score: 10
+  skillshot_ballsave_award:
+    skillshot_ballsave: 1
+  skillshot_heart_award:
+    heart_count: 3
+
+
+
+show_player:
+  mode_skillshot_started:
+    skillshot_timing_crawl:
+      loops: -1
+      speed: 6
+  skillshot_heart_award:
+    skillshot_timing_crawl:
+      action: stop
+    skillshot_award_flash:
+      loops: 1
+      speed: 8
+      show_tokens:
+        award_led: l_plungerlane3
+        award_color: red
+  skillshot_ballsave_award:
+    skillshot_timing_crawl:
+      action: stop
+    skillshot_award_flash:
+      loops: 1
+      speed: 8
+      show_tokens:
+        award_led: l_plungerlane2
+        award_color: orange
+  skillshot_rupee_award:
+    skillshot_timing_crawl:
+      action: stop
+    skillshot_award_flash:
+      loops: 1
+      speed: 8
+      show_tokens:
+        award_led: l_plungerlane1
+        award_color: green
+  skillshot_failed:
+    skillshot_timing_crawl:
+      action: stop
+

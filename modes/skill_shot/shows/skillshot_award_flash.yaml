@@ -1,0 +1,13 @@
+#show_version=5
+- time: 0
+  lights:
+    l_plungerlane1: 000000-f250ms
+    l_plungerlane2: 000000-f250ms
+    l_plungerlane3: 000000-f250ms
+    (award_led): (award_color)-f250ms
+
+- time: '+2'
+  lights:
+    (award_led): 000000-f250ms
+
+- time: '+2'

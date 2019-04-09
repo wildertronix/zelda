@@ -16,8 +16,6 @@ modes:
 - base
 - ball_save
 - extraball
-# - escape_starter
-# - escape
 - 2ballqualifier
 - 2ballescape
 - escapehurryup
@@ -45,6 +43,7 @@ modes:
 - rupee2x_finder
 - rupee3x_finder
 - bottle_filler
+- skill_shot
 
 window:
   title: Legend of Zelda
