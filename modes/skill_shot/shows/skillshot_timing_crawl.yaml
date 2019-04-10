@@ -1,5 +1,4 @@
 #show_version=5
-
 - time: 0
   lights:
     l_plungerlane1: green
@@ -11,7 +10,8 @@
     l_plungerlane1: off
     l_plungerlane2: orange
     l_plungerlane3: off
-events: skillshot_timing_step
+  events: 
+  - skillshot_timing_step
 
 
 - time: '+2'
@@ -19,11 +19,13 @@ events: skillshot_timing_step
     l_plungerlane1: off
     l_plungerlane2: off
     l_plungerlane3: red
-events: skillshot_timing_step
+  events: 
+  - skillshot_timing_step
 
 - time: '+2'
   lights:
     l_plungerlane1: off
     l_plungerlane2: off
     l_plungerlane3: off
-events: skillshot_timing_step
+  events: 
+  - skillshot_timing_step

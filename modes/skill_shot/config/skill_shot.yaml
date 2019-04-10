@@ -1,0 +1,79 @@
+#config_version=5
+mode:
+  start_events: ball_starting
+  priority: 100
+
+event_player:
+  s_optoa_active{device.counters.skillshot_counter.value==0}: skillshot_failed, skillshot_award
+  s_optoa_active{device.counters.skillshot_counter.value==1}: skillshot_rupee_award, skillshot_award
+  s_optoa_active{device.counters.skillshot_counter.value==2}: skillshot_ballsave_award, skillshot_award
+  s_optoa_active{device.counters.skillshot_counter.value==3}: skillshot_heart_award, skillshot_award
+
+
+
+
+
+counters:
+  skillshot_counter:
+    count_events: skillshot_timing_step
+    count_complete_value: 4
+    disable_on_complete: false
+    enable_events: mode_skill_shot_started
+    disable_events: mode_skill_shot_stopped sw_switch_hit
+    reset_events: mode_skill_shot_started
+
+  # skillshot_award_counter:
+  #   count_events: skillshot_award
+  #   enable_events: mode_skill_shot_started
+  #   reset_events: mode_skill_shot_started
+
+
+variable_player:
+  skillshot_rupee_award:
+    score: 10
+  skillshot_ballsave_award:
+    skillshot_ballsave: 1
+  skillshot_heart_award:
+    heart_count: 3
+  skillshot_award:
+    skillshot_award_count: 1
+
+
+
+
+show_player:
+  mode_skill_shot_started:
+    skillshot_timing_crawl:
+      loops: -1
+      speed: 4
+  skillshot_heart_award:
+    skillshot_timing_crawl:
+      action: stop
+    skillshot_award_flash:
+      loops: 3
+      speed: 8
+      show_tokens:
+        award_led: l_plungerlane3
+        award_color: red
+  skillshot_ballsave_award:
+    skillshot_timing_crawl:
+      action: stop
+    skillshot_award_flash:
+      loops: 3
+      speed: 8
+      show_tokens:
+        award_led: l_plungerlane2
+        award_color: orange
+  skillshot_rupee_award:
+    skillshot_timing_crawl:
+      action: stop
+    skillshot_award_flash:
+      loops: 3
+      speed: 8
+      show_tokens:
+        award_led: l_plungerlane1
+        award_color: green
+  skillshot_failed:
+    skillshot_timing_crawl:
+      action: stop
+

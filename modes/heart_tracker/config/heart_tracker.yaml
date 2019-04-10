@@ -7,164 +7,208 @@ mode:
   priority: 100
 
 event_player:
-  logicblock_heart_counter_complete: award_heart_extraball
-  s_heart_active{device.counters.heart_counter.value==6}: heart_piece_earned
-  s_heart_active{device.counters.heart_counter.value==12}: heart_piece_earned
-  s_heart_active{device.counters.heart_counter.value==18}: heart_piece_earned
+  mode_heart_tracker_started: update_heart_tracker
+  s_heart_active: increment_heart_tracker
+  increment_heart_tracker: update_heart_tracker|10ms
+  skillshot_heart_award: update_heart_tracker|10ms
+  update_heart_tracker{current_player.heart_count ==1 }: set_heart1_lightshow
+  update_heart_tracker{current_player.heart_count ==2 }: set_heart2_lightshow
+  update_heart_tracker{current_player.heart_count ==3 }: set_heart3_lightshow
+  update_heart_tracker{current_player.heart_count ==4 }: set_heart4_lightshow
+  update_heart_tracker{current_player.heart_count ==5 }: set_heart5_lightshow
+  update_heart_tracker{current_player.heart_count ==6 and current_player.heart_piece_count ==0}: set_heart6_lightshow, heart_piece_earned
+  update_heart_tracker{current_player.heart_count ==7 }: set_heart7_lightshow
+  update_heart_tracker{current_player.heart_count ==8 }: set_heart8_lightshow
+  update_heart_tracker{current_player.heart_count ==9 }: set_heart9_lightshow
+  update_heart_tracker{current_player.heart_count ==10 }: set_heart10_lightshow
+  update_heart_tracker{current_player.heart_count ==11 }: set_heart11_lightshow
+  update_heart_tracker{current_player.heart_count ==12 and current_player.heart_piece_count ==1}: set_heart12_lightshow, heart_piece_earned
+  update_heart_tracker{current_player.heart_count ==13 }: set_heart13_lightshow
+  update_heart_tracker{current_player.heart_count ==14 }: set_heart14_lightshow
+  update_heart_tracker{current_player.heart_count ==15 }: set_heart15_lightshow
+  update_heart_tracker{current_player.heart_count ==16 }: set_heart16_lightshow
+  update_heart_tracker{current_player.heart_count ==17 }: set_heart17_lightshow
+  update_heart_tracker{current_player.heart_count ==18 and current_player.heart_piece_count ==2}: set_heart18_lightshow, heart_piece_earned
+  update_heart_tracker{current_player.heart_count ==19 }: set_heart19_lightshow
+  update_heart_tracker{current_player.heart_count ==20 }: set_heart20_lightshow
+  update_heart_tracker{current_player.heart_count ==21 }: set_heart21_lightshow
+  update_heart_tracker{current_player.heart_count ==22 }: set_heart22_lightshow
+  update_heart_tracker{current_player.heart_count ==23 }: set_heart23_lightshow
+  update_heart_tracker{current_player.heart_extraball_count < 1 and current_player.heart_count ==24}: set_heart24_lightshow, award_heart_extraball
 
 
-counters:
-  heart_counter:
-    count_events: s_heart_active
-    count_complete_value: 24
-    reset_on_complete: false
-    persist_state: true
 
 
+  # set_heart24_lightshow: award_heart_extraball
+  # s_heart_active{device.counters.heart_counter.value==6}: heart_piece_earned
+  # s_heart_active{device.counters.heart_counter.value==12}: heart_piece_earned
+  # s_heart_active{device.counters.heart_counter.value==18}: heart_piece_earned
 
+
+# counters:
+#   heart_counter:
+#     count_events: s_heart_active
+#     count_complete_value: 24
+#     reset_on_complete: false
+#     persist_state: true
+
+
+variable_player:
+  increment_heart_tracker:
+    heart_count: 1
+
+  award_heart_extraball:
+    heart_extra_ball_count: 1
+
+  heart_piece_earned:
+    heart_piece_count: 1
 
 show_player:
-  s_heart_active{device.counters.heart_counter.value==1}:
+  set_heart1_lightshow:
     heart_target_hit_1:
       loops: -1
 
-  s_heart_active{device.counters.heart_counter.value==2}:
+  set_heart2_lightshow:
     heart_target_hit_2:
       loops: -1
     heart_target_hit_1:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==3}:
+  set_heart3_lightshow:
     heart_target_hit_3:
       loops: -1
     heart_target_hit_2:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==4}:
+  set_heart4_lightshow:
     heart_target_hit_4:
       loops: -1
     heart_target_hit_3:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==5}:
+  set_heart5_lightshow:
     heart_target_hit_5:
       loops: -1
     heart_target_hit_4:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==6}:
+  set_heart6_lightshow:
     heart_target_hit_6:
-      loops: 1
+      loops: 0
     heart_target_hit_5:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==7}:
+  set_heart7_lightshow:
     heart_target_hit_7:
       loops: -1
     heart_target_hit_6:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==8}:
+  set_heart8_lightshow:
     heart_target_hit_8:
       loops: -1
     heart_target_hit_7:
       action: stop
 
-
-  s_heart_active{device.counters.heart_counter.value==9}:
+  set_heart9_lightshow:
     heart_target_hit_9:
       loops: -1
     heart_target_hit_8:
       action: stop
 
-
-  s_heart_active{device.counters.heart_counter.value==10}:
+  set_heart10_lightshow:
     heart_target_hit_10:
       loops: -1
     heart_target_hit_9:
       action: stop
 
-
-  s_heart_active{device.counters.heart_counter.value==11}:
+  set_heart11_lightshow:
     heart_target_hit_11:
       loops: -1
     heart_target_hit_10:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==12}:
+  set_heart12_lightshow:
     heart_target_hit_12:
       loops: 0
     heart_target_hit_11:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==13}:
+  set_heart13_lightshow:
     heart_target_hit_13:
       loops: -1
     heart_target_hit_12:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==14}:
+  set_heart14_lightshow:
     heart_target_hit_14:
       loops: -1
     heart_target_hit_13:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==15}:
+  set_heart15_lightshow:
     heart_target_hit_15:
       loops: -1
     heart_target_hit_14:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==16}:
+  set_heart16_lightshow:
     heart_target_hit_16:
       loops: -1
     heart_target_hit_15:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==17}:
+  set_heart17_lightshow:
     heart_target_hit_17:
       loops: -1
     heart_target_hit_16:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==18}:
+  set_heart18_lightshow:
     heart_target_hit_18:
       loops: 0
     heart_target_hit_17:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==19}:
+  set_heart19_lightshow:
     heart_target_hit_19:
       loops: -1
     heart_target_hit_18:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==20}:
+  set_heart20_lightshow:
     heart_target_hit_20:
       loops: -1
     heart_target_hit_19:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==21}:
+  set_heart21_lightshow:
     heart_target_hit_21:
       loops: -1
     heart_target_hit_20:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==22}:
+  set_heart22_lightshow:
     heart_target_hit_22:
       loops: -1
     heart_target_hit_21:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==23}:
+  set_heart23_lightshow:
     heart_target_hit_23:
       loops: -1
     heart_target_hit_22:
       action: stop
 
-  s_heart_active{device.counters.heart_counter.value==24}:
+  set_heart24_lightshow:
     heart_target_hit_24:
       loops: -1
     heart_target_hit_23:
       action: stop
+
+  heart_piece_earned:
+    heart_tracker_instructions:
+      loops: 0
+
+sound_player:
+  heart_piece_earned: heart_piece_sfx

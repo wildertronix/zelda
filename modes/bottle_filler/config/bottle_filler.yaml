@@ -47,7 +47,7 @@ event_player:
 counters:
   bottle_filler_counter:
     count_events: sw_switch_hit
-    count_complete_value: 400
+    count_complete_value: 200
     reset_events: sw_modestart
 
 
@@ -157,32 +157,32 @@ variable_player:
   award_1_red_bottle:
     score: 1
   award_2_red_bottle:
-    score: 2
+    score: 1
   award_3_red_bottle:
-    score: 3
+    score: 1
   award_4_red_bottle:
-    score: 4
+    score: 1
   award_1_blue_bottle:
-    score: 5
+    score: 2
   award_2_blue_bottle:
-    score: 6
+    score: 2
   award_3_blue_bottle:
-    score: 7
+    score: 2
   award_4_blue_bottle:
-    score: 8
+    score: 2
   award_1_green_bottle:
-    score: 9
+    score: 3
   award_2_green_bottle:
-    score: 10
+    score: 3
   award_3_green_bottle:
-    score: 11
+    score: 3
   award_4_green_bottle:
-    score: 12
+    score: 3
   award_1_white_bottle:
-    score: 13
+    score: 4
   award_2_white_bottle:
-    score: 14
+    score: 4
   award_3_white_bottle:
-    score: 15
+    score: 4
   award_4_white_bottle:
-    score: 16
+    score: 4

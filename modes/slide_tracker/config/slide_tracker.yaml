@@ -23,9 +23,9 @@ show_player:
     2ballqualifier_instructions:
       loops: 0
 
-  heart_piece_earned:
-    heart_tracker_instructions:
-      loops: 0
+  # heart_piece_earned:      ********moved to heart tracker, slide was already there
+  #   heart_tracker_instructions:
+  #     loops: 0
 
   # slide_heart_piece_extraball_removed: *******slide was already in mode's show folder, moved to config
   #   extra_ball_slide:
@@ -139,7 +139,7 @@ sound_player:
   slide_zelda_found_removed: slide_txt_sfx
   start_2ball_multiball: slide_txt_sfx
   slide_bombvideo_removed: slide_txt_sfx
-  heart_piece_earned: heart_piece_sfx
+  # heart_piece_earned: heart_piece_sfx
   award_heart_extraball: extraballsfx
   mode_light_world_started: slide_txt_sfx
   slide_lost_woods_start_movie_removed: slide_txt_sfx

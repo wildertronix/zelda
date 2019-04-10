@@ -22,8 +22,7 @@ variable_player:
   start_initial_slide_and_music:
     initial_slide_and_music: 1  # adds 1 to the player's "initial_slide_and_music" variable
 
-  # increment_multiplier:
-  #   multiplier: 1
+
 
 
 slide_player:

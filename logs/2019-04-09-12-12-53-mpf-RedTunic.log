@@ -1,0 +1,79 @@
+2019-04-09 12:12:53,701 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.1
+2019-04-09 12:12:53,702 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-04-09-12-12-53-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-04-09 12:12:53,702 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-04-09 12:12:53,702 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-04-09 12:12:53,702 : INFO : Machine : Platform: win32
+2019-04-09 12:12:53,702 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-04-09 12:12:53,702 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-04-09 12:12:53,703 : INFO : Machine : Machine config file #1: config.yaml
+2019-04-09 12:12:53,704 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-09 12:12:53,704 : INFO : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml.
+2019-04-09 12:12:53,705 : DEBUG : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-04-09 12:12:53,906 : INFO : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\mpfconfig.yaml
+2019-04-09 12:12:53,932 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.yaml.
+2019-04-09 12:12:53,933 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-09 12:12:53,998 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-09 12:12:53,998 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-04-09 12:12:54,243 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-04-09 12:12:54,246 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-04-09 12:12:54,275 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-04-09 12:12:54,278 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-04-09 12:12:54,375 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-04-09 12:12:54,384 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-04-09 12:12:54,385 : DEBUG : asyncio : Using selector: SelectSelector
+2019-04-09 12:12:54,386 : INFO : Machine : Initialise MPF.
+2019-04-09 12:12:54,419 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2019-04-09 12:12:54,588 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,649 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-04-09 12:12:54,652 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1338, 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,652 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.1', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,652 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.1, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,653 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,653 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,653 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,653 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,654 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,654 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-04-09 12:12:54,654 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-04-09 12:12:54,713 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-04-09 12:12:54,718 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-04-09 12:12:54,718 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-04-09 12:12:54,722 : DEBUG : ModeController : Loaded mode heartmeter
+2019-04-09 12:12:54,722 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-04-09 12:12:54,726 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-04-09 12:12:54,726 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...kill_shot.',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...kill_shot.',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    raise AssertionError("Did not find any config for mode {}.".format(mode_string))
+AssertionError: Did not find any config for mode skill_shot.
+2019-04-09 12:12:54,744 : INFO : Machine : Starting the main run loop.
+2019-04-09 12:12:54,745 : INFO : Machine : Shutting down...
+2019-04-09 12:12:54,745 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-04-09 12:12:54,870 : ERROR : root : Did not find any config for mode skill_shot.
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 709, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 180, in _load_mode_config
+    raise AssertionError("Did not find any config for mode {}.".format(mode_string))
+AssertionError: Did not find any config for mode skill_shot.

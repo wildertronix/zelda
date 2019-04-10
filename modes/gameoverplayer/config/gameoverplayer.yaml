@@ -2,12 +2,12 @@
 mode:
   priority: 600
   start_events: game_will_end
-  stop_events: move_to_highscore
+  # stop_events: move_to_highscore
   use_wait_queue: true
   game_mode: false
 
-event_player: 
-  slide_gameovervideo_removed: move_to_highscore
+# event_player: 
+#   slide_gameovervideo_removed: move_to_highscore
 
 slide_player:
   game_ending:

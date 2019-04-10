@@ -1,19 +1,18 @@
 #config_version=5
 mode:
   start_events: ball_starting
-  stop_events: ball_save_default_saving_ball, game_ending, skillshot_ballsave_award
+  stop_events: ball_save_skillshot_ballsave_saving_ball, game_ending
   priority: 100
-
 event_player:   
   balldevice_bd_plunger_lane_ball_eject_success: start_ballsave
 
 ball_saves:
-  default:
-    active_time: 10s
+  skillshot_ballsave:
+    active_time: 25s
     hurry_up_time: 3s
     grace_period: 3s
-    enable_events: mode_base_started
-    disable_events: ball_save_default_saving_ball
+    enable_events: skillshot_ballsave_award
+    disable_events: ball_save_skillshot_ballsave_saving_ball
     timer_start_events: start_ballsave
     auto_launch: yes
     balls_to_save: 1
@@ -21,6 +20,6 @@ ball_saves:
 
 
 show_player:
-  start_ballsave:
-    ball_save_show:
+  skillshot_ballsave_award:
+    skillshot_ball_save_show:
       loops: 0

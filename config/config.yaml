@@ -44,6 +44,7 @@ modes:
 - rupee3x_finder
 - bottle_filler
 - skill_shot
+- skillshot_ballsave
 
 window:
   title: Legend of Zelda
@@ -200,3 +201,16 @@ player_vars:
   item_count:
     value_type: int
     initial_value: 1
+
+  heart_count:
+    value_type: int
+    initial_value: 0
+
+  skillshot_award_count:
+    value_type: int
+    initial_value: 0
+
+  heart_piece_count:
+    value_type: int
+    initial_value: 0
+
