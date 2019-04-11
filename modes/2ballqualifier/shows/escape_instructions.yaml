@@ -12,12 +12,12 @@
         style: hyruletext
         font_size: 180
       - type: Text
-        text: RED
-        color: red
-        anchor_y: bottom
+        text: WHITE
+        color: white
+        y: middle+90
         anchor_x : middle
         style: hyruletext
-        font_size: 200
+        font_size: 130
         animations:
           pre_show_slide:
             - property: opacity
@@ -44,4 +44,3 @@
          type: move_in
          duration: 1s
          direction: left
-      

@@ -3,7 +3,7 @@
 
 - time: '+1'
   lights:
-    l_drupee: red-f200ms
+    l_drupee: white-f200ms
 
 - time: '+1'
   lights:
@@ -11,7 +11,7 @@
 
 - time: '+1'
   lights:
-    l_ditem: red-f200ms
+    l_ditem: white-f200ms
 
 - time: '+1'
   lights:
@@ -19,7 +19,7 @@
 
 - time: '+1'
   lights:
-    l_d: red-f200ms
+    l_d: white-f200ms
 
 - time: '+1'
   lights:

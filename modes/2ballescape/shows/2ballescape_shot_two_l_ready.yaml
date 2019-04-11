@@ -2,7 +2,7 @@
 
 - time: 7
   lights: 
-    l_lrupee: red-f200ms
+    l_lrupee: white-f200ms
 
 - time: '+1'
   lights:
@@ -10,7 +10,7 @@
 
 - time: '+1'
   lights:
-    l_litem: red-f200ms
+    l_litem: white-f200ms
 
 - time: '+1'
   lights:
@@ -18,7 +18,7 @@
 
 - time: '+1'
   lights:
-    l_l: red-f200ms
+    l_l: white-f200ms
 
 - time: '+1'
   lights:

@@ -202,7 +202,7 @@ player_vars:
     value_type: int
     initial_value: 1
 
-  heart_count:
+  extraball_heart_count:
     value_type: int
     initial_value: 0
 

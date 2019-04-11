@@ -4,25 +4,32 @@
   slides:
     escape_instructions:
       widgets:
+      # - type: Text
+      #   text: Shoot
+      #   color: Gold
+      #   y: top-100
+      #   x: left+400
+      #   style: hyruletext
+      #   font_size: 180
+      # - type: Text
+      #   text: Shots
+      #   color: Gold
+      #   y: top-100
+      #   x : right-400
+      #   style: hyruletext
+      #   font_size: 200
       - type: Text
-        text: Shoot
-        color: Gold
-        y: top-100
-        x: left+400
-        style: hyruletext
-        font_size: 180
-      - type: Text
-        text: Shots
-        color: Gold
-        y: top-100
-        x : right-400
+        text: Complete
         style: hyruletext
         font_size: 200
+        color: gold
+        y: middle+250
+        x: middle
       - type: Text
-        text: IN ORDER
+        text: Sequences
         style: hyruletext
-        font_size: 180
-        color: red
+        font_size: 220
+        color: white
         y: middle
         x: middle
         animations:

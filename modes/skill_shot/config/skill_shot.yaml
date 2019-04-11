@@ -34,7 +34,7 @@ variable_player:
   skillshot_ballsave_award:
     skillshot_ballsave: 1
   skillshot_heart_award:
-    heart_count: 3
+    extraball_heart_count: 3
   skillshot_award:
     skillshot_award_count: 1
 

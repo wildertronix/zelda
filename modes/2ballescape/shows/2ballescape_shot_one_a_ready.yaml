@@ -1,7 +1,7 @@
 #show_version=5
 - time: 9
   lights: 
-    l_33: red-f200ms
+    l_33: white-f200ms
 
 - time: '+1'
   lights:
@@ -9,7 +9,7 @@
 
 - time: '+1'
   lights:
-    l_arupee: red-f200ms
+    l_arupee: white-f200ms
 
 - time: '+1'
   lights:
@@ -17,7 +17,7 @@
 
 - time: '+1'
   lights:
-    l_aitem: red-f200ms
+    l_aitem: white-f200ms
 
 - time: '+1'
   lights:
@@ -25,7 +25,7 @@
 
 - time: '+1'
   lights:
-    l_a: red-f200ms
+    l_a: white-f200ms
 
 - time: '+1'
   lights:

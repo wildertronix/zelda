@@ -1,7 +1,7 @@
 #show_version=5
 - time: 0
   lights: 
-    l_5: red-f200ms
+    l_5: white-f200ms
 
 - time: '+1'
   lights:
@@ -9,7 +9,7 @@
 
 - time: '+1'
   lights:
-    l_zrupee: red-f200ms
+    l_zrupee: white-f200ms
 
 - time: '+1'
   lights:
@@ -17,7 +17,7 @@
 
 - time: '+1'
   lights:
-    l_zitem: red-f200ms
+    l_zitem: white-f200ms
 
 - time: '+1'
   lights:
@@ -25,7 +25,7 @@
 
 - time: '+1'
   lights:
-    l_z: red-f200ms
+    l_z: white-f200ms
 
 - time: '+1'
   lights:

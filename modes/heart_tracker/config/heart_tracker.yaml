@@ -55,7 +55,7 @@ event_player:
 
 variable_player:
   increment_heart_tracker:
-    heart_count: 1
+    extraball_heart_count: 1
 
   award_heart_extraball:
     heart_extra_ball_count: 1
