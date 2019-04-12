@@ -1,9 +1,9 @@
 events:
-  game_ended: 207
-  game_started: 1681
+  game_ended: 208
+  game_started: 1686
 player:
   score:
-    average: 2397.473684210523
+    average: 2387.328571428568
     top:
     - 66050
     - 52050
@@ -15,33 +15,33 @@ player:
     - 33500
     - 33500
     - 28100
-    total: 209
+    total: 210
 shots:
-  2ballescape_first_shot_a: 230
-  2ballescape_first_shot_z: 247
+  2ballescape_first_shot_a: 234
+  2ballescape_first_shot_z: 249
   2ballescape_second_shot_d: 1
   2ballescape_shot_one: 16
   2ballescape_shot_three: 37
   2ballescape_shot_two: 26
-  2ballescape_third_shot_z: 365
+  2ballescape_third_shot_z: 369
   5way_combo_d: 34
   5way_combo_d2: 28
   5way_combo_z: 30
-  a_rupee: 140
+  a_rupee: 158
   a_rupeex2: 10
   a_rupeex3: 14
   abyss_shot: 29
   agahnim_shot: 112
   agahnim_shot_three: 35
   agahnim_shot_two: 63
-  b2_bomb: 103
-  b_bomb: 133
-  crane_rupee: 72
+  b2_bomb: 104
+  b_bomb: 134
+  crane_rupee: 78
   crane_rupeex2: 13
   crane_rupeex3: 6
   crane_shot: 3
   d_ramp_lostwoods: 50
-  d_rupee: 127
+  d_rupee: 143
   d_rupeex2: 16
   d_rupeex3: 19
   darkworld_a_orbit: 22
@@ -83,97 +83,97 @@ shots:
   drop1: 403
   drop2: 261
   drop3: 274
-  e_rupee: 112
+  e_rupee: 120
   e_rupeex2: 20
   e_rupeex3: 15
   eopto: 81
   heart_target: 80
   heart_target1: 14
   heart_target2: 11
-  hidden_a_ramp: 37
+  hidden_a_ramp: 38
   hidden_d_ramp: 44
   hidden_e_ramp: 33
   hidden_l_ramp: 32
-  hidden_z_ramp: 28
+  hidden_z_ramp: 29
   l_ramp_lostwoods: 92
-  l_rupee: 178
+  l_rupee: 198
   l_rupeex2: 25
   l_rupeex3: 23
-  leftpop: 141
+  leftpop: 145
   lopto: 95
   lost_woods_entry: 68
   lost_woods_orbit: 87
   lostwoods_left_inlane: 24
   lostwoods_right_inlane: 47
-  lw_a_ramp: 167
+  lw_a_ramp: 169
   lw_abyss_shot: 4
   lw_crane_shot: 3
-  lw_d_ramp: 610
+  lw_d_ramp: 611
   lw_heart_target: 5
   lw_middle_drop_target: 2
   lw_modestart_outhole: 3
   lw_z_ramp: 206
-  m_bomb: 663
+  m_bomb: 667
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 1088
-  o_bomb: 376
+  modestartmade: 1108
+  o_bomb: 385
   pull_master_sword: 115
-  rightpop: 97
-  spinnermultiplier: 3859
-  toppop: 2035
+  rightpop: 101
+  spinnermultiplier: 3989
+  toppop: 2048
   z_ramp_lostwoods: 63
-  z_rupee: 70
+  z_rupee: 87
   z_rupeex2: 9
   z_rupeex3: 17
-  zelda_2ball_shot_five: 379
-  zelda_2ball_shot_four: 436
-  zelda_2ball_shot_one: 1268
-  zelda_2ball_shot_three: 242
-  zelda_2ball_shot_two: 218
+  zelda_2ball_shot_five: 382
+  zelda_2ball_shot_four: 442
+  zelda_2ball_shot_one: 1274
+  zelda_2ball_shot_three: 253
+  zelda_2ball_shot_two: 222
 switches:
-  leftflipperbutton: 8177
-  plungerlane: 2920
+  leftflipperbutton: 8250
+  plungerlane: 2944
   plungerlaunch: 0
-  rightflipperbutton: 8236
-  s_abyss: 651
+  rightflipperbutton: 8323
+  s_abyss: 658
   s_cavestar: 0
   s_coin1: 450
   s_coin2: 0
-  s_cranehole: 1356
-  s_droptarget1: 1691
-  s_droptarget2: 1315
-  s_droptarget3: 1219
-  s_heart: 1354
-  s_left_inlane: 1020
-  s_left_outlane: 251
-  s_leftpop: 962
-  s_leftslingshot: 503
+  s_cranehole: 1362
+  s_droptarget1: 1695
+  s_droptarget2: 1317
+  s_droptarget3: 1221
+  s_heart: 1394
+  s_left_inlane: 1034
+  s_left_outlane: 253
+  s_leftpop: 969
+  s_leftslingshot: 504
   s_lightmb: 1
-  s_lostwoods: 3234
+  s_lostwoods: 3266
   s_lostwoodsopto: 0
-  s_modestart: 1704
-  s_optoa: 1732
-  s_optod: 2562
-  s_optoe: 2959
-  s_optol: 2911
+  s_modestart: 1724
+  s_optoa: 1750
+  s_optod: 2578
+  s_optoe: 2991
+  s_optol: 2941
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 2558
-  s_popexit: 404
+  s_optoz1: 2575
+  s_popexit: 406
   s_rampopto: 0
-  s_right_inlane: 1553
-  s_right_outlane: 200
-  s_rightpop: 635
-  s_rightslingshot: 1070
-  s_spinner: 10850
-  s_toppop: 5606
-  start: 87
-  trough1: 2518
-  trough2: 2858
+  s_right_inlane: 1561
+  s_right_outlane: 201
+  s_rightpop: 641
+  s_rightslingshot: 1081
+  s_spinner: 10980
+  s_toppop: 5662
+  start: 88
+  trough1: 2530
+  trough2: 2876
   trough3: 0
   trough4: 0
   trough5: 1
