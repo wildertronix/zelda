@@ -124,13 +124,13 @@ show_player:
   #   mirror_found_slide:
   #     loops: 0
 
-  # slide_dungeon7boss_removed:          ******moved to darkworld
-  #   darkworld_rescue_zelda_slide:
-  #     loops: 0
+  slide_dungeon7boss_removed:    
+    darkworld_rescue_zelda_slide:
+      loops: 0
 
-  # slide_maiden7_removed:
-  #   darkworld2_slide:
-  #     loops: 0
+  slide_maiden7_removed:
+    darkworld2_slide:
+      loops: 0
 
 
 sound_player:

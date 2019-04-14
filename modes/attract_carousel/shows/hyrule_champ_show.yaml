@@ -1,0 +1,219 @@
+#show_version=5
+- time: 0
+
+
+
+- duration: 10s
+  slides:
+    hyrulechamp_slide:
+      widgets:
+      - type: text
+        text: HYRULE CHAMPION
+        style: hyruletext
+        font_size: 125
+        y: 625
+        color: gold
+      - type: text
+        text: (machine|score1_name)
+        style: hyruletext
+        font_size: 125
+        y: 400
+        number_grouping: true
+        color: gold 
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1
+      - type: text
+        text: (machine|score1_value)
+        style: hyruletext
+        font_size: 125
+        y: 275
+        number_grouping: true
+        color: gold 
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1
+- duration: 10s
+  slides:
+    highscore_slide:
+      widgets:
+      - type: text
+        text: HIGH SCORES
+        style: hyruletext
+        font_size: 100
+        y: 650
+        color: gold
+      - type: text
+        text: 1. (machine|score2_name) (machine|score2_value)
+        style: hyruletext
+        font_size: 80
+        y: 500
+        number_grouping: true
+        color: gold 
+      - type: text
+        text: 2. (machine|score3_name) (machine|score3_value)
+        style: hyruletext
+        font_size: 80
+        y: 400
+        number_grouping: true
+        color: gold 
+      - type: text
+        text: 3. (machine|score4_name) (machine|score4_value)
+        style: hyruletext
+        font_size: 80
+        y: 300
+        number_grouping: true
+        color: gold 
+      - type: text
+        text: 4. (machine|score5_name) (machine|score5_value)
+        style: hyruletext
+        font_size: 80
+        y: 200
+        number_grouping: true
+        color: gold 
+
+
+
+      
+
+- duration: 6s
+  slides:
+    awesome_slide:
+      widgets:
+      - type: text
+        text: The Legend of Zelda
+        style: hyruletext
+        font_size: 100
+      transition:
+         type: push
+         duration: 2s
+         direction: left
+
+    awesome_slide2:
+      widgets:
+      - type: text
+        text: A Link to the Past
+        style: hyruletext
+        font_size: 144
+      transition:
+         type: fade_back
+         duration: 3s
+
+- duration: 8s
+  slides:
+    press_start:
+      widgets:
+      - type: Text
+        text: PRESS START
+        style: hyruletext
+        font_size: 72
+        animations:
+          pre_show_slide:
+            - property: opacity
+              value: 0
+              duration: .5s
+            - property: opacity
+              value: 1
+              duration: .5s
+              repeat: -1
+
+      - type: Text
+        text: FREE PLAY
+        style: hyruletext
+        font_size: 72
+        color: green
+        y: 10
+        anchor_y: bottom
+      transition:
+         type: move_in
+         duration: 1s
+         direction: right
+
+- duration: 4s
+  slides:
+    mpf_slide:
+      background_color: white
+      widgets:
+      - type: image
+        image: mpf_logo
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left
+
+
+- duration: 4s
+  slides:
+    fast_slide:
+      widgets:
+      - type: image
+        image: fast_logo
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left
+
+
+- duration: 4s
+  slides:
+    special_thanks_slide:
+      widgets:
+      - type: Text
+        text: Special Thanks To
+        color: White
+        anchor_y: bottom
+        style: hyruletext
+        font_size: 80
+      - type: Text
+        text: John Marsh
+        style: hyruletext
+        font_size: 144
+        color: Green
+        anchor_y: top
+
+
+
+- duration: 3s
+  slides:
+    sp_slide:
+      widgets:
+      - type: Text
+        text: Save Point
+        color: red
+        anchor_y: bottom
+        style: hyruletext
+        font_size: 200
+      - type: Text
+        text: Presents...
+        style: hyruletext
+        font_size: 200
+        color: red
+        anchor_y: top
+      transition:
+         type: move_in
+         duration: 1s
+         direction: left
+
+
+
+
+- duration: 25s
+  slides:
+    attract_video_slide:
+      widgets:
+      - type: video
+        video: attractvideo
+        width: 1280
+        height: 720

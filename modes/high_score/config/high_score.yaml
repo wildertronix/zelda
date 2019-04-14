@@ -1,7 +1,7 @@
 #config_version=5
 mode:
   priority: 500
-  start_events: game_ending, start_high_score, move_to_highscore
+  start_events: game_ending, start_high_score
   use_wait_queue: true
 
 

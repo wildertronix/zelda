@@ -9,54 +9,200 @@ mode:
 
 
 mode_settings:
-  selectable_items: awesome_slide, press_start, mpf_slide, fast_slide, special_thanks_slide, sp_slide, attract_video_slide
+  selectable_items: hyrulechamp_slide, highscore_slide, awesome_slide, press_start, mpf_slide, fast_slide, special_thanks_slide, sp_slide, attract_video_slide
   select_item_events: flipper_cancel
   next_item_events: rightflipperbutton_active
   previous_item_events: leftflipperbutton_active
 
 
 show_player:
-  attract_carousel_awesome_slide_highlighted:
-    test_show:
+  attract_carousel_hyrulechamp_slide_highlighted:
+    hyrule_champ_show: 
       loops: 0
       speed: 1
     test_show7:
       action: stop
+    test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show4:
+      action: stop
+    test_show3:
+      action: stop
+    test_show2:
+      action: stop
+    test_show:
+      action: stop
+    highscore_show:
+      action: stop
+
+  attract_carousel_highscore_slide_highlighted:
+    highscore_show: 
+      loops: 0
+      speed: 1
+    hyrule_champ_show:
+      action: stop 
+    test_show7:
+      action: stop
+    test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show4:
+      action: stop
+    test_show3:
+      action: stop
+    test_show2:
+      action: stop
+    test_show:
+      action: stop
+
+  attract_carousel_awesome_slide_highlighted:
+    test_show:
+      loops: 0
+      speed: 1
+    highscore_show:
+      action: stop
+    test_show7:
+      action: stop
+    test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show4:
+      action: stop
+    test_show3:
+      action: stop
+    test_show2:
+      action: stop
+    hyrule_champ_show:
+      action: stop
+
   attract_carousel_press_start_highlighted:
     test_show2:
       loops: 0
       speed: 1
     test_show:
       action: stop
+    test_show7:
+      action: stop
+    test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show4:
+      action: stop
+    test_show3:
+      action: stop
+    highscore_show:
+      action: stop
+    hyrule_champ_show:
+      action: stop
+
   attract_carousel_mpf_slide_highlighted:
     test_show3:
       loops: 0
       speed: 1
     test_show2:
       action: stop
+    test_show7:
+      action: stop
+    test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show4:
+      action: stop
+    test_show:
+      action: stop
+    highscore_show:
+      action: stop
+    hyrule_champ_show:
+      action: stop
+
   attract_carousel_fast_slide_highlighted:
     test_show4:
       loops: 0
       speed: 1
     test_show3:
       action: stop
+    test_show7:
+      action: stop
+    test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show2:
+      action: stop
+    test_show:
+      action: stop
+    highscore_show:
+      action: stop
+    hyrule_champ_show:
+      action: stop
+
   attract_carousel_special_thanks_slide_highlighted:
     test_show5:
       loops: 0
       speed: 1
     test_show4:
       action: stop
+    test_show7:
+      action: stop
+    test_show6:
+      action: stop
+    test_show3:
+      action: stop
+    test_show2:
+      action: stop
+    test_show:
+      action: stop
+    highscore_show:
+      action: stop
+    hyrule_champ_show:
+      action: stop
+
   attract_carousel_sp_slide_highlighted:
     test_show6:
       loops: 0
       speed: 1
+    test_show7:
+      action: stop
     test_show5:
       action: stop
+    test_show4:
+      action: stop
+    test_show3:
+      action: stop
+    test_show2:
+      action: stop
+    test_show:
+      action: stop
+    highscore_show:
+      action: stop
+    hyrule_champ_show:
+      action: stop
+
   attract_carousel_attract_video_slide_highlighted:
     test_show7:
       loops: 0
       speed: 1
     test_show6:
+      action: stop
+    test_show5:
+      action: stop
+    test_show4:
+      action: stop
+    test_show3:
+      action: stop
+    test_show2:
+      action: stop
+    test_show:
+      action: stop
+    highscore_show:
+      action: stop
+    hyrule_champ_show:
       action: stop
 
 
