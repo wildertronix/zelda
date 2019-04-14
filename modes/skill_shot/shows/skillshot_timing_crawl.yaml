@@ -4,6 +4,9 @@
     l_plungerlane1: green
     l_plungerlane2: off
     l_plungerlane3: off
+  events: 
+  - skillshot_timing_step
+
 
 - time: '+2'
   lights:

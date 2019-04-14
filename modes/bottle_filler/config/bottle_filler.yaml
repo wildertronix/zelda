@@ -154,35 +154,39 @@ show_player:
 variable_player:
   sw_switch_hit:
     sw_switch_hit_count: 1
+  sw_modestart:
+    sw_switch_hit_count:
+      int: 0
+      action: set
   award_1_red_bottle:
-    score: 1
+    score: 1 * current_player.multiplier
   award_2_red_bottle:
-    score: 1
+    score: 1 * current_player.multiplier
   award_3_red_bottle:
-    score: 1
+    score: 1 * current_player.multiplier
   award_4_red_bottle:
-    score: 1
+    score: 1 * current_player.multiplier
   award_1_blue_bottle:
-    score: 2
+    score: 2 * current_player.multiplier
   award_2_blue_bottle:
-    score: 2
+    score: 2 * current_player.multiplier
   award_3_blue_bottle:
-    score: 2
+    score: 2 * current_player.multiplier
   award_4_blue_bottle:
-    score: 2
+    score: 2 * current_player.multiplier
   award_1_green_bottle:
-    score: 3
+    score: 3 * current_player.multiplier
   award_2_green_bottle:
-    score: 3
+    score: 3 * current_player.multiplier
   award_3_green_bottle:
-    score: 3
+    score: 3 * current_player.multiplier
   award_4_green_bottle:
-    score: 3
+    score: 3 * current_player.multiplier
   award_1_white_bottle:
-    score: 4
+    score: 4 * current_player.multiplier
   award_2_white_bottle:
-    score: 4
+    score: 4 * current_player.multiplier
   award_3_white_bottle:
-    score: 4
+    score: 4 * current_player.multiplier
   award_4_white_bottle:
-    score: 4
+    score: 4 * current_player.multiplier

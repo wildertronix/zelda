@@ -1,0 +1,182 @@
+2019-04-14 14:44:31,870 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.0-dev.16
+2019-04-14 14:44:31,871 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-04-14-14-44-31-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-04-14 14:44:31,871 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-04-14 14:44:31,871 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-04-14 14:44:31,871 : INFO : Machine : Platform: win32
+2019-04-14 14:44:31,871 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-04-14 14:44:31,871 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-04-14 14:44:31,871 : INFO : Machine : Machine config file #1: config.yaml
+2019-04-14 14:44:31,873 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-04-14 14:44:31,876 : DEBUG : asyncio : Using selector: SelectSelector
+2019-04-14 14:44:31,877 : INFO : Machine : Initialise MPF.
+2019-04-14 14:44:31,913 : DEBUG : FAST : Configuring FAST hardware.
+2019-04-14 14:44:32,107 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-04-14 14:44:32,141 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.02
+2019-04-14 14:44:32,142 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.02', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,142 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,142 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-04-14 14:44:32,205 : INFO : FAST : Connecting to \\.\COM12 at 921600bps
+2019-04-14 14:44:32,253 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-04-14 14:44:32,253 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,253 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,254 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,308 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-04-14 14:44:32,311 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 306, 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,311 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.0-dev.16', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,311 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.0-dev.16, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-04-14 14:44:32,312 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-04-14 14:44:32,352 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-04-14 14:44:32,355 : DEBUG : ModeController : Loaded mode lost_woods
+2019-04-14 14:44:32,356 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\96294a9578657f44941f2a8ec647ae36.mpf_cache
+2019-04-14 14:44:32,359 : DEBUG : ModeController : Loaded mode rupee3x_finder
+2019-04-14 14:44:32,360 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-04-14 14:44:32,364 : DEBUG : ModeController : Loaded mode base
+2019-04-14 14:44:32,364 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-04-14 14:44:32,369 : DEBUG : ModeController : Loaded mode music_player
+2019-04-14 14:44:32,369 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-04-14 14:44:32,374 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-04-14 14:44:32,375 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-04-14 14:44:32,382 : DEBUG : ModeController : Loaded mode high_score
+2019-04-14 14:44:32,383 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-04-14 14:44:32,387 : DEBUG : ModeController : Loaded mode heartmeter
+2019-04-14 14:44:32,387 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-04-14 14:44:32,393 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-04-14 14:44:32,393 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-04-14 14:44:32,399 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-04-14 14:44:32,399 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-04-14 14:44:32,404 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-04-14 14:44:32,404 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-04-14 14:44:32,410 : DEBUG : ModeController : Loaded mode item_tracker
+2019-04-14 14:44:32,410 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c5e5b78d841dff96974ddb92030af0a9.mpf_cache
+2019-04-14 14:44:32,415 : DEBUG : ModeController : Loaded mode skill_shot
+2019-04-14 14:44:32,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-04-14 14:44:32,420 : DEBUG : ModeController : Loaded mode darkworld
+2019-04-14 14:44:32,420 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-04-14 14:44:32,425 : DEBUG : ModeController : Loaded mode unusual_show_tracker
+2019-04-14 14:44:32,425 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\3485f9bf4bb8d1d21be6de1438e091ba.mpf_cache
+2019-04-14 14:44:32,429 : DEBUG : ModeController : Loaded mode skillshot_ballsave
+2019-04-14 14:44:32,429 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-04-14 14:44:32,434 : DEBUG : ModeController : Loaded mode light_world
+2019-04-14 14:44:32,434 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-04-14 14:44:32,438 : DEBUG : ModeController : Loaded mode extraball
+2019-04-14 14:44:32,438 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-04-14 14:44:32,442 : DEBUG : ModeController : Loaded mode ball_hold_tracker
+2019-04-14 14:44:32,442 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-04-14 14:44:32,446 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-04-14 14:44:32,446 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-04-14 14:44:32,452 : DEBUG : ModeController : Loaded mode game
+2019-04-14 14:44:32,452 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fc1a42fdd0d487285862f5b943c745e.mpf_cache
+2019-04-14 14:44:32,456 : DEBUG : ModeController : Loaded mode rupee_finder
+2019-04-14 14:44:32,456 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-04-14 14:44:32,462 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-04-14 14:44:32,462 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-04-14 14:44:32,466 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-04-14 14:44:32,466 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-04-14 14:44:32,471 : DEBUG : ModeController : Loaded mode heart_tracker
+2019-04-14 14:44:32,471 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-04-14 14:44:32,477 : DEBUG : ModeController : Loaded mode ball_save
+2019-04-14 14:44:32,477 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-04-14 14:44:32,483 : DEBUG : ModeController : Loaded mode 2ballqualifier
+2019-04-14 14:44:32,484 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6eb8b6e4728e10ce756703e43167d298.mpf_cache
+2019-04-14 14:44:32,489 : DEBUG : ModeController : Loaded mode rupee2x_finder
+2019-04-14 14:44:32,489 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\attract_carousel\config\attract_carousel.yaml
+2019-04-14 14:44:32,489 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\attract_carousel\config\attract_carousel.yaml.
+2019-04-14 14:44:32,490 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\attract_carousel\config\attract_carousel.yaml
+2019-04-14 14:44:32,521 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 5\'',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...column 5\'',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 104, in get_single_data
+    return self.construct_document(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 114, in construct_document
+    for dummy in generator:
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 611, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "test_show7" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\attract_carousel\\config\\attract_carousel.yaml", line 61, column 5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 212, in load
+    raise ValueError(msg)
+ValueError: Error found in file C:\Users\Wilder\zelda\modes\attract_carousel\config\attract_carousel.yaml: 'Key "test_show7" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\attract_carousel\\config\\attract_carousel.yaml", line 61, column 5'
+2019-04-14 14:44:32,526 : INFO : Machine : Starting the main run loop.
+2019-04-14 14:44:32,526 : INFO : Machine : Shutting down...
+2019-04-14 14:44:32,526 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-04-14 14:44:32,530 : ERROR : FAST : Stop called on serial connection \\.\COM12
+2019-04-14 14:44:32,530 : ERROR : FAST : Stop called on serial connection \\.\COM11
+2019-04-14 14:44:32,836 : ERROR : root : Error found in file C:\Users\Wilder\zelda\modes\attract_carousel\config\attract_carousel.yaml: 'Key "test_show7" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\attract_carousel\\config\\attract_carousel.yaml", line 61, column 5'
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 104, in get_single_data
+    return self.construct_document(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 114, in construct_document
+    for dummy in generator:
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 611, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "test_show7" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\attract_carousel\\config\\attract_carousel.yaml", line 61, column 5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 716, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 776, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 212, in load
+    raise ValueError(msg)
+ValueError: Error found in file C:\Users\Wilder\zelda\modes\attract_carousel\config\attract_carousel.yaml: 'Key "test_show7" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\attract_carousel\\config\\attract_carousel.yaml", line 61, column 5'

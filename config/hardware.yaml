@@ -119,6 +119,9 @@ switches:
   s_modestart:
     number: 6
     tags: modestart, pathfound
+    platform_settings:
+      debounce_open: 3
+      debounce_close: 3
   s_abyss:
     number: 7
     tags: pathfound, switch_hit

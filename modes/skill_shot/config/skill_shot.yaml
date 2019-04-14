@@ -4,7 +4,7 @@ mode:
   priority: 100
 
 event_player:
-  s_optoa_active{device.counters.skillshot_counter.value==0}: skillshot_failed, skillshot_award
+  s_optoa_active{device.counters.skillshot_counter.value==4}: skillshot_failed, skillshot_award
   s_optoa_active{device.counters.skillshot_counter.value==1}: skillshot_rupee_award, skillshot_award
   s_optoa_active{device.counters.skillshot_counter.value==2}: skillshot_ballsave_award, skillshot_award
   s_optoa_active{device.counters.skillshot_counter.value==3}: skillshot_heart_award, skillshot_award
@@ -19,7 +19,7 @@ counters:
     count_complete_value: 4
     disable_on_complete: false
     enable_events: mode_skill_shot_started
-    disable_events: mode_skill_shot_stopped sw_switch_hit
+    disable_events: mode_skill_shot_stopped 
     reset_events: mode_skill_shot_started
 
   # skillshot_award_counter:
@@ -50,7 +50,7 @@ show_player:
     skillshot_timing_crawl:
       action: stop
     skillshot_award_flash:
-      loops: 3
+      loops: 7
       speed: 8
       show_tokens:
         award_led: l_plungerlane3
@@ -59,7 +59,7 @@ show_player:
     skillshot_timing_crawl:
       action: stop
     skillshot_award_flash:
-      loops: 3
+      loops: 7
       speed: 8
       show_tokens:
         award_led: l_plungerlane2
@@ -68,7 +68,7 @@ show_player:
     skillshot_timing_crawl:
       action: stop
     skillshot_award_flash:
-      loops: 3
+      loops: 7
       speed: 8
       show_tokens:
         award_led: l_plungerlane1

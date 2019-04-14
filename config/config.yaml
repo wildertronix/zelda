@@ -45,6 +45,7 @@ modes:
 - bottle_filler
 - skill_shot
 - skillshot_ballsave
+- attract_carousel
 
 window:
   title: Legend of Zelda
