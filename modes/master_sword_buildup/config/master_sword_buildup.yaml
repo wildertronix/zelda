@@ -3,7 +3,7 @@
 mode: 
   start_events: master_sword_found
   stop_events: start_master_multi, mode_agahnim_multiball_started, game_ending
-  priority: 1000
+  priority: 3000
   restart_on_next_ball: true
 
 

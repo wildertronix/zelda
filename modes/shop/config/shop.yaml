@@ -1,0 +1,257 @@
+#config_version=5
+mode:
+  priority: 100
+  start_events: ball_starting
+
+
+event_player:
+  sw_spinner: cross_out_unavailable_items
+  cross_out_unavailable_items{current_player.lamp_count== 1}: cross_out_lamp
+  cross_out_unavailable_items{current_player.boomerang_count== 1}: cross_out_boomerang
+  cross_out_unavailable_items{current_player.bow_count== 1}: cross_out_bow
+  cross_out_unavailable_items{current_player.moonpearl_count== 1}: cross_out_moonpearl
+  cross_out_unavailable_items{current_player.mirror_count== 1}: cross_out_mirror
+  cross_out_unavailable_items{current_player.hammer_count== 1}: cross_out_hammer
+  cross_out_unavailable_items{current_player.hookshot_count== 1}: cross_out_hookshot
+  cross_out_unavailable_items{current_player.flipper_count== 1}: cross_out_flipper
+  cross_out_unavailable_items{current_player.bluemail_count== 1}: cross_out_bluemail
+  cross_out_unavailable_items{current_player.redshield_count== 1}: cross_out_redshield
+  cross_out_unavailable_items{current_player.flute_count== 1}: cross_out_flute
+  cross_out_unavailable_items{current_player.redmail_count== 1}: cross_out_redmail
+  cross_out_unavailable_items{current_player.mirrorshield_count== 1}: cross_out_mirrorshield
+  cross_out_unavailable_items{current_player.titanmitt_count== 1}: cross_out_titanmitt
+  cross_out_unavailable_items{current_player.cape_count== 1}: cross_out_cape
+  cross_out_unavailable_items{current_player.somaria_count== 1}: cross_out_somaria
+  cross_out_unavailable_items{current_player.byrna_count== 1}: cross_out_byrna
+
+
+
+
+slides:
+  shop_slide:
+    widgets:
+    - type: image
+      image: shop_slide
+    # transition:
+    #   type: move_in
+    #   duration: 1s
+    #   direction: bottom
+
+widget_player:
+  cross_out_lamp:
+    lampx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 595
+  cross_out_boomerang:
+    boomerangx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 480
+        y: 595
+
+  cross_out_bow:
+    bowx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 620
+        y: 595
+
+  cross_out_moonpearl:
+    moonpearlx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 760
+        y: 595
+
+  cross_out_mirror:
+    mirrorx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 900
+        y: 595
+
+  cross_out_hammer:
+    hammerx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 415
+
+  cross_out_hookshot:
+    hookshotx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 480
+        y: 415
+
+  cross_out_flipper:
+    flipperx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 620
+        y: 415
+
+  cross_out_bluemail:
+    bluemailx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 760
+        y: 415
+
+  cross_out_redshield:
+    redshieldx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 900
+        y: 415
+
+  cross_out_flute:
+    flutex:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 255
+
+  cross_out_redmail:
+    redmailx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 480
+        y: 255
+
+  cross_out_mirrorshield:
+    mirrorshieldx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 620
+        y: 255
+
+  cross_out_titanmitt:
+    titanmittx:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 760
+        y: 255
+
+  cross_out_cape:
+    capex:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 900
+        y: 255
+
+  cross_out_somaria:
+    somariax:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 100
+
+  cross_out_byrna:
+    byrnax:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 900
+        y: 100
+
+
+
+
+
+
+widgets:
+  lampx:
+  - type: image
+    image: lampx
+
+  boomerangx:
+  - type: image
+    image: boomerangx
+
+  bowx:
+  - type: image
+    image: bowx
+
+  moonpearlx:
+  - type: image
+    image: moonpearlx
+
+  mirrorx:
+  - type: image
+    image: mirrorx
+
+  hammerx:
+  - type: image
+    image: hammerx
+
+  hookshotx:
+  - type: image
+    image: hookshotx
+
+  flipperx:
+  - type: image
+    image: flipperx
+
+  bluemailx:
+  - type: image
+    image: bluemailx
+
+  redshieldx:
+  - type: image
+    image: redshieldx
+
+  flutex:
+  - type: image
+    image: flutex
+
+  redmailx:
+  - type: image
+    image: redmailx
+
+  mirrorshieldx:
+  - type: image
+    image: mirrorshieldx
+
+  titanmittx:
+  - type: image
+    image: titanmittx
+
+  capex:
+  - type: image
+    image: capex
+
+  somariax:
+  - type: image
+    image: somariax
+
+  byrnax:
+  - type: image
+    image: byrnax
+
+
+
+
+
+slide_player:
+  sw_spinner: shop_slide
+
+

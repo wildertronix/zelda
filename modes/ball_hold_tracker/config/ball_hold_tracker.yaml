@@ -22,7 +22,7 @@ ball_holds:
     hold_devices: bd_lostwoods
     enable_events: cue_3ball_multi
     release_one_events: slide_agahnimstartvideo_created
-    disable_events: release_mastersword
+    disable_events: slide_agahnimstartvideo_created
 
   darkworld_transition:
     balls_to_hold: 1

@@ -46,6 +46,7 @@ modes:
 - skill_shot
 - skillshot_ballsave
 - attract_carousel
+- shop
 
 window:
   title: Legend of Zelda

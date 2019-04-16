@@ -46,9 +46,35 @@ event_player:
   update_item_tracker{current_player.bluemail_count > 0 }: set_bluemail_show
   update_item_tracker{current_player.redshield_count > 0 }: set_redshield_show
 
+  5way_combo_complete: flute_found
+  jar_extraball_earned: titanmitt_found
+  heart_extraball_earned: mirrorshield_found
+  flawless_agahnim: redmail_found
+  all_items_found: cape_found
+  unknown_wizardgoal: byrna_found
+  unknown_wizardgoal2: somaria_found
 
 
 variable_player:
+  mode_item_tracker_started:
+    lamp_count: 1
+    ###added solely for testing
+    boomerang_count: 1  
+    bow_count: 1 
+    moonpearl_count: 1
+    mirror_count: 1
+    hammer_count: 1
+    hookshot_count: 1
+    flipper_count: 1
+    bluemail_count: 1
+    redshield_count: 1
+    flute_count: 1
+    titanmitt_count: 1
+    mirrorshield_count: 1
+    redmail_count: 1
+    cape_count: 1
+    byrna_count: 1
+    somaria_count: 1
   increment_item_tracker:
     item_count: 1
   boomerang_found:
@@ -69,7 +95,20 @@ variable_player:
     bluemail_count: 1
   redshield_found:
     redshield_count: 1
-
+  flute_found:
+    flute_count: 1
+  redmail_found:
+    redmail_count: 1
+  mirrorshield_found:
+    mirrorshield_count: 1
+  titanmitt_found:
+    titanmitt_count: 1
+  cape_found:
+    cape_count: 1
+  byrna_found:
+    byrna_count: 1
+  somaria_found:
+    somaria_count: 1
 
 
 
