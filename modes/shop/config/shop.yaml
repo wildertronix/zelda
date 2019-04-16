@@ -5,27 +5,52 @@ mode:
 
 
 event_player:
-  sw_spinner: cross_out_unavailable_items
+  sw_spinner: cross_out_unavailable_items, circleselect
+
   cross_out_unavailable_items{current_player.lamp_count== 1}: cross_out_lamp
   cross_out_unavailable_items{current_player.boomerang_count== 1}: cross_out_boomerang
   cross_out_unavailable_items{current_player.bow_count== 1}: cross_out_bow
   cross_out_unavailable_items{current_player.moonpearl_count== 1}: cross_out_moonpearl
   cross_out_unavailable_items{current_player.mirror_count== 1}: cross_out_mirror
+
   cross_out_unavailable_items{current_player.hammer_count== 1}: cross_out_hammer
   cross_out_unavailable_items{current_player.hookshot_count== 1}: cross_out_hookshot
   cross_out_unavailable_items{current_player.flipper_count== 1}: cross_out_flipper
   cross_out_unavailable_items{current_player.bluemail_count== 1}: cross_out_bluemail
   cross_out_unavailable_items{current_player.redshield_count== 1}: cross_out_redshield
+
   cross_out_unavailable_items{current_player.flute_count== 1}: cross_out_flute
   cross_out_unavailable_items{current_player.redmail_count== 1}: cross_out_redmail
   cross_out_unavailable_items{current_player.mirrorshield_count== 1}: cross_out_mirrorshield
   cross_out_unavailable_items{current_player.titanmitt_count== 1}: cross_out_titanmitt
   cross_out_unavailable_items{current_player.cape_count== 1}: cross_out_cape
+
   cross_out_unavailable_items{current_player.somaria_count== 1}: cross_out_somaria
   cross_out_unavailable_items{current_player.byrna_count== 1}: cross_out_byrna
 
+  circleselect{current_player.boomerang_count== 0}: circle_boomerang
+  circleselect{current_player.bow_count== 0}: circle_bow
+  circleselect{current_player.moonpeal_count== 0}: circle_moonpearl
+  circleselect{current_player.mirror_count== 0}: circle_mirror
 
+  circleselect{current_player.hammer_count== 0}: circle_hammer
+  circleselect{current_player.hookshot_count== 0}: circle_hookshot
+  circleselect{current_player.flipper_count== 0}: circle_flipper
+  circleselect{current_player.bluemail_count== 0}: circle_bluemail
+  circleselect{current_player.redshield_count== 0}: circle_redshield
 
+  circleselect{current_player.flute_count== 0}: circle_flute
+  circleselect{current_player.redmail_count== 0}: circle_redmail
+  circleselect{current_player.mirrorshield_count== 0}: circle_mirrorshield
+  circleselect{current_player.titanmitt_count== 0}: circle_titanmitt
+  circleselect{current_player.cape_count== 0}: circle_cape
+
+  circleselect{current_player.somaria_count== 0}: circle_somaria
+  circleselect{current_player.byrna_count== 0}: circle_byrna
+
+  sw_left_flipper: move_store_cursor_left
+  sw_right_flipper: move_store_cursor_right
+  flipper_cancel: select_store_item
 
 slides:
   shop_slide:
@@ -38,6 +63,135 @@ slides:
     #   direction: bottom
 
 widget_player:
+  circle_boomerang:
+    boomerang_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 480
+        y: 595
+  circle_bow:
+    bow_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 620
+        y: 595
+
+  circle_moonpearl:
+    moonpearl_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 760
+        y: 595
+
+  circle_mirror:
+    mirror_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 895
+        y: 595
+
+  circle_hammer:
+    hammer_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 415
+
+  circle_hookshot:
+    hookshot_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 480
+        y: 415
+
+  circle_flipper:
+    flipper_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 620
+        y: 415
+
+  circle_bluemail:
+    bluemail_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 755
+        y: 415
+
+  circle_redshield:
+    redshield_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 895
+        y: 415
+
+  circle_flute:
+    flute_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 255
+
+  circle_redmail:
+    redmail_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 480
+        y: 255
+
+  circle_mirrorshield:
+    mirrorshield_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 625
+        y: 255
+
+  circle_titanmitt:
+    titanmitt_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 760
+        y: 255
+
+  circle_cape:
+    cape_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 900
+        y: 255
+
+  circle_somaria:
+    somaria_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 345
+        y: 100
+
+  circle_byrna:
+    byrna_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: 910
+        y: 100
+
+
+
   cross_out_lamp:
     lampx:
       slide: shop_slide
@@ -179,6 +333,72 @@ widget_player:
 
 
 widgets:
+
+  boomerang_circle:
+  - type: image
+    image: boomerang_circle
+
+  bow_circle:
+  - type: image
+    image: bow_circle
+
+  moonpearl_circle:
+  - type: image
+    image: moonpearl_circle
+
+  mirror_circle:
+  - type: image
+    image: mirror_circle
+
+  hammer_circle:
+  - type: image
+    image: hammer_circle
+
+  hookshot_circle:
+  - type: image
+    image: hookshot_circle
+
+  flipper_circle:
+  - type: image
+    image: flipper_circle
+
+  bluemail_circle:
+  - type: image
+    image: bluemail_circle
+
+  redshield_circle:
+  - type: image
+    image: redshield_circle
+
+  flute_circle:
+  - type: image
+    image: flute_circle
+
+  redmail_circle:
+  - type: image
+    image: redmail_circle
+
+  mirrorshield_circle:
+  - type: image
+    image: mirrorshield_circle
+
+  titanmitt_circle:
+  - type: image
+    image: titanmitt_circle
+
+  cape_circle:
+  - type: image
+    image: cape_circle
+
+  somaria_circle:
+  - type: image
+    image: somaria_circle
+
+  byrna_circle:
+  - type: image
+    image: byrna_circle
+
+
   lampx:
   - type: image
     image: lampx

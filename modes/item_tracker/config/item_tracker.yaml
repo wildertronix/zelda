@@ -59,22 +59,22 @@ variable_player:
   mode_item_tracker_started:
     lamp_count: 1
     ###added solely for testing
-    boomerang_count: 1  
-    bow_count: 1 
-    moonpearl_count: 1
-    mirror_count: 1
-    hammer_count: 1
-    hookshot_count: 1
-    flipper_count: 1
-    bluemail_count: 1
-    redshield_count: 1
-    flute_count: 1
-    titanmitt_count: 1
-    mirrorshield_count: 1
-    redmail_count: 1
-    cape_count: 1
-    byrna_count: 1
-    somaria_count: 1
+    # boomerang_count: 1  
+    # bow_count: 1 
+    # moonpearl_count: 1
+    # mirror_count: 1
+    # hammer_count: 1
+    # hookshot_count: 1
+    # flipper_count: 1
+    # bluemail_count: 1
+    # redshield_count: 1
+    # flute_count: 1
+    # titanmitt_count: 1
+    # mirrorshield_count: 1
+    # redmail_count: 1
+    # cape_count: 1
+    # byrna_count: 1
+    # somaria_count: 1
   increment_item_tracker:
     item_count: 1
   boomerang_found:
