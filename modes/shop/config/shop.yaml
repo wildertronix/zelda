@@ -1,7 +1,8 @@
 #config_version=5
 mode:
   priority: 100
-  start_events: ball_starting           #subject to change for later in the game, for testing only
+  start_events: ball_starting
+  stop_events: exit_shop           #subject to change for later in the game, for testing only
 
 
 event_player:
@@ -93,7 +94,7 @@ event_player:
   byrna_incoming_from_right{current_player.byrna_count == 0}: circle_byrna
   byrna_incoming_from_right{current_player.byrna_count == 1}: somaria_incoming_from_right
 
-
+####cursor logic
   move_store_cursor_left{current_player.currently_selected_item == 0}: byrna_incoming_from_right
   move_store_cursor_left{current_player.currently_selected_item == 1}: lamp_incoming_from_right
   move_store_cursor_left{current_player.currently_selected_item == 2}: boomerang_incoming_from_right
@@ -111,6 +112,8 @@ event_player:
   move_store_cursor_left{current_player.currently_selected_item == 14}: titanmitt_incoming_from_right
   move_store_cursor_left{current_player.currently_selected_item == 15}: cape_incoming_from_right
   move_store_cursor_left{current_player.currently_selected_item == 16}: somaria_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 17}: shop_exit_incoming_from_right
+
 
   move_store_cursor_right{current_player.currently_selected_item == 0}: boomerang_incoming_from_left
   move_store_cursor_right{current_player.currently_selected_item == 1}: bow_incoming_from_left
@@ -127,8 +130,9 @@ event_player:
   move_store_cursor_right{current_player.currently_selected_item == 12}: titanmitt_incoming_from_left
   move_store_cursor_right{current_player.currently_selected_item == 13}: cape_incoming_from_left
   move_store_cursor_right{current_player.currently_selected_item == 14}: somaria_incoming_from_left
-  move_store_cursor_right{current_player.currently_selected_item == 15}: byrna_incoming_from_left
-  move_store_cursor_right{current_player.currently_selected_item == 16}: lamp_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 15}: shop_exit_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 16}: byrna_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 17}: lamp_incoming_from_left
 
 
 
@@ -159,29 +163,82 @@ event_player:
   cross_out_unavailable_items{current_player.somaria_count== 1}: cross_out_somaria
   cross_out_unavailable_items{current_player.byrna_count== 1}: cross_out_byrna
 
-  # circleselect{current_player.boomerang_count== 0}: circle_boomerang
-  # circleselect{current_player.bow_count== 0}: circle_bow
-  # circleselect{current_player.moonpeal_count== 0}: circle_moonpearl
-  # circleselect{current_player.mirror_count== 0}: circle_mirror
 
-  # circleselect{current_player.hammer_count== 0}: circle_hammer
-  # circleselect{current_player.hookshot_count== 0}: circle_hookshot
-  # circleselect{current_player.flipper_count== 0}: circle_flipper
-  # circleselect{current_player.bluemail_count== 0}: circle_bluemail
-  # circleselect{current_player.redshield_count== 0}: circle_redshield
+  timer_left_flipper_move_timer_complete: clear_all_circles, move_store_cursor_left|5ms
+  timer_right_flipper_move_timer_complete: clear_all_circles, move_store_cursor_right|5ms
+  flipper_cancel{current_player.currently_selected_item == 0}: purchase_lamp
+  flipper_cancel{current_player.currently_selected_item == 1}: purchase_boomerang
+  flipper_cancel{current_player.currently_selected_item == 2}: purchase_bow
+  flipper_cancel{current_player.currently_selected_item == 3}: purchase_moonpearl
+  flipper_cancel{current_player.currently_selected_item == 4}: purchase_mirror
+  flipper_cancel{current_player.currently_selected_item == 5}: purchase_hammer
+  flipper_cancel{current_player.currently_selected_item == 6}: purchase_hookshot
+  flipper_cancel{current_player.currently_selected_item == 7}: purchase_flipper
+  flipper_cancel{current_player.currently_selected_item == 8}: purchase_bluemail
+  flipper_cancel{current_player.currently_selected_item == 9}: purchase_redshield
+  flipper_cancel{current_player.currently_selected_item == 10}: purchase_flute
+  flipper_cancel{current_player.currently_selected_item == 11}: purchase_redmail
+  flipper_cancel{current_player.currently_selected_item == 12}: purchase_mirrorshield
+  flipper_cancel{current_player.currently_selected_item == 13}: purchase_titanmitt
+  flipper_cancel{current_player.currently_selected_item == 14}: purchase_cape
+  flipper_cancel{current_player.currently_selected_item == 15}: purchase_somaria
+  flipper_cancel{current_player.currently_selected_item == 16}: exit_shop
+  flipper_cancel{current_player.currently_selected_item == 17}: purchase_byrna
 
-  # circleselect{current_player.flute_count== 0}: circle_flute
-  # circleselect{current_player.redmail_count== 0}: circle_redmail
-  # circleselect{current_player.mirrorshield_count== 0}: circle_mirrorshield
-  # circleselect{current_player.titanmitt_count== 0}: circle_titanmitt
-  # circleselect{current_player.cape_count== 0}: circle_cape
 
-  # circleselect{current_player.somaria_count== 0}: circle_somaria
-  # circleselect{current_player.byrna_count== 0}: circle_byrna
+###scores subject to change
+  purchase_boomerang{current_player.score > 1}: successfully_purchase_boomerang
+  purchase_boomerang{current_player.score < 1}: cant_purchase_boomerang
+  purchase_bow{current_player.score > 1}: successfully_purchase_bow
+  purchase_bow{current_player.score < 1}: cant_purchase_bow
+  purchase_moonpearl{current_player.score > 1}: successfully_purchase_moonpearl
+  purchase_moonpearl{current_player.score < 1}: cant_purchase_moonpearl
+  purchase_mirror{current_player.score > 1}: successfully_purchase_mirror
+  purchase_mirror{current_player.score < 1}: cant_purchase_mirror
+  purchase_hammer{current_player.score > 1}: successfully_purchase_hammer
+  purchase_hammer{current_player.score < 1}: cant_purchase_hammer
+  purchase_hookshot{current_player.score > 1}: successfully_purchase_hookshot
+  purchase_hookshot{current_player.score < 1}: cant_purchase_hookshot
+  purchase_flipper{current_player.score > 1}: successfully_purchase_flipper
+  purchase_flipper{current_player.score < 1}: cant_purchase_flipper
+  purchase_bluemail{current_player.score < 1}: successfully_purchase_bluemail
+  purchase_bluemail{current_player.score > 1}: cant_purchase_bluemail
+  purchase_redshield{current_player.score < 1}: successfully_purchase_redshield
+  purchase_redshield{current_player.score > 1}: cant_purchase_redshield
+  purchase_flute{current_player.score < 1}: successfully_purchase_flute
+  purchase_flute{current_player.score > 1}: cant_purchase_flute
+  purchase_redmail{current_player.score < 1}: successfully_purchase_redmail
+  purchase_redmail{current_player.score > 1}: cant_purchase_redmail
+  purchase_mirrorshield{current_player.score < 1}: successfully_purchase_mirrorshield
+  purchase_mirrorshield{current_player.score > 1}: cant_purchase_mirrorshield
+  purchase_titanmitt{current_player.score < 1}: successfully_purchase_titansmitt
+  purchase_titanmitt{current_player.score > 1}: cant_purchase_titansmitt
+  purchase_cape{current_player.score < 1}: successfully_purchase_cape
+  purchase_cape{current_player.score > 1}: cant_purchase_cape
+  purchase_somaria{current_player.score < 1}: successfully_purchase_somaria
+  purchase_somaria{current_player.score > 1}: cant_purchase_somaria
+  purchase_byrna{current_player.score < 1}: successfully_purchase_byrna
+  purchase_byrna{current_player.score > 1}: cant_purchase_byrna
 
-  sw_left_flipper: clear_all_circles, move_store_cursor_left|5ms
-  sw_right_flipper: clear_all_circles, move_store_cursor_right|5ms
-  flipper_cancel: select_store_item
+
+  successfully_purchase_boomerang: boomerang_found, cross_out_boomerang, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_bow: bow_found, cross_out_bow, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_moonpearl: moonpearl_found, cross_out_moonpearl, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_mirror: mirror_found, cross_out_mirror, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_hammer: hammer_found, cross_out_hammer, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_hookshot: hookshot_found, cross_out_hookshot, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_flipper: flipper_found, cross_out_flipper, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_bluemail: blumeail_found, cross_out_bluemail, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_redshield: redshield_found, cross_out_redshield, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_flute: flute_found, cross_out_flute, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_redmail: redmail_found, cross_out_redmail, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_mirrorshield: mirrorshield_found, cross_out_mirrorshield, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_titanmitt: titanmitt_found, cross_out_titanmitt, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_somaria: somaria_found, cross_out_somaria, clear_all_circles, move_store_cursor_right|5ms
+  successfully_purchase_byrna: byrna_found, cross_out_byrna, clear_all_circles, move_store_cursor_right|5ms
+
+
+
 
 slides:
   shop_slide:
@@ -194,6 +251,13 @@ slides:
     #   direction: bottom
 
 widget_player:
+  exit_shop_ready:
+    exit_circle:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
   circle_boomerang:
     boomerang_circle:
       slide: shop_slide
@@ -474,6 +538,8 @@ widget_player:
 
 
   clear_all_circles:
+    exit_circle:
+      action: remove
     boomerang_circle:
       action: remove
     boomerang_price:
@@ -515,6 +581,12 @@ widget_player:
 
 
 widgets:
+  exit_circle:
+  - type: text
+    text: EXIT SHOP
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   boomerang_price:
   - type: text
@@ -736,13 +808,60 @@ variable_player:
     currently_selected_item:
       int: 15
       action: set
-  circle_byrna:
+  circle_exit:
     currently_selected_item:
       int: 16
       action: set
+  circle_byrna:
+    currently_selected_item:
+      int: 17
+      action: set
+  successfully_purchase_boomerang:
+    score: -1
 
 
 sound_player:
   sw_left_flipper: menu_cursor
   sw_right_flipper: menu_cursor
   flipper_cancel: menu_select
+  cant_purchase_boomerang: error
+  cant_purchase_bow: error
+  cant_purchase_moonpearl: error
+  cant_purchase_mirror: error
+  cant_purchase_hammer: error
+  cant_purchase_hookshot: error
+  cant_purchase_flipper: error
+  cant_purchase_bluemail: error
+  cant_purchase_redshield: error
+  cant_purchase_flute: error
+  cant_purchase_redmail: error
+  cant_purchase_mirrorshield: error
+  cant_purchase_titansmitt: error
+  cant_purchase_cape: error
+  cant_purchase_somaria: error
+  cant_purchase_byrna: error
+
+
+timers:
+  left_flipper_move_timer:
+    direction: down
+    start_value: 10
+    tick_interval: 10ms
+    control_events:
+      - event: sw_left_flipper
+        action: restart
+      - event: flipper_cancel
+        action: stop
+      - event: flipper_cancel
+        action: reset
+  right_flipper_move_timer:
+    direction: down
+    start_value: 10
+    tick_interval: 10ms
+    control_events:
+      - event: sw_right_flipper
+        action: restart
+      - event: flipper_cancel
+        action: stop
+      - event: flipper_cancel
+        action: reset
