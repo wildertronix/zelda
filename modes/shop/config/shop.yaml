@@ -89,6 +89,9 @@ event_player:
   somaria_incoming_from_right{current_player.somaria_count == 0}: circle_somaria
   somaria_incoming_from_right{current_player.somaria_count == 1}: cape_incoming_from_right
 
+  shop_exit_incoming_from_left: circle_exit
+  shop_exit_incoming_from_right: circle_exit
+
   byrna_incoming_from_left{current_player.byrna_count == 0}: circle_byrna
   byrna_incoming_from_left{current_player.byrna_count == 1}: lamp_incoming_from_left
   byrna_incoming_from_right{current_player.byrna_count == 0}: circle_byrna
@@ -187,38 +190,38 @@ event_player:
 
 
 ###scores subject to change
-  purchase_boomerang{current_player.score > 1}: successfully_purchase_boomerang
-  purchase_boomerang{current_player.score < 1}: cant_purchase_boomerang
-  purchase_bow{current_player.score > 1}: successfully_purchase_bow
-  purchase_bow{current_player.score < 1}: cant_purchase_bow
-  purchase_moonpearl{current_player.score > 1}: successfully_purchase_moonpearl
-  purchase_moonpearl{current_player.score < 1}: cant_purchase_moonpearl
-  purchase_mirror{current_player.score > 1}: successfully_purchase_mirror
-  purchase_mirror{current_player.score < 1}: cant_purchase_mirror
-  purchase_hammer{current_player.score > 1}: successfully_purchase_hammer
-  purchase_hammer{current_player.score < 1}: cant_purchase_hammer
-  purchase_hookshot{current_player.score > 1}: successfully_purchase_hookshot
-  purchase_hookshot{current_player.score < 1}: cant_purchase_hookshot
-  purchase_flipper{current_player.score > 1}: successfully_purchase_flipper
-  purchase_flipper{current_player.score < 1}: cant_purchase_flipper
-  purchase_bluemail{current_player.score < 1}: successfully_purchase_bluemail
-  purchase_bluemail{current_player.score > 1}: cant_purchase_bluemail
-  purchase_redshield{current_player.score < 1}: successfully_purchase_redshield
-  purchase_redshield{current_player.score > 1}: cant_purchase_redshield
-  purchase_flute{current_player.score < 1}: successfully_purchase_flute
-  purchase_flute{current_player.score > 1}: cant_purchase_flute
-  purchase_redmail{current_player.score < 1}: successfully_purchase_redmail
-  purchase_redmail{current_player.score > 1}: cant_purchase_redmail
-  purchase_mirrorshield{current_player.score < 1}: successfully_purchase_mirrorshield
-  purchase_mirrorshield{current_player.score > 1}: cant_purchase_mirrorshield
-  purchase_titanmitt{current_player.score < 1}: successfully_purchase_titansmitt
-  purchase_titanmitt{current_player.score > 1}: cant_purchase_titansmitt
-  purchase_cape{current_player.score < 1}: successfully_purchase_cape
-  purchase_cape{current_player.score > 1}: cant_purchase_cape
-  purchase_somaria{current_player.score < 1}: successfully_purchase_somaria
-  purchase_somaria{current_player.score > 1}: cant_purchase_somaria
-  purchase_byrna{current_player.score < 1}: successfully_purchase_byrna
-  purchase_byrna{current_player.score > 1}: cant_purchase_byrna
+  purchase_boomerang{current_player.score > 100}: successfully_purchase_boomerang
+  purchase_boomerang{current_player.score < 100}: cant_purchase_boomerang
+  purchase_bow{current_player.score > 100}: successfully_purchase_bow
+  purchase_bow{current_player.score < 100}: cant_purchase_bow
+  purchase_moonpearl{current_player.score > 100}: successfully_purchase_moonpearl
+  purchase_moonpearl{current_player.score < 100}: cant_purchase_moonpearl
+  purchase_mirror{current_player.score > 100}: successfully_purchase_mirror
+  purchase_mirror{current_player.score < 100}: cant_purchase_mirror
+  purchase_hammer{current_player.score > 75}: successfully_purchase_hammer
+  purchase_hammer{current_player.score < 75}: cant_purchase_hammer
+  purchase_hookshot{current_player.score > 75}: successfully_purchase_hookshot
+  purchase_hookshot{current_player.score < 75}: cant_purchase_hookshot
+  purchase_flipper{current_player.score > 75}: successfully_purchase_flipper
+  purchase_flipper{current_player.score < 75}: cant_purchase_flipper
+  purchase_bluemail{current_player.score < 75}: successfully_purchase_bluemail
+  purchase_bluemail{current_player.score > 75}: cant_purchase_bluemail
+  purchase_redshield{current_player.score < 75}: successfully_purchase_redshield
+  purchase_redshield{current_player.score > 75}: cant_purchase_redshield
+  purchase_flute{current_player.score < 5000}: successfully_purchase_flute
+  purchase_flute{current_player.score > 5000}: cant_purchase_flute
+  purchase_redmail{current_player.score < 5000}: successfully_purchase_redmail
+  purchase_redmail{current_player.score > 5000}: cant_purchase_redmail
+  purchase_mirrorshield{current_player.score < 5000}: successfully_purchase_mirrorshield
+  purchase_mirrorshield{current_player.score > 5000}: cant_purchase_mirrorshield
+  purchase_titanmitt{current_player.score < 5000}: successfully_purchase_titansmitt
+  purchase_titanmitt{current_player.score > 5000}: cant_purchase_titansmitt
+  purchase_cape{current_player.score < 5000}: successfully_purchase_cape
+  purchase_cape{current_player.score > 5000}: cant_purchase_cape
+  purchase_somaria{current_player.score < 5000}: successfully_purchase_somaria
+  purchase_somaria{current_player.score > 5000}: cant_purchase_somaria
+  purchase_byrna{current_player.score < 5000}: successfully_purchase_byrna
+  purchase_byrna{current_player.score > 5000}: cant_purchase_byrna
 
 
   successfully_purchase_boomerang: boomerang_found, cross_out_boomerang, clear_all_circles, move_store_cursor_right|5ms
@@ -251,7 +254,7 @@ slides:
     #   direction: bottom
 
 widget_player:
-  exit_shop_ready:
+  circle_exit:
     exit_circle:
       slide: shop_slide
       widget_settings:
@@ -294,6 +297,12 @@ widget_player:
         z: 2
         x: 760
         y: 595
+    moonpearl_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_mirror:
     mirror_circle:
@@ -302,6 +311,12 @@ widget_player:
         z: 2
         x: 895
         y: 595
+    mirror_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_hammer:
     hammer_circle:
@@ -310,6 +325,12 @@ widget_player:
         z: 2
         x: 345
         y: 415
+    hammer_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_hookshot:
     hookshot_circle:
@@ -318,6 +339,12 @@ widget_player:
         z: 2
         x: 480
         y: 415
+    hookshot_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_flipper:
     flipper_circle:
@@ -326,6 +353,12 @@ widget_player:
         z: 2
         x: 620
         y: 415
+    flipper_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_bluemail:
     bluemail_circle:
@@ -334,6 +367,12 @@ widget_player:
         z: 2
         x: 755
         y: 415
+    bluemail_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_redshield:
     redshield_circle:
@@ -342,6 +381,12 @@ widget_player:
         z: 2
         x: 895
         y: 415
+    redshield_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_flute:
     flute_circle:
@@ -350,6 +395,12 @@ widget_player:
         z: 2
         x: 345
         y: 255
+    flute_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_redmail:
     redmail_circle:
@@ -358,6 +409,12 @@ widget_player:
         z: 2
         x: 480
         y: 255
+    redmail_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_mirrorshield:
     mirrorshield_circle:
@@ -366,6 +423,12 @@ widget_player:
         z: 2
         x: 625
         y: 255
+    mirrorshield_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_titanmitt:
     titanmitt_circle:
@@ -374,6 +437,12 @@ widget_player:
         z: 2
         x: 760
         y: 255
+    titanmitt_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_cape:
     cape_circle:
@@ -382,6 +451,12 @@ widget_player:
         z: 2
         x: 900
         y: 255
+    cape_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_somaria:
     somaria_circle:
@@ -390,6 +465,12 @@ widget_player:
         z: 2
         x: 345
         y: 100
+    somaria_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
   circle_byrna:
     byrna_circle:
@@ -398,6 +479,12 @@ widget_player:
         z: 2
         x: 910
         y: 100
+    byrna_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
 
 
 
@@ -550,31 +637,59 @@ widget_player:
       action: remove
     moonpearl_circle:
       action: remove
+    moonpearl_price:
+      action: remove
     mirror_circle:
+      action: remove
+    mirror_price:
       action: remove
     hammer_circle:
       action: remove
+    hammer_price:
+      action: remove
     hookshot_circle:
+      action: remove
+    hookshot_price:
       action: remove
     flipper_circle:
       action: remove
+    flipper_price:
+      action: remove
     bluemail_circle:
+      action: remove
+    bluemail_price:
       action: remove
     redshield_circle:
       action: remove
+    redshield_price:
+      action: remove
     flute_circle:
+      action: remove
+    flute_price:
       action: remove
     redmail_circle:
       action: remove
+    redmail_price:
+      action: remove
     mirrorshield_circle:
+      action: remove
+    mirrorshield_price:
       action: remove
     titanmitt_circle:
       action: remove
+    titanmitt_price:
+      action: remove
     cape_circle:
+      action: remove
+    cape_price:
       action: remove
     somaria_circle:
       action: remove
+    somaria_price:
+      action: remove
     byrna_circle:
+      action: remove
+    byrna_price:
       action: remove
 
 
@@ -590,7 +705,7 @@ widgets:
 
   boomerang_price:
   - type: text
-    text: -1 Rupee
+    text: -100 Rupees
     style: hyruletext
     font_size: 80
     color: gold
@@ -605,7 +720,7 @@ widgets:
 
   bow_price:
   - type: text
-    text: -5 Rupees
+    text: -100 Rupees
     style: hyruletext
     font_size: 80
     color: gold
@@ -614,58 +729,155 @@ widgets:
   - type: image
     image: moonpearl_circle
 
+  moonpearl_price:
+  - type: text
+    text: -100 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   mirror_circle:
   - type: image
     image: mirror_circle
+
+  mirror_price:
+  - type: text
+    text: -100 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   hammer_circle:
   - type: image
     image: hammer_circle
 
+  hammer_price:
+  - type: text
+    text: -75 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   hookshot_circle:
   - type: image
     image: hookshot_circle
+
+  hookshot_price:
+  - type: text
+    text: -75 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   flipper_circle:
   - type: image
     image: flipper_circle
 
+  flipper_price:
+  - type: text
+    text: -75 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   bluemail_circle:
   - type: image
     image: bluemail_circle
+
+  bluemail_price:
+  - type: text
+    text: -75 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   redshield_circle:
   - type: image
     image: redshield_circle
 
+  redshield_price:
+  - type: text
+    text: -75 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   flute_circle:
   - type: image
     image: flute_circle
+
+  flute_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   redmail_circle:
   - type: image
     image: redmail_circle
 
+  redmail_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   mirrorshield_circle:
   - type: image
     image: mirrorshield_circle
+
+  mirrorshield_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   titanmitt_circle:
   - type: image
     image: titanmitt_circle
 
+  titanmitt_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   cape_circle:
   - type: image
     image: cape_circle
+
+  cape_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   somaria_circle:
   - type: image
     image: somaria_circle
 
+  somaria_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
+
   byrna_circle:
   - type: image
     image: byrna_circle
 
+  byrna_price:
+  - type: text
+    text: -5000 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   lampx:
   - type: image
@@ -817,7 +1029,23 @@ variable_player:
       int: 17
       action: set
   successfully_purchase_boomerang:
-    score: -1
+    score: -100
+  successfully_purchase_bow:
+    score: -100
+  successfully_purchase_moonpearl:
+    score: -100
+  successfully_purchase_mirror:
+    score: -100
+  successfully_purchase_hammer:
+    score: -75
+  successfully_purchase_hookshot:
+    score: -75
+  successfully_purchase_flipper:
+    score: -75
+  successfully_purchase_bluemail:
+    score: -75
+  successfully_purchase_redshield:
+    score: -75
 
 
 sound_player:
