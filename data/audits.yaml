@@ -1,6 +1,6 @@
 events:
   game_ended: 214
-  game_started: 1808
+  game_started: 1819
 player:
   score:
     average: 2323.6620370370347
@@ -121,7 +121,7 @@ shots:
   o_bomb: 409
   pull_master_sword: 121
   rightpop: 110
-  spinnermultiplier: 5375
+  spinnermultiplier: 5385
   toppop: 2216
   z_ramp_lostwoods: 74
   z_rupee: 195
@@ -133,10 +133,10 @@ shots:
   zelda_2ball_shot_three: 302
   zelda_2ball_shot_two: 241
 switches:
-  leftflipperbutton: 9163
+  leftflipperbutton: 9195
   plungerlane: 3090
   plungerlaunch: 0
-  rightflipperbutton: 9189
+  rightflipperbutton: 9283
   s_abyss: 708
   s_cavestar: 0
   s_coin1: 450
@@ -169,7 +169,7 @@ switches:
   s_right_outlane: 210
   s_rightpop: 734
   s_rightslingshot: 1213
-  s_spinner: 12371
+  s_spinner: 12381
   s_toppop: 6425
   start: 89
   trough1: 2658

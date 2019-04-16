@@ -18,77 +18,77 @@ event_player:
   boomerang_incoming_from_right{current_player.boomerang_count == 0}: circle_boomerang
   boomerang_incoming_from_right{current_player.boomerang_count == 1}: lamp_incoming_from_right
 
-  bow_incoming_from_left[current_player.bow_count == 0}: circle_bow
+  bow_incoming_from_left{current_player.bow_count == 0}: circle_bow
   bow_incoming_from_left{current_player.bow_count == 1}: moonpearl_incoming_from_left
   bow_incoming_from_right{current_player.bow_count == 0}: circle_bow
   bow_incoming_from_right{current_player.bow_count == 1}: boomerang_incoming_from_right
 
-  moonpearl_incoming_from_left[current_player.moonpearl_count == 0}: circle_moonpearl
+  moonpearl_incoming_from_left{current_player.moonpearl_count == 0}: circle_moonpearl
   moonpearl_incoming_from_left{current_player.moonpearl_count == 1}: mirror_incoming_from_left
   moonpearl_incoming_from_right{current_player.moonpearl_count == 0}: circle_bow
   moonpearl_incoming_from_right{current_player.moonpearl_count == 1}: bow_incoming_from_right
 
-  mirror_incoming_from_left[current_player.mirror_count == 0}: circle_mirror
+  mirror_incoming_from_left{current_player.mirror_count == 0}: circle_mirror
   mirror_incoming_from_left{current_player.mirror_count == 1}: hammer_incoming_from_left
   mirror_incoming_from_right{current_player.mirror_count == 0}: circle_mirror
   mirror_incoming_from_right{current_player.mirror_count == 1}: moonpearl_incoming_from_right
 
-  hammer_incoming_from_left[current_player.hammer_count == 0}: circle_hammer
+  hammer_incoming_from_left{current_player.hammer_count == 0}: circle_hammer
   hammer_incoming_from_left{current_player.hammer_count == 1}: hookshot_incoming_from_left
   hammer_incoming_from_right{current_player.hammer_count == 0}: circle_hammer
   hammer_incoming_from_right{current_player.hammer_count == 1}: mirror_incoming_from_right
 
-  hookshot_incoming_from_left[current_player.hookshot_count == 0}: circle_hookshot
+  hookshot_incoming_from_left{current_player.hookshot_count == 0}: circle_hookshot
   hookshot_incoming_from_left{current_player.hookshot_count == 1}: flipper_incoming_from_left
   hookshot_incoming_from_right{current_player.hookshot_count == 0}: circle_hookshot
   hookshot_incoming_from_right{current_player.hookshot_count == 1}: hammer_incoming_from_right
 
-  flipper_incoming_from_left[current_player.flipper_count == 0}: circle_flipper
+  flipper_incoming_from_left{current_player.flipper_count == 0}: circle_flipper
   flipper_incoming_from_left{current_player.flipper_count == 1}: bluemail_incoming_from_left
   flipper_incoming_from_right{current_player.flipper_count == 0}: circle_flipper
   flipper_incoming_from_right{current_player.flipper_count == 1}: hookshot_incoming_from_right
 
-  bluemail_incoming_from_left[current_player.bluemail_count == 0}: circle_bluemail
+  bluemail_incoming_from_left{current_player.bluemail_count == 0}: circle_bluemail
   bluemail_incoming_from_left{current_player.bluemail_count == 1}: redshield_incoming_from_left
   bluemail_incoming_from_right{current_player.bluemail_count == 0}: circle_bluemail
   bluemail_incoming_from_right{current_player.bluemail_count == 1}: flipper_incoming_from_right
 
-  redshield_incoming_from_left[current_player.redshield_count == 0}: circle_redshield
+  redshield_incoming_from_left{current_player.redshield_count == 0}: circle_redshield
   redshield_incoming_from_left{current_player.redshield_count == 1}: flute_incoming_from_left
   redshield_incoming_from_right{current_player.redshield_count == 0}: circle_redshield
   redshield_incoming_from_right{current_player.redshield_count == 1}: bluemail_incoming_from_right
 
-  flute_incoming_from_left[current_player.flute_count == 0}: circle_flute
+  flute_incoming_from_left{current_player.flute_count == 0}: circle_flute
   flute_incoming_from_left{current_player.flute_count == 1}: redmail_incoming_from_left
   flute_incoming_from_right{current_player.flute_count == 0}: circle_flute
   flute_incoming_from_right{current_player.flute_count == 1}: redshield_incoming_from_right
 
-  redmail_incoming_from_left[current_player.redmail_count == 0}: circle_redmail
+  redmail_incoming_from_left{current_player.redmail_count == 0}: circle_redmail
   redmail_incoming_from_left{current_player.redmail_count == 1}: mirrorshield_incoming_from_left
   redmail_incoming_from_right{current_player.redmail_count == 0}: circle_redmail
   redmail_incoming_from_right{current_player.redmail_count == 1}: flute_incoming_from_right
 
-  mirrorshield_incoming_from_left[current_player.mirrorshield_count == 0}: circle_mirrorshield
+  mirrorshield_incoming_from_left{current_player.mirrorshield_count == 0}: circle_mirrorshield
   mirrorshield_incoming_from_left{current_player.mirrorshield_count == 1}: titanmitt_incoming_from_left
   mirrorshield_incoming_from_right{current_player.mirrorshield_count == 0}: circle_mirrorshield
   mirrorshield_incoming_from_right{current_player.mirrorshield_count == 1}: redmail_incoming_from_right
 
-  titanmitt_incoming_from_left[current_player.titanmitt_count == 0}: circle_titanmitt
+  titanmitt_incoming_from_left{current_player.titanmitt_count == 0}: circle_titanmitt
   titanmitt_incoming_from_left{current_player.titanmitt_count == 1}: cape_incoming_from_left
   titanmitt_incoming_from_right{current_player.titanmitt_count == 0}: circle_titanmitt
   titanmitt_incoming_from_right{current_player.titanmitt_count == 1}: mirrorshield_incoming_from_right
 
-  cape_incoming_from_left[current_player.cape_count == 0}: circle_cape
+  cape_incoming_from_left{current_player.cape_count == 0}: circle_cape
   cape_incoming_from_left{current_player.cape_count == 1}: somaria_incoming_from_left
   cape_incoming_from_right{current_player.cape_count == 0}: circle_cape
   cape_incoming_from_right{current_player.cape_count == 1}: titanmitt_incoming_from_right
 
-  somaria_incoming_from_left[current_player.somaria_count == 0}: circle_somaria
+  somaria_incoming_from_left{current_player.somaria_count == 0}: circle_somaria
   somaria_incoming_from_left{current_player.somaria_count == 1}: byrna_incoming_from_left
   somaria_incoming_from_right{current_player.somaria_count == 0}: circle_somaria
   somaria_incoming_from_right{current_player.somaria_count == 1}: cape_incoming_from_right
 
-  byrna_incoming_from_left[current_player.byrna_count == 0}: circle_byrna
+  byrna_incoming_from_left{current_player.byrna_count == 0}: circle_byrna
   byrna_incoming_from_left{current_player.byrna_count == 1}: lamp_incoming_from_left
   byrna_incoming_from_right{current_player.byrna_count == 0}: circle_byrna
   byrna_incoming_from_right{current_player.byrna_count == 1}: somaria_incoming_from_right
@@ -136,7 +136,7 @@ event_player:
 
 
 
-  sw_spinner: cross_out_unavailable_items, circleselect      #subject to change later in the game, for testing only
+  sw_spinner: cross_out_unavailable_items, cursor_on_first_available_item    #subject to change later in the game, for testing only
 #logic for X'ing the earned items out
   cross_out_unavailable_items{current_player.lamp_count== 1}: cross_out_lamp
   cross_out_unavailable_items{current_player.boomerang_count== 1}: cross_out_boomerang
@@ -179,8 +179,8 @@ event_player:
   # circleselect{current_player.somaria_count== 0}: circle_somaria
   # circleselect{current_player.byrna_count== 0}: circle_byrna
 
-  sw_left_flipper: move_store_cursor_left
-  sw_right_flipper: move_store_cursor_right
+  sw_left_flipper: clear_all_circles, move_store_cursor_left|5ms
+  sw_right_flipper: clear_all_circles, move_store_cursor_right|5ms
   flipper_cancel: select_store_item
 
 slides:
@@ -201,6 +201,13 @@ widget_player:
         z: 2
         x: 480
         y: 595
+    boomerang_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
+
   circle_bow:
     bow_circle:
       slide: shop_slide
@@ -208,6 +215,13 @@ widget_player:
         z: 2
         x: 620
         y: 595
+    bow_price:
+      slide: shop_slide
+      widget_settings:
+        z: 2
+        x: center
+        y: 125
+
 
   circle_moonpearl:
     moonpearl_circle:
@@ -459,11 +473,55 @@ widget_player:
         y: 100
 
 
+  clear_all_circles:
+    boomerang_circle:
+      action: remove
+    boomerang_price:
+      action: remove
+    bow_circle:
+      action: remove
+    bow_price:
+      action: remove
+    moonpearl_circle:
+      action: remove
+    mirror_circle:
+      action: remove
+    hammer_circle:
+      action: remove
+    hookshot_circle:
+      action: remove
+    flipper_circle:
+      action: remove
+    bluemail_circle:
+      action: remove
+    redshield_circle:
+      action: remove
+    flute_circle:
+      action: remove
+    redmail_circle:
+      action: remove
+    mirrorshield_circle:
+      action: remove
+    titanmitt_circle:
+      action: remove
+    cape_circle:
+      action: remove
+    somaria_circle:
+      action: remove
+    byrna_circle:
+      action: remove
 
 
 
 
 widgets:
+
+  boomerang_price:
+  - type: text
+    text: -1 Rupee
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   boomerang_circle:
   - type: image
@@ -472,6 +530,13 @@ widgets:
   bow_circle:
   - type: image
     image: bow_circle
+
+  bow_price:
+  - type: text
+    text: -5 Rupees
+    style: hyruletext
+    font_size: 80
+    color: gold
 
   moonpearl_circle:
   - type: image
@@ -675,3 +740,9 @@ variable_player:
     currently_selected_item:
       int: 16
       action: set
+
+
+sound_player:
+  sw_left_flipper: menu_cursor
+  sw_right_flipper: menu_cursor
+  flipper_cancel: menu_select
