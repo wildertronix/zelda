@@ -1,11 +1,11 @@
 #config_version=5
 mode:
   priority: 100
-  start_events: ball_starting
+  start_events: ball_starting           #subject to change for later in the game, for testing only
 
 
 event_player:
-  sw_spinner: cross_out_unavailable_items, circleselect
+  sw_spinner: cross_out_unavailable_items, circleselect      #subject to change later in the game, for testing only
 
   cross_out_unavailable_items{current_player.lamp_count== 1}: cross_out_lamp
   cross_out_unavailable_items{current_player.boomerang_count== 1}: cross_out_boomerang
