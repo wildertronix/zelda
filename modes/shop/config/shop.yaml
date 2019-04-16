@@ -7,7 +7,7 @@ mode:
 event_player:
 
   cursor_on_first_available_item: lamp_incoming_from_left
-
+#logic for skipping items if earned
   lamp_incoming_from_left{current_player.lamp_count == 0}: circle_lamp
   lamp_incoming_from_left{current_player.lamp_count == 1}: boomerang_incoming_from_left
   lamp_incoming_from_right{current_player.lamp_count == 0}: circle_lamp
@@ -94,8 +94,50 @@ event_player:
   byrna_incoming_from_right{current_player.byrna_count == 1}: somaria_incoming_from_right
 
 
-  sw_spinner: cross_out_unavailable_items, circleselect      #subject to change later in the game, for testing only
+  move_store_cursor_left{current_player.currently_selected_item == 0}: byrna_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 1}: lamp_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 2}: boomerang_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 3}: bow_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 4}: moonpearl_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 5}: mirror_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 6}: hammer_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 7}: hookshot_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 8}: flipper_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 9}: bluemail_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 10}: redshield_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 11}: flute_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 12}: redmail_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 13}: mirrorshield_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 14}: titanmitt_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 15}: cape_incoming_from_right
+  move_store_cursor_left{current_player.currently_selected_item == 16}: somaria_incoming_from_right
 
+  move_store_cursor_right{current_player.currently_selected_item == 0}: boomerang_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 1}: bow_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 2}: moonpearl_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 3}: mirror_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 4}: hammer_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 5}: hookshot_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 6}: flipper_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 7}: bluemail_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 8}: redshield_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 9}: flute_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 10}: redmail_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 11}: mirrorshield_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 12}: titanmitt_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 13}: cape_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 14}: somaria_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 15}: byrna_incoming_from_left
+  move_store_cursor_right{current_player.currently_selected_item == 16}: lamp_incoming_from_left
+
+
+
+
+
+
+
+  sw_spinner: cross_out_unavailable_items, circleselect      #subject to change later in the game, for testing only
+#logic for X'ing the earned items out
   cross_out_unavailable_items{current_player.lamp_count== 1}: cross_out_lamp
   cross_out_unavailable_items{current_player.boomerang_count== 1}: cross_out_boomerang
   cross_out_unavailable_items{current_player.bow_count== 1}: cross_out_bow
