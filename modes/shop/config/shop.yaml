@@ -1051,7 +1051,23 @@ variable_player:
 sound_player:
   sw_left_flipper: menu_cursor
   sw_right_flipper: menu_cursor
-  flipper_cancel: menu_select
+  successfully_purchase_boomerang: menu_select
+  successfully_purchase_bow: menu_select
+  successfully_purchase_moonpearl: menu_select
+  successfully_purchase_mirror: menu_select
+  successfully_purchase_hammer: menu_select
+  successfully_purchase_hookshot: menu_select
+  successfully_purchase_flipper: menu_select
+  successfully_purchase_bluemail: menu_select
+  successfully_purchase_redshield: menu_select
+  successfully_purchase_flute: menu_select
+  successfully_purchase_redmail: menu_select
+  successfully_purchase_mirrorshield: menu_select
+  successfully_purchase_titansmitt: menu_select
+  successfully_purchase_cape: menu_select
+  successfully_purchase_somaria: menu_select
+  successfully_purchase_byrna: menu_select
+
   cant_purchase_boomerang: error
   cant_purchase_bow: error
   cant_purchase_moonpearl: error
