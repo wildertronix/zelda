@@ -7,204 +7,239 @@ mode:
   game_mode: false
   priority: 110
 
+event_player:
+  timer_attract_timer1_complete: rightflipperbutton_active
+  timer_attract_timer2_complete: restart_timer1
 
 mode_settings:
-  selectable_items: hyrulechamp_slide, highscore_slide, awesome_slide, press_start, mpf_slide, fast_slide, special_thanks_slide, sp_slide, attract_video_slide
+  selectable_items: hyrulechamp_slide, highscore_slide,awesome_slide, awesome_slide2, press_start, mpf_slide, fast_slide, special_thanks_slide, sp_slide, attract_video_slide
   select_item_events: flipper_cancel
   next_item_events: rightflipperbutton_active
   previous_item_events: leftflipperbutton_active
 
 
-show_player:
-  attract_carousel_hyrulechamp_slide_highlighted:
-    hyrule_champ_show: 
-      loops: 0
-      speed: 1
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show3:
-      action: stop
-    test_show2:
-      action: stop
-    test_show:
-      action: stop
-    highscore_show:
-      action: stop
+timers:
+  attract_timer1:
+    start_value: 1
+    end_value: 10
+    direction: up
+    restart_on_complete: true
+    control_events:
+      - action: start
+        event: mode_attract_carousel_started
+      - action: restart
+        event: restart_timer1
+      - action: stop
+        event: sw_flip
 
-  attract_carousel_highscore_slide_highlighted:
-    highscore_show: 
-      loops: 0
-      speed: 1
-    hyrule_champ_show:
-      action: stop 
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show3:
-      action: stop
-    test_show2:
-      action: stop
-    test_show:
-      action: stop
+  attract_timer2:
+    start_value: 1
+    end_value: 15
+    direction: up
+    control_events:
+      - action: start
+        event: sw_flip
+      - action: restart
+        event: sw_flip
 
-  attract_carousel_awesome_slide_highlighted:
-    test_show:
-      loops: 0
-      speed: 1
-    highscore_show:
-      action: stop
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show3:
-      action: stop
-    test_show2:
-      action: stop
-    hyrule_champ_show:
-      action: stop
-
-  attract_carousel_press_start_highlighted:
-    test_show2:
-      loops: 0
-      speed: 1
-    test_show:
-      action: stop
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show3:
-      action: stop
-    highscore_show:
-      action: stop
-    hyrule_champ_show:
-      action: stop
-
-  attract_carousel_mpf_slide_highlighted:
-    test_show3:
-      loops: 0
-      speed: 1
-    test_show2:
-      action: stop
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show:
-      action: stop
-    highscore_show:
-      action: stop
-    hyrule_champ_show:
-      action: stop
-
-  attract_carousel_fast_slide_highlighted:
-    test_show4:
-      loops: 0
-      speed: 1
-    test_show3:
-      action: stop
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show2:
-      action: stop
-    test_show:
-      action: stop
-    highscore_show:
-      action: stop
-    hyrule_champ_show:
-      action: stop
-
-  attract_carousel_special_thanks_slide_highlighted:
-    test_show5:
-      loops: 0
-      speed: 1
-    test_show4:
-      action: stop
-    test_show7:
-      action: stop
-    test_show6:
-      action: stop
-    test_show3:
-      action: stop
-    test_show2:
-      action: stop
-    test_show:
-      action: stop
-    highscore_show:
-      action: stop
-    hyrule_champ_show:
-      action: stop
-
-  attract_carousel_sp_slide_highlighted:
-    test_show6:
-      loops: 0
-      speed: 1
-    test_show7:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show3:
-      action: stop
-    test_show2:
-      action: stop
-    test_show:
-      action: stop
-    highscore_show:
-      action: stop
-    hyrule_champ_show:
-      action: stop
-
-  attract_carousel_attract_video_slide_highlighted:
-    test_show7:
-      loops: 0
-      speed: 1
-    test_show6:
-      action: stop
-    test_show5:
-      action: stop
-    test_show4:
-      action: stop
-    test_show3:
-      action: stop
-    test_show2:
-      action: stop
-    test_show:
-      action: stop
-    highscore_show:
-      action: stop
-    hyrule_champ_show:
-      action: stop
+slide_player:
+  attract_carousel_hyrulechamp_slide_highlighted: hyrulechamp_slide
+  attract_carousel_highscore_slide_highlighted: highscore_slide
+  attract_carousel_awesome_slide_highlighted: awesome_slide
+  attract_carousel_awesome_slide2_highlighted: awesome_slide2
+  attract_carousel_press_start_highlighted: press_start
+  attract_carousel_mpf_slide_highlighted: mpf_slide
+  attract_carousel_fast_slide_highlighted: fast_slide
+  attract_carousel_special_thanks_slide_highlighted: special_thanks_slide
+  attract_carousel_sp_slide_highlighted: sp_slide
+  attract_carousel_attract_video_slide_highlighted: attract_video_slide
 
 
+slides:
+  hyrulechamp_slide:
+    widgets:
+    - type: text
+      text: HYRULE CHAMPION
+      style: hyruletext
+      font_size: 125
+      y: 625
+      color: gold
+    - type: text
+      text: (machine|score1_name)
+      style: hyruletext
+      font_size: 125
+      y: 400
+      number_grouping: true
+      color: gold 
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: text
+      text: (machine|score1_value)
+      style: hyruletext
+      font_size: 125
+      y: 275
+      number_grouping: true
+      color: gold 
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
 
 
+  highscore_slide:
+    widgets:
+    - type: text
+      text: HIGH SCORES
+      style: hyruletext
+      font_size: 100
+      y: 650
+      color: gold
+    - type: text
+      text: 1. (machine|score2_name) (machine|score2_value)
+      style: hyruletext
+      font_size: 80
+      y: 500
+      number_grouping: true
+      color: gold 
+    - type: text
+      text: 2. (machine|score3_name) (machine|score3_value)
+      style: hyruletext
+      font_size: 80
+      y: 400
+      number_grouping: true
+      color: gold 
+    - type: text
+      text: 3. (machine|score4_name) (machine|score4_value)
+      style: hyruletext
+      font_size: 80
+      y: 300
+      number_grouping: true
+      color: gold 
+    - type: text
+      text: 4. (machine|score5_name) (machine|score5_value)
+      style: hyruletext
+      font_size: 80
+      y: 200
+      number_grouping: true
+      color: gold 
+
+  awesome_slide:
+    widgets:
+    - type: text
+      text: The Legend of Zelda
+      style: hyruletext
+      font_size: 100
+    transition:
+       type: push
+       duration: 2s
+       direction: left
+
+  awesome_slide2:
+    widgets:
+    - type: text
+      text: A Link to the Past
+      style: hyruletext
+      font_size: 144
+    transition:
+       type: fade_back
+       duration: 3s
+
+  press_start:
+    widgets:
+    - type: Text
+      text: PRESS START
+      style: hyruletext
+      font_size: 72
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+    - type: Text
+      text: FREE PLAY
+      style: hyruletext
+      font_size: 72
+      color: green
+      y: 10
+      anchor_y: bottom
+    transition:
+       type: move_in
+       duration: 1s
+       direction: right
+
+  mpf_slide:
+    background_color: white
+    widgets:
+    - type: image
+      image: mpf_logo
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  fast_slide:
+    widgets:
+    - type: image
+      image: fast_logo
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  special_thanks_slide:
+    widgets:
+    - type: Text
+      text: Special Thanks To
+      color: White
+      anchor_y: bottom
+      style: hyruletext
+      font_size: 80
+    - type: Text
+      text: John Marsh
+      style: hyruletext
+      font_size: 144
+      color: Green
+      anchor_y: top
+
+  sp_slide:
+    widgets:
+    - type: Text
+      text: Save Point
+      color: red
+      anchor_y: bottom
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: Presents...
+      style: hyruletext
+      font_size: 200
+      color: red
+      anchor_y: top
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  attract_video_slide:
+    widgets:
+    - type: video
+      video: attractvideo
+      width: 1280
+      height: 720

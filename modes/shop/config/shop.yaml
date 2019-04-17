@@ -204,24 +204,24 @@ event_player:
   purchase_hookshot{current_player.score < 75}: cant_purchase_hookshot
   purchase_flipper{current_player.score > 75}: successfully_purchase_flipper
   purchase_flipper{current_player.score < 75}: cant_purchase_flipper
-  purchase_bluemail{current_player.score < 75}: successfully_purchase_bluemail
-  purchase_bluemail{current_player.score > 75}: cant_purchase_bluemail
-  purchase_redshield{current_player.score < 75}: successfully_purchase_redshield
-  purchase_redshield{current_player.score > 75}: cant_purchase_redshield
-  purchase_flute{current_player.score < 5000}: successfully_purchase_flute
-  purchase_flute{current_player.score > 5000}: cant_purchase_flute
-  purchase_redmail{current_player.score < 5000}: successfully_purchase_redmail
-  purchase_redmail{current_player.score > 5000}: cant_purchase_redmail
-  purchase_mirrorshield{current_player.score < 5000}: successfully_purchase_mirrorshield
-  purchase_mirrorshield{current_player.score > 5000}: cant_purchase_mirrorshield
-  purchase_titanmitt{current_player.score < 5000}: successfully_purchase_titansmitt
-  purchase_titanmitt{current_player.score > 5000}: cant_purchase_titansmitt
-  purchase_cape{current_player.score < 5000}: successfully_purchase_cape
-  purchase_cape{current_player.score > 5000}: cant_purchase_cape
-  purchase_somaria{current_player.score < 5000}: successfully_purchase_somaria
-  purchase_somaria{current_player.score > 5000}: cant_purchase_somaria
-  purchase_byrna{current_player.score < 5000}: successfully_purchase_byrna
-  purchase_byrna{current_player.score > 5000}: cant_purchase_byrna
+  purchase_bluemail{current_player.score > 75}: successfully_purchase_bluemail
+  purchase_bluemail{current_player.score < 75}: cant_purchase_bluemail
+  purchase_redshield{current_player.score > 75}: successfully_purchase_redshield
+  purchase_redshield{current_player.score < 75}: cant_purchase_redshield
+  purchase_flute{current_player.score > 5000}: successfully_purchase_flute
+  purchase_flute{current_player.score < 5000}: cant_purchase_flute
+  purchase_redmail{current_player.score > 5000}: successfully_purchase_redmail
+  purchase_redmail{current_player.score < 5000}: cant_purchase_redmail
+  purchase_mirrorshield{current_player.score > 5000}: successfully_purchase_mirrorshield
+  purchase_mirrorshield{current_player.score < 5000}: cant_purchase_mirrorshield
+  purchase_titanmitt{current_player.score > 5000}: successfully_purchase_titansmitt
+  purchase_titanmitt{current_player.score < 5000}: cant_purchase_titansmitt
+  purchase_cape{current_player.score > 5000}: successfully_purchase_cape
+  purchase_cape{current_player.score < 5000}: cant_purchase_cape
+  purchase_somaria{current_player.score > 5000}: successfully_purchase_somaria
+  purchase_somaria{current_player.score < 5000}: cant_purchase_somaria
+  purchase_byrna{current_player.score > 5000}: successfully_purchase_byrna
+  purchase_byrna{current_player.score < 5000}: cant_purchase_byrna
 
 
   successfully_purchase_boomerang: boomerang_found, cross_out_boomerang, clear_all_circles, move_store_cursor_right|5ms
