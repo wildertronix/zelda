@@ -1,0 +1,8 @@
+#show_version=5
+- time: 0
+  lights:
+    l_5: black
+    l_zrupee: black
+    l_zitem: black
+    l_z: black
+    l_jackpot: black

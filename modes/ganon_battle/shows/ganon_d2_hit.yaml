@@ -1,0 +1,93 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_drupee: red     ##orange
+    l_ditem: red    #purple
+    l_d: 124711    #green
+
+
+
+- time: '+1'
+  lights:
+    l_drupee: red
+    l_ditem: red
+    l_d: purple
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: 124711
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: purple
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: purple
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: 124711
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: e05e02
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: e05e02
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: e05e02
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: 124711
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: purple
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: 124711
+
+
+- time: '+1'
+  lights: 
+    l_drupee: red
+    l_ditem: red
+    l_d: purple
+
+

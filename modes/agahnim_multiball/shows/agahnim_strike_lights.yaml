@@ -1,18 +1,18 @@
 #show_version=5
 - time: 0
   lights:
-      l_erupee: 'F8EBF4'
-      l_l: 'F8EBF4'
-      l_lrupee: 'F8EBF4'
+      l_erupee: 'purple'
+      l_l: 'purple'
+      l_lrupee: 'purple'
     
 - time: '+1'
   lights:
-      l_d: 'F8EBF4'
-      l_eitem: 'F8EBF4'
+      l_d: 'purple'
+      l_eitem: 'purple'
       l_erupee: '000000'
       l_l: '000000'
-      l_litem: 'F8EBF4'
-      l_mastersword: 'F8EBF4'
+      l_litem: 'purple'
+      l_mastersword: 'purple'
     
 - time: '+1'
   lights:

@@ -1,0 +1,16 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_lrupee: red     ##orange
+    l_litem: red    #purple
+    l_l: red   #green
+
+- time: '+1'
+  lights: 
+    l_lrupee: red     ##orange
+    l_litem: red    #purple
+    l_l: red   #green
+
+
+
+

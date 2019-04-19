@@ -1,0 +1,15 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_erupee: red     ##orange
+    l_eitem: red    #purple
+    l_e: red   #green
+
+- time: '+1'
+  lights: 
+    l_erupee: red     ##orange
+    l_eitem: red    #purple
+    l_e: red   #green
+
+
+

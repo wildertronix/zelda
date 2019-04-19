@@ -1,0 +1,32 @@
+#show_version=5
+- time: 0
+  lights:
+    l_5: purple
+    l_zrupee: black
+    l_zitem: black
+    l_z: black
+    l_jackpot: white
+
+
+- time: '+1'
+  lights:
+    l_5: black
+    l_zrupee: purple
+    l_zitem: black
+    l_z: black
+    l_jackpot: black
+
+- time: '+1'
+  lights:
+    l_5: black
+    l_zrupee: black
+    l_zitem: purple
+    l_z: black
+    l_jackpot: white
+- time: '+1'
+  lights:
+    l_5: black
+    l_zrupee: purple
+    l_zitem: black
+    l_z: purple
+    l_jackpot: black

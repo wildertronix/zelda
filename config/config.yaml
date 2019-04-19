@@ -47,6 +47,7 @@ modes:
 - skillshot_ballsave
 - attract_carousel
 - shop
+- ganon_battle
 
 window:
   title: Legend of Zelda

@@ -1,0 +1,93 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_5: e05e02     ##orange
+    l_zrupee: purple    #purple
+    l_zitem: 124711    #green
+    l_z: purple
+
+
+- time: '+1'
+  lights: 
+    l_5: e05e02
+    l_zrupee: 124711
+    l_zitem: purple
+    l_z: 124711
+
+- time: '+1'
+  lights: 
+    l_5: e05e02
+    l_zrupee: purple
+    l_zitem: 124711
+    l_z: purple
+
+- time: '+1'
+  lights: 
+    l_5: 124711
+    l_zrupee: e05e02
+    l_zitem: purple
+    l_z: 124711
+
+- time: '+1'
+  lights: 
+    l_5: purple
+    l_zrupee: e05e02
+    l_zitem: purple
+    l_z: 124711
+
+- time: '+1'
+  lights: 
+    l_5: 124711
+    l_zrupee: e05e02
+    l_zitem: 124711
+    l_z: purple
+
+- time: '+1'
+  lights: 
+    l_5: purple
+    l_zrupee: 124711
+    l_zitem: e05e02
+    l_z: 124711
+
+- time: '+1'
+  lights: 
+    l_5: 124711
+    l_zrupee: purple
+    l_zitem: e05e02
+    l_z: purple
+
+- time: '+1'
+  lights: 
+    l_5: purple
+    l_zrupee: 124711
+    l_zitem: e05e02
+    l_z: 124711
+
+- time: '+1'
+  lights: 
+    l_5: 124711
+    l_zrupee: purple
+    l_zitem: 124711
+    l_z: e05e02
+
+- time: '+1'
+  lights: 
+    l_5: purple
+    l_zrupee: 124711
+    l_zitem: purple
+    l_z: e05e02
+
+- time: '+1'
+  lights: 
+    l_5: 124711
+    l_zrupee: purple
+    l_zitem: 124711
+    l_z: e05e02
+
+- time: '+1'
+  lights: 
+    l_5: purple
+    l_zrupee: 124711
+    l_zitem: purple
+    l_z: 124711
+
