@@ -56,6 +56,7 @@ event_player:
 
 
 variable_player:
+
   mode_item_tracker_started:
     lamp_count: 1
     ###added solely for testing
@@ -79,24 +80,34 @@ variable_player:
     item_count: 1
   boomerang_found:
     boomerang_count: 1
+    total_item_count: 1
   bow_found:
     bow_count: 1
+    total_item_count: 1
   moonpearl_found:
     moonpearl_count: 1
+    total_item_count: 1
   mirror_found:
     mirror_count: 1
+    total_item_count: 1
   hookshot_found:
     hookshot_count: 1
+    total_item_count: 1
   hammer_found:
     hammer_count: 1
+    total_item_count: 1
   flippers_found:
     flipper_count: 1
+    total_item_count: 1
   bluemail_found:
     bluemail_count: 1
+    total_item_count: 1
   redshield_found:
     redshield_count: 1
+    total_item_count: 1
   flute_found:
     flute_count: 1
+    
   redmail_found:
     redmail_count: 1
   mirrorshield_found:

@@ -38,5 +38,12 @@ ball_holds:
     release_one_events: slide_darkworld2_slide_removed, slide_darkworld2_slide_removed
     disable_events: slide_darkworld2_slide_removed, slide_darkworld2_slide_removed
 
+  shop_hold:
+    balls_to_hold: 1
+    hold_devices: bd_modestart
+    enable_events: mode_darkworld2_started
+    release_one_events: exit_shop
+    disable_events: exit_shop
+
 
 

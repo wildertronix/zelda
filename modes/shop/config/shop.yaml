@@ -1,8 +1,8 @@
 #config_version=5
 mode:
-  priority: 100
-  start_events: ball_starting
-  stop_events: exit_shop           #subject to change for later in the game, for testing only
+  priority: 5000
+  start_events: mode_darkworld2_started
+  stop_events: exit_shop         
 
 
 event_player:
@@ -143,7 +143,7 @@ event_player:
 
 
 
-  sw_spinner: cross_out_unavailable_items, cursor_on_first_available_item    #subject to change later in the game, for testing only
+  start_shop_mode: cross_out_unavailable_items, cursor_on_first_available_item    #subject to change later in the game, for testing only
 #logic for X'ing the earned items out
   cross_out_unavailable_items{current_player.lamp_count== 1}: cross_out_lamp
   cross_out_unavailable_items{current_player.boomerang_count== 1}: cross_out_boomerang
@@ -952,7 +952,7 @@ widgets:
 
 
 slide_player:
-  sw_spinner: shop_slide
+  start_shop_mode: shop_slide
 
 
 variable_player:

@@ -1,8 +1,8 @@
 #config_version=5
 
 mode: 
-  start_events: ball_started          #start_ganon_battle
-  stop_events: ganon_deafeated
+  start_events: start_ganon_battle  
+  stop_events: ganon_defeated
   priority: 3000
   restart_on_next_ball: true
 
@@ -42,45 +42,44 @@ shots:
 
 ##the next 6 shots are giving issues, all completing one shot per lane
   ganon_e1:
-    hit_events: ganon_e1_sequence_hit
+    hit_events: ganon_e_sequence_hit
     start_enabled: true
-    disable_events: ganon_e1_sequence_hit
+    disable_events: ganon_e1_hit
     reset_events: restart_ganon_shots
     profile: ganon_e1_profile
 
   ganon_e2:
-    hit_events: ganon_e2_sequence_hit
-    enable_events: ganon_e1_sequence_hit
-    disable_events: ganon_e2_sequence_hit
+    hit_events: ganon_e_sequence_hit
+    enable_events: ganon_e1_ready_hit
+    disable_events: ganon_e2_hit
     reset_events: restart_ganon_shots
     profile: ganon_e2_profile
 
 
   ganon_e3:
-    hit_events: ganon_e3_sequence_hit
-    enable_events: ganon_e2_sequence_hit
+    hit_events: ganon_e_sequence_hit
+    enable_events: ganon_e2_ready_hit
     reset_events: restart_ganon_shots
     profile: ganon_e3_profile
 
 
-
   ganon_l1:
-    hit_events: ganon_l1_sequence_hit
+    hit_events: ganon_l_sequence_hit
     start_enabled: true
-    disable_events: ganon_l1_sequence_hit
+    disable_events: ganon_l1_hit
     reset_events: restart_ganon_shots
     profile: ganon_l1_profile
 
   ganon_l2:
-    hit_events: ganon_l2_sequence_hit
+    hit_events: ganon_l_sequence_hit
     enable_events: ganon_l1_ready_hit
-    disable_events: ganon_l2_ready_hit
+    disable_events: ganon_l2_hit
     reset_events: restart_ganon_shots
     profile: ganon_l2_profile
 
 
   ganon_l3:
-    hit_events: ganon_l3_sequence_hit
+    hit_events: ganon_l_sequence_hit
     enable_events: ganon_l2_ready_hit
     reset_events: restart_ganon_shots
     profile: ganon_l3_profile
@@ -145,22 +144,10 @@ sequence_shots:
   final_blow_sequence:
     switch_sequence: s_optoz1 s_cranehole
     sequence_timeout: 3s
-  ganon_e1_sequence:
+  ganon_e_sequence:
     switch_sequence: s_optoe s_optol
     sequence_timeout: 2s
-  ganon_e2_sequence:
-    switch_sequence: s_optoe s_optol
-    sequence_timeout: 2s
-  ganon_e3_sequence:
-    switch_sequence: s_optoe s_optol
-    sequence_timeout: 2s
-  ganon_l1_sequence:
-    switch_sequence: s_optol s_optoe
-    sequence_timeout: 2s
-  ganon_l2_sequence:
-    switch_sequence: s_optol s_optoe
-    sequence_timeout: 2s
-  ganon_l3_sequence:
+  ganon_l_sequence:
     switch_sequence: s_optol s_optoe
     sequence_timeout: 2s
 
