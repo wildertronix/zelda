@@ -76,6 +76,7 @@ variable_player:
     # cape_count: 1
     # byrna_count: 1
     # somaria_count: 1
+    total_item_count: 1
   increment_item_tracker:
     item_count: 1
   boomerang_found:
@@ -107,7 +108,7 @@ variable_player:
     total_item_count: 1
   flute_found:
     flute_count: 1
-    
+
   redmail_found:
     redmail_count: 1
   mirrorshield_found:
