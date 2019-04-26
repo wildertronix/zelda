@@ -240,5 +240,9 @@ player_vars:
 
   total_item_count:
     value_type: int
+    initial_value: 1
+
+  ganon_lane_count:
+    value_type: int
     initial_value: 0
 

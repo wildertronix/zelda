@@ -2,7 +2,7 @@
 
 mode: 
   start_events: slide_darkworld2_slide_active
-  stop_events: game_ending, start_ganon_battle
+  stop_events: game_ending
   priority: 1100
   restart_on_next_ball: true
 
@@ -11,6 +11,8 @@ event_player:
   darkworld2_abyss_hit{current_player.total_item_count == 9}: start_ganon_2ball, start_ganon_battle
   darkworld2_abyss_hit{current_player.total_item_count == 10}: start_ganon_3ball, start_ganon_battle
   darkworld2_abyss_hit{current_player.total_item_count < 8}: start_ganon_battle
+  darkworld2_abyss_hit{current_player.total_item_count == 8}: start_ganon_battle
+
 
   darkworld_shop_hit: start_shop_mode
 

@@ -1,15 +1,32 @@
 #config_version=5
 
 mode: 
-  start_events: start_ganon_battle  
+  start_events: ball_started   #start_ganon_battle  
   stop_events: ganon_defeated
   priority: 3000
   restart_on_next_ball: true
 
 
-
 event_player:
   timer_final_blow_timer_complete:  reset_ganon_shots
+  ganon_lane_complete{current_player.ganon_lane_count == 1}: ganon_lane1_video
+  ganon_lane_complete{current_player.ganon_lane_count == 2}: ganon_lane2_video
+  ganon_lane_complete{current_player.ganon_lane_count == 3}: ganon_lane3_video
+  ganon_lane_complete{current_player.ganon_lane_count == 4}: ganon_lane4_video
+
+
+
+variable_player:
+  ganon_z4_hit:
+    ganon_lane_count: 1
+  ganon_e3_hit:
+    ganon_lane_count: 1
+  ganon_l3_hit:
+    ganon_lane_count: 1
+  ganon_d3_hit:
+    ganon_lane_count: 1
+  ganon_a4_hit:
+    ganon_lane_count: 1
 
 shots:
   ganon_z1:
@@ -153,83 +170,34 @@ sequence_shots:
 
 accruals:
 
-  # finish_ganon_e1_sequence:
-  #   events_when_complete: ganon_e1_sequence_complete
-  #   enable_events: mode_ganon_battle_started
-  #   disable_events: ganon_e1_sequence_complete
-  #   events:
-  #     - ganon_e1_sequence_hit
-  #   restart_events: reset_ganon_shots
-
-  # finish_ganon_e2_sequence:
-  #   events_when_complete: ganon_e2_sequence_complete
-  #   enable_events: ganon_e1_sequence_complete
-  #   disable_events: ganon_e2_sequence_complete
-  #   events:
-  #     - ganon_e2_sequence_hit
-  #   restart_events: reset_ganon_shots
-
-  # finish_ganon_e3_sequence:
-  #   events_when_complete: ganon_e3_sequence_complete
-  #   enable_events: ganon_e2_sequence_complete
-  #   disable_events: ganon_e3_sequence_complete
-  #   events:
-  #     - ganon_e3_sequence_hit
-  #   restart_events: reset_ganon_shots
-
-  # finish_ganon_l1_sequence:
-  #   events_when_complete: ganon_l1_sequence_complete
-  #   enable_events: mode_ganon_battle_started
-  #   disable_events: ganon_l1_sequence_complete
-  #   events:
-  #     - ganon_l1_sequence_hit
-  #   restart_events: reset_ganon_shots
-
-  # finish_ganon_l2_sequence:
-  #   events_when_complete: ganon_l2_sequence_complete
-  #   enable_events: ganon_l1_sequence_complete
-  #   disable_events: ganon_l2_sequence_complete
-  #   events:
-  #     - ganon_l2_sequence_hit
-  #   restart_events: reset_ganon_shots
-
-  # finish_ganon_l3_sequence:
-  #   events_when_complete: ganon_l3_sequence_complete
-  #   enable_events: ganon_l2_sequence_complete
-  #   disable_events: ganon_l3_sequence_complete
-  #   events:
-  #     - ganon_l3_sequence_hit
-  #   restart_events: reset_ganon_shots
-
-
   z_lane:
     events:
       - ganon_z1_hit
       - ganon_z2_hit
       - ganon_z3_hit
       - ganon_z4_hit
-    events_when_complete: z_lane_complete  #tag light shows and videos to this
+    events_when_complete: z_lane_complete,  ganon_lane_complete   #tag light shows and videos to this
 
   e_lane:
     events:
      - ganon_e1_sequence_hit
      - ganon_e2_sequence_hit
      - ganon_e3_sequence_hit
-    events_when_complete: e_lane_complete
+    events_when_complete: e_lane_complete, ganon_lane_complete
 
   l_lane:
     events:
      - ganon_l1_sequence_hit
      - ganon_l2_sequence_hit
      - ganon_l3_sequence_hit
-    events_when_complete: l_lane_complete
+    events_when_complete: l_lane_complete, ganon_lane_complete
 
   d_lane:
     events:
       - ganon_d1_hit
       - ganon_d2_hit
       - ganon_d3_hit
-    events_when_complete: d_lane_complete
+    events_when_complete: d_lane_complete, ganon_lane_complete
 
   a_lane:
     events:
@@ -237,7 +205,7 @@ accruals:
       - ganon_a2_hit
       - ganon_a3_hit
       - ganon_a4_hit
-    events_when_complete: a_lane_complete 
+    events_when_complete: a_lane_complete , ganon_lane_complete
 
 
   ganon_accrual:
@@ -249,6 +217,24 @@ accruals:
       - a_lane_complete
     events_when_complete: activate_final_blow
 
+show_player:
+  ganon_z1_hit: ganon_left
+  ganon_z2_hit: ganon_right
+  ganon_z3_hit: ganon_left
+  ganon_z4_hit: ganon_right
+  ganon_e1_sequence_hit: ganon_hit
+  ganon_e2_sequence_hit: ganon_hit
+  ganon_e3_sequence_hit: ganon_hit
+  ganon_l1_sequence_hit: ganon_hit
+  ganon_l2_sequence_hit: ganon_hit
+  ganon_l3_sequence_hit: ganon_hit
+  ganon_d1_hit: ganon_hit
+  ganon_d2_hit: ganon_hit
+  ganon_d3_hit: ganon_hit
+  ganon_a1_hit: ganon_right
+  ganon_a2_hit: ganon_left
+  ganon_a3_hit: ganon_right
+  ganon_a4_hit: ganon_left
 
 #adjust speed times on these for chaos and to speed up shows as they are near complete
 shot_profiles:

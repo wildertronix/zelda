@@ -287,6 +287,25 @@ slide_player:
       target: lcd
       expire: 5s
 
+  ganon_lane1_video:
+    ganonlane1:
+      target: lcd
+      expire: 7s
+
+  ganon_lane2_video:
+    ganonlane2:
+      target: lcd
+      expire: 6s
+
+  ganon_lane3_video:
+    ganonlane3:
+      target: lcd
+      expire: 6s
+
+  ganon_lane4_video:
+    ganonlane4:
+      target: lcd
+      expire: 8s
 
 
 slides:
@@ -654,5 +673,33 @@ slides:
     widgets:
       - type: video
         video: redshieldvideo
+        width: 1280
+        height: 720
+
+  ganonlane1:
+    widgets:
+      - type: video
+        video: ganonlane1
+        width: 1280
+        height: 720
+
+  ganonlane2:
+    widgets:
+      - type: video
+        video: ganonlane2
+        width: 1280
+        height: 720
+
+  ganonlane3:
+    widgets:
+      - type: video
+        video: ganonlane3
+        width: 1280
+        height: 720
+
+  ganonlane4:
+    widgets:
+      - type: video
+        video: ganonlane4
         width: 1280
         height: 720

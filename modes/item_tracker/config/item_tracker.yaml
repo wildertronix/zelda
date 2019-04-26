@@ -76,10 +76,9 @@ variable_player:
     # cape_count: 1
     # byrna_count: 1
     # somaria_count: 1
-    total_item_count: 1
   increment_item_tracker:
     item_count: 1
-  boomerang_found:
+  boomerang_found:    ###perhaps this needs to be copied into the shop mode to validate these variables?
     boomerang_count: 1
     total_item_count: 1
   bow_found:
