@@ -2,7 +2,7 @@
 
 - time: 0
   lights:
-    l_33: 2cbc01
+    l_33: white
     l_arupee: 2f701c
     l_aitem: 2f701c
     l_a: 2f701c
@@ -11,8 +11,8 @@
     
 - time: '+1'
   lights:
-    l_33: 2cbc01
-    l_arupee: 2cbc01
+    l_33: white
+    l_arupee: white
     l_aitem: 2f701c
     l_a: 2f701c
     l_10: 2f701c
@@ -21,8 +21,8 @@
 - time: '+1'
   lights:
     l_33: 2f701c
-    l_arupee: 2cbc01
-    l_aitem: 2cbc01
+    l_arupee: white
+    l_aitem: white
     l_a: 2f701c
     l_10: 2f701c
     l_mastersword: 2f701c
@@ -31,8 +31,8 @@
   lights:
     l_33: 2f701c
     l_arupee: 2f701c
-    l_aitem: 2cbc01
-    l_a: 2cbc01
+    l_aitem: white
+    l_a: white
     l_10: 2f701c
     l_mastersword: 2f701c
 
@@ -41,8 +41,8 @@
     l_33: 2f701c
     l_arupee: 2f701c
     l_aitem: 2f701c
-    l_a: 2cbc01
-    l_10: 2cbc01
+    l_a: white
+    l_10: white
     l_mastersword: 2f701c
 
 - time: '+1'
@@ -51,8 +51,8 @@
     l_arupee: 2f701c
     l_aitem: 2f701c
     l_a: 2f701c
-    l_10: 2cbc01
-    l_mastersword: 2cbc01
+    l_10: white
+    l_mastersword: white
 
 - time: '+1'
   lights:
@@ -61,7 +61,7 @@
     l_aitem: 2f701c
     l_a: 2f701c
     l_10: 2f701c
-    l_mastersword: 2cbc01
+    l_mastersword: white
 
 - time: '+1'
   lights:

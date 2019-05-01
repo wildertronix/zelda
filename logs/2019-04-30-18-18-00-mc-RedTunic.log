@@ -1,0 +1,1333 @@
+2019-04-30 18:18:00,808 : kivy : Factory: 194 symbols loaded
+2019-04-30 18:18:00,813 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2019-04-30 18:18:00,987 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2019-04-30 18:18:00,987 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2019-04-30 18:18:01,009 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-04-30 18:18:01,010 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2019-04-30 18:18:01,010 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2019-04-30 18:18:01,104 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-04-30 18:18:01,104 : kivy : Video: Provider: gstplayer
+2019-04-30 18:18:01,215 : kivy : Loading MPF-MC controller
+2019-04-30 18:18:01,216 : mpfmc : Mission Pinball Framework Media Controller v0.53.0-dev.0
+2019-04-30 18:18:01,216 : mpfmc : Mission Pinball Framework Game Engine v0.53.0-dev.16
+2019-04-30 18:18:01,217 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-04-30 18:18:01,218 : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config
+2019-04-30 18:18:01,218 : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-04-30 18:18:01,219 : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-04-30 18:18:01,346 : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-04-30 18:18:01,364 : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.
+2019-04-30 18:18:01,364 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-04-30 18:18:01,470 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config
+2019-04-30 18:18:01,470 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-04-30 18:18:01,772 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-04-30 18:18:01,775 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-04-30 18:18:01,800 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-04-30 18:18:01,803 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-04-30 18:18:01,906 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-04-30 18:18:01,914 : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\33abdcfcf65e636611bd498b89cbbd0e.mpf_cache
+2019-04-30 18:18:01,915 : mpfmc : Starting clock at 60.0Hz
+2019-04-30 18:18:01,933 : kivy : Text: Provider: sdl2
+2019-04-30 18:18:02,001 : kivy : Window: Provider: sdl2
+2019-04-30 18:18:02,057 : kivy : GL: Using the "OpenGL" graphics system
+2019-04-30 18:18:03,310 : kivy : GL: GLEW initialization succeeded
+2019-04-30 18:18:03,311 : kivy : GL: available extensions: b'GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_blend_color GL_EXT_abgr GL_EXT_texture3D GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_SGIS_texture_edge_clamp GL_SGIS_generate_mipmap GL_EXT_draw_range_elements GL_SGIS_texture_lod GL_EXT_rescale_normal GL_EXT_packed_pixels GL_EXT_texture_edge_clamp GL_EXT_separate_specular_color GL_ARB_multitexture GL_EXT_texture_env_combine GL_EXT_bgra GL_EXT_blend_func_separate GL_EXT_secondary_color GL_EXT_fog_coord GL_EXT_texture_env_add GL_ARB_texture_cube_map GL_ARB_transpose_matrix GL_ARB_texture_env_add GL_IBM_texture_mirrored_repeat GL_EXT_multi_draw_arrays GL_NV_blend_square GL_ARB_texture_compression GL_3DFX_texture_compression_FXT1 GL_EXT_texture_filter_anisotropic GL_ARB_texture_border_clamp GL_ARB_point_parameters GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_texture_env_crossbar GL_EXT_texture_compression_s3tc GL_ARB_shadow GL_ARB_window_pos GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_ARB_vertex_program GL_EXT_texture_rectangle GL_ARB_fragment_program GL_EXT_stencil_two_side GL_ATI_separate_stencil GL_ARB_vertex_buffer_object GL_EXT_texture_lod_bias GL_ARB_occlusion_query GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_texture_non_power_of_two GL_ARB_vertex_shader GL_NV_texgen_reflection GL_ARB_point_sprite GL_EXT_blend_equation_separate GL_ARB_depth_texture GL_ARB_texture_rectangle GL_ARB_draw_buffers GL_ARB_color_buffer_float GL_ARB_half_float_pixel GL_ARB_texture_float GL_ARB_pixel_buffer_object GL_EXT_framebuffer_object GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_EXT_draw_buffers2 GL_WIN_swap_hint GL_EXT_texture_sRGB GL_ARB_multisample GL_EXT_packed_float GL_EXT_texture_shared_exponent GL_ARB_texture_rg GL_ARB_texture_compression_rgtc GL_NV_conditional_render GL_EXT_texture_swizzle GL_ARB_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_ARB_depth_buffer_float GL_EXT_transform_feedback GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_ARB_framebuffer_object GL_EXT_texture_array GL_EXT_texture_integer GL_ARB_map_buffer_range GL_EXT_texture_snorm GL_INTEL_performance_queries GL_ARB_vertex_array_object '
+2019-04-30 18:18:03,311 : kivy : GL: glShaderBinary is not available
+2019-04-30 18:18:03,312 : kivy : GL: Backend used <glew>
+2019-04-30 18:18:03,312 : kivy : GL: OpenGL version <b'3.0.0 - Build 8.15.10.2342'>
+2019-04-30 18:18:03,312 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-04-30 18:18:03,312 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics Family'>
+2019-04-30 18:18:03,312 : kivy : GL: OpenGL parsed version: 3, 0
+2019-04-30 18:18:03,312 : kivy : GL: Shading version <b'1.30  - Intel Build 8.15.10.2342'>
+2019-04-30 18:18:03,312 : kivy : GL: Texture max size <4096>
+2019-04-30 18:18:03,313 : kivy : GL: Texture max units <16>
+2019-04-30 18:18:03,375 : kivy : Shader: Fragment compiled successfully
+2019-04-30 18:18:03,375 : kivy : Shader: Vertex compiled successfully
+2019-04-30 18:18:03,435 : kivy : ImageSDL2: Load <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\data\glsl\default.png>
+2019-04-30 18:18:03,451 : kivy : Window: auto add sdl2 input provider
+2019-04-30 18:18:03,452 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-04-30 18:18:03,467 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-04-30 18:18:03,468 : kivy : Resource: add <C:\Users\Wilder\zelda\fonts> in path list
+2019-04-30 18:18:03,468 : kivy : Resource: add <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\fonts> in path list
+2019-04-30 18:18:03,468 : SoundSystem : Loading the Sound System
+2019-04-30 18:18:03,978 : AudioInterface : Initialized
+2019-04-30 18:18:03,978 : AudioInterface : Loaded SDL 2.0.5
+2019-04-30 18:18:03,978 : AudioInterface : Loaded SDL_Mixer 2.0.1
+2019-04-30 18:18:03,978 : AudioInterface : Loaded GStreamer 1.10.2.0
+2019-04-30 18:18:03,978 : AudioInterface : Loaded GLib 2.48.1
+2019-04-30 18:18:03,978 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2019-04-30 18:18:03,978 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2019-04-30 18:18:03,979 : Track : Allocated track audio buffer (4096 bytes)
+2019-04-30 18:18:03,979 : Track.0.TrackStandard.music : Created Track 0 music with the following settings: simultaneous_sounds = 3, volume = 0.500000
+2019-04-30 18:18:03,979 : AudioInterface : The 'music' standard track has successfully been created.
+2019-04-30 18:18:03,979 : Track : Allocated track audio buffer (4096 bytes)
+2019-04-30 18:18:03,980 : Track.1.TrackStandard.voice : Created Track 1 voice with the following settings: simultaneous_sounds = 1, volume = 0.700000
+2019-04-30 18:18:03,980 : AudioInterface : The 'voice' standard track has successfully been created.
+2019-04-30 18:18:03,980 : Track : Allocated track audio buffer (4096 bytes)
+2019-04-30 18:18:03,980 : Track.2.TrackStandard.sfx : Created Track 2 sfx with the following settings: simultaneous_sounds = 8, volume = 0.900000
+2019-04-30 18:18:03,980 : AudioInterface : The 'sfx' standard track has successfully been created.
+2019-04-30 18:18:03,981 : AudioInterface : Enabling audio playback
+2019-04-30 18:18:03,983 : kivy : App: Loading kv <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mpfmc.kv>
+2019-04-30 18:18:03,984 : kivy : App: kv <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mpfmc.kv> not found
+2019-04-30 18:18:03,984 : kivy : Base: Create provider from mouse,multitouch_on_demand
+2019-04-30 18:18:03,984 : kivy : Base: Create provider from wm_touch
+2019-04-30 18:18:03,984 : kivy : Base: Create provider from wm_pen
+2019-04-30 18:18:03,984 : kivy : Base: Start application main loop
+2019-04-30 18:18:03,985 : EventManager : Event: ======'display_lcd_initialized'====== Args={}
+2019-04-30 18:18:04,002 : mpfmc : Display: Setting 'lcd' as default display
+2019-04-30 18:18:04,014 : EventManager : Event: ======'displays_initialized'====== Args={}
+2019-04-30 18:18:04,016 : EventManager : Event: ======'slide_lcd_blank_created'====== Args={}
+2019-04-30 18:18:04,016 : EventManager : Event: ======'display_lcd_ready'====== Args={}
+2019-04-30 18:18:04,030 : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-04-30 18:18:04,075 : EventManager : Event: ======'mc_ready'====== Args={}
+2019-04-30 18:18:04,076 : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-04-30 18:18:04,078 : ModeController : Found MPF Mode folders: {'attract': 'attract', 'bonus': 'bonus', 'carousel': 'carousel', 'credits': 'credits', 'game': 'game', 'high_score': 'high_score', 'match': 'match', 'service': 'service', 'tilt': 'tilt'}
+2019-04-30 18:18:04,082 : ModeController : Found Machine-specific Mode folders: {'2ballescape': '2ballescape', '2ballqualifier': '2ballqualifier', '5waycombotracker': '5waycombotracker', 'agahnim_multiball': 'agahnim_multiball', 'attract': 'attract', 'attract_carousel': 'attract_carousel', 'ball_hold_tracker': 'ball_hold_tracker', 'ball_save': 'ball_save', 'base': 'base', 'bomb_finder': 'bomb_finder', 'bottle_filler': 'bottle_filler', 'darkworld': 'darkworld', 'darkworld2': 'darkworld2', 'escape': 'escape', 'escapehurryup': 'escapehurryup', 'escape_starter': 'escape_starter', 'extraball': 'extraball', 'final_hold': 'final_hold', 'gameoverplayer': 'gameoverplayer', 'game_ender_mode': 'game_ender_mode', 'ganon_battle': 'ganon_battle', 'heartmeter': 'heartmeter', 'heart_tracker': 'heart_tracker', 'high_score': 'high_score', 'item_tracker': 'item_tracker', 'light_world': 'light_world', 'lost_woods': 'lost_woods', 'lost_woods_starter': 'lost_woods_starter', 'master_sword_buildup': 'master_sword_buildup', 'mode_tracker': 'mode_tracker', 'music_player': 'music_player', 'playfield_multiplier': 'playfield_multiplier', 'rupee2x_finder': 'rupee2x_finder', 'rupee3x_finder': 'rupee3x_finder', 'rupee_finder': 'rupee_finder', 'shop': 'shop', 'shots': 'shots', 'skillshot_ballsave': 'skillshot_ballsave', 'skill_shot': 'skill_shot', 'slide_tracker': 'slide_tracker', 'unusual_show_tracker': 'unusual_show_tracker', 'video_player': 'video_player'}
+2019-04-30 18:18:04,083 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-04-30 18:18:04,242 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c5e5b78d841dff96974ddb92030af0a9.mpf_cache
+2019-04-30 18:18:04,244 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\96294a9578657f44941f2a8ec647ae36.mpf_cache
+2019-04-30 18:18:04,245 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fc1a42fdd0d487285862f5b943c745e.mpf_cache
+2019-04-30 18:18:04,246 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-04-30 18:18:04,249 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-04-30 18:18:04,250 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-04-30 18:18:04,250 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\34c6448537d1c95c89cf73a07c0f99c9.mpf_cache
+2019-04-30 18:18:04,251 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0bcc174d8c9595c3b107b2ba9cf1c73.mpf_cache
+2019-04-30 18:18:04,311 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\562f2c62ffb495bc414930beede29530.mpf_cache
+2019-04-30 18:18:04,312 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-04-30 18:18:04,314 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-04-30 18:18:04,315 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\27a949ddf2d3e5eeb9247bd991aba200.mpf_cache
+2019-04-30 18:18:04,316 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-04-30 18:18:04,317 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-04-30 18:18:04,326 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6eb8b6e4728e10ce756703e43167d298.mpf_cache
+2019-04-30 18:18:04,327 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-04-30 18:18:04,331 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-04-30 18:18:04,341 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\3485f9bf4bb8d1d21be6de1438e091ba.mpf_cache
+2019-04-30 18:18:04,342 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-04-30 18:18:04,343 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-04-30 18:18:04,345 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\d9d23a2a9a3117f1553491692ff1c689.mpf_cache
+2019-04-30 18:18:04,347 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-04-30 18:18:04,348 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-04-30 18:18:04,349 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-04-30 18:18:04,352 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-04-30 18:18:04,353 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-04-30 18:18:04,354 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-04-30 18:18:04,399 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-04-30 18:18:04,401 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-04-30 18:18:04,416 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-04-30 18:18:04,416 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-04-30 18:18:04,417 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6caaa2c03f737135abd403644138525e.mpf_cache
+2019-04-30 18:18:04,563 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-04-30 18:18:04,564 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-04-30 18:18:04,565 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-04-30 18:18:04,566 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-04-30 18:18:04,567 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-04-30 18:18:04,568 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\696ab9654b1d369e3597af15c079ad3b.mpf_cache
+2019-04-30 18:18:04,569 : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-04-30 18:18:04,569 : AssetManager : Registering Asset: bluemailx, File: bluemailx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bluemailx.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: bluemail_circle, File: bluemail_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bluemail_circle.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: boomerangx, File: boomerangx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\boomerangx.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: boomerang_circle, File: boomerang_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\boomerang_circle.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: bowx, File: bowx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bowx.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: bow_circle, File: bow_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bow_circle.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: byrnax, File: byrnax.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\byrnax.png'}
+2019-04-30 18:18:04,570 : AssetManager : Registering Asset: byrna_circle, File: byrna_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\byrna_circle.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: capex, File: capex.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\capex.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: cape_circle, File: cape_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\cape_circle.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: circleselect, File: circleselect.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\circleselect.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: darkworldstoryslide, File: darkworldstoryslide.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\darkworldstoryslide.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: darkworld_instructional, File: darkworld_instructional.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\darkworld_instructional.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: fast_logo, File: fast_logo.jpg, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\fast_logo.jpg'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: flipperx, File: flipperx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flipperx.png'}
+2019-04-30 18:18:04,571 : AssetManager : Registering Asset: flipper_circle, File: flipper_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flipper_circle.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: flutex, File: flutex.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flutex.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: flute_circle, File: flute_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flute_circle.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: hammerx, File: hammerx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hammerx.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: hammer_circle, File: hammer_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hammer_circle.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: heartimage, File: heartimage.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\heartimage.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: hookshotx, File: hookshotx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hookshotx.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: hookshot_circle, File: hookshot_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hookshot_circle.png'}
+2019-04-30 18:18:04,572 : AssetManager : Registering Asset: lampx, File: lampx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\lampx.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: mirrorshieldx, File: mirrorshieldx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirrorshieldx.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: mirrorshield_circle, File: mirrorshield_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirrorshield_circle.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: mirrorx, File: mirrorx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirrorx.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: mirror_circle, File: mirror_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirror_circle.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: moonpearlx, File: moonpearlx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\moonpearlx.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: moonpearl_circle, File: moonpearl_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\moonpearl_circle.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: mpf_logo, File: mpf_logo.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mpf_logo.png'}
+2019-04-30 18:18:04,573 : AssetManager : Registering Asset: redmailx, File: redmailx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redmailx.png'}
+2019-04-30 18:18:04,574 : AssetManager : Registering Asset: redmail_circle, File: redmail_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redmail_circle.png'}
+2019-04-30 18:18:04,574 : AssetManager : Registering Asset: redshieldx, File: redshieldx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redshieldx.png'}
+2019-04-30 18:18:04,574 : AssetManager : Registering Asset: redshield_circle, File: redshield_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redshield_circle.png'}
+2019-04-30 18:18:04,574 : AssetManager : Registering Asset: shop_slide, File: shop_slide.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\shop_slide.png'}
+2019-04-30 18:18:04,574 : AssetManager : Registering Asset: somariax, File: somariax.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\somariax.png'}
+2019-04-30 18:18:04,574 : AssetManager : Registering Asset: somaria_circle, File: somaria_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\somaria_circle.png'}
+2019-04-30 18:18:04,575 : AssetManager : Registering Asset: titanmittx, File: titanmittx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\titanmittx.png'}
+2019-04-30 18:18:04,575 : AssetManager : Registering Asset: titanmitt_circle, File: titanmitt_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\titanmitt_circle.png'}
+2019-04-30 18:18:04,586 : AssetManager : Registering Asset: 5waycombovideo, File: 5waycombovideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\5waycombovideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,586 : AssetManager : Registering Asset: agahnimdefeatedvideo, File: agahnimdefeatedvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\agahnimdefeatedvideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,586 : AssetManager : Registering Asset: agahnimhitvideo, File: agahnimhitvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\agahnimhitvideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,587 : AssetManager : Registering Asset: agahnimstrikevideo, File: agahnimstrikevideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\agahnimstrikevideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,587 : AssetManager : Registering Asset: attractvideo, File: attractvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\attractvideo.mp4'}
+2019-04-30 18:18:04,587 : AssetManager : Registering Asset: bluemailvideo, File: bluemailvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bluemailvideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,587 : AssetManager : Registering Asset: bombblastvideo, File: bombblastvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bombblastvideo.mp4'}
+2019-04-30 18:18:04,587 : AssetManager : Registering Asset: boomerangfound, File: boomerangfound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boomerangfound.mp4'}
+2019-04-30 18:18:04,588 : AssetManager : Registering Asset: boss1progress1, File: boss1progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss1progress1.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,588 : AssetManager : Registering Asset: boss1progress2, File: boss1progress2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss1progress2.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,588 : AssetManager : Registering Asset: boss2progress1, File: boss2progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss2progress1.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,588 : AssetManager : Registering Asset: boss2progress2, File: boss2progress2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss2progress2.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,588 : AssetManager : Registering Asset: boss3progress1, File: boss3progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss3progress1.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: boss3progress2, File: boss3progress2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss3progress2.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: bowfound, File: bowfound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bowfound.mp4'}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: castlestairs, File: castlestairs.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\castlestairs.mp4'}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: confrontagahnim, File: confrontagahnim.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\confrontagahnim.mp4'}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: darkworldstart, File: darkworldstart.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\darkworldstart.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: dungeon1boss, File: dungeon1boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon1boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,589 : AssetManager : Registering Asset: dungeon2boss, File: dungeon2boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon2boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: dungeon3boss, File: dungeon3boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon3boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: dungeon4boss, File: dungeon4boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon4boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: dungeon5boss, File: dungeon5boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon5boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: dungeon6boss, File: dungeon6boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon6boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: dungeon7boss, File: dungeon7boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon7boss.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: extraball, File: extraball.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\extraball.mp4'}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: finalblowvideo, File: finalblowvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\finalblowvideo.mp4'}
+2019-04-30 18:18:04,590 : AssetManager : Registering Asset: flippervideo, File: flippervideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\flippervideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,591 : AssetManager : Registering Asset: ganonintro, File: ganonintro.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonintro.mp4'}
+2019-04-30 18:18:04,591 : AssetManager : Registering Asset: ganonlane1, File: ganonlane1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane1.mp4'}
+2019-04-30 18:18:04,591 : AssetManager : Registering Asset: ganonlane2, File: ganonlane2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane2.mp4'}
+2019-04-30 18:18:04,591 : AssetManager : Registering Asset: ganonlane3, File: ganonlane3.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane3.mp4'}
+2019-04-30 18:18:04,591 : AssetManager : Registering Asset: ganonlane4, File: ganonlane4.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane4.mp4'}
+2019-04-30 18:18:04,591 : AssetManager : Registering Asset: ganontwirl, File: ganontwirl.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganontwirl.mp4'}
+2019-04-30 18:18:04,592 : AssetManager : Registering Asset: hammervideo, File: hammervideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\hammervideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,592 : AssetManager : Registering Asset: hookshotvideo, File: hookshotvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\hookshotvideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,592 : AssetManager : Registering Asset: linkdyingvideo, File: linkdyingvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\linkdyingvideo.mp4'}
+2019-04-30 18:18:04,592 : AssetManager : Registering Asset: maiden1, File: maiden1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden1.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,592 : AssetManager : Registering Asset: maiden2, File: maiden2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden2.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: maiden3, File: maiden3.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden3.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: maiden4, File: maiden4.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden4.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: maiden5, File: maiden5.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden5.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: maiden6, File: maiden6.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden6.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: maiden7, File: maiden7.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden7.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: masterswordpulled, File: masterswordpulled.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\masterswordpulled.mp4'}
+2019-04-30 18:18:04,593 : AssetManager : Registering Asset: mirrorvideo, File: mirrorvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mirrorvideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode1chaseprogression, File: mode1chaseprogression.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1chaseprogression.mp4'}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode1finish, File: mode1finish.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1finish.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode1progression, File: mode1progression.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1progression.mp4'}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode1progression2, File: mode1progression2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1progression2.mp4'}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode1startvideo, File: mode1startvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1startvideo.mp4'}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode3progress1, File: mode3progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode3progress1.mp4'}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode3progress3, File: mode3progress3.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode3progress3.mp4'}
+2019-04-30 18:18:04,594 : AssetManager : Registering Asset: mode3startmovie, File: mode3startmovie.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode3startmovie.mp4'}
+2019-04-30 18:18:04,595 : AssetManager : Registering Asset: moonpearlfound, File: moonpearlfound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\moonpearlfound.mp4'}
+2019-04-30 18:18:04,595 : AssetManager : Registering Asset: pendant1found, File: pendant1found.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\pendant1found.mp4'}
+2019-04-30 18:18:04,595 : AssetManager : Registering Asset: pendant2found, File: pendant2found.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\pendant2found.mp4'}
+2019-04-30 18:18:04,595 : AssetManager : Registering Asset: pendant3found, File: pendant3found.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\pendant3found.mp4'}
+2019-04-30 18:18:04,595 : AssetManager : Registering Asset: redshieldvideo, File: redshieldvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\redshieldvideo.mp4', 'width': 1280, 'height': 720}
+2019-04-30 18:18:04,595 : AssetManager : Registering Asset: zeldafound, File: zeldafound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\zeldafound.mp4'}
+2019-04-30 18:18:04,622 : AssetManager : Registering Asset: battle, File: battle.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\battle.ogg'}
+2019-04-30 18:18:04,622 : AssetManager : Registering Asset: darkworld, File: darkworld.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\darkworld.ogg'}
+2019-04-30 18:18:04,623 : AssetManager : Registering Asset: darkworld2, File: darkworld2.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\darkworld2.ogg'}
+2019-04-30 18:18:04,623 : AssetManager : Registering Asset: darkworld_rescue, File: darkworld_rescue.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\darkworld_rescue.ogg'}
+2019-04-30 18:18:04,623 : AssetManager : Registering Asset: forest, File: forest.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\forest.ogg'}
+2019-04-30 18:18:04,623 : AssetManager : Registering Asset: ganonbattle, File: ganonbattle.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\ganonbattle.ogg'}
+2019-04-30 18:18:04,623 : AssetManager : Registering Asset: highscore, File: highscore.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\highscore.ogg'}
+2019-04-30 18:18:04,623 : AssetManager : Registering Asset: hyrulecastle, File: hyrulecastle.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\hyrulecastle.ogg'}
+2019-04-30 18:18:04,624 : AssetManager : Registering Asset: light_world_theme, File: light_world_theme.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\light_world_theme.ogg'}
+2019-04-30 18:18:04,624 : AssetManager : Registering Asset: princess_zeldas_rescue, File: princess_zeldas_rescue.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\princess_zeldas_rescue.ogg'}
+2019-04-30 18:18:04,624 : AssetManager : Registering Asset: rainin, File: rainin.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\rainin.ogg'}
+2019-04-30 18:18:04,624 : AssetManager : Registering Asset: rainout, File: rainout.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\rainout.ogg'}
+2019-04-30 18:18:04,624 : AssetManager : Registering Asset: timeoffalling, File: timeoffalling.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\timeoffalling.ogg'}
+2019-04-30 18:18:04,624 : AssetManager : Registering Asset: town_music, File: town_music.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\town_music.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: agahnim_charge, File: agahnim_charge.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\agahnim_charge.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: agahnim_dash, File: agahnim_dash.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\agahnim_dash.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: bomb_spots_item, File: bomb_spots_item.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\bomb_spots_item.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: cannonball, File: cannonball.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\cannonball.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: charge, File: charge.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\charge.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: chargeshot, File: chargeshot.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\chargeshot.ogg'}
+2019-04-30 18:18:04,625 : AssetManager : Registering Asset: dash, File: dash.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\dash.ogg'}
+2019-04-30 18:18:04,626 : AssetManager : Registering Asset: doubledoor, File: doubledoor.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\doubledoor.ogg'}
+2019-04-30 18:18:04,626 : AssetManager : Registering Asset: enemykill, File: enemykill.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\enemykill.ogg'}
+2019-04-30 18:18:04,626 : AssetManager : Registering Asset: error, File: error.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\error.ogg'}
+2019-04-30 18:18:04,626 : AssetManager : Registering Asset: extraballsfx, File: extraballsfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\extraballsfx.ogg'}
+2019-04-30 18:18:04,626 : AssetManager : Registering Asset: fireball, File: fireball.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\fireball.ogg'}
+2019-04-30 18:18:04,627 : AssetManager : Registering Asset: heart, File: heart.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\heart.ogg'}
+2019-04-30 18:18:04,627 : AssetManager : Registering Asset: heart_piece_sfx, File: heart_piece_sfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\heart_piece_sfx.ogg'}
+2019-04-30 18:18:04,627 : AssetManager : Registering Asset: inlanefx, File: inlanefx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\inlanefx.ogg'}
+2019-04-30 18:18:04,627 : AssetManager : Registering Asset: jets, File: jets.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\jets.ogg'}
+2019-04-30 18:18:04,627 : AssetManager : Registering Asset: key, File: key.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\key.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: light_world_finished, File: light_world_finished.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\light_world_finished.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: linkfall, File: linkfall.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkfall.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: linkhurt1, File: linkhurt1.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'volume': 0.7, 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkhurt1.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: linkhurt2, File: linkhurt2.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'volume': 0.7, 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkhurt2.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: linkhurt3, File: linkhurt3.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'volume': 0.7, 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkhurt3.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: link_dying, File: link_dying.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\link_dying.ogg'}
+2019-04-30 18:18:04,628 : AssetManager : Registering Asset: lost_woods_correct, File: lost_woods_correct.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\lost_woods_correct.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: low_health, File: low_health.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\low_health.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: magic, File: magic.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\magic.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: master_sword_fanfare, File: master_sword_fanfare.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\master_sword_fanfare.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: menu_cursor, File: menu_cursor.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\menu_cursor.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: menu_select, File: menu_select.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\menu_select.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: rat, File: rat.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\rat.ogg'}
+2019-04-30 18:18:04,629 : AssetManager : Registering Asset: rupeesfx, File: rupeesfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\rupeesfx.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: shatter, File: shatter.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\shatter.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: slide_txt_sfx, File: slide_txt_sfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\slide_txt_sfx.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: slingshot, File: slingshot.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\slingshot.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: sword1, File: sword1.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\sword1.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: sword2, File: sword2.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\sword2.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: swordsilence, File: swordsilence.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\swordsilence.ogg'}
+2019-04-30 18:18:04,630 : AssetManager : Registering Asset: treasure_sfx, File: treasure_sfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\treasure_sfx.ogg'}
+2019-04-30 18:18:04,631 : AssetManager : Registering Asset: treasure_sfx2, File: treasure_sfx2.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\treasure_sfx2.ogg'}
+2019-04-30 18:18:04,631 : AssetManager : Registering Asset: waterwalk, File: waterwalk.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\waterwalk.ogg'}
+2019-04-30 18:18:04,631 : AssetManager : Registering Asset: worldwarp, File: worldwarp.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\worldwarp.ogg'}
+2019-04-30 18:18:04,658 : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-04-30 18:18:04,659 : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-04-30 18:18:04,659 : mpfmc : Clearing boot hold init. Holds remaining: {'assets'}
+2019-04-30 18:18:04,671 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\capex.png>
+2019-04-30 18:18:04,676 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\confrontagahnim.mp4>
+2019-04-30 18:18:04,677 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\byrna_circle.png>
+2019-04-30 18:18:04,693 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 1, 'remaining': 175, 'percent': 1}
+2019-04-30 18:18:04,693 : AssetManager : Loading assets: 1/176 (1%)
+2019-04-30 18:18:04,693 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\castlestairs.mp4>
+2019-04-30 18:18:04,693 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\byrnax.png>
+2019-04-30 18:18:04,695 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\bowfound.mp4>
+2019-04-30 18:18:04,696 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boomerangfound.mp4>
+2019-04-30 18:18:04,696 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\bombblastvideo.mp4>
+2019-04-30 18:18:04,697 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\attractvideo.mp4>
+2019-04-30 18:18:04,698 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\redshieldvideo.mp4>
+2019-04-30 18:18:04,698 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\bluemailvideo.mp4>
+2019-04-30 18:18:04,699 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\flippervideo.mp4>
+2019-04-30 18:18:04,699 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\hammervideo.mp4>
+2019-04-30 18:18:04,700 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\hookshotvideo.mp4>
+2019-04-30 18:18:04,701 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mirrorvideo.mp4>
+2019-04-30 18:18:04,701 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bow_circle.png>
+2019-04-30 18:18:04,701 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\5waycombovideo.mp4>
+2019-04-30 18:18:04,703 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden7.mp4>
+2019-04-30 18:18:04,704 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bowx.png>
+2019-04-30 18:18:04,705 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden6.mp4>
+2019-04-30 18:18:04,706 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\titanmitt_circle.png>
+2019-04-30 18:18:04,707 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden5.mp4>
+2019-04-30 18:18:04,708 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\boomerang_circle.png>
+2019-04-30 18:18:04,709 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden4.mp4>
+2019-04-30 18:18:04,709 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\titanmittx.png>
+2019-04-30 18:18:04,710 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden3.mp4>
+2019-04-30 18:18:04,711 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden2.mp4>
+2019-04-30 18:18:04,711 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\somaria_circle.png>
+2019-04-30 18:18:04,713 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\maiden1.mp4>
+2019-04-30 18:18:04,713 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon7boss.mp4>
+2019-04-30 18:18:04,714 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\somariax.png>
+2019-04-30 18:18:04,715 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon6boss.mp4>
+2019-04-30 18:18:04,715 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon5boss.mp4>
+2019-04-30 18:18:04,715 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\shop_slide.png>
+2019-04-30 18:18:04,858 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon4boss.mp4>
+2019-04-30 18:18:04,859 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon3boss.mp4>
+2019-04-30 18:18:04,859 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon2boss.mp4>
+2019-04-30 18:18:04,860 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redshield_circle.png>
+2019-04-30 18:18:04,861 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon1boss.mp4>
+2019-04-30 18:18:04,862 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\darkworldstart.mp4>
+2019-04-30 18:18:04,862 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redshieldx.png>
+2019-04-30 18:18:04,863 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redmail_circle.png>
+2019-04-30 18:18:04,865 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redmailx.png>
+2019-04-30 18:18:04,866 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\agahnimdefeatedvideo.mp4>
+2019-04-30 18:18:04,866 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\agahnimhitvideo.mp4>
+2019-04-30 18:18:04,867 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mpf_logo.png>
+2019-04-30 18:18:04,879 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\agahnimstrikevideo.mp4>
+2019-04-30 18:18:04,880 : kivy : VideoGstplayer: Load <confrontagahnim>
+2019-04-30 18:18:04,881 : kivy : VideoGstplayer: Load <masterswordpulled>
+2019-04-30 18:18:04,881 : kivy : VideoGstplayer: Load <mode3progress3>
+2019-04-30 18:18:04,882 : kivy : VideoGstplayer: Load <mode3progress1>
+2019-04-30 18:18:04,882 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\moonpearl_circle.png>
+2019-04-30 18:18:04,884 : kivy : VideoGstplayer: Load <mode3startmovie>
+2019-04-30 18:18:04,884 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\boomerangx.png>
+2019-04-30 18:18:04,884 : kivy : VideoGstplayer: Load <pendant3found>
+2019-04-30 18:18:04,886 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss3progress2.mp4>
+2019-04-30 18:18:04,886 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\moonpearlx.png>
+2019-04-30 18:18:04,886 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss3progress1.mp4>
+2019-04-30 18:18:04,888 : kivy : VideoGstplayer: Load <pendant2found>
+2019-04-30 18:18:04,888 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirror_circle.png>
+2019-04-30 18:18:04,889 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss2progress2.mp4>
+2019-04-30 18:18:04,890 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss2progress1.mp4>
+2019-04-30 18:18:04,890 : kivy : VideoGstplayer: Load <pendant1found>
+2019-04-30 18:18:04,891 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss1progress2.mp4>
+2019-04-30 18:18:04,891 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirrorx.png>
+2019-04-30 18:18:04,891 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss1progress1.mp4>
+2019-04-30 18:18:04,893 : kivy : VideoGstplayer: Load <linkdyingvideo>
+2019-04-30 18:18:04,893 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode1finish.mp4>
+2019-04-30 18:18:04,894 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirrorshield_circle.png>
+2019-04-30 18:18:04,894 : kivy : VideoGstplayer: Load <bomblastvideo>
+2019-04-30 18:18:04,895 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirrorshieldx.png>
+2019-04-30 18:18:04,896 : kivy : VideoGstplayer: Load <extraball>
+2019-04-30 18:18:04,898 : kivy : VideoGstplayer: Load <attractvideo>
+2019-04-30 18:18:04,899 : kivy : VideoGstplayer: Load <moonpearlfound>
+2019-04-30 18:18:04,899 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\lampx.png>
+2019-04-30 18:18:04,899 : kivy : VideoGstplayer: Load <bowfound>
+2019-04-30 18:18:04,900 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hookshot_circle.png>
+2019-04-30 18:18:04,901 : kivy : VideoGstplayer: Load <boomerangfound>
+2019-04-30 18:18:04,902 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hookshotx.png>
+2019-04-30 18:18:04,903 : kivy : VideoGstplayer: Load <mode1progression2>
+2019-04-30 18:18:04,904 : kivy : VideoGstplayer: Load <mode1progression>
+2019-04-30 18:18:04,904 : kivy : VideoGstplayer: Load <zeldafound>
+2019-04-30 18:18:04,905 : kivy : VideoGstplayer: Load <mode1chaseprogression>
+2019-04-30 18:18:04,905 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\heartimage.png>
+2019-04-30 18:18:04,905 : kivy : VideoGstplayer: Load <castlestairs>
+2019-04-30 18:18:04,914 : kivy : VideoGstplayer: Load <mode1startvideo>
+2019-04-30 18:18:04,916 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hammer_circle.png>
+2019-04-30 18:18:04,918 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 87, 'remaining': 89, 'percent': 49}
+2019-04-30 18:18:04,918 : AssetManager : Loading assets: 87/176 (49%)
+2019-04-30 18:18:04,921 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bluemail_circle.png>
+2019-04-30 18:18:04,922 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hammerx.png>
+2019-04-30 18:18:04,923 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flute_circle.png>
+2019-04-30 18:18:04,924 : SoundAsset : Sound worldwarp loading to memory
+2019-04-30 18:18:04,936 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\worldwarp.ogg Sample duration: 3.946394557823129
+2019-04-30 18:18:04,936 : SoundAsset : Sound waterwalk loading to memory
+2019-04-30 18:18:04,938 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\waterwalk.ogg Sample duration: 0.26439909297052155
+2019-04-30 18:18:04,939 : SoundAsset : Sound treasure_sfx2 loading to memory
+2019-04-30 18:18:04,942 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\treasure_sfx2.ogg Sample duration: 1.5269387755102042
+2019-04-30 18:18:04,942 : SoundAsset : Sound treasure_sfx loading to memory
+2019-04-30 18:18:04,945 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\treasure_sfx.ogg Sample duration: 1.5269387755102042
+2019-04-30 18:18:04,945 : SoundAsset : Sound swordsilence loading to memory
+2019-04-30 18:18:04,947 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\swordsilence.ogg Sample duration: 0.22412698412698412
+2019-04-30 18:18:04,947 : SoundAsset : Sound sword2 loading to memory
+2019-04-30 18:18:04,949 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\sword2.ogg Sample duration: 0.18292517006802722
+2019-04-30 18:18:04,950 : SoundAsset : Loaded worldwarp (Track sfx)
+2019-04-30 18:18:04,950 : SoundAsset : Sound sword1 loading to memory
+2019-04-30 18:18:04,950 : SoundAsset : Loaded waterwalk (Track sfx)
+2019-04-30 18:18:04,950 : SoundAsset : Loaded treasure_sfx2 (Track sfx)
+2019-04-30 18:18:04,950 : SoundAsset : Loaded treasure_sfx (Track sfx)
+2019-04-30 18:18:04,950 : SoundAsset : Loaded swordsilence (Track sfx)
+2019-04-30 18:18:04,951 : SoundAsset : Loaded sword2 (Track sfx)
+2019-04-30 18:18:04,955 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\sword1.ogg Sample duration: 0.22412698412698412
+2019-04-30 18:18:04,956 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flutex.png>
+2019-04-30 18:18:04,957 : SoundAsset : Sound slingshot loading to memory
+2019-04-30 18:18:04,959 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\slingshot.ogg Sample duration: 0.2806349206349206
+2019-04-30 18:18:04,959 : SoundAsset : Sound slide_txt_sfx loading to memory
+2019-04-30 18:18:04,964 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\slide_txt_sfx.ogg Sample duration: 0.5746938775510204
+2019-04-30 18:18:04,965 : SoundAsset : Loaded sword1 (Track sfx)
+2019-04-30 18:18:04,965 : SoundAsset : Sound shatter loading to memory
+2019-04-30 18:18:04,965 : SoundAsset : Loaded slingshot (Track sfx)
+2019-04-30 18:18:04,965 : SoundAsset : Loaded slide_txt_sfx (Track sfx)
+2019-04-30 18:18:04,968 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\shatter.ogg Sample duration: 0.5508843537414966
+2019-04-30 18:18:04,968 : SoundAsset : Sound rupeesfx loading to memory
+2019-04-30 18:18:04,970 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\rupeesfx.ogg Sample duration: 0.3740136054421769
+2019-04-30 18:18:04,971 : SoundAsset : Sound rat loading to memory
+2019-04-30 18:18:04,973 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\rat.ogg Sample duration: 0.34877551020408165
+2019-04-30 18:18:04,973 : SoundAsset : Sound menu_select loading to memory
+2019-04-30 18:18:04,976 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\menu_select.ogg Sample duration: 0.5474829931972789
+2019-04-30 18:18:04,976 : SoundAsset : Loaded shatter (Track sfx)
+2019-04-30 18:18:04,976 : SoundAsset : Sound menu_cursor loading to memory
+2019-04-30 18:18:04,976 : SoundAsset : Loaded rupeesfx (Track sfx)
+2019-04-30 18:18:04,978 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\menu_cursor.ogg Sample duration: 0.2163718820861678
+2019-04-30 18:18:04,978 : SoundAsset : Loaded rat (Track sfx)
+2019-04-30 18:18:04,978 : SoundAsset : Sound master_sword_fanfare loading to memory
+2019-04-30 18:18:04,979 : SoundAsset : Loaded menu_select (Track sfx)
+2019-04-30 18:18:04,979 : SoundAsset : Loaded menu_cursor (Track sfx)
+2019-04-30 18:18:05,040 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\master_sword_fanfare.ogg Sample duration: 15.191269841269841
+2019-04-30 18:18:05,040 : SoundAsset : Sound magic loading to memory
+2019-04-30 18:18:05,042 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\magic.ogg Sample duration: 0.37056689342403626
+2019-04-30 18:18:05,042 : SoundAsset : Sound low_health loading to memory
+2019-04-30 18:18:05,044 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\low_health.ogg Sample duration: 0.5415419501133787
+2019-04-30 18:18:05,044 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flipper_circle.png>
+2019-04-30 18:18:05,046 : SoundAsset : Sound lost_woods_correct loading to memory
+2019-04-30 18:18:05,048 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\lost_woods_correct.ogg Sample duration: 0.9622222222222222
+2019-04-30 18:18:05,049 : SoundAsset : Sound link_dying loading to memory
+2019-04-30 18:18:05,049 : SoundAsset : Loaded master_sword_fanfare (Track sfx)
+2019-04-30 18:18:05,052 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\link_dying.ogg Sample duration: 1.3303401360544218
+2019-04-30 18:18:05,052 : SoundAsset : Loaded magic (Track sfx)
+2019-04-30 18:18:05,052 : SoundAsset : Sound linkfall loading to memory
+2019-04-30 18:18:05,052 : SoundAsset : Loaded low_health (Track sfx)
+2019-04-30 18:18:05,054 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\linkfall.ogg Sample duration: 0.3858503401360544
+2019-04-30 18:18:05,054 : SoundAsset : Loaded lost_woods_correct (Track sfx)
+2019-04-30 18:18:05,055 : SoundAsset : Loaded link_dying (Track sfx)
+2019-04-30 18:18:05,055 : SoundAsset : Loaded linkfall (Track sfx)
+2019-04-30 18:18:05,054 : SoundAsset : Sound light_world_finished loading to memory
+2019-04-30 18:18:05,115 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\light_world_finished.ogg Sample duration: 16.718367346938777
+2019-04-30 18:18:05,116 : SoundAsset : Sound key loading to memory
+2019-04-30 18:18:05,118 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\key.ogg Sample duration: 1.0602721088435374
+2019-04-30 18:18:05,119 : SoundAsset : Sound jets loading to memory
+2019-04-30 18:18:05,122 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\jets.ogg Sample duration: 0.5682086167800453
+2019-04-30 18:18:05,122 : SoundAsset : Sound inlanefx loading to memory
+2019-04-30 18:18:05,124 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\inlanefx.ogg Sample duration: 0.2220408163265306
+2019-04-30 18:18:05,124 : SoundAsset : Sound heart_piece_sfx loading to memory
+2019-04-30 18:18:05,127 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\heart_piece_sfx.ogg Sample duration: 1.065170068027211
+2019-04-30 18:18:05,127 : SoundAsset : Sound heart loading to memory
+2019-04-30 18:18:05,128 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\heart.ogg Sample duration: 0.21551020408163266
+2019-04-30 18:18:05,129 : SoundAsset : Sound fireball loading to memory
+2019-04-30 18:18:05,131 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\fireball.ogg Sample duration: 0.7226530612244898
+2019-04-30 18:18:05,132 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flipperx.png>
+2019-04-30 18:18:05,133 : SoundAsset : Sound extraballsfx loading to memory
+2019-04-30 18:18:05,137 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\extraballsfx.ogg Sample duration: 1.833015873015873
+2019-04-30 18:18:05,137 : SoundAsset : Sound error loading to memory
+2019-04-30 18:18:05,137 : SoundAsset : Loaded light_world_finished (Track sfx)
+2019-04-30 18:18:05,138 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 113, 'remaining': 63, 'percent': 64}
+2019-04-30 18:18:05,140 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\error.ogg Sample duration: 0.573968253968254
+2019-04-30 18:18:05,140 : AssetManager : Loading assets: 113/176 (64%)
+2019-04-30 18:18:05,140 : SoundAsset : Sound enemykill loading to memory
+2019-04-30 18:18:05,140 : SoundAsset : Loaded key (Track sfx)
+2019-04-30 18:18:05,142 : SoundAsset : Loaded jets (Track sfx)
+2019-04-30 18:18:05,142 : SoundAsset : Loaded inlanefx (Track sfx)
+2019-04-30 18:18:05,142 : SoundAsset : Loaded heart_piece_sfx (Track sfx)
+2019-04-30 18:18:05,143 : SoundAsset : Loaded heart (Track sfx)
+2019-04-30 18:18:05,143 : SoundAsset : Loaded fireball (Track sfx)
+2019-04-30 18:18:05,143 : SoundAsset : Loaded extraballsfx (Track sfx)
+2019-04-30 18:18:05,143 : SoundAsset : Loaded error (Track sfx)
+2019-04-30 18:18:05,142 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\enemykill.ogg Sample duration: 0.5157369614512471
+2019-04-30 18:18:05,147 : SoundAsset : Sound doubledoor loading to memory
+2019-04-30 18:18:05,149 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\doubledoor.ogg Sample duration: 0.4728344671201814
+2019-04-30 18:18:05,149 : SoundAsset : Sound dash loading to memory
+2019-04-30 18:18:05,151 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\dash.ogg Sample duration: 0.13365079365079366
+2019-04-30 18:18:05,151 : SoundAsset : Sound chargeshot loading to memory
+2019-04-30 18:18:05,153 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\chargeshot.ogg Sample duration: 0.38562358276643993
+2019-04-30 18:18:05,154 : SoundAsset : Sound charge loading to memory
+2019-04-30 18:18:05,156 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\charge.ogg Sample duration: 0.33337868480725624
+2019-04-30 18:18:05,156 : SoundAsset : Sound cannonball loading to memory
+2019-04-30 18:18:05,157 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\cannonball.ogg Sample duration: 0.3093877551020408
+2019-04-30 18:18:05,158 : SoundAsset : Sound bomb_spots_item loading to memory
+2019-04-30 18:18:05,166 : SoundAsset : Loaded enemykill (Track sfx)
+2019-04-30 18:18:05,166 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\bomb_spots_item.ogg Sample duration: 2.0114285714285716
+2019-04-30 18:18:05,166 : SoundAsset : Loaded doubledoor (Track sfx)
+2019-04-30 18:18:05,167 : SoundAsset : Sound agahnim_dash loading to memory
+2019-04-30 18:18:05,167 : SoundAsset : Loaded dash (Track sfx)
+2019-04-30 18:18:05,167 : SoundAsset : Loaded chargeshot (Track sfx)
+2019-04-30 18:18:05,167 : SoundAsset : Loaded charge (Track sfx)
+2019-04-30 18:18:05,167 : SoundAsset : Loaded cannonball (Track sfx)
+2019-04-30 18:18:05,168 : SoundAsset : Loaded bomb_spots_item (Track sfx)
+2019-04-30 18:18:05,175 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\agahnim_dash.ogg Sample duration: 1.815328798185941
+2019-04-30 18:18:05,175 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\fast_logo.jpg>
+2019-04-30 18:18:05,229 : SoundAsset : Loaded agahnim_dash (Track sfx)
+2019-04-30 18:18:05,232 : SoundAsset : Sound agahnim_charge loading to memory
+2019-04-30 18:18:05,237 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\agahnim_charge.ogg Sample duration: 1.6138095238095238
+2019-04-30 18:18:05,237 : SoundAsset : Sound town_music loading to memory
+2019-04-30 18:18:05,568 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 131, 'remaining': 45, 'percent': 74}
+2019-04-30 18:18:05,568 : AssetManager : Loading assets: 131/176 (74%)
+2019-04-30 18:18:05,568 : SoundAsset : Loaded agahnim_charge (Track sfx)
+2019-04-30 18:18:05,569 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\town_music.ogg Sample duration: 89.83510204081632
+2019-04-30 18:18:05,572 : SoundAsset : Sound timeoffalling loading to memory
+2019-04-30 18:18:06,900 : SoundAsset : Loaded town_music (Track music)
+2019-04-30 18:18:06,900 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\timeoffalling.ogg Sample duration: 251.01732426303855
+2019-04-30 18:18:06,900 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 133, 'remaining': 43, 'percent': 76}
+2019-04-30 18:18:06,900 : SoundAsset : Sound rainout loading to memory
+2019-04-30 18:18:06,900 : AssetManager : Loading assets: 133/176 (76%)
+2019-04-30 18:18:06,918 : SoundAsset : Loaded timeoffalling (Track music)
+2019-04-30 18:18:06,918 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\rainout.ogg Sample duration: 5.322176870748299
+2019-04-30 18:18:06,921 : SoundAsset : Sound rainin loading to memory
+2019-04-30 18:18:06,935 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\rainin.ogg Sample duration: 5.322993197278912
+2019-04-30 18:18:06,936 : SoundAsset : Sound princess_zeldas_rescue loading to memory
+2019-04-30 18:18:07,328 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\princess_zeldas_rescue.ogg Sample duration: 93.32351473922903
+2019-04-30 18:18:07,328 : SoundAsset : Sound light_world_theme loading to memory
+2019-04-30 18:18:08,162 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\light_world_theme.ogg Sample duration: 183.00666666666666
+2019-04-30 18:18:08,162 : SoundAsset : Sound hyrulecastle loading to memory
+2019-04-30 18:18:09,096 : SoundAsset : Loaded rainout (Track music)
+2019-04-30 18:18:09,097 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 135, 'remaining': 41, 'percent': 77}
+2019-04-30 18:18:09,097 : AssetManager : Loading assets: 135/176 (77%)
+2019-04-30 18:18:09,097 : SoundAsset : Loaded rainin (Track music)
+2019-04-30 18:18:09,097 : SoundAsset : Loaded princess_zeldas_rescue (Track music)
+2019-04-30 18:18:09,097 : SoundAsset : Loaded light_world_theme (Track music)
+2019-04-30 18:18:09,104 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\hyrulecastle.ogg Sample duration: 245.14902494331065
+2019-04-30 18:18:09,105 : SoundAsset : Sound highscore loading to memory
+2019-04-30 18:18:09,287 : SoundAsset : Loaded hyrulecastle (Track music)
+2019-04-30 18:18:09,287 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\highscore.ogg Sample duration: 48.03192743764173
+2019-04-30 18:18:09,290 : SoundAsset : Sound ganonbattle loading to memory
+2019-04-30 18:18:11,535 : SoundAsset : Loaded highscore (Track music)
+2019-04-30 18:18:11,535 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\ganonbattle.ogg Sample duration: 551.5493877551021
+2019-04-30 18:18:11,535 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 140, 'remaining': 36, 'percent': 80}
+2019-04-30 18:18:11,536 : AssetManager : Loading assets: 140/176 (80%)
+2019-04-30 18:18:11,536 : SoundAsset : Loaded ganonbattle (Track music)
+2019-04-30 18:18:11,539 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\darkworld_instructional.png>
+2019-04-30 18:18:11,553 : SoundAsset : Sound forest loading to memory
+2019-04-30 18:18:12,542 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 142, 'remaining': 34, 'percent': 81}
+2019-04-30 18:18:12,543 : AssetManager : Loading assets: 142/176 (81%)
+2019-04-30 18:18:12,549 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\forest.ogg Sample duration: 244.0112471655329
+2019-04-30 18:18:12,552 : SoundAsset : Sound darkworld_rescue loading to memory
+2019-04-30 18:18:13,064 : SoundAsset : Loaded forest (Track music)
+2019-04-30 18:18:13,064 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\darkworld_rescue.ogg Sample duration: 83.10024943310657
+2019-04-30 18:18:13,064 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 143, 'remaining': 33, 'percent': 81}
+2019-04-30 18:18:13,065 : AssetManager : Loading assets: 143/176 (81%)
+2019-04-30 18:18:13,064 : SoundAsset : Sound darkworld2 loading to memory
+2019-04-30 18:18:13,065 : SoundAsset : Loaded darkworld_rescue (Track music)
+2019-04-30 18:18:13,588 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\darkworld2.ogg Sample duration: 96.45507936507937
+2019-04-30 18:18:13,588 : SoundAsset : Sound darkworld loading to memory
+2019-04-30 18:18:14,284 : SoundAsset : Loaded darkworld2 (Track music)
+2019-04-30 18:18:14,284 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\darkworld.ogg Sample duration: 119.28922902494331
+2019-04-30 18:18:14,284 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 145, 'remaining': 31, 'percent': 82}
+2019-04-30 18:18:14,284 : SoundAsset : Sound battle loading to memory
+2019-04-30 18:18:14,284 : AssetManager : Loading assets: 145/176 (82%)
+2019-04-30 18:18:14,285 : SoundAsset : Loaded darkworld (Track music)
+2019-04-30 18:18:16,638 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\music\battle.ogg Sample duration: 429.7689569160998
+2019-04-30 18:18:16,638 : SoundAsset : Sound linkhurt3 loading to memory
+2019-04-30 18:18:16,641 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\linkhurt3.ogg Sample duration: 0.2559863945578231
+2019-04-30 18:18:16,641 : SoundAsset : Sound linkhurt2 loading to memory
+2019-04-30 18:18:16,642 : SoundAsset : Loaded battle (Track music)
+2019-04-30 18:18:16,645 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\linkhurt2.ogg Sample duration: 0.2559863945578231
+2019-04-30 18:18:16,645 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 147, 'remaining': 29, 'percent': 84}
+2019-04-30 18:18:16,645 : SoundAsset : Sound linkhurt1 loading to memory
+2019-04-30 18:18:16,645 : AssetManager : Loading assets: 147/176 (84%)
+2019-04-30 18:18:16,646 : SoundAsset : Loaded linkhurt3 (Track sfx)
+2019-04-30 18:18:16,648 : SoundMemoryFile : Loaded file: C:\Users\Wilder\zelda\sounds\sfx\linkhurt1.ogg Sample duration: 0.22399092970521542
+2019-04-30 18:18:16,648 : SoundAsset : Loaded linkhurt2 (Track sfx)
+2019-04-30 18:18:16,648 : SoundAsset : Loaded linkhurt1 (Track sfx)
+2019-04-30 18:18:16,649 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\zeldafound.mp4>
+2019-04-30 18:18:16,649 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\pendant3found.mp4>
+2019-04-30 18:18:16,650 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\darkworldstoryslide.png>
+2019-04-30 18:18:16,671 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\pendant2found.mp4>
+2019-04-30 18:18:16,672 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\pendant1found.mp4>
+2019-04-30 18:18:16,673 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\circleselect.png>
+2019-04-30 18:18:16,675 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\moonpearlfound.mp4>
+2019-04-30 18:18:16,675 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\cape_circle.png>
+2019-04-30 18:18:16,678 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode3startmovie.mp4>
+2019-04-30 18:18:16,680 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode3progress3.mp4>
+2019-04-30 18:18:16,681 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bluemailx.png>
+2019-04-30 18:18:16,682 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode3progress1.mp4>
+2019-04-30 18:18:16,683 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode1startvideo.mp4>
+2019-04-30 18:18:16,684 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode1progression2.mp4>
+2019-04-30 18:18:16,685 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode1progression.mp4>
+2019-04-30 18:18:16,686 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode1chaseprogression.mp4>
+2019-04-30 18:18:16,688 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\masterswordpulled.mp4>
+2019-04-30 18:18:16,689 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\linkdyingvideo.mp4>
+2019-04-30 18:18:16,690 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\ganontwirl.mp4>
+2019-04-30 18:18:16,691 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\ganonlane4.mp4>
+2019-04-30 18:18:16,692 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\ganonlane3.mp4>
+2019-04-30 18:18:16,693 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\ganonlane2.mp4>
+2019-04-30 18:18:16,694 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\ganonlane1.mp4>
+2019-04-30 18:18:16,695 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\ganonintro.mp4>
+2019-04-30 18:18:16,696 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\finalblowvideo.mp4>
+2019-04-30 18:18:16,697 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\extraball.mp4>
+2019-04-30 18:18:16,697 : EventManager : Event: ======'loading_assets'====== Args={'total': 176, 'loaded': 176, 'remaining': 0, 'percent': 100}
+2019-04-30 18:18:16,698 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2019-04-30 18:18:16,698 : AssetManager : Loading assets: 176/176 (100%)
+2019-04-30 18:18:16,698 : mpfmc : Clearing boot hold assets. Holds remaining: set()
+2019-04-30 18:18:16,698 : EventManager : Event: ======'init_done'====== Args={}
+2019-04-30 18:18:16,698 : MPF-MC BCP Server : Starting up on localhost port 5050
+2019-04-30 18:18:16,703 : MPF-MC BCP Server : Waiting for a connection...
+2019-04-30 18:18:16,731 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2019-04-30 18:18:16,816 : MPF-MC BCP Server : Received connection from: 127.0.0.1:58228
+2019-04-30 18:18:16,817 : MPF-MC BCP Server : Received "hello?version=1.1&controller_name=Mission%20Pinball%20Framework&controller_version=0.53.0-dev.16"
+2019-04-30 18:18:16,819 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 58228}
+2019-04-30 18:18:16,830 : MPF-MC BCP Server : Received "settings?json={"settings": [["brightness", "Brightness", 100, "brightness", 1.0, {"0.25": "25%", "0.5": "50%", "0.75": "75%", "1.0": "100% (default)"}], ["flipper_power", "Flipper power", 1000, "flipper_power", 1.0, {"0.8": "Weak", "1.0": "Normal (default)", "1.2": "Strong"}]]}"
+2019-04-30 18:18:16,831 : MPF-MC BCP Server : Received "machine_variable?name=fast_net_firmware&value=01.02"
+2019-04-30 18:18:16,831 : MPF-MC BCP Server : Received "machine_variable?name=fast_net_model&value=FP-CPU-002-2"
+2019-04-30 18:18:16,831 : MPF-MC BCP Server : Received "machine_variable?name=fast_rgb_firmware&value=01.00"
+2019-04-30 18:18:16,832 : mpfmc : Setting machine_var 'fast_net_firmware' to: 01.02, (prior: None, change: True)
+2019-04-30 18:18:16,832 : MPF-MC BCP Server : Received "machine_variable?name=fast_rgb_model&value=FP-CPU-002-2"
+2019-04-30 18:18:16,832 : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.02', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,833 : MPF-MC BCP Server : Received "machine_variable?name=credits_string&value=FREE%20PLAY"
+2019-04-30 18:18:16,833 : mpfmc : Setting machine_var 'fast_net_model' to: FP-CPU-002-2, (prior: None, change: True)
+2019-04-30 18:18:16,833 : MPF-MC BCP Server : Received "machine_variable?name=player1_score&value=int:454"
+2019-04-30 18:18:16,833 : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,834 : mpfmc : Setting machine_var 'fast_rgb_firmware' to: 01.00, (prior: None, change: True)
+2019-04-30 18:18:16,834 : MPF-MC BCP Server : Received "machine_variable?name=mpf_version&value=MPF%20v0.53.0-dev.16"
+2019-04-30 18:18:16,834 : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,834 : MPF-MC BCP Server : Received "machine_variable?name=mpf_extended_version&value=MPF%20v0.53.0-dev.16%2C%20Config%20version%3A5%2C%20Show%20version%3A%205%2C%20BCP%20version%3A1.1"
+2019-04-30 18:18:16,835 : mpfmc : Setting machine_var 'fast_rgb_model' to: FP-CPU-002-2, (prior: None, change: True)
+2019-04-30 18:18:16,835 : MPF-MC BCP Server : Received "machine_variable?name=python_version&value=3.6.4"
+2019-04-30 18:18:16,835 : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,835 : MPF-MC BCP Server : Received "machine_variable?name=platform&value=Windows-7-6.1.7601-SP1"
+2019-04-30 18:18:16,836 : mpfmc : Setting machine_var 'credits_string' to: FREE PLAY, (prior: None, change: True)
+2019-04-30 18:18:16,836 : MPF-MC BCP Server : Received "machine_variable?name=platform_system&value=Windows"
+2019-04-30 18:18:16,836 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,837 : MPF-MC BCP Server : Received "machine_variable?name=platform_release&value=7"
+2019-04-30 18:18:16,837 : mpfmc : Setting machine_var 'player1_score' to: 454, (prior: None, change: True)
+2019-04-30 18:18:16,837 : MPF-MC BCP Server : Received "machine_variable?name=platform_version&value=6.1.7601"
+2019-04-30 18:18:16,837 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 454, 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,838 : MPF-MC BCP Server : Received "machine_variable?name=platform_machine&value=AMD64"
+2019-04-30 18:18:16,838 : mpfmc : Setting machine_var 'mpf_version' to: MPF v0.53.0-dev.16, (prior: None, change: True)
+2019-04-30 18:18:16,838 : MPF-MC BCP Server : Received "machine_variable?name=score1_label&value=HYRULE%20CHAMPION"
+2019-04-30 18:18:16,838 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.0-dev.16', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,838 : MPF-MC BCP Server : Received "machine_variable?name=score1_name&value=W"
+2019-04-30 18:18:16,838 : mpfmc : Setting machine_var 'mpf_extended_version' to: MPF v0.53.0-dev.16, Config version:5, Show version: 5, BCP version:1.1, (prior: None, change: True)
+2019-04-30 18:18:16,839 : MPF-MC BCP Server : Received "machine_variable?name=score1_value&value=int:1338"
+2019-04-30 18:18:16,839 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.0-dev.16, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,839 : MPF-MC BCP Server : Received "machine_variable?name=score2_label&value=HIGH%20SCORE%201"
+2019-04-30 18:18:16,839 : mpfmc : Setting machine_var 'python_version' to: 3.6.4, (prior: None, change: True)
+2019-04-30 18:18:16,840 : MPF-MC BCP Server : Received "machine_variable?name=score2_name&value=W"
+2019-04-30 18:18:16,840 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,840 : MPF-MC BCP Server : Received "machine_variable?name=score2_value&value=int:1141"
+2019-04-30 18:18:16,840 : mpfmc : Setting machine_var 'platform' to: Windows-7-6.1.7601-SP1, (prior: None, change: True)
+2019-04-30 18:18:16,840 : MPF-MC BCP Server : Received "machine_variable?name=score3_label&value=HIGH%20SCORE%202"
+2019-04-30 18:18:16,840 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,841 : MPF-MC BCP Server : Received "machine_variable?name=score3_name&value=JF"
+2019-04-30 18:18:16,841 : mpfmc : Setting machine_var 'platform_system' to: Windows, (prior: None, change: True)
+2019-04-30 18:18:16,841 : MPF-MC BCP Server : Received "machine_variable?name=score3_value&value=int:795"
+2019-04-30 18:18:16,841 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,841 : MPF-MC BCP Server : Received "machine_variable?name=score4_label&value=HIGH%20SCORE%203"
+2019-04-30 18:18:16,842 : mpfmc : Setting machine_var 'platform_release' to: 7, (prior: None, change: True)
+2019-04-30 18:18:16,842 : MPF-MC BCP Server : Received "machine_variable?name=score4_name&value="
+2019-04-30 18:18:16,842 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,842 : MPF-MC BCP Server : Received "machine_variable?name=score4_value&value=int:306"
+2019-04-30 18:18:16,842 : mpfmc : Setting machine_var 'platform_version' to: 6.1.7601, (prior: None, change: True)
+2019-04-30 18:18:16,842 : MPF-MC BCP Server : Received "machine_variable?name=score5_label&value=HIGH%20SCORE%204"
+2019-04-30 18:18:16,842 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,843 : MPF-MC BCP Server : Received "machine_variable?name=score5_name&value="
+2019-04-30 18:18:16,843 : mpfmc : Setting machine_var 'platform_machine' to: AMD64, (prior: None, change: True)
+2019-04-30 18:18:16,843 : MPF-MC BCP Server : Received "machine_variable?name=score5_value&value=int:267"
+2019-04-30 18:18:16,843 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,843 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": []}"
+2019-04-30 18:18:16,843 : mpfmc : Setting machine_var 'score1_label' to: HYRULE CHAMPION, (prior: None, change: True)
+2019-04-30 18:18:16,844 : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'HYRULE CHAMPION', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,844 : MPF-MC BCP Server : Received "machine_variable?name=master_volume&value=float:1.0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:16,844 : mpfmc : Setting machine_var 'score1_name' to: W, (prior: None, change: True)
+2019-04-30 18:18:16,844 : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'W', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,844 : mpfmc : Setting machine_var 'score1_value' to: 1338, (prior: None, change: True)
+2019-04-30 18:18:16,844 : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 1338, 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,845 : mpfmc : Setting machine_var 'score2_label' to: HIGH SCORE 1, (prior: None, change: True)
+2019-04-30 18:18:16,845 : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,845 : mpfmc : Setting machine_var 'score2_name' to: W, (prior: None, change: True)
+2019-04-30 18:18:16,845 : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'W', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,845 : mpfmc : Setting machine_var 'score2_value' to: 1141, (prior: None, change: True)
+2019-04-30 18:18:16,845 : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 1141, 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,845 : mpfmc : Setting machine_var 'score3_label' to: HIGH SCORE 2, (prior: None, change: True)
+2019-04-30 18:18:16,845 : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,845 : mpfmc : Setting machine_var 'score3_name' to: JF, (prior: None, change: True)
+2019-04-30 18:18:16,845 : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'JF', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,846 : mpfmc : Setting machine_var 'score3_value' to: 795, (prior: None, change: True)
+2019-04-30 18:18:16,846 : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 795, 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,846 : mpfmc : Setting machine_var 'score4_label' to: HIGH SCORE 3, (prior: None, change: True)
+2019-04-30 18:18:16,846 : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,846 : mpfmc : Setting machine_var 'score4_name' to: , (prior: None, change: True)
+2019-04-30 18:18:16,847 : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': '', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,847 : mpfmc : Setting machine_var 'score4_value' to: 306, (prior: None, change: True)
+2019-04-30 18:18:16,847 : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 306, 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,847 : mpfmc : Setting machine_var 'score5_label' to: HIGH SCORE 4, (prior: None, change: True)
+2019-04-30 18:18:16,847 : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,848 : mpfmc : Setting machine_var 'score5_name' to: , (prior: None, change: True)
+2019-04-30 18:18:16,848 : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': '', 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,848 : mpfmc : Setting machine_var 'score5_value' to: 267, (prior: None, change: True)
+2019-04-30 18:18:16,848 : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2019-04-30 18:18:16,848 : mpfmc : Setting machine_var 'master_volume' to: 1.0, (prior: None, change: True)
+2019-04-30 18:18:16,849 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 1.0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,634 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:22,642 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:22,644 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:22,649 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:22,655 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:22,659 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:22,664 : MPF-MC BCP Server : Received "machine_variable?name=audits_events_game_ended&value=int:220&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,665 : MPF-MC BCP Server : Received "machine_variable?name=audits_events_game_started&value=int:1934&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,665 : MPF-MC BCP Server : Received "machine_variable?json={"name": "audits_player_score", "value": {"average": 2256.5426008968593, "top": [66050, 52050, 50500, 46000, 44500, 34500, 33500, 33500, 33500, 28100], "total": 223}, "prev_value": null, "change": true}"
+2019-04-30 18:18:22,666 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_first_shot_a&value=int:271&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,666 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_first_shot_z&value=int:280&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,666 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_second_shot_d&value=int:1&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,667 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_shot_one&value=int:16&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,667 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_shot_three&value=int:37&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,667 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_shot_two&value=int:26&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,668 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_2ballescape_third_shot_z&value=int:423&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,668 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_5way_combo_d&value=int:34&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,668 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_5way_combo_d2&value=int:28&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,669 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_5way_combo_z&value=int:30&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,669 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_a_rupee&value=int:571&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,669 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_a_rupeex2&value=int:119&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,670 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_a_rupeex3&value=int:89&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,670 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_abyss_shot&value=int:29&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,671 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_agahnim_shot&value=int:175&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,671 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_agahnim_shot_three&value=int:56&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,671 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_agahnim_shot_two&value=int:105&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,672 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_b2_bomb&value=int:127&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,672 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_b_bomb&value=int:158&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,672 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_crane_rupee&value=int:208&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,673 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_crane_rupeex2&value=int:78&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,673 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_crane_rupeex3&value=int:60&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,673 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_crane_shot&value=int:3&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,674 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_d_ramp_lostwoods&value=int:99&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,674 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_d_rupee&value=int:931&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,674 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_d_rupeex2&value=int:186&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,675 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_d_rupeex3&value=int:128&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,675 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld2_abyss&value=int:20&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,675 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_a_orbit&value=int:44&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,676 : mpfmc : Setting machine_var 'audits_events_game_ended' to: 220, (prior: None, change: True)
+2019-04-30 18:18:22,676 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 220, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,676 : mpfmc : Setting machine_var 'audits_events_game_started' to: 1934, (prior: None, change: True)
+2019-04-30 18:18:22,676 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 1934, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,676 : mpfmc : Setting machine_var 'audits_player_score' to: {'average': 2256.5426008968593, 'top': [66050, 52050, 50500, 46000, 44500, 34500, 33500, 33500, 33500, 28100], 'total': 223}, (prior: None, change: True)
+2019-04-30 18:18:22,676 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_a_orbit_dungeon3&value=int:41&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,677 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 2256.5426008968593, 'top': [66050, 52050, 50500, 46000, 44500, 34500, 33500, 33500, 33500, 28100], 'total': 223}, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,677 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_a_orbit_dungeon6&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,677 : mpfmc : Setting machine_var 'audits_shots_2ballescape_first_shot_a' to: 271, (prior: None, change: True)
+2019-04-30 18:18:22,677 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_first_shot_a'====== Args={'value': 271, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,678 : mpfmc : Setting machine_var 'audits_shots_2ballescape_first_shot_z' to: 280, (prior: None, change: True)
+2019-04-30 18:18:22,678 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_first_shot_z'====== Args={'value': 280, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,678 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_abyss&value=int:42&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,678 : mpfmc : Setting machine_var 'audits_shots_2ballescape_second_shot_d' to: 1, (prior: None, change: True)
+2019-04-30 18:18:22,678 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_abyss_dungeon7&value=int:39&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,678 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_second_shot_d'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,678 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_bosshit&value=int:41&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,679 : mpfmc : Setting machine_var 'audits_shots_2ballescape_shot_one' to: 16, (prior: None, change: True)
+2019-04-30 18:18:22,679 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_bosshit_dungeon7&value=int:40&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,679 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_shot_one'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,679 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_d_ramp&value=int:44&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,679 : mpfmc : Setting machine_var 'audits_shots_2ballescape_shot_three' to: 37, (prior: None, change: True)
+2019-04-30 18:18:22,680 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_d_ramp_dungeon6&value=int:45&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,680 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_shot_three'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,680 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop1&value=int:60&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,680 : mpfmc : Setting machine_var 'audits_shots_2ballescape_shot_two' to: 26, (prior: None, change: True)
+2019-04-30 18:18:22,680 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_shot_two'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,681 : mpfmc : Setting machine_var 'audits_shots_2ballescape_third_shot_z' to: 423, (prior: None, change: True)
+2019-04-30 18:18:22,681 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop1_dungeon6&value=int:42&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,681 : EventManager : Event: ======'machine_var_audits_shots_2ballescape_third_shot_z'====== Args={'value': 423, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,681 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop1_dungeon7&value=int:48&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,681 : mpfmc : Setting machine_var 'audits_shots_5way_combo_d' to: 34, (prior: None, change: True)
+2019-04-30 18:18:22,682 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop2&value=int:42&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,682 : EventManager : Event: ======'machine_var_audits_shots_5way_combo_d'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,682 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop2_dungeon6&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,682 : mpfmc : Setting machine_var 'audits_shots_5way_combo_d2' to: 28, (prior: None, change: True)
+2019-04-30 18:18:22,682 : EventManager : Event: ======'machine_var_audits_shots_5way_combo_d2'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,682 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop2_dungeon7&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,683 : mpfmc : Setting machine_var 'audits_shots_5way_combo_z' to: 30, (prior: None, change: True)
+2019-04-30 18:18:22,683 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop3&value=int:42&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,683 : EventManager : Event: ======'machine_var_audits_shots_5way_combo_z'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,683 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop3_dungeon5&value=int:39&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,683 : mpfmc : Setting machine_var 'audits_shots_a_rupee' to: 571, (prior: None, change: True)
+2019-04-30 18:18:22,684 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_drop3_dungeon7&value=int:43&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,684 : EventManager : Event: ======'machine_var_audits_shots_a_rupee'====== Args={'value': 571, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,684 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_heart&value=int:44&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,684 : mpfmc : Setting machine_var 'audits_shots_a_rupeex2' to: 119, (prior: None, change: True)
+2019-04-30 18:18:22,684 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_heart_dungeon4&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,684 : EventManager : Event: ======'machine_var_audits_shots_a_rupeex2'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,685 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_heart_dungeon5&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,685 : mpfmc : Setting machine_var 'audits_shots_a_rupeex3' to: 89, (prior: None, change: True)
+2019-04-30 18:18:22,685 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_heart_dungeon6&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,685 : EventManager : Event: ======'machine_var_audits_shots_a_rupeex3'====== Args={'value': 89, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,686 : mpfmc : Setting machine_var 'audits_shots_abyss_shot' to: 29, (prior: None, change: True)
+2019-04-30 18:18:22,686 : EventManager : Event: ======'machine_var_audits_shots_abyss_shot'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,686 : mpfmc : Setting machine_var 'audits_shots_agahnim_shot' to: 175, (prior: None, change: True)
+2019-04-30 18:18:22,686 : EventManager : Event: ======'machine_var_audits_shots_agahnim_shot'====== Args={'value': 175, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,686 : mpfmc : Setting machine_var 'audits_shots_agahnim_shot_three' to: 56, (prior: None, change: True)
+2019-04-30 18:18:22,686 : EventManager : Event: ======'machine_var_audits_shots_agahnim_shot_three'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,685 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_heart_dungeon7&value=int:44&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,686 : mpfmc : Setting machine_var 'audits_shots_agahnim_shot_two' to: 105, (prior: None, change: True)
+2019-04-30 18:18:22,687 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_left_inlane&value=int:40&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,687 : EventManager : Event: ======'machine_var_audits_shots_agahnim_shot_two'====== Args={'value': 105, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,687 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_mode_start_shot&value=int:49&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,687 : mpfmc : Setting machine_var 'audits_shots_b2_bomb' to: 127, (prior: None, change: True)
+2019-04-30 18:18:22,687 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_mode_start_shot_dungeon4&value=int:38&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,687 : EventManager : Event: ======'machine_var_audits_shots_b2_bomb'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,688 : mpfmc : Setting machine_var 'audits_shots_b_bomb' to: 158, (prior: None, change: True)
+2019-04-30 18:18:22,688 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_mode_start_shot_dungeon7&value=int:39&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,688 : EventManager : Event: ======'machine_var_audits_shots_b_bomb'====== Args={'value': 158, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,688 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_pop&value=int:68&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,689 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_pop_dungeon5&value=int:41&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,688 : mpfmc : Setting machine_var 'audits_shots_crane_rupee' to: 208, (prior: None, change: True)
+2019-04-30 18:18:22,689 : EventManager : Event: ======'machine_var_audits_shots_crane_rupee'====== Args={'value': 208, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,689 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_right_inlane&value=int:40&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,689 : mpfmc : Setting machine_var 'audits_shots_crane_rupeex2' to: 78, (prior: None, change: True)
+2019-04-30 18:18:22,689 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_right_inlane_dungeon6&value=int:42&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,690 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_shop&value=int:14&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,689 : EventManager : Event: ======'machine_var_audits_shots_crane_rupeex2'====== Args={'value': 78, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,690 : mpfmc : Setting machine_var 'audits_shots_crane_rupeex3' to: 60, (prior: None, change: True)
+2019-04-30 18:18:22,690 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_z_ramp&value=int:64&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,690 : EventManager : Event: ======'machine_var_audits_shots_crane_rupeex3'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,690 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_z_ramp_dungeon3&value=int:59&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,690 : mpfmc : Setting machine_var 'audits_shots_crane_shot' to: 3, (prior: None, change: True)
+2019-04-30 18:18:22,691 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_z_ramp_dungeon4&value=int:43&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,691 : EventManager : Event: ======'machine_var_audits_shots_crane_shot'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,691 : mpfmc : Setting machine_var 'audits_shots_d_ramp_lostwoods' to: 99, (prior: None, change: True)
+2019-04-30 18:18:22,691 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_z_ramp_dungeon7&value=int:41&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,691 : EventManager : Event: ======'machine_var_audits_shots_d_ramp_lostwoods'====== Args={'value': 99, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,692 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_darkworld_zelda_rescue&value=int:46&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,692 : mpfmc : Setting machine_var 'audits_shots_d_rupee' to: 931, (prior: None, change: True)
+2019-04-30 18:18:22,692 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_drop1&value=int:513&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,692 : EventManager : Event: ======'machine_var_audits_shots_d_rupee'====== Args={'value': 931, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,693 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_drop2&value=int:336&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,693 : mpfmc : Setting machine_var 'audits_shots_d_rupeex2' to: 186, (prior: None, change: True)
+2019-04-30 18:18:22,693 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_drop3&value=int:348&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,693 : EventManager : Event: ======'machine_var_audits_shots_d_rupeex2'====== Args={'value': 186, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,693 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_e_rupee&value=int:413&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,693 : mpfmc : Setting machine_var 'audits_shots_d_rupeex3' to: 128, (prior: None, change: True)
+2019-04-30 18:18:22,694 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_e_rupeex2&value=int:40&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,694 : EventManager : Event: ======'machine_var_audits_shots_d_rupeex3'====== Args={'value': 128, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,694 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_e_rupeex3&value=int:26&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,694 : mpfmc : Setting machine_var 'audits_shots_darkworld2_abyss' to: 20, (prior: None, change: True)
+2019-04-30 18:18:22,695 : EventManager : Event: ======'machine_var_audits_shots_darkworld2_abyss'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,695 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_eopto&value=int:81&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,695 : mpfmc : Setting machine_var 'audits_shots_darkworld_a_orbit' to: 44, (prior: None, change: True)
+2019-04-30 18:18:22,695 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_final_blow&value=int:17&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,695 : EventManager : Event: ======'machine_var_audits_shots_darkworld_a_orbit'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,695 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_a1&value=int:145&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,696 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_a2&value=int:29&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,696 : mpfmc : Setting machine_var 'audits_shots_darkworld_a_orbit_dungeon3' to: 41, (prior: None, change: True)
+2019-04-30 18:18:22,696 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_a3&value=int:25&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,696 : EventManager : Event: ======'machine_var_audits_shots_darkworld_a_orbit_dungeon3'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,696 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_a4&value=int:56&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,697 : mpfmc : Setting machine_var 'audits_shots_darkworld_a_orbit_dungeon6' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,697 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_d1&value=int:29&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,697 : EventManager : Event: ======'machine_var_audits_shots_darkworld_a_orbit_dungeon6'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,697 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_d2&value=int:100&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,697 : mpfmc : Setting machine_var 'audits_shots_darkworld_abyss' to: 42, (prior: None, change: True)
+2019-04-30 18:18:22,698 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_d3&value=int:72&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,698 : EventManager : Event: ======'machine_var_audits_shots_darkworld_abyss'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,698 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_e1&value=int:35&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,698 : mpfmc : Setting machine_var 'audits_shots_darkworld_abyss_dungeon7' to: 39, (prior: None, change: True)
+2019-04-30 18:18:22,699 : EventManager : Event: ======'machine_var_audits_shots_darkworld_abyss_dungeon7'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,699 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_e2&value=int:31&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,699 : mpfmc : Setting machine_var 'audits_shots_darkworld_bosshit' to: 41, (prior: None, change: True)
+2019-04-30 18:18:22,699 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_e3&value=int:131&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,699 : EventManager : Event: ======'machine_var_audits_shots_darkworld_bosshit'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,699 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_l1&value=int:28&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,700 : mpfmc : Setting machine_var 'audits_shots_darkworld_bosshit_dungeon7' to: 40, (prior: None, change: True)
+2019-04-30 18:18:22,700 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_l2&value=int:27&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,700 : EventManager : Event: ======'machine_var_audits_shots_darkworld_bosshit_dungeon7'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,700 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_l3&value=int:119&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,700 : mpfmc : Setting machine_var 'audits_shots_darkworld_d_ramp' to: 44, (prior: None, change: True)
+2019-04-30 18:18:22,701 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_z1&value=int:48&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,701 : EventManager : Event: ======'machine_var_audits_shots_darkworld_d_ramp'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,701 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_z2&value=int:45&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,701 : mpfmc : Setting machine_var 'audits_shots_darkworld_d_ramp_dungeon6' to: 45, (prior: None, change: True)
+2019-04-30 18:18:22,701 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_z3&value=int:35&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,701 : EventManager : Event: ======'machine_var_audits_shots_darkworld_d_ramp_dungeon6'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,702 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ganon_z4&value=int:77&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,702 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop1' to: 60, (prior: None, change: True)
+2019-04-30 18:18:22,702 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_heart_target&value=int:80&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,702 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop1'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,702 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_heart_target1&value=int:14&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,703 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop1_dungeon6' to: 42, (prior: None, change: True)
+2019-04-30 18:18:22,703 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_heart_target2&value=int:11&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,703 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop1_dungeon6'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,703 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop1_dungeon7' to: 48, (prior: None, change: True)
+2019-04-30 18:18:22,704 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_hidden_a_ramp&value=int:49&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,704 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop1_dungeon7'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,704 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_hidden_d_ramp&value=int:59&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,704 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop2' to: 42, (prior: None, change: True)
+2019-04-30 18:18:22,704 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_hidden_e_ramp&value=int:39&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,704 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop2'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,705 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_hidden_l_ramp&value=int:36&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,705 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop2_dungeon6' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,705 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_hidden_z_ramp&value=int:34&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,705 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop2_dungeon6'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,705 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_l_ramp_lostwoods&value=int:129&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,705 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop2_dungeon7' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,706 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop2_dungeon7'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,706 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop3' to: 42, (prior: None, change: True)
+2019-04-30 18:18:22,706 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop3'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,706 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop3_dungeon5' to: 39, (prior: None, change: True)
+2019-04-30 18:18:22,706 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop3_dungeon5'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,706 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_l_rupee&value=int:585&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,706 : mpfmc : Setting machine_var 'audits_shots_darkworld_drop3_dungeon7' to: 43, (prior: None, change: True)
+2019-04-30 18:18:22,707 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_l_rupeex2&value=int:64&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,707 : EventManager : Event: ======'machine_var_audits_shots_darkworld_drop3_dungeon7'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,707 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_l_rupeex3&value=int:37&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,707 : mpfmc : Setting machine_var 'audits_shots_darkworld_heart' to: 44, (prior: None, change: True)
+2019-04-30 18:18:22,707 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_leftpop&value=int:162&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,708 : EventManager : Event: ======'machine_var_audits_shots_darkworld_heart'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,708 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lopto&value=int:95&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,708 : mpfmc : Setting machine_var 'audits_shots_darkworld_heart_dungeon4' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,708 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lost_woods_entry&value=int:68&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,708 : EventManager : Event: ======'machine_var_audits_shots_darkworld_heart_dungeon4'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,709 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lost_woods_orbit&value=int:112&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,709 : mpfmc : Setting machine_var 'audits_shots_darkworld_heart_dungeon5' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,709 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lostwoods_left_inlane&value=int:60&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,709 : EventManager : Event: ======'machine_var_audits_shots_darkworld_heart_dungeon5'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,710 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lostwoods_right_inlane&value=int:47&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,710 : mpfmc : Setting machine_var 'audits_shots_darkworld_heart_dungeon6' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,710 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_a_ramp&value=int:185&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,710 : EventManager : Event: ======'machine_var_audits_shots_darkworld_heart_dungeon6'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,710 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_abyss_shot&value=int:26&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,710 : mpfmc : Setting machine_var 'audits_shots_darkworld_heart_dungeon7' to: 44, (prior: None, change: True)
+2019-04-30 18:18:22,711 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_crane_shot&value=int:11&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,711 : EventManager : Event: ======'machine_var_audits_shots_darkworld_heart_dungeon7'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,711 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_d_ramp&value=int:805&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,711 : mpfmc : Setting machine_var 'audits_shots_darkworld_left_inlane' to: 40, (prior: None, change: True)
+2019-04-30 18:18:22,711 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_heart_target&value=int:29&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,711 : EventManager : Event: ======'machine_var_audits_shots_darkworld_left_inlane'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,712 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_middle_drop_target&value=int:30&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,712 : mpfmc : Setting machine_var 'audits_shots_darkworld_mode_start_shot' to: 49, (prior: None, change: True)
+2019-04-30 18:18:22,712 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_modestart_outhole&value=int:29&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,712 : EventManager : Event: ======'machine_var_audits_shots_darkworld_mode_start_shot'====== Args={'value': 49, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,712 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_lw_z_ramp&value=int:229&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,713 : mpfmc : Setting machine_var 'audits_shots_darkworld_mode_start_shot_dungeon4' to: 38, (prior: None, change: True)
+2019-04-30 18:18:22,713 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_m_bomb&value=int:750&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,713 : EventManager : Event: ======'machine_var_audits_shots_darkworld_mode_start_shot_dungeon4'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,713 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_middle_drop_target&value=int:56&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,714 : mpfmc : Setting machine_var 'audits_shots_darkworld_mode_start_shot_dungeon7' to: 39, (prior: None, change: True)
+2019-04-30 18:18:22,714 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_modestart&value=int:6&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,714 : EventManager : Event: ======'machine_var_audits_shots_darkworld_mode_start_shot_dungeon7'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,714 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_modestart_outhole&value=int:63&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,714 : mpfmc : Setting machine_var 'audits_shots_darkworld_pop' to: 68, (prior: None, change: True)
+2019-04-30 18:18:22,714 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_modestartmade&value=int:1388&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,715 : EventManager : Event: ======'machine_var_audits_shots_darkworld_pop'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,715 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_o_bomb&value=int:449&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,715 : mpfmc : Setting machine_var 'audits_shots_darkworld_pop_dungeon5' to: 41, (prior: None, change: True)
+2019-04-30 18:18:22,715 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_pull_master_sword&value=int:146&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,715 : EventManager : Event: ======'machine_var_audits_shots_darkworld_pop_dungeon5'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,716 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_rightpop&value=int:110&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,716 : mpfmc : Setting machine_var 'audits_shots_darkworld_right_inlane' to: 40, (prior: None, change: True)
+2019-04-30 18:18:22,716 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_spinnermultiplier&value=int:9522&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,716 : EventManager : Event: ======'machine_var_audits_shots_darkworld_right_inlane'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,717 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_toppop&value=int:2690&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,717 : mpfmc : Setting machine_var 'audits_shots_darkworld_right_inlane_dungeon6' to: 42, (prior: None, change: True)
+2019-04-30 18:18:22,717 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_z_ramp_lostwoods&value=int:96&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,717 : EventManager : Event: ======'machine_var_audits_shots_darkworld_right_inlane_dungeon6'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,717 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_z_rupee&value=int:535&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,717 : mpfmc : Setting machine_var 'audits_shots_darkworld_shop' to: 14, (prior: None, change: True)
+2019-04-30 18:18:22,718 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_z_rupeex2&value=int:126&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,718 : EventManager : Event: ======'machine_var_audits_shots_darkworld_shop'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,718 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_z_rupeex3&value=int:110&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,718 : mpfmc : Setting machine_var 'audits_shots_darkworld_z_ramp' to: 64, (prior: None, change: True)
+2019-04-30 18:18:22,718 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_zelda_2ball_shot_five&value=int:426&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,719 : EventManager : Event: ======'machine_var_audits_shots_darkworld_z_ramp'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,719 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_zelda_2ball_shot_four&value=int:512&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,719 : mpfmc : Setting machine_var 'audits_shots_darkworld_z_ramp_dungeon3' to: 59, (prior: None, change: True)
+2019-04-30 18:18:22,719 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_zelda_2ball_shot_one&value=int:1363&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,719 : EventManager : Event: ======'machine_var_audits_shots_darkworld_z_ramp_dungeon3'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,720 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_zelda_2ball_shot_three&value=int:324&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,720 : mpfmc : Setting machine_var 'audits_shots_darkworld_z_ramp_dungeon4' to: 43, (prior: None, change: True)
+2019-04-30 18:18:22,720 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_zelda_2ball_shot_two&value=int:264&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,720 : EventManager : Event: ======'machine_var_audits_shots_darkworld_z_ramp_dungeon4'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,720 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_leftflipperbutton&value=int:9431&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,720 : mpfmc : Setting machine_var 'audits_shots_darkworld_z_ramp_dungeon7' to: 41, (prior: None, change: True)
+2019-04-30 18:18:22,721 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_plungerlane&value=int:3229&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,721 : EventManager : Event: ======'machine_var_audits_shots_darkworld_z_ramp_dungeon7'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,721 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_plungerlaunch&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,721 : mpfmc : Setting machine_var 'audits_shots_darkworld_zelda_rescue' to: 46, (prior: None, change: True)
+2019-04-30 18:18:22,721 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_rightflipperbutton&value=int:9716&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,722 : EventManager : Event: ======'machine_var_audits_shots_darkworld_zelda_rescue'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,722 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_abyss&value=int:845&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,722 : mpfmc : Setting machine_var 'audits_shots_drop1' to: 513, (prior: None, change: True)
+2019-04-30 18:18:22,722 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_cavestar&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,722 : EventManager : Event: ======'machine_var_audits_shots_drop1'====== Args={'value': 513, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,722 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_coin1&value=int:455&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,723 : mpfmc : Setting machine_var 'audits_shots_drop2' to: 336, (prior: None, change: True)
+2019-04-30 18:18:22,723 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_coin2&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,723 : EventManager : Event: ======'machine_var_audits_shots_drop2'====== Args={'value': 336, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,723 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_cranehole&value=int:1612&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,723 : mpfmc : Setting machine_var 'audits_shots_drop3' to: 348, (prior: None, change: True)
+2019-04-30 18:18:22,724 : EventManager : Event: ======'machine_var_audits_shots_drop3'====== Args={'value': 348, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,724 : mpfmc : Setting machine_var 'audits_shots_e_rupee' to: 413, (prior: None, change: True)
+2019-04-30 18:18:22,724 : EventManager : Event: ======'machine_var_audits_shots_e_rupee'====== Args={'value': 413, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,724 : mpfmc : Setting machine_var 'audits_shots_e_rupeex2' to: 40, (prior: None, change: True)
+2019-04-30 18:18:22,724 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_droptarget1&value=int:2042&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,724 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_droptarget2&value=int:1564&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,725 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_droptarget3&value=int:1453&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,724 : EventManager : Event: ======'machine_var_audits_shots_e_rupeex2'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,725 : mpfmc : Setting machine_var 'audits_shots_e_rupeex3' to: 26, (prior: None, change: True)
+2019-04-30 18:18:22,725 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_heart&value=int:1580&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,725 : EventManager : Event: ======'machine_var_audits_shots_e_rupeex3'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,726 : mpfmc : Setting machine_var 'audits_shots_eopto' to: 81, (prior: None, change: True)
+2019-04-30 18:18:22,726 : EventManager : Event: ======'machine_var_audits_shots_eopto'====== Args={'value': 81, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,726 : mpfmc : Setting machine_var 'audits_shots_final_blow' to: 17, (prior: None, change: True)
+2019-04-30 18:18:22,726 : EventManager : Event: ======'machine_var_audits_shots_final_blow'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,726 : mpfmc : Setting machine_var 'audits_shots_ganon_a1' to: 145, (prior: None, change: True)
+2019-04-30 18:18:22,726 : EventManager : Event: ======'machine_var_audits_shots_ganon_a1'====== Args={'value': 145, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,726 : mpfmc : Setting machine_var 'audits_shots_ganon_a2' to: 29, (prior: None, change: True)
+2019-04-30 18:18:22,726 : EventManager : Event: ======'machine_var_audits_shots_ganon_a2'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,726 : mpfmc : Setting machine_var 'audits_shots_ganon_a3' to: 25, (prior: None, change: True)
+2019-04-30 18:18:22,727 : EventManager : Event: ======'machine_var_audits_shots_ganon_a3'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,725 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_inlane&value=int:1206&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,727 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_outlane&value=int:304&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,727 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_leftpop&value=int:1370&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,727 : mpfmc : Setting machine_var 'audits_shots_ganon_a4' to: 56, (prior: None, change: True)
+2019-04-30 18:18:22,727 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_leftslingshot&value=int:572&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,727 : EventManager : Event: ======'machine_var_audits_shots_ganon_a4'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,728 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_lightmb&value=int:1&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,728 : mpfmc : Setting machine_var 'audits_shots_ganon_d1' to: 29, (prior: None, change: True)
+2019-04-30 18:18:22,728 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_lostwoods&value=int:4311&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,728 : EventManager : Event: ======'machine_var_audits_shots_ganon_d1'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,728 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_lostwoodsopto&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,728 : mpfmc : Setting machine_var 'audits_shots_ganon_d2' to: 100, (prior: None, change: True)
+2019-04-30 18:18:22,729 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_modestart&value=int:2004&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,729 : EventManager : Event: ======'machine_var_audits_shots_ganon_d2'====== Args={'value': 100, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,729 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optoa&value=int:2348&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,729 : mpfmc : Setting machine_var 'audits_shots_ganon_d3' to: 72, (prior: None, change: True)
+2019-04-30 18:18:22,730 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optod&value=int:3644&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,730 : EventManager : Event: ======'machine_var_audits_shots_ganon_d3'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,730 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optoe&value=int:3677&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,730 : mpfmc : Setting machine_var 'audits_shots_ganon_e1' to: 35, (prior: None, change: True)
+2019-04-30 18:18:22,730 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optol&value=int:3632&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,730 : EventManager : Event: ======'machine_var_audits_shots_ganon_e1'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,731 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optom&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,731 : mpfmc : Setting machine_var 'audits_shots_ganon_e2' to: 31, (prior: None, change: True)
+2019-04-30 18:18:22,731 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optot&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,731 : EventManager : Event: ======'machine_var_audits_shots_ganon_e2'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,731 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optou&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,732 : mpfmc : Setting machine_var 'audits_shots_ganon_e3' to: 131, (prior: None, change: True)
+2019-04-30 18:18:22,732 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optoz&value=int:15&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,732 : EventManager : Event: ======'machine_var_audits_shots_ganon_e3'====== Args={'value': 131, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,732 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_optoz1&value=int:3234&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,732 : mpfmc : Setting machine_var 'audits_shots_ganon_l1' to: 28, (prior: None, change: True)
+2019-04-30 18:18:22,732 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_popexit&value=int:453&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,733 : EventManager : Event: ======'machine_var_audits_shots_ganon_l1'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,733 : mpfmc : Setting machine_var 'audits_shots_ganon_l2' to: 27, (prior: None, change: True)
+2019-04-30 18:18:22,733 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_rampopto&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,733 : EventManager : Event: ======'machine_var_audits_shots_ganon_l2'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,733 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_inlane&value=int:1786&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,734 : mpfmc : Setting machine_var 'audits_shots_ganon_l3' to: 119, (prior: None, change: True)
+2019-04-30 18:18:22,734 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_outlane&value=int:239&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,734 : EventManager : Event: ======'machine_var_audits_shots_ganon_l3'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,734 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_rightpop&value=int:851&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,734 : mpfmc : Setting machine_var 'audits_shots_ganon_z1' to: 48, (prior: None, change: True)
+2019-04-30 18:18:22,735 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_rightslingshot&value=int:1473&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,735 : EventManager : Event: ======'machine_var_audits_shots_ganon_z1'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,735 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_spinner&value=int:16518&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,735 : mpfmc : Setting machine_var 'audits_shots_ganon_z2' to: 45, (prior: None, change: True)
+2019-04-30 18:18:22,736 : EventManager : Event: ======'machine_var_audits_shots_ganon_z2'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,736 : mpfmc : Setting machine_var 'audits_shots_ganon_z3' to: 35, (prior: None, change: True)
+2019-04-30 18:18:22,736 : EventManager : Event: ======'machine_var_audits_shots_ganon_z3'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,736 : mpfmc : Setting machine_var 'audits_shots_ganon_z4' to: 77, (prior: None, change: True)
+2019-04-30 18:18:22,736 : EventManager : Event: ======'machine_var_audits_shots_ganon_z4'====== Args={'value': 77, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,736 : mpfmc : Setting machine_var 'audits_shots_heart_target' to: 80, (prior: None, change: True)
+2019-04-30 18:18:22,735 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_toppop&value=int:8031&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,736 : EventManager : Event: ======'machine_var_audits_shots_heart_target'====== Args={'value': 80, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,737 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_start&value=int:90&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,737 : mpfmc : Setting machine_var 'audits_shots_heart_target1' to: 14, (prior: None, change: True)
+2019-04-30 18:18:22,737 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_trough1&value=int:2775&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,737 : EventManager : Event: ======'machine_var_audits_shots_heart_target1'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,737 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_trough2&value=int:3168&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,737 : mpfmc : Setting machine_var 'audits_shots_heart_target2' to: 11, (prior: None, change: True)
+2019-04-30 18:18:22,738 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_trough3&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,738 : EventManager : Event: ======'machine_var_audits_shots_heart_target2'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,738 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_trough4&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,738 : mpfmc : Setting machine_var 'audits_shots_hidden_a_ramp' to: 49, (prior: None, change: True)
+2019-04-30 18:18:22,739 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_trough5&value=int:1&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,739 : EventManager : Event: ======'machine_var_audits_shots_hidden_a_ramp'====== Args={'value': 49, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,739 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_trough6&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,739 : mpfmc : Setting machine_var 'audits_shots_hidden_d_ramp' to: 59, (prior: None, change: True)
+2019-04-30 18:18:22,739 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_troughjam&value=int:0&prev_value=NoneType:&change=bool:True"
+2019-04-30 18:18:22,740 : EventManager : Event: ======'machine_var_audits_shots_hidden_d_ramp'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,740 : mpfmc : Setting machine_var 'audits_shots_hidden_e_ramp' to: 39, (prior: None, change: True)
+2019-04-30 18:18:22,740 : MPF-MC BCP Server : Received "reset"
+2019-04-30 18:18:22,740 : EventManager : Event: ======'machine_var_audits_shots_hidden_e_ramp'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,740 : mpfmc : Setting machine_var 'audits_shots_hidden_l_ramp' to: 36, (prior: None, change: True)
+2019-04-30 18:18:22,741 : EventManager : Event: ======'machine_var_audits_shots_hidden_l_ramp'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,741 : mpfmc : Setting machine_var 'audits_shots_hidden_z_ramp' to: 34, (prior: None, change: True)
+2019-04-30 18:18:22,741 : EventManager : Event: ======'machine_var_audits_shots_hidden_z_ramp'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,741 : mpfmc : Setting machine_var 'audits_shots_l_ramp_lostwoods' to: 129, (prior: None, change: True)
+2019-04-30 18:18:22,741 : EventManager : Event: ======'machine_var_audits_shots_l_ramp_lostwoods'====== Args={'value': 129, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,741 : mpfmc : Setting machine_var 'audits_shots_l_rupee' to: 585, (prior: None, change: True)
+2019-04-30 18:18:22,741 : EventManager : Event: ======'machine_var_audits_shots_l_rupee'====== Args={'value': 585, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,741 : mpfmc : Setting machine_var 'audits_shots_l_rupeex2' to: 64, (prior: None, change: True)
+2019-04-30 18:18:22,741 : EventManager : Event: ======'machine_var_audits_shots_l_rupeex2'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,741 : mpfmc : Setting machine_var 'audits_shots_l_rupeex3' to: 37, (prior: None, change: True)
+2019-04-30 18:18:22,742 : EventManager : Event: ======'machine_var_audits_shots_l_rupeex3'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,742 : mpfmc : Setting machine_var 'audits_shots_leftpop' to: 162, (prior: None, change: True)
+2019-04-30 18:18:22,742 : EventManager : Event: ======'machine_var_audits_shots_leftpop'====== Args={'value': 162, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,742 : mpfmc : Setting machine_var 'audits_shots_lopto' to: 95, (prior: None, change: True)
+2019-04-30 18:18:22,742 : EventManager : Event: ======'machine_var_audits_shots_lopto'====== Args={'value': 95, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,742 : mpfmc : Setting machine_var 'audits_shots_lost_woods_entry' to: 68, (prior: None, change: True)
+2019-04-30 18:18:22,742 : EventManager : Event: ======'machine_var_audits_shots_lost_woods_entry'====== Args={'value': 68, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,742 : mpfmc : Setting machine_var 'audits_shots_lost_woods_orbit' to: 112, (prior: None, change: True)
+2019-04-30 18:18:22,742 : EventManager : Event: ======'machine_var_audits_shots_lost_woods_orbit'====== Args={'value': 112, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,743 : mpfmc : Setting machine_var 'audits_shots_lostwoods_left_inlane' to: 60, (prior: None, change: True)
+2019-04-30 18:18:22,743 : EventManager : Event: ======'machine_var_audits_shots_lostwoods_left_inlane'====== Args={'value': 60, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,743 : mpfmc : Setting machine_var 'audits_shots_lostwoods_right_inlane' to: 47, (prior: None, change: True)
+2019-04-30 18:18:22,743 : EventManager : Event: ======'machine_var_audits_shots_lostwoods_right_inlane'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,743 : mpfmc : Setting machine_var 'audits_shots_lw_a_ramp' to: 185, (prior: None, change: True)
+2019-04-30 18:18:22,743 : EventManager : Event: ======'machine_var_audits_shots_lw_a_ramp'====== Args={'value': 185, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,743 : mpfmc : Setting machine_var 'audits_shots_lw_abyss_shot' to: 26, (prior: None, change: True)
+2019-04-30 18:18:22,743 : EventManager : Event: ======'machine_var_audits_shots_lw_abyss_shot'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,743 : mpfmc : Setting machine_var 'audits_shots_lw_crane_shot' to: 11, (prior: None, change: True)
+2019-04-30 18:18:22,743 : EventManager : Event: ======'machine_var_audits_shots_lw_crane_shot'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,744 : mpfmc : Setting machine_var 'audits_shots_lw_d_ramp' to: 805, (prior: None, change: True)
+2019-04-30 18:18:22,744 : EventManager : Event: ======'machine_var_audits_shots_lw_d_ramp'====== Args={'value': 805, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,744 : mpfmc : Setting machine_var 'audits_shots_lw_heart_target' to: 29, (prior: None, change: True)
+2019-04-30 18:18:22,744 : EventManager : Event: ======'machine_var_audits_shots_lw_heart_target'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,744 : mpfmc : Setting machine_var 'audits_shots_lw_middle_drop_target' to: 30, (prior: None, change: True)
+2019-04-30 18:18:22,744 : EventManager : Event: ======'machine_var_audits_shots_lw_middle_drop_target'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,744 : mpfmc : Setting machine_var 'audits_shots_lw_modestart_outhole' to: 29, (prior: None, change: True)
+2019-04-30 18:18:22,744 : EventManager : Event: ======'machine_var_audits_shots_lw_modestart_outhole'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,744 : mpfmc : Setting machine_var 'audits_shots_lw_z_ramp' to: 229, (prior: None, change: True)
+2019-04-30 18:18:22,744 : EventManager : Event: ======'machine_var_audits_shots_lw_z_ramp'====== Args={'value': 229, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,745 : mpfmc : Setting machine_var 'audits_shots_m_bomb' to: 750, (prior: None, change: True)
+2019-04-30 18:18:22,745 : EventManager : Event: ======'machine_var_audits_shots_m_bomb'====== Args={'value': 750, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,745 : mpfmc : Setting machine_var 'audits_shots_middle_drop_target' to: 56, (prior: None, change: True)
+2019-04-30 18:18:22,745 : EventManager : Event: ======'machine_var_audits_shots_middle_drop_target'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,745 : mpfmc : Setting machine_var 'audits_shots_modestart' to: 6, (prior: None, change: True)
+2019-04-30 18:18:22,745 : EventManager : Event: ======'machine_var_audits_shots_modestart'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,745 : mpfmc : Setting machine_var 'audits_shots_modestart_outhole' to: 63, (prior: None, change: True)
+2019-04-30 18:18:22,745 : EventManager : Event: ======'machine_var_audits_shots_modestart_outhole'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,745 : mpfmc : Setting machine_var 'audits_shots_modestartmade' to: 1388, (prior: None, change: True)
+2019-04-30 18:18:22,746 : EventManager : Event: ======'machine_var_audits_shots_modestartmade'====== Args={'value': 1388, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,746 : mpfmc : Setting machine_var 'audits_shots_o_bomb' to: 449, (prior: None, change: True)
+2019-04-30 18:18:22,746 : EventManager : Event: ======'machine_var_audits_shots_o_bomb'====== Args={'value': 449, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,746 : mpfmc : Setting machine_var 'audits_shots_pull_master_sword' to: 146, (prior: None, change: True)
+2019-04-30 18:18:22,746 : EventManager : Event: ======'machine_var_audits_shots_pull_master_sword'====== Args={'value': 146, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,746 : mpfmc : Setting machine_var 'audits_shots_rightpop' to: 110, (prior: None, change: True)
+2019-04-30 18:18:22,747 : EventManager : Event: ======'machine_var_audits_shots_rightpop'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,747 : mpfmc : Setting machine_var 'audits_shots_spinnermultiplier' to: 9522, (prior: None, change: True)
+2019-04-30 18:18:22,747 : EventManager : Event: ======'machine_var_audits_shots_spinnermultiplier'====== Args={'value': 9522, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,747 : mpfmc : Setting machine_var 'audits_shots_toppop' to: 2690, (prior: None, change: True)
+2019-04-30 18:18:22,747 : EventManager : Event: ======'machine_var_audits_shots_toppop'====== Args={'value': 2690, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,747 : mpfmc : Setting machine_var 'audits_shots_z_ramp_lostwoods' to: 96, (prior: None, change: True)
+2019-04-30 18:18:22,747 : EventManager : Event: ======'machine_var_audits_shots_z_ramp_lostwoods'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,747 : mpfmc : Setting machine_var 'audits_shots_z_rupee' to: 535, (prior: None, change: True)
+2019-04-30 18:18:22,747 : EventManager : Event: ======'machine_var_audits_shots_z_rupee'====== Args={'value': 535, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,748 : mpfmc : Setting machine_var 'audits_shots_z_rupeex2' to: 126, (prior: None, change: True)
+2019-04-30 18:18:22,748 : EventManager : Event: ======'machine_var_audits_shots_z_rupeex2'====== Args={'value': 126, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,748 : mpfmc : Setting machine_var 'audits_shots_z_rupeex3' to: 110, (prior: None, change: True)
+2019-04-30 18:18:22,748 : EventManager : Event: ======'machine_var_audits_shots_z_rupeex3'====== Args={'value': 110, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,748 : mpfmc : Setting machine_var 'audits_shots_zelda_2ball_shot_five' to: 426, (prior: None, change: True)
+2019-04-30 18:18:22,748 : EventManager : Event: ======'machine_var_audits_shots_zelda_2ball_shot_five'====== Args={'value': 426, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,748 : mpfmc : Setting machine_var 'audits_shots_zelda_2ball_shot_four' to: 512, (prior: None, change: True)
+2019-04-30 18:18:22,748 : EventManager : Event: ======'machine_var_audits_shots_zelda_2ball_shot_four'====== Args={'value': 512, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,748 : mpfmc : Setting machine_var 'audits_shots_zelda_2ball_shot_one' to: 1363, (prior: None, change: True)
+2019-04-30 18:18:22,748 : EventManager : Event: ======'machine_var_audits_shots_zelda_2ball_shot_one'====== Args={'value': 1363, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,749 : mpfmc : Setting machine_var 'audits_shots_zelda_2ball_shot_three' to: 324, (prior: None, change: True)
+2019-04-30 18:18:22,749 : EventManager : Event: ======'machine_var_audits_shots_zelda_2ball_shot_three'====== Args={'value': 324, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,749 : mpfmc : Setting machine_var 'audits_shots_zelda_2ball_shot_two' to: 264, (prior: None, change: True)
+2019-04-30 18:18:22,749 : EventManager : Event: ======'machine_var_audits_shots_zelda_2ball_shot_two'====== Args={'value': 264, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,749 : mpfmc : Setting machine_var 'audits_switches_leftflipperbutton' to: 9431, (prior: None, change: True)
+2019-04-30 18:18:22,749 : EventManager : Event: ======'machine_var_audits_switches_leftflipperbutton'====== Args={'value': 9431, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,749 : mpfmc : Setting machine_var 'audits_switches_plungerlane' to: 3229, (prior: None, change: True)
+2019-04-30 18:18:22,749 : EventManager : Event: ======'machine_var_audits_switches_plungerlane'====== Args={'value': 3229, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,750 : mpfmc : Setting machine_var 'audits_switches_plungerlaunch' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,750 : EventManager : Event: ======'machine_var_audits_switches_plungerlaunch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,750 : mpfmc : Setting machine_var 'audits_switches_rightflipperbutton' to: 9716, (prior: None, change: True)
+2019-04-30 18:18:22,750 : EventManager : Event: ======'machine_var_audits_switches_rightflipperbutton'====== Args={'value': 9716, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,750 : mpfmc : Setting machine_var 'audits_switches_s_abyss' to: 845, (prior: None, change: True)
+2019-04-30 18:18:22,750 : EventManager : Event: ======'machine_var_audits_switches_s_abyss'====== Args={'value': 845, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,750 : mpfmc : Setting machine_var 'audits_switches_s_cavestar' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,750 : EventManager : Event: ======'machine_var_audits_switches_s_cavestar'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,750 : mpfmc : Setting machine_var 'audits_switches_s_coin1' to: 455, (prior: None, change: True)
+2019-04-30 18:18:22,750 : EventManager : Event: ======'machine_var_audits_switches_s_coin1'====== Args={'value': 455, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,751 : mpfmc : Setting machine_var 'audits_switches_s_coin2' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,751 : EventManager : Event: ======'machine_var_audits_switches_s_coin2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,751 : mpfmc : Setting machine_var 'audits_switches_s_cranehole' to: 1612, (prior: None, change: True)
+2019-04-30 18:18:22,751 : EventManager : Event: ======'machine_var_audits_switches_s_cranehole'====== Args={'value': 1612, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,751 : mpfmc : Setting machine_var 'audits_switches_s_droptarget1' to: 2042, (prior: None, change: True)
+2019-04-30 18:18:22,751 : EventManager : Event: ======'machine_var_audits_switches_s_droptarget1'====== Args={'value': 2042, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,751 : mpfmc : Setting machine_var 'audits_switches_s_droptarget2' to: 1564, (prior: None, change: True)
+2019-04-30 18:18:22,751 : EventManager : Event: ======'machine_var_audits_switches_s_droptarget2'====== Args={'value': 1564, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,751 : mpfmc : Setting machine_var 'audits_switches_s_droptarget3' to: 1453, (prior: None, change: True)
+2019-04-30 18:18:22,751 : EventManager : Event: ======'machine_var_audits_switches_s_droptarget3'====== Args={'value': 1453, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,752 : mpfmc : Setting machine_var 'audits_switches_s_heart' to: 1580, (prior: None, change: True)
+2019-04-30 18:18:22,752 : EventManager : Event: ======'machine_var_audits_switches_s_heart'====== Args={'value': 1580, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,752 : mpfmc : Setting machine_var 'audits_switches_s_left_inlane' to: 1206, (prior: None, change: True)
+2019-04-30 18:18:22,752 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 1206, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,752 : mpfmc : Setting machine_var 'audits_switches_s_left_outlane' to: 304, (prior: None, change: True)
+2019-04-30 18:18:22,752 : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 304, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,752 : mpfmc : Setting machine_var 'audits_switches_s_leftpop' to: 1370, (prior: None, change: True)
+2019-04-30 18:18:22,752 : EventManager : Event: ======'machine_var_audits_switches_s_leftpop'====== Args={'value': 1370, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,752 : mpfmc : Setting machine_var 'audits_switches_s_leftslingshot' to: 572, (prior: None, change: True)
+2019-04-30 18:18:22,753 : EventManager : Event: ======'machine_var_audits_switches_s_leftslingshot'====== Args={'value': 572, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,753 : mpfmc : Setting machine_var 'audits_switches_s_lightmb' to: 1, (prior: None, change: True)
+2019-04-30 18:18:22,753 : EventManager : Event: ======'machine_var_audits_switches_s_lightmb'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,753 : mpfmc : Setting machine_var 'audits_switches_s_lostwoods' to: 4311, (prior: None, change: True)
+2019-04-30 18:18:22,753 : EventManager : Event: ======'machine_var_audits_switches_s_lostwoods'====== Args={'value': 4311, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,753 : mpfmc : Setting machine_var 'audits_switches_s_lostwoodsopto' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,753 : EventManager : Event: ======'machine_var_audits_switches_s_lostwoodsopto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,753 : mpfmc : Setting machine_var 'audits_switches_s_modestart' to: 2004, (prior: None, change: True)
+2019-04-30 18:18:22,753 : EventManager : Event: ======'machine_var_audits_switches_s_modestart'====== Args={'value': 2004, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,753 : mpfmc : Setting machine_var 'audits_switches_s_optoa' to: 2348, (prior: None, change: True)
+2019-04-30 18:18:22,754 : EventManager : Event: ======'machine_var_audits_switches_s_optoa'====== Args={'value': 2348, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,754 : mpfmc : Setting machine_var 'audits_switches_s_optod' to: 3644, (prior: None, change: True)
+2019-04-30 18:18:22,754 : EventManager : Event: ======'machine_var_audits_switches_s_optod'====== Args={'value': 3644, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,754 : mpfmc : Setting machine_var 'audits_switches_s_optoe' to: 3677, (prior: None, change: True)
+2019-04-30 18:18:22,754 : EventManager : Event: ======'machine_var_audits_switches_s_optoe'====== Args={'value': 3677, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,754 : mpfmc : Setting machine_var 'audits_switches_s_optol' to: 3632, (prior: None, change: True)
+2019-04-30 18:18:22,754 : EventManager : Event: ======'machine_var_audits_switches_s_optol'====== Args={'value': 3632, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,754 : mpfmc : Setting machine_var 'audits_switches_s_optom' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,754 : EventManager : Event: ======'machine_var_audits_switches_s_optom'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,754 : mpfmc : Setting machine_var 'audits_switches_s_optot' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,755 : EventManager : Event: ======'machine_var_audits_switches_s_optot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,755 : mpfmc : Setting machine_var 'audits_switches_s_optou' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,755 : EventManager : Event: ======'machine_var_audits_switches_s_optou'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,755 : mpfmc : Setting machine_var 'audits_switches_s_optoz' to: 15, (prior: None, change: True)
+2019-04-30 18:18:22,755 : EventManager : Event: ======'machine_var_audits_switches_s_optoz'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,755 : mpfmc : Setting machine_var 'audits_switches_s_optoz1' to: 3234, (prior: None, change: True)
+2019-04-30 18:18:22,755 : EventManager : Event: ======'machine_var_audits_switches_s_optoz1'====== Args={'value': 3234, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,755 : mpfmc : Setting machine_var 'audits_switches_s_popexit' to: 453, (prior: None, change: True)
+2019-04-30 18:18:22,755 : EventManager : Event: ======'machine_var_audits_switches_s_popexit'====== Args={'value': 453, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,756 : mpfmc : Setting machine_var 'audits_switches_s_rampopto' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,756 : EventManager : Event: ======'machine_var_audits_switches_s_rampopto'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,756 : mpfmc : Setting machine_var 'audits_switches_s_right_inlane' to: 1786, (prior: None, change: True)
+2019-04-30 18:18:22,756 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 1786, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,756 : mpfmc : Setting machine_var 'audits_switches_s_right_outlane' to: 239, (prior: None, change: True)
+2019-04-30 18:18:22,756 : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 239, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,756 : mpfmc : Setting machine_var 'audits_switches_s_rightpop' to: 851, (prior: None, change: True)
+2019-04-30 18:18:22,756 : EventManager : Event: ======'machine_var_audits_switches_s_rightpop'====== Args={'value': 851, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,756 : mpfmc : Setting machine_var 'audits_switches_s_rightslingshot' to: 1473, (prior: None, change: True)
+2019-04-30 18:18:22,756 : EventManager : Event: ======'machine_var_audits_switches_s_rightslingshot'====== Args={'value': 1473, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,757 : mpfmc : Setting machine_var 'audits_switches_s_spinner' to: 16518, (prior: None, change: True)
+2019-04-30 18:18:22,757 : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 16518, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,757 : mpfmc : Setting machine_var 'audits_switches_s_toppop' to: 8031, (prior: None, change: True)
+2019-04-30 18:18:22,757 : EventManager : Event: ======'machine_var_audits_switches_s_toppop'====== Args={'value': 8031, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,757 : mpfmc : Setting machine_var 'audits_switches_start' to: 90, (prior: None, change: True)
+2019-04-30 18:18:22,757 : EventManager : Event: ======'machine_var_audits_switches_start'====== Args={'value': 90, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,757 : mpfmc : Setting machine_var 'audits_switches_trough1' to: 2775, (prior: None, change: True)
+2019-04-30 18:18:22,757 : EventManager : Event: ======'machine_var_audits_switches_trough1'====== Args={'value': 2775, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,758 : mpfmc : Setting machine_var 'audits_switches_trough2' to: 3168, (prior: None, change: True)
+2019-04-30 18:18:22,758 : EventManager : Event: ======'machine_var_audits_switches_trough2'====== Args={'value': 3168, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,758 : mpfmc : Setting machine_var 'audits_switches_trough3' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,758 : EventManager : Event: ======'machine_var_audits_switches_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,758 : mpfmc : Setting machine_var 'audits_switches_trough4' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,758 : EventManager : Event: ======'machine_var_audits_switches_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,758 : mpfmc : Setting machine_var 'audits_switches_trough5' to: 1, (prior: None, change: True)
+2019-04-30 18:18:22,758 : EventManager : Event: ======'machine_var_audits_switches_trough5'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,759 : mpfmc : Setting machine_var 'audits_switches_trough6' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,759 : EventManager : Event: ======'machine_var_audits_switches_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,759 : mpfmc : Setting machine_var 'audits_switches_troughjam' to: 0, (prior: None, change: True)
+2019-04-30 18:18:22,759 : EventManager : Event: ======'machine_var_audits_switches_troughjam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-04-30 18:18:22,759 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2019-04-30 18:18:22,759 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2019-04-30 18:18:22,759 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2019-04-30 18:18:22,759 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2019-04-30 18:18:22,798 : MPF-MC BCP Server : Received "mode_start?json={"name": "attract", "running_modes": [["attract", 10]], "priority": 10}"
+2019-04-30 18:18:22,799 : Mode.attract : Mode Start. Priority: 10
+2019-04-30 18:18:22,806 : MPF-MC BCP Server : Received "mode_start?json={"name": "attract_carousel", "running_modes": [["attract", 10], ["attract_carousel", 110]], "priority": 110}"
+2019-04-30 18:18:22,818 : Mode.attract_carousel : Mode Start. Priority: 110
+2019-04-30 18:18:22,837 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"hyrulechamp_slide": {"target": null, "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "action": "play"}}, "context": "attract_carousel", "calling_context": "attract_carousel_hyrulechamp_slide_highlighted", "priority": 110, "direction": null}"
+2019-04-30 18:18:22,850 : EventManager : Event: ======'slides_play'====== Args={'settings': {'hyrulechamp_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play'}}, 'context': 'attract_carousel', 'calling_context': 'attract_carousel_hyrulechamp_slide_highlighted', 'priority': 110, 'direction': None}
+2019-04-30 18:18:22,850 : mpfmc : SlidePlayer: Play called with settings={'hyrulechamp_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play'}}
+2019-04-30 18:18:22,850 : mpfmc : SlidePlayer: Playing slide 'hyrulechamp_slide' on target 'lcd' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 110, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play', 'direction': None})
+2019-04-30 18:18:22,854 : kivy : Resource: add <C:\windows\Fonts> in path list
+2019-04-30 18:18:22,855 : kivy : Resource: add <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\data\fonts> in path list
+2019-04-30 18:18:22,859 : kivy : GL: NPOT texture support is available
+2019-04-30 18:18:22,869 : EventManager : Event: ======'slide_hyrulechamp_slide_created'====== Args={}
+2019-04-30 18:18:22,869 : EventManager : Duplicate handler for class <Text Widget text=1,338> on event machine_var_score1_value with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=1,338>>, priority=1, kwargs={}, key=UUID('941c87b1-2f29-4e22-a84d-067f298cebef'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=1,338>>, priority=1, kwargs={}, key=UUID('17bad0dc-5041-475c-8142-8553f717d62a'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:22,870 : EventManager : Duplicate handler for class <Text Widget text=W> on event machine_var_score1_name with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=W>>, priority=1, kwargs={}, key=UUID('7f5e5b5c-3c5d-4c3a-9e5f-3213fa09df4a'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=W>>, priority=1, kwargs={}, key=UUID('6f1d47d6-fb1e-4c1d-8f37-1b5214ff5c8b'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:22,878 : EventManager : Event: ======'slide_hyrulechamp_slide_active'====== Args={}
+2019-04-30 18:18:23,498 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:24,497 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:25,527 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:26,801 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:27,500 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:28,494 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:29,497 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:30,514 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:31,498 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:31,836 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"highscore_slide": {"target": null, "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "action": "play"}}, "context": "attract_carousel", "calling_context": "attract_carousel_highscore_slide_highlighted", "priority": 110, "direction": "forwards"}"
+2019-04-30 18:18:31,848 : EventManager : Event: ======'slides_play'====== Args={'settings': {'highscore_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play'}}, 'context': 'attract_carousel', 'calling_context': 'attract_carousel_highscore_slide_highlighted', 'priority': 110, 'direction': 'forwards'}
+2019-04-30 18:18:31,850 : mpfmc : SlidePlayer: Play called with settings={'highscore_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play'}}
+2019-04-30 18:18:31,850 : mpfmc : SlidePlayer: Playing slide 'highscore_slide' on target 'lcd' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 110, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play', 'direction': 'forwards'})
+2019-04-30 18:18:31,895 : EventManager : Event: ======'slide_highscore_slide_created'====== Args={}
+2019-04-30 18:18:31,897 : EventManager : Duplicate handler for class <Text Widget text=4.  267> on event machine_var_score5_name with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=4.  267>>, priority=1, kwargs={}, key=UUID('34f70586-2d4c-48db-8a4e-d12985641fea'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=4.  267>>, priority=1, kwargs={}, key=UUID('841b0604-dc99-44ab-a534-2ea4d602fdb4'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,898 : EventManager : Duplicate handler for class <Text Widget text=4.  267> on event machine_var_score5_value with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=4.  267>>, priority=1, kwargs={}, key=UUID('4c4437e1-797f-4714-926e-00b4f41ae395'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=4.  267>>, priority=1, kwargs={}, key=UUID('d5f55b7c-6d6a-4144-acec-7c6e868ea9bb'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,902 : EventManager : Duplicate handler for class <Text Widget text=3.  306> on event machine_var_score4_name with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=3.  306>>, priority=1, kwargs={}, key=UUID('9548a3ce-fb2a-4108-91f6-d041ef03ff47'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=3.  306>>, priority=1, kwargs={}, key=UUID('9d1dfa79-1002-40f2-998e-a4ef7edc2420'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,903 : EventManager : Duplicate handler for class <Text Widget text=3.  306> on event machine_var_score4_value with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=3.  306>>, priority=1, kwargs={}, key=UUID('e7e6ce48-68e1-40c2-9c08-1a28a7edaa9b'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=3.  306>>, priority=1, kwargs={}, key=UUID('f7f0b037-4ea4-46be-b39c-50c40b2666fb'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,906 : EventManager : Duplicate handler for class <Text Widget text=2. JF 795> on event machine_var_score3_name with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=2. JF 795>>, priority=1, kwargs={}, key=UUID('cbee6063-729e-43be-bb4c-78809edc5789'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=2. JF 795>>, priority=1, kwargs={}, key=UUID('1d3e0387-b155-4728-bc4a-c70617e408c8'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,907 : EventManager : Duplicate handler for class <Text Widget text=2. JF 795> on event machine_var_score3_value with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=2. JF 795>>, priority=1, kwargs={}, key=UUID('fe6e8006-3735-4681-890e-ad6c1388f1f6'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=2. JF 795>>, priority=1, kwargs={}, key=UUID('d4dec263-8ad3-4898-b007-6ceff301e1e0'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,910 : EventManager : Duplicate handler for class <Text Widget text=1. W 1,141> on event machine_var_score2_name with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=1. W 1,141>>, priority=1, kwargs={}, key=UUID('97de4093-5d38-41c2-ac1e-94ea95d987d6'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=1. W 1,141>>, priority=1, kwargs={}, key=UUID('84908f0c-7411-49e2-80ab-7667973dee86'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,911 : EventManager : Duplicate handler for class <Text Widget text=1. W 1,141> on event machine_var_score2_value with priority 1. Handlers: [RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=1. W 1,141>>, priority=1, kwargs={}, key=UUID('0ccdf787-b55c-4a1a-9c2e-d0ec6a8c9a6d'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Text._machine_var_change of <Text Widget text=1. W 1,141>>, priority=1, kwargs={}, key=UUID('685e0f20-4e6d-467d-8340-1afccb344859'), condition=None, blocking_facility=None)]
+2019-04-30 18:18:31,925 : EventManager : Event: ======'slide_highscore_slide_active'====== Args={}
+2019-04-30 18:18:32,489 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:33,495 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:34,490 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:35,487 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:36,484 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:37,482 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:38,485 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:39,479 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:40,492 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:40,809 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"awesome_slide": {"target": null, "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "action": "play"}}, "context": "attract_carousel", "calling_context": "attract_carousel_awesome_slide_highlighted", "priority": 110, "direction": "forwards"}"
+2019-04-30 18:18:40,812 : EventManager : Event: ======'slides_play'====== Args={'settings': {'awesome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play'}}, 'context': 'attract_carousel', 'calling_context': 'attract_carousel_awesome_slide_highlighted', 'priority': 110, 'direction': 'forwards'}
+2019-04-30 18:18:40,812 : mpfmc : SlidePlayer: Play called with settings={'awesome_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play'}}
+2019-04-30 18:18:40,812 : mpfmc : SlidePlayer: Playing slide 'awesome_slide' on target 'lcd' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 110, 'show': True, 'force': False, 'expire': None, 'slide': None, 'action': 'play', 'direction': 'forwards'})
+2019-04-30 18:18:40,818 : EventManager : Event: ======'slide_awesome_slide_created'====== Args={}
+2019-04-30 18:18:40,822 : EventManager : Event: ======'slide_awesome_slide_active'====== Args={}
+2019-04-30 18:18:41,498 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:42,498 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:43,491 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:44,487 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:45,485 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:46,485 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:47,481 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:48,482 : MPF-MC BCP Server : Received "status_request"
+2019-04-30 18:18:49,172 : Keyboard : Processing key stroke for key escape-
+2019-04-30 18:18:49,172 : kivy : Base: Leaving application in progress...
+2019-04-30 18:18:49,321 : mpfmc : Stopping...
+2019-04-30 18:18:49,322 : EventManager : Event: ======'shutdown'====== Args={}
+2019-04-30 18:18:49,323 : AudioInterface : Disabling audio playback
+2019-04-30 18:18:49,323 : Track.0.TrackStandard.music : Stopping all sounds and removing any pending sounds from queue
+2019-04-30 18:18:49,323 : Track.1.TrackStandard.voice : Stopping all sounds and removing any pending sounds from queue
+2019-04-30 18:18:49,323 : Track.2.TrackStandard.sfx : Stopping all sounds and removing any pending sounds from queue
+2019-04-30 18:18:49,323 : mpfmc : Loop rate 51.48 Hz
+2019-04-30 18:18:49,323 : kivy : MC run loop ended.
+2019-04-30 18:18:49,324 : kivy : Stopping child threads... (3 remaining)
+2019-04-30 18:18:49,482 : mpfmc : Stopping...
+2019-04-30 18:18:49,482 : EventManager : Event: ======'shutdown'====== Args={}
+2019-04-30 18:18:49,482 : mpfmc : Loop rate 51.3 Hz
+2019-04-30 18:18:49,494 : MPF-MC BCP Server : Stopping BCP sending thread
+2019-04-30 18:18:50,425 : kivy : All child threads stopped.

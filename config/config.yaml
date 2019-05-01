@@ -49,6 +49,8 @@ modes:
 - shop
 - ganon_battle
 - darkworld2
+- game_ender_mode
+- final_hold
 
 window:
   title: Legend of Zelda
@@ -86,34 +88,15 @@ sound_player:
       action: stop
     darkworld2:
       action: stop
-  # ball_started(ball==1):
-  #   highscore:
-  #     action: stop
-  #     fade_out: 2s
+    ganonbattle:
+      action: stop
 
-
-
-# slide_player:
-#   game_will_end:
-#     gameovervideo:
-#       target: lcd
-#       expire: 2s
-#       force: true
-
-
-# slides:
-#   gameovervideo:
-#     widgets:
-#       - type: video
-#         video: linkdyingvideo
-#         width: 1280
-#         height: 720
 
 sound_system:
     master_volume: 1.0
     tracks:
        music:
-          simultaneous_sounds: 2
+          simultaneous_sounds: 3
           volume: 0.5
        voice:
           simultaneous_sounds: 1
@@ -199,7 +182,7 @@ multiballs:
   ganon_multiball2:
     ball_count: 2
     ball_count_type: total
-    shoot_again: 90
+    shoot_again: 30s
     enable_events: darkworld2_abyss_hit
     start_events: start_ganon_2ball
     stop_events: ganon_defeated
@@ -209,7 +192,7 @@ multiballs:
   ganon_multiball3:
     ball_count: 3
     ball_count_type: total
-    shoot_again: 90
+    shoot_again: 60s
     enable_events: darkworld2_abyss_hit
     start_events: start_ganon_3ball
     stop_events: ganon_defeated
@@ -243,6 +226,10 @@ player_vars:
     initial_value: 1
 
   ganon_lane_count:
+    value_type: int
+    initial_value: 0
+
+  survived_ganon:
     value_type: int
     initial_value: 0
 

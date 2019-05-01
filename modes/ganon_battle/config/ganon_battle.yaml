@@ -1,18 +1,46 @@
 #config_version=5
 
 mode: 
-  start_events: ball_started   #start_ganon_battle  
-  stop_events: ganon_defeated
+  start_events: ball_started #start_ganon_battle  
+  stop_events: game_will_end
   priority: 3000
   restart_on_next_ball: true
 
 
 event_player:
-  timer_final_blow_timer_complete:  reset_ganon_shots
   ganon_lane_complete{current_player.ganon_lane_count == 1}: ganon_lane1_video
   ganon_lane_complete{current_player.ganon_lane_count == 2}: ganon_lane2_video
   ganon_lane_complete{current_player.ganon_lane_count == 3}: ganon_lane3_video
   ganon_lane_complete{current_player.ganon_lane_count == 4}: ganon_lane4_video
+  timer_countdown_to_trifoceshow_complete: triforce_ambiance
+  timer_countdown_to_gameover_complete: wilder_says_make_the_game_end
+  # final_blow_hit: hold_final_ball
+
+
+# queue_relay_player:
+#   ball_device_bd_cranehole_ball_eject_attempt:
+#     wait_for: game_will_end
+#     post: goodending
+
+timers:
+  countdown_to_gameover:
+    start_value: 141
+    end_value: 0
+    tick_interval: 1s
+    direction: down
+    control_events:
+      - action: start
+        event: final_blow_hit
+
+ball_saves:
+  final_ballsave:
+    active_time: 20s
+    hurry_up_time: 6s
+    grace_period: 2s
+    enable_events: final_blow_hit
+    auto_launch: no
+    balls_to_save: 1
+    only_last_ball: true
 
 
 
@@ -27,6 +55,8 @@ variable_player:
     ganon_lane_count: 1
   ganon_a4_hit:
     ganon_lane_count: 1
+  final_blow_hit:
+    survived_ganon: 1
 
 shots:
   ganon_z1:
@@ -180,16 +210,16 @@ accruals:
 
   e_lane:
     events:
-     - ganon_e1_sequence_hit
-     - ganon_e2_sequence_hit
-     - ganon_e3_sequence_hit
+     - ganon_e1_hit
+     - ganon_e2_hit
+     - ganon_e3_hit
     events_when_complete: e_lane_complete, ganon_lane_complete
 
   l_lane:
     events:
-     - ganon_l1_sequence_hit
-     - ganon_l2_sequence_hit
-     - ganon_l3_sequence_hit
+     - ganon_l1_hit
+     - ganon_l2_hit
+     - ganon_l3_hit
     events_when_complete: l_lane_complete, ganon_lane_complete
 
   d_lane:
@@ -218,23 +248,80 @@ accruals:
     events_when_complete: activate_final_blow
 
 show_player:
-  ganon_z1_hit: ganon_left
-  ganon_z2_hit: ganon_right
-  ganon_z3_hit: ganon_left
-  ganon_z4_hit: ganon_right
-  ganon_e1_sequence_hit: ganon_hit
-  ganon_e2_sequence_hit: ganon_hit
-  ganon_e3_sequence_hit: ganon_hit
-  ganon_l1_sequence_hit: ganon_hit
-  ganon_l2_sequence_hit: ganon_hit
-  ganon_l3_sequence_hit: ganon_hit
-  ganon_d1_hit: ganon_hit
-  ganon_d2_hit: ganon_hit
-  ganon_d3_hit: ganon_hit
-  ganon_a1_hit: ganon_right
-  ganon_a2_hit: ganon_left
-  ganon_a3_hit: ganon_right
-  ganon_a4_hit: ganon_left
+  ganon_z1_hit: 
+    ganon_left:
+      speed: 13
+      loops: 0
+  ganon_z2_hit: 
+    ganon_right:
+      speed: 13
+      loops: 0
+  ganon_z3_hit: 
+    ganon_left:
+      speed: 13
+      loops: 0
+  ganon_z4_hit: 
+    ganon_right:
+      speed: 13
+      loops: 0
+  ganon_e1_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_e2_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_e3_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_l1_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_l2_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_l3_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_d1_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_d2_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_d3_hit: 
+    ganon_hit:
+      speed: 13
+      loops: 0
+  ganon_a1_hit: 
+    ganon_right:
+      speed: 13
+      loops: 0
+  ganon_a2_hit: 
+    ganon_left:
+      speed: 13
+      loops: 0
+  ganon_a3_hit: 
+    ganon_right:
+      speed: 13
+      loops: 0
+  ganon_a4_hit: 
+    ganon_left:
+      speed: 13
+      loops: 0
+
+  triforce_ambiance:
+    triforce_ambiance_show:
+      speed: 2
+      loops: -1
+
 
 #adjust speed times on these for chaos and to speed up shows as they are near complete
 shot_profiles:
@@ -403,5 +490,7 @@ shot_profiles:
         speed: 8
       - name: lit
         show: final_blow_hit
+        speed: 20
+        loops: 4
 
 

@@ -11,6 +11,21 @@ mode:
 event_player: 
   lost_woods_orbit_hit: start_lost_woods
   mode_lost_woods_starting: end_lostwoods_starter
+  timer_town_music_starter_complete: start_town_music
+
+
+timers:
+  town_music_starter:
+    start_value: 0
+    end_value: 16
+    tick_interval: 1s
+    direction: up
+    control_events:
+      - action: start
+        event: mode_lost_woods_starter_started
+
+
+
 
 shots:
   lost_woods_orbit:
@@ -24,7 +39,7 @@ shot_profiles:
       - name: ready
         show: lost_woods_profile_ready
         loops: -1
-        speed: 6
+        speed: 4
       - name: lit
         show: lost_woods_profile_lit
         loops: -1

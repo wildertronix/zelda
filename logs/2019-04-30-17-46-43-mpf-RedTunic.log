@@ -1,0 +1,353 @@
+2019-04-30 17:46:43,586 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.0-dev.16
+2019-04-30 17:46:43,586 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-04-30-17-46-43-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-04-30 17:46:43,587 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-04-30 17:46:43,587 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-04-30 17:46:43,587 : INFO : Machine : Platform: win32
+2019-04-30 17:46:43,587 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-04-30 17:46:43,587 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-04-30 17:46:43,587 : INFO : Machine : Machine config file #1: config.yaml
+2019-04-30 17:46:43,589 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-04-30 17:46:43,592 : DEBUG : asyncio : Using selector: SelectSelector
+2019-04-30 17:46:43,593 : INFO : Machine : Initialise MPF.
+2019-04-30 17:46:43,639 : DEBUG : FAST : Configuring FAST hardware.
+2019-04-30 17:46:43,841 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-04-30 17:46:43,874 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.02
+2019-04-30 17:46:43,875 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.02', 'prev_value': None, 'change': True}
+2019-04-30 17:46:43,875 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-04-30 17:46:43,875 : WARNING : FAST : Not resetting FAST NET because firmware is currently broken.
+2019-04-30 17:46:43,938 : INFO : FAST : Connecting to \\.\COM12 at 921600bps
+2019-04-30 17:46:43,970 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2019-04-30 17:46:43,970 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2019-04-30 17:46:43,971 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2019-04-30 17:46:43,971 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,042 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-04-30 17:46:44,045 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,045 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.0-dev.16', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,045 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.0-dev.16, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,045 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,046 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,046 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,046 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,046 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,046 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-04-30 17:46:44,046 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-04-30 17:46:44,112 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6caaa2c03f737135abd403644138525e.mpf_cache
+2019-04-30 17:46:44,115 : DEBUG : ModeController : Loaded mode shop
+2019-04-30 17:46:44,116 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-04-30 17:46:44,119 : DEBUG : ModeController : Loaded mode music_player
+2019-04-30 17:46:44,120 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\d9d23a2a9a3117f1553491692ff1c689.mpf_cache
+2019-04-30 17:46:44,124 : DEBUG : ModeController : Loaded mode playfield_multiplier
+2019-04-30 17:46:44,125 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-04-30 17:46:44,129 : DEBUG : ModeController : Loaded mode 2ballqualifier
+2019-04-30 17:46:44,129 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-04-30 17:46:44,134 : DEBUG : ModeController : Loaded mode slide_tracker
+2019-04-30 17:46:44,134 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0bcc174d8c9595c3b107b2ba9cf1c73.mpf_cache
+2019-04-30 17:46:44,142 : DEBUG : ModeController : Loaded mode attract_carousel
+2019-04-30 17:46:44,142 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-04-30 17:46:44,147 : DEBUG : ModeController : Loaded mode lost_woods
+2019-04-30 17:46:44,147 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-04-30 17:46:44,151 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-04-30 17:46:44,151 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\96294a9578657f44941f2a8ec647ae36.mpf_cache
+2019-04-30 17:46:44,155 : DEBUG : ModeController : Loaded mode rupee3x_finder
+2019-04-30 17:46:44,155 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fc1a42fdd0d487285862f5b943c745e.mpf_cache
+2019-04-30 17:46:44,159 : DEBUG : ModeController : Loaded mode rupee_finder
+2019-04-30 17:46:44,159 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-04-30 17:46:44,163 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-04-30 17:46:44,163 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-04-30 17:46:44,168 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-04-30 17:46:44,168 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-04-30 17:46:44,179 : DEBUG : ModeController : Loaded mode high_score
+2019-04-30 17:46:44,179 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\3485f9bf4bb8d1d21be6de1438e091ba.mpf_cache
+2019-04-30 17:46:44,184 : DEBUG : ModeController : Loaded mode skillshot_ballsave
+2019-04-30 17:46:44,184 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-04-30 17:46:44,190 : DEBUG : ModeController : Loaded mode darkworld
+2019-04-30 17:46:44,190 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-04-30 17:46:44,196 : DEBUG : ModeController : Loaded mode heartmeter
+2019-04-30 17:46:44,196 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-04-30 17:46:44,200 : DEBUG : ModeController : Loaded mode 5waycombotracker
+2019-04-30 17:46:44,200 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\ganon_battle\config\ganon_battle.yaml
+2019-04-30 17:46:44,200 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\ganon_battle\config\ganon_battle.yaml.
+2019-04-30 17:46:44,201 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\ganon_battle\config\ganon_battle.yaml
+2019-04-30 17:46:44,402 : INFO : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\modes\ganon_battle\config\ganon_battle.yaml
+2019-04-30 17:46:44,404 : INFO : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\696ab9654b1d369e3597af15c079ad3b.mpf_cache
+2019-04-30 17:46:44,408 : DEBUG : ModeController : Loaded mode ganon_battle
+2019-04-30 17:46:44,409 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-04-30 17:46:44,416 : DEBUG : ModeController : Loaded mode game
+2019-04-30 17:46:44,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-04-30 17:46:44,420 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-04-30 17:46:44,420 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-04-30 17:46:44,424 : DEBUG : ModeController : Loaded mode extraball
+2019-04-30 17:46:44,424 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-04-30 17:46:44,428 : DEBUG : ModeController : Loaded mode heart_tracker
+2019-04-30 17:46:44,429 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-04-30 17:46:44,436 : DEBUG : ModeController : Loaded mode attract
+2019-04-30 17:46:44,436 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-04-30 17:46:44,440 : DEBUG : ModeController : Loaded mode ball_hold_tracker
+2019-04-30 17:46:44,440 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\562f2c62ffb495bc414930beede29530.mpf_cache
+2019-04-30 17:46:44,447 : DEBUG : ModeController : Loaded mode game_ender_mode
+2019-04-30 17:46:44,447 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-04-30 17:46:44,452 : DEBUG : ModeController : Loaded mode light_world
+2019-04-30 17:46:44,452 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-04-30 17:46:44,456 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-04-30 17:46:44,456 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-04-30 17:46:44,461 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-04-30 17:46:44,461 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\27a949ddf2d3e5eeb9247bd991aba200.mpf_cache
+2019-04-30 17:46:44,465 : DEBUG : ModeController : Loaded mode darkworld2
+2019-04-30 17:46:44,465 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-04-30 17:46:44,471 : DEBUG : ModeController : Loaded mode unusual_show_tracker
+2019-04-30 17:46:44,471 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-04-30 17:46:44,475 : DEBUG : ModeController : Loaded mode ball_save
+2019-04-30 17:46:44,475 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-04-30 17:46:44,481 : DEBUG : ModeController : Loaded mode item_tracker
+2019-04-30 17:46:44,482 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-04-30 17:46:44,488 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-04-30 17:46:44,488 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6eb8b6e4728e10ce756703e43167d298.mpf_cache
+2019-04-30 17:46:44,494 : DEBUG : ModeController : Loaded mode rupee2x_finder
+2019-04-30 17:46:44,494 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-04-30 17:46:44,499 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-04-30 17:46:44,499 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c5e5b78d841dff96974ddb92030af0a9.mpf_cache
+2019-04-30 17:46:44,503 : DEBUG : ModeController : Loaded mode skill_shot
+2019-04-30 17:46:44,503 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-04-30 17:46:44,507 : DEBUG : ModeController : Loaded mode video_player
+2019-04-30 17:46:44,507 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\34c6448537d1c95c89cf73a07c0f99c9.mpf_cache
+2019-04-30 17:46:44,511 : DEBUG : ModeController : Loaded mode bottle_filler
+2019-04-30 17:46:44,511 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-04-30 17:46:44,515 : DEBUG : ModeController : Loaded mode base
+2019-04-30 17:46:44,585 : DEBUG : ball_device.bd_drain : Configuring device with settings: '{'ball_switches': [<switch.trough1>], 'eject_coil': <coil.draineject>, 'eject_targets': [<ball_device.bd_trough>], 'eject_timeouts': [1000], 'confirm_eject_type': 'target', 'tags': ['drain'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_ignore_window_ms': 0, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-04-30 17:46:44,585 : DEBUG : ball_device.bd_trough : Configuring device with settings: '{'entrance_switch': <switch.trough2>, 'entrance_switch_full_timeout': 3000, 'ball_capacity': 3, 'eject_coil': <coil.troughrelease>, 'eject_targets': [<ball_device.bd_plunger_lane>], 'confirm_eject_type': 'target', 'tags': ['trough', 'home'], 'debug': True, 'label': '%', 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch_ignore_window_ms': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'captures_from': <playfield.playfield>, 'eject_timeouts': [], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_switches': [], 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'mechanical_eject': False, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-04-30 17:46:44,586 : DEBUG : ball_device.bd_plunger_lane : Configuring device with settings: '{'ball_switches': [<switch.plungerlane>], 'eject_coil': <coil.autoplunger>, 'mechanical_eject': True, 'eject_timeouts': [1000], 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'exit_count_delay': 500, 'entrance_count_delay': 500, 'eject_coil_jam_pulse': None, 'eject_coil_retry_pulse': None, 'eject_coil_reorder_pulse': None, 'eject_coil_max_wait_ms': 200, 'eject_coil_enable_time': [], 'retries_before_increasing_pulse': 4, 'hold_coil': None, 'hold_coil_release_time': 1000, 'hold_events': {}, 'hold_switches': [], 'entrance_switch': None, 'entrance_switch_ignore_window_ms': 0, 'entrance_switch_full_timeout': 0, 'entrance_events': {}, 'entrance_event_timeout': 5.0, 'idle_missing_ball_timeout': 5.0, 'jam_switch': None, 'confirm_eject_type': 'target', 'captures_from': <playfield.playfield>, 'eject_targets': [<playfield.playfield>], 'ball_missing_timeouts': [], 'ball_missing_target': <playfield.playfield>, 'confirm_eject_switch': None, 'confirm_eject_event': None, 'max_eject_attempts': 0, 'ball_capacity': None, 'request_ball_events': {}, 'eject_events': {}, 'eject_all_events': {}, 'player_controlled_eject_event': None, 'ball_search_order': 200, 'auto_fire_on_unexpected_ball': True, 'target_on_unexpected_ball': None}'
+2019-04-30 17:46:44,674 : DEBUG : ball_save.skillshot_ballsave : Configuring device with settings: '{'active_time': 25000, 'hurry_up_time': 3000, 'grace_period': 3000, 'enable_events': {'skillshot_ballsave_award': 0}, 'disable_events': {'ball_save_skillshot_ballsave_saving_ball': 0}, 'timer_start_events': {'start_ballsave': 0}, 'auto_launch': True, 'balls_to_save': 1, 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'source_playfield': <playfield.playfield>, 'eject_delay': 0, 'only_last_ball': False, 'early_ball_save_events': {}, 'delayed_eject_events': {}}'
+2019-04-30 17:46:44,831 : DEBUG : ball_save.default : Configuring device with settings: '{'active_time': 10000, 'hurry_up_time': 3000, 'grace_period': 3000, 'enable_events': {'mode_base_started': 0}, 'disable_events': {'ball_save_default_saving_ball': 0}, 'timer_start_events': {'start_ballsave': 0}, 'auto_launch': True, 'balls_to_save': 1, 'debug': True, 'label': '%', 'tags': [], 'console_log': 'full', 'file_log': 'full', 'source_playfield': <playfield.playfield>, 'eject_delay': 0, 'only_last_ball': False, 'early_ball_save_events': {}, 'delayed_eject_events': {}}'
+2019-04-30 17:46:44,855 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,856 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,857 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,858 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,859 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Driver Settings: {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,860 : DEBUG : FASTDriver : Resetting driver {'config_cmd': 'DN:', 'trigger_cmd': 'TN:'}
+2019-04-30 17:46:44,864 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 00
+2019-04-30 17:46:44,864 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 01
+2019-04-30 17:46:44,865 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 02
+2019-04-30 17:46:44,865 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 03
+2019-04-30 17:46:44,866 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 04
+2019-04-30 17:46:44,866 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 05
+2019-04-30 17:46:44,866 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 06
+2019-04-30 17:46:44,867 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 07
+2019-04-30 17:46:44,867 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 08
+2019-04-30 17:46:44,868 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 09
+2019-04-30 17:46:44,868 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0A
+2019-04-30 17:46:44,868 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0B
+2019-04-30 17:46:44,869 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0C
+2019-04-30 17:46:44,869 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0D
+2019-04-30 17:46:44,869 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0E
+2019-04-30 17:46:44,870 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 0F
+2019-04-30 17:46:44,870 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 10
+2019-04-30 17:46:44,870 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 11
+2019-04-30 17:46:44,871 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 12
+2019-04-30 17:46:44,871 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 40
+2019-04-30 17:46:44,872 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 41
+2019-04-30 17:46:44,872 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 42
+2019-04-30 17:46:44,872 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 43
+2019-04-30 17:46:44,873 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 44
+2019-04-30 17:46:44,873 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 45
+2019-04-30 17:46:44,873 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 46
+2019-04-30 17:46:44,874 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 47
+2019-04-30 17:46:44,874 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 48
+2019-04-30 17:46:44,875 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 49
+2019-04-30 17:46:44,875 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4A
+2019-04-30 17:46:44,875 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4B
+2019-04-30 17:46:44,876 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4C
+2019-04-30 17:46:44,876 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4D
+2019-04-30 17:46:44,877 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4E
+2019-04-30 17:46:44,877 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 4F
+2019-04-30 17:46:44,877 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 50
+2019-04-30 17:46:44,878 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 51
+2019-04-30 17:46:44,878 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 52
+2019-04-30 17:46:44,879 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 53
+2019-04-30 17:46:44,879 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 54
+2019-04-30 17:46:44,879 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 55
+2019-04-30 17:46:44,880 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 56
+2019-04-30 17:46:44,880 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 57
+2019-04-30 17:46:44,880 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 58
+2019-04-30 17:46:44,881 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 59
+2019-04-30 17:46:44,881 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5A
+2019-04-30 17:46:44,882 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5B
+2019-04-30 17:46:44,882 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5C
+2019-04-30 17:46:44,882 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5D
+2019-04-30 17:46:44,883 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5E
+2019-04-30 17:46:44,883 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 5F
+2019-04-30 17:46:44,884 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 60
+2019-04-30 17:46:44,884 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 61
+2019-04-30 17:46:44,884 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 62
+2019-04-30 17:46:44,885 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 63
+2019-04-30 17:46:44,885 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 64
+2019-04-30 17:46:44,885 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 65
+2019-04-30 17:46:44,886 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 66
+2019-04-30 17:46:44,886 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 67
+2019-04-30 17:46:44,887 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 68
+2019-04-30 17:46:44,887 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 69
+2019-04-30 17:46:44,887 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6A
+2019-04-30 17:46:44,888 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6B
+2019-04-30 17:46:44,888 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6C
+2019-04-30 17:46:44,888 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 6D
+2019-04-30 17:46:44,889 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 80
+2019-04-30 17:46:44,889 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 81
+2019-04-30 17:46:44,889 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 82
+2019-04-30 17:46:44,890 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 83
+2019-04-30 17:46:44,890 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 84
+2019-04-30 17:46:44,890 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 85
+2019-04-30 17:46:44,891 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 86
+2019-04-30 17:46:44,891 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 87
+2019-04-30 17:46:44,892 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 88
+2019-04-30 17:46:44,892 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 89
+2019-04-30 17:46:44,892 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8A
+2019-04-30 17:46:44,893 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8B
+2019-04-30 17:46:44,893 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8C
+2019-04-30 17:46:44,894 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8D
+2019-04-30 17:46:44,894 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8E
+2019-04-30 17:46:44,895 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 8F
+2019-04-30 17:46:44,895 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 90
+2019-04-30 17:46:44,896 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: 91
+2019-04-30 17:46:44,896 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C0
+2019-04-30 17:46:44,897 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C1
+2019-04-30 17:46:44,897 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C2
+2019-04-30 17:46:44,898 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C3
+2019-04-30 17:46:44,898 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C4
+2019-04-30 17:46:44,898 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C5
+2019-04-30 17:46:44,899 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C6
+2019-04-30 17:46:44,899 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C7
+2019-04-30 17:46:44,899 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C8
+2019-04-30 17:46:44,900 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: C9
+2019-04-30 17:46:44,900 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CA
+2019-04-30 17:46:44,900 : DEBUG : FASTLED : Creating FAST RGB LED at hardware address: CB
+2019-04-30 17:46:44,908 : INFO : EventManager : Event: ======'drop_target_bank_maindrop_up'====== Args={}
+2019-04-30 17:46:44,915 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-04-30 17:46:44,916 : DEBUG : FAST : Enabling Flow Control for RGB connection. Messages in flight: 4, Max setting: 3
+2019-04-30 17:46:44,917 : INFO : SwitchController : Found active switch: (('04', 1), <Platform.FAST>)
+2019-04-30 17:46:44,918 : INFO : SwitchController : Found active switch: (('05', 1), <Platform.FAST>)
+2019-04-30 17:46:45,046 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/high_scores.yaml
+2019-04-30 17:46:45,051 : INFO : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'HYRULE CHAMPION', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,051 : INFO : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'W', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 1338, 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'W', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 1141, 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'JF', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 795, 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': '', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 306, 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,052 : INFO : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,053 : INFO : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': '', 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,053 : INFO : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 267, 'prev_value': None, 'change': True}
+2019-04-30 17:46:45,060 : ERROR : asyncio : Exception in callback EventManager._done(<Task finishe...nfig file.',)>)
+handle: <Handle EventManager._done(<Task finishe...nfig file.',)>)>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 690, in _done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 102, in initialise_modes
+    mode.initialise_mode()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 594, in initialise_mode
+    **item.kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 134, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 106, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\queue_relay_player.py", line 58, in validate_config_entry
+    config = self._parse_config(settings, name)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 128, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 201, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 279, in validate_config
+    validation_failure_info, k))
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 301, in validate_config_item
+    validation_failure_info[1]), 9)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 735, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry queue_relay_player:queue_relay_player:post = "None" is not valid. Required setting post missing from config file. Error Code: CFE-ConfigValidator-9
+2019-04-30 17:46:45,144 : INFO : Machine : Starting the main run loop.
+2019-04-30 17:46:45,145 : INFO : Machine : Shutting down...
+2019-04-30 17:46:45,145 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-04-30 17:46:45,148 : DEBUG : ball_device.bd_drain : Stopping ball device
+2019-04-30 17:46:45,149 : DEBUG : ball_device.bd_trough : Stopping ball device
+2019-04-30 17:46:45,150 : DEBUG : ball_device.bd_plunger_lane : Stopping ball device
+2019-04-30 17:46:45,159 : ERROR : FAST : Stop called on serial connection \\.\COM12
+2019-04-30 17:46:45,166 : ERROR : FAST : Stop called on serial connection \\.\COM11
+2019-04-30 17:46:45,559 : ERROR : root : Config File Error in ConfigValidator: Config validation error: Entry queue_relay_player:queue_relay_player:post = "None" is not valid. Required setting post missing from config file. Error Code: CFE-ConfigValidator-9
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 716, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 776, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 690, in _done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 102, in initialise_modes
+    mode.initialise_mode()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode.py", line 594, in initialise_mode
+    **item.kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 134, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 106, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\config_players\queue_relay_player.py", line 58, in validate_config_entry
+    config = self._parse_config(settings, name)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 128, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_player.py", line 201, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 279, in validate_config
+    validation_failure_info, k))
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 301, in validate_config_item
+    validation_failure_info[1]), 9)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_validator.py", line 735, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry queue_relay_player:queue_relay_player:post = "None" is not valid. Required setting post missing from config file. Error Code: CFE-ConfigValidator-9

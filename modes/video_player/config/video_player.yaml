@@ -307,6 +307,24 @@ slide_player:
       target: lcd
       expire: 8s
 
+  mode_ganon_battle_started:
+    ganonintro:
+      target: lcd
+      expire: 7s
+
+  slide_ganonintro_removed:
+    ganontwirl:
+      target: lcd
+      expire: 30s
+
+  final_blow_hit:
+    finalblowvideo:
+      target: lcd
+      expire: 141s
+
+
+
+
 
 slides:
 
@@ -701,5 +719,35 @@ slides:
     widgets:
       - type: video
         video: ganonlane4
+        width: 1280
+        height: 720
+
+  ganontwirl:
+    widgets:
+      - type: video
+        video: ganontwirl
+        width: 1280
+        height: 720
+        control_events:
+          - event: ganon_lane1_video
+            action: pause
+          - event: ganon_lane2_video
+            action: pause
+          - event: ganon_lane3_video
+            action: pause
+          - event: ganon_lane4_video
+            action: pause
+
+  ganonintro:
+    widgets:
+      - type: video
+        video: ganonintro
+        width: 1280
+        height: 720
+
+  finalblowvideo:
+    widgets:
+      - type: video
+        video: finalblowvideo
         width: 1280
         height: 720

@@ -1,0 +1,214 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+      l_mode2: '020200'
+      l_mode5: '010100'
+    
+- time: '+1'
+  lights:
+      l_mode2: '0B0B00'
+      l_mode4: '020200'
+      l_mode5: '090900'
+    
+- time: '+1'
+  lights:
+      l_mode2: '171800'
+      l_mode4: '090900'
+      l_mode5: '161600'
+    
+- time: '+1'
+  lights:
+      l_mode2: '272700'
+      l_mode4: '141400'
+      l_mode5: '262600'
+    
+- time: '+1'
+  lights:
+      l_mode2: '2A2A00'
+      l_mode4: '242500'
+      l_mode5: '3B3C00'
+    
+- time: '+1'
+  lights:
+      l_mode2: '3A3B00'
+      l_mode4: '343500'
+      l_mode5: '4F5000'
+      l_mode6: '040400'
+    
+- time: '+1'
+  lights:
+      l_mode2: '4B4C00'
+      l_mode4: '434500'
+      l_mode5: '626300'
+      l_mode6: '090900'
+    
+- time: '+1'
+  lights:
+      l_mode2: '5A5C00'
+      l_mode4: '545500'
+      l_mode5: '747600'
+      l_mode6: '121200'
+    
+- time: '+1'
+  lights:
+      l_mode2: '6A6B00'
+      l_mode4: '646500'
+      l_mode5: '848600'
+      l_mode6: '1B1B00'
+    
+- time: '+1'
+  lights:
+      l_mode2: '797B00'
+      l_mode4: '737500'
+      l_mode5: '919300'
+      l_mode6: '262600'
+    
+- time: '+1'
+  lights:
+      l_mode2: '787A00'
+      l_mode4: '838500'
+      l_mode5: 'A0A200'
+      l_mode6: '3C3D00'
+    
+- time: '+1'
+  lights:
+      l_mode1: '010100'
+      l_mode2: '858700'
+      l_mode4: '8E9000'
+      l_mode5: 'A9AB00'
+      l_mode6: '494900'
+    
+- time: '+1'
+  lights:
+      l_mode1: '020200'
+      l_mode2: '909200'
+      l_mode3: '010100'
+      l_mode4: '989A00'
+      l_mode5: 'B1B300'
+      l_mode6: '555600'
+    
+- time: '+1'
+  lights:
+      l_mode1: '050500'
+      l_mode2: '9A9C00'
+      l_mode3: '040400'
+      l_mode4: 'A1A300'
+      l_mode5: 'B7B900'
+      l_mode6: '616200'
+    
+- time: '+1'
+  lights:
+      l_mode1: '090A00'
+      l_mode2: 'A1A300'
+      l_mode3: '080800'
+      l_mode4: 'A9AB00'
+      l_mode5: 'BCBE00'
+      l_mode6: '6E6F00'
+    
+- time: '+1'
+  lights:
+      l_mode1: '0E0E00'
+      l_mode2: 'A8AB00'
+      l_mode3: '0C0C00'
+      l_mode4: 'AEB100'
+      l_mode5: 'C0C200'
+      l_mode6: '7A7C00'
+    
+- time: '+1'
+  lights:
+      l_mode1: '111100'
+      l_mode2: 'A6A800'
+      l_mode3: '0F1000'
+      l_mode4: 'B5B700'
+      l_mode5: 'C5C700'
+      l_mode6: '8F9100'
+    
+- time: '+1'
+  lights:
+      l_mode1: '161600'
+      l_mode2: 'ACAE00'
+      l_mode3: '151500'
+      l_mode4: 'B9BB00'
+      l_mode5: 'C9CB00'
+      l_mode6: '989A00'
+    
+- time: '+1'
+  lights:
+      l_mode1: '1C1C00'
+      l_mode2: 'B1B300'
+      l_mode3: '1B1C00'
+      l_mode4: 'BDC000'
+      l_mode5: 'CBCE00'
+      l_mode6: '9FA200'
+    
+- time: '+1'
+  lights:
+      l_item5: '010100'
+      l_mode1: '232400'
+      l_mode2: 'B5B800'
+      l_mode3: '232300'
+      l_mode4: 'C1C300'
+      l_mode5: 'CED000'
+      l_mode6: 'A6A900'
+    
+- time: '+1'
+  lights:
+      l_mode1: '2A2A00'
+      l_mode2: 'B9BC00'
+      l_mode3: '2A2A00'
+      l_mode4: 'C3C600'
+      l_mode5: 'D0D300'
+      l_mode6: 'ACAE00'
+    
+- time: '+1'
+  lights:
+
+      l_mode1: '323200'
+      l_mode2: 'BDBF00'
+      l_mode3: '313200'
+      l_mode4: 'C6C900'
+      l_mode5: 'D2D400'
+      l_mode6: 'B1B300'
+    
+- time: '+1'
+  lights:
+      l_mode1: '383800'
+      l_mode2: 'C0C300'
+      l_mode3: '393A00'
+      l_mode4: 'C9CC00'
+      l_mode5: 'D3D600'
+      l_mode6: 'B5B800'
+    

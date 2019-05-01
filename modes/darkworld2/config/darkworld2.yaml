@@ -2,7 +2,7 @@
 
 mode: 
   start_events: slide_darkworld2_slide_active
-  stop_events: game_ending
+  stop_events: game_ending, start_ganon_battle
   priority: 1100
   restart_on_next_ball: true
 
@@ -19,9 +19,31 @@ event_player:
 shots:
   darkworld2_abyss:
     switch: s_abyss
-
+    profile: darkworld2_abyss_profile
 
   darkworld_shop:
     switch: s_modestart
+    profile: darkworld_shop_profile
 
+shot_profiles:
+
+  darkworld2_abyss_profile:
+    states:
+      - name: ready
+        show: darkworld2_abyss_lit
+        sync_ms: 150
+        loops: -1
+        speed: 5
+      - name: lit
+        show: darkworld2_abyss_hit
+
+  darkworld_shop_profile:
+    states:
+      - name: ready
+        show: darkworld_shop_lit
+        sync_ms: 150
+        loops: -1
+        speed: 5
+      - name: lit
+        show: darkworld_shop_hit
 

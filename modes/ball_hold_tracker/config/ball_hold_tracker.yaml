@@ -45,5 +45,20 @@ ball_holds:
     release_one_events: exit_shop
     disable_events: exit_shop
 
+  ganon_hold:
+    balls_to_hold: 1
+    hold_devices: bd_abyss
+    enable_events: mode_darkworld2_started
+    release_one_events: slide_ganonintro_removed
+    disable_events: slide_ganonintro_removed
+
+  # final_blow_hold:
+  #   balls_to_hold: 1
+  #   hold_devices: bd_cranehole
+  #   enable_events: hold_final_ball
+  #   release_one_events: slide_finalblowvideo_removed
+  #   disable_events: slide_finalblowvideo_removed
+
+
 
 

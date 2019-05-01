@@ -1,0 +1,32 @@
+#config_version=5
+
+mode: 
+  start_events: final_blow_sequence_hit
+  stop_events: game_will_end
+  priority: 3200
+
+event_player:
+  timer_countdown_to_trifoceshow_complete: start_triforceshow
+
+queue_relay_player:
+  ball_device_bd_cranehole_ball_eject_attempt:
+    wait_for: game_will_end
+    post: goodending
+
+
+timers:
+  countdown_to_triforceshow:
+    start_value: 22
+    end_value: 0
+    tick_interval: 1s
+    direction: down
+    control_events:
+      - action: start
+        event: mode_final_hold_started
+
+
+show_player:
+  start_triforceshow:
+    triforce_chamber_show:
+      loops: -1
+      speed: 1

@@ -2,18 +2,19 @@
 mode:
   priority: 600
   start_events: game_will_end
-  # stop_events: move_to_highscore
+  stop_events: no_death_slide
   use_wait_queue: true
   game_mode: false
 
-# event_player: 
-#   slide_gameovervideo_removed: move_to_highscore
+event_player: 
+  game_ending{current_player.survived_ganon ==1}: no_death_slide
 
 slide_player:
   game_ending:
     gameovervideo:
       target: lcd
       expire: 2s
+
 
 
 slides:

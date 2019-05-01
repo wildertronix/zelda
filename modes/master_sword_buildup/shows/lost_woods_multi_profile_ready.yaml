@@ -4,7 +4,64 @@
 - time: 0
   lights:
     l_mastersword: blue
+    l_33: white
+    l_arupee: white
+    l_aitem: white
+    l_a: white
+    l_10: white
 
 - time: '+1'
   lights:
     l_mastersword: white
+    l_33: blue
+    l_arupee: white
+    l_aitem: white
+    l_a: white
+    l_10: white
+
+
+- time: '+1'
+  lights:
+    l_mastersword: white
+    l_33: white
+    l_arupee: blue
+    l_aitem: white
+    l_a: white
+    l_10: white
+
+
+- time: '+1'
+  lights:
+    l_mastersword: white
+    l_33: white
+    l_arupee: white
+    l_aitem: blue
+    l_a: white
+    l_10: white
+
+- time: '+1'
+  lights:
+    l_mastersword: white
+    l_33: white
+    l_arupee: white
+    l_aitem: white
+    l_a: blue
+    l_10: white
+
+- time: '+1'
+  lights:
+    l_mastersword: white
+    l_33: white
+    l_arupee: white
+    l_aitem: white
+    l_a: white
+    l_10: blue
+
+- time: '+1'
+  lights:
+    l_mastersword: white
+    l_33: white
+    l_arupee: white
+    l_aitem: white
+    l_a: white
+    l_10: white
