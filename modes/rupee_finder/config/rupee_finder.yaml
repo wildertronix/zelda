@@ -4,7 +4,7 @@
 
 mode:
   start_events: ball_starting
-  stop_events: disable_rupee_finder, game_ending, set2xlightshow
+  stop_events: disable_rupee_finder, game_ending, set2xlightshow, mode_ganon_battle_started
   priority: 2000
 
 event_player: 

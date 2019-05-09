@@ -2,7 +2,7 @@
 
 mode:
   start_events: set3xlightshow
-  stop_events: disable_rupeex3_finder, game_ending
+  stop_events: disable_rupeex3_finder, game_ending, mode_ganon_battle_started
   priority: 2000
 
 event_player: 

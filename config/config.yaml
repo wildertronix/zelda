@@ -15,6 +15,7 @@ modes:
 - attract
 - base
 - ball_save
+- bonus
 - extraball
 - 2ballqualifier
 - 2ballescape
@@ -233,3 +234,10 @@ player_vars:
     value_type: int
     initial_value: 0
 
+  pendant_count:
+    value_type: int
+    initial_value: 0
+
+  maiden_count:
+    value_type: int
+    initial_value: 0

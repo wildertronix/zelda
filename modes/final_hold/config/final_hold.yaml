@@ -6,17 +6,19 @@ mode:
   priority: 3200
 
 event_player:
-  timer_countdown_to_trifoceshow_complete: start_triforceshow
+  timer_countdown_to_triforceshow_complete: start_triforceshow start_triforceambiance
+  timer_countdown_to_gameover_complete: wilder_says_make_the_game_end
+
 
 queue_relay_player:
-  ball_device_bd_cranehole_ball_eject_attempt:
+  balldevice_bd_cranehole_ball_eject_attempt:
     wait_for: game_will_end
     post: goodending
 
 
 timers:
   countdown_to_triforceshow:
-    start_value: 22
+    start_value: 24
     end_value: 0
     tick_interval: 1s
     direction: down
@@ -25,8 +27,26 @@ timers:
         event: mode_final_hold_started
 
 
+  countdown_to_gameover:
+    start_value: 141
+    end_value: 0
+    tick_interval: 1s
+    direction: down
+    control_events:
+      - action: start
+        event: mode_final_hold_started
 show_player:
   start_triforceshow:
     triforce_chamber_show:
       loops: -1
       speed: 1
+      priority: 3220
+  start_triforceambiance:
+    triforce_ambiance_show:
+      loops: -1
+      speed: 5
+      priority: 3210
+  mode_final_hold_started:
+    final_blow_show:
+      loops: 6
+      speed: 20

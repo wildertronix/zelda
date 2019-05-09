@@ -23,7 +23,7 @@ sound_player:
 
 high_score:
   _overwrite: True
-  enter_initials_timeout: 6s
+  enter_initials_timeout: 25s
   award_slide_display_time: 4s 
   categories: !!omap
   - score:

@@ -211,3 +211,11 @@ variable_player:
     score: 1 * current_player.multiplier
   drop3_hit:
     score: 1 * current_player.multiplier
+
+
+  first_pendant_found:
+    pendant_count: 1
+  second_pendant_found:
+    pendant_count: 1
+  third_pendant_found:
+    pendant_count: 1

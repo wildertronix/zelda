@@ -1,0 +1,100 @@
+#config_version=5
+
+mode_settings:
+  display_delay_ms: 1500ms
+  keep_multiplier: false
+  bonus_entries:
+    - event: bonus_items
+      score: (current_player.item_count) * 1
+      skip_if_zero: flase
+    - event: bonus_pendants
+      score: (current_player.pendant_count) * 5
+      skip_if_zero: false
+    - event: bonus_crystals
+      score: (current_player.maiden_count) * 10
+      skip_if_zero: false
+    - event: bonus_ganon_defeated
+      score: 1000
+      skip_if_zero: true
+      player_score_entry: survived_ganon
+
+slide_player:
+  bonus_start:
+    bonus_award_start:
+      target: lcd
+
+slides:
+  bonus_award_start:
+    widgets:
+      - type: text
+        text: BONUS 
+        font_size: 80
+        style: hyruletext
+        x: center
+        y: 650
+
+widget_player:
+  bonus_items:
+    bonus_items_widget:
+      slide: bonus_award_start
+      widget_settings:
+        z: 2
+        x: center
+        y: 460
+  bonus_pendants:
+    bonus_pendants_widget:
+      slide: bonus_award_start
+      widget_settings:
+        z: 3
+        x: 640
+        y: 360
+  bonus_crystals:
+    bonus_crystals_widget:
+      slide: bonus_award_start
+      widget_settings:
+        z: 4
+        x: 640
+        y: 260
+widgets:
+  bonus_items_widget:
+  - type: text
+    text: Items (item_count) X 1
+    style: hyruletext
+    font_size: 80
+    color: gold
+  bonus_pendants_widget:
+  - type: text
+    text: Pendants (pendant_count) X 5
+    style: hyruletext
+    font_size: 80
+    color: gold
+  bonus_crystals_widget:
+  - type: text
+    text: Crystals (maiden_count) X 10
+    style: hyruletext
+    font_size: 80
+    color: gold
+  # bonus_items:
+  #   bonus_award_items:
+  #     target: lcd
+  # bonus_pendants:
+  #   bonus_award_pendants:
+  #     target: lcd
+  # bonus_crystals:
+  #   bonus_award_crystals:
+  #     target: lcd
+
+  # bonus_subtotal:
+  #   bonus_award_subtotal:
+  #     target: lcd
+
+  # bonus_multiplier:
+  #   bonus_award_multiplier:
+  #     target: lcd
+
+  # bonus_total:
+  #   bonus_award_total:
+  #     target: lcd
+
+
+

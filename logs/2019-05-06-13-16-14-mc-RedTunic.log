@@ -1,0 +1,165 @@
+2019-05-06 13:16:14,760 : kivy : Factory: 194 symbols loaded
+2019-05-06 13:16:14,765 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2019-05-06 13:16:14,948 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2019-05-06 13:16:14,948 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2019-05-06 13:16:14,969 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-05-06 13:16:14,970 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2019-05-06 13:16:14,970 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2019-05-06 13:16:15,074 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-05-06 13:16:15,075 : kivy : Video: Provider: gstplayer
+2019-05-06 13:16:15,180 : kivy : Loading MPF-MC controller
+2019-05-06 13:16:15,180 : mpfmc : Mission Pinball Framework Media Controller v0.53.0-dev.0
+2019-05-06 13:16:15,181 : mpfmc : Mission Pinball Framework Game Engine v0.53.0-dev.16
+2019-05-06 13:16:15,181 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-05-06 13:16:15,182 : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config
+2019-05-06 13:16:15,182 : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-05-06 13:16:15,182 : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-06 13:16:15,291 : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-06 13:16:15,307 : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.
+2019-05-06 13:16:15,307 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-05-06 13:16:15,380 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config
+2019-05-06 13:16:15,380 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-05-06 13:16:15,619 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-05-06 13:16:15,622 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-05-06 13:16:15,644 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-05-06 13:16:15,647 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-05-06 13:16:15,731 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-05-06 13:16:15,739 : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\33abdcfcf65e636611bd498b89cbbd0e.mpf_cache
+2019-05-06 13:16:15,739 : mpfmc : Starting clock at 60.0Hz
+2019-05-06 13:16:15,759 : kivy : Text: Provider: sdl2
+2019-05-06 13:16:15,819 : kivy : Window: Provider: sdl2
+2019-05-06 13:16:15,876 : kivy : GL: Using the "OpenGL" graphics system
+2019-05-06 13:16:17,262 : kivy : GL: GLEW initialization succeeded
+2019-05-06 13:16:17,263 : kivy : GL: available extensions: b'GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_blend_color GL_EXT_abgr GL_EXT_texture3D GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_SGIS_texture_edge_clamp GL_SGIS_generate_mipmap GL_EXT_draw_range_elements GL_SGIS_texture_lod GL_EXT_rescale_normal GL_EXT_packed_pixels GL_EXT_texture_edge_clamp GL_EXT_separate_specular_color GL_ARB_multitexture GL_EXT_texture_env_combine GL_EXT_bgra GL_EXT_blend_func_separate GL_EXT_secondary_color GL_EXT_fog_coord GL_EXT_texture_env_add GL_ARB_texture_cube_map GL_ARB_transpose_matrix GL_ARB_texture_env_add GL_IBM_texture_mirrored_repeat GL_EXT_multi_draw_arrays GL_NV_blend_square GL_ARB_texture_compression GL_3DFX_texture_compression_FXT1 GL_EXT_texture_filter_anisotropic GL_ARB_texture_border_clamp GL_ARB_point_parameters GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_texture_env_crossbar GL_EXT_texture_compression_s3tc GL_ARB_shadow GL_ARB_window_pos GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_ARB_vertex_program GL_EXT_texture_rectangle GL_ARB_fragment_program GL_EXT_stencil_two_side GL_ATI_separate_stencil GL_ARB_vertex_buffer_object GL_EXT_texture_lod_bias GL_ARB_occlusion_query GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_texture_non_power_of_two GL_ARB_vertex_shader GL_NV_texgen_reflection GL_ARB_point_sprite GL_EXT_blend_equation_separate GL_ARB_depth_texture GL_ARB_texture_rectangle GL_ARB_draw_buffers GL_ARB_color_buffer_float GL_ARB_half_float_pixel GL_ARB_texture_float GL_ARB_pixel_buffer_object GL_EXT_framebuffer_object GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_EXT_draw_buffers2 GL_WIN_swap_hint GL_EXT_texture_sRGB GL_ARB_multisample GL_EXT_packed_float GL_EXT_texture_shared_exponent GL_ARB_texture_rg GL_ARB_texture_compression_rgtc GL_NV_conditional_render GL_EXT_texture_swizzle GL_ARB_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_ARB_depth_buffer_float GL_EXT_transform_feedback GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_ARB_framebuffer_object GL_EXT_texture_array GL_EXT_texture_integer GL_ARB_map_buffer_range GL_EXT_texture_snorm GL_INTEL_performance_queries GL_ARB_vertex_array_object '
+2019-05-06 13:16:17,264 : kivy : GL: glShaderBinary is not available
+2019-05-06 13:16:17,264 : kivy : GL: Backend used <glew>
+2019-05-06 13:16:17,264 : kivy : GL: OpenGL version <b'3.0.0 - Build 8.15.10.2342'>
+2019-05-06 13:16:17,264 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-05-06 13:16:17,264 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics Family'>
+2019-05-06 13:16:17,264 : kivy : GL: OpenGL parsed version: 3, 0
+2019-05-06 13:16:17,265 : kivy : GL: Shading version <b'1.30  - Intel Build 8.15.10.2342'>
+2019-05-06 13:16:17,265 : kivy : GL: Texture max size <4096>
+2019-05-06 13:16:17,265 : kivy : GL: Texture max units <16>
+2019-05-06 13:16:17,320 : kivy : Shader: Fragment compiled successfully
+2019-05-06 13:16:17,320 : kivy : Shader: Vertex compiled successfully
+2019-05-06 13:16:17,377 : kivy : ImageSDL2: Load <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\data\glsl\default.png>
+2019-05-06 13:16:17,379 : kivy : Window: auto add sdl2 input provider
+2019-05-06 13:16:17,380 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-05-06 13:16:17,390 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-05-06 13:16:17,391 : kivy : Resource: add <C:\Users\Wilder\zelda\fonts> in path list
+2019-05-06 13:16:17,391 : kivy : Resource: add <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\fonts> in path list
+2019-05-06 13:16:17,391 : SoundSystem : Loading the Sound System
+2019-05-06 13:16:17,824 : AudioInterface : Initialized
+2019-05-06 13:16:17,824 : AudioInterface : Loaded SDL 2.0.5
+2019-05-06 13:16:17,824 : AudioInterface : Loaded SDL_Mixer 2.0.1
+2019-05-06 13:16:17,824 : AudioInterface : Loaded GStreamer 1.10.2.0
+2019-05-06 13:16:17,824 : AudioInterface : Loaded GLib 2.48.1
+2019-05-06 13:16:17,825 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2019-05-06 13:16:17,825 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2019-05-06 13:16:17,825 : Track : Allocated track audio buffer (4096 bytes)
+2019-05-06 13:16:17,825 : Track.0.TrackStandard.music : Created Track 0 music with the following settings: simultaneous_sounds = 3, volume = 0.500000
+2019-05-06 13:16:17,825 : AudioInterface : The 'music' standard track has successfully been created.
+2019-05-06 13:16:17,826 : Track : Allocated track audio buffer (4096 bytes)
+2019-05-06 13:16:17,826 : Track.1.TrackStandard.voice : Created Track 1 voice with the following settings: simultaneous_sounds = 1, volume = 0.700000
+2019-05-06 13:16:17,826 : AudioInterface : The 'voice' standard track has successfully been created.
+2019-05-06 13:16:17,826 : Track : Allocated track audio buffer (4096 bytes)
+2019-05-06 13:16:17,826 : Track.2.TrackStandard.sfx : Created Track 2 sfx with the following settings: simultaneous_sounds = 8, volume = 0.900000
+2019-05-06 13:16:17,826 : AudioInterface : The 'sfx' standard track has successfully been created.
+2019-05-06 13:16:17,826 : AudioInterface : Enabling audio playback
+2019-05-06 13:16:17,829 : kivy : App: Loading kv <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mpfmc.kv>
+2019-05-06 13:16:17,829 : kivy : App: kv <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mpfmc.kv> not found
+2019-05-06 13:16:17,830 : kivy : Base: Create provider from mouse,multitouch_on_demand
+2019-05-06 13:16:17,830 : kivy : Base: Create provider from wm_touch
+2019-05-06 13:16:17,830 : kivy : Base: Create provider from wm_pen
+2019-05-06 13:16:17,830 : kivy : Base: Start application main loop
+2019-05-06 13:16:17,831 : EventManager : Event: ======'display_lcd_initialized'====== Args={}
+2019-05-06 13:16:17,844 : mpfmc : Display: Setting 'lcd' as default display
+2019-05-06 13:16:17,855 : EventManager : Event: ======'displays_initialized'====== Args={}
+2019-05-06 13:16:17,857 : EventManager : Event: ======'slide_lcd_blank_created'====== Args={}
+2019-05-06 13:16:17,857 : EventManager : Event: ======'display_lcd_ready'====== Args={}
+2019-05-06 13:16:17,871 : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-05-06 13:16:17,915 : EventManager : Event: ======'mc_ready'====== Args={}
+2019-05-06 13:16:17,915 : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-05-06 13:16:17,917 : ModeController : Found MPF Mode folders: {'attract': 'attract', 'bonus': 'bonus', 'carousel': 'carousel', 'credits': 'credits', 'game': 'game', 'high_score': 'high_score', 'match': 'match', 'service': 'service', 'tilt': 'tilt'}
+2019-05-06 13:16:17,922 : ModeController : Found Machine-specific Mode folders: {'2ballescape': '2ballescape', '2ballqualifier': '2ballqualifier', '5waycombotracker': '5waycombotracker', 'agahnim_multiball': 'agahnim_multiball', 'attract': 'attract', 'attract_carousel': 'attract_carousel', 'ball_hold_tracker': 'ball_hold_tracker', 'ball_save': 'ball_save', 'base': 'base', 'bomb_finder': 'bomb_finder', 'bottle_filler': 'bottle_filler', 'darkworld': 'darkworld', 'darkworld2': 'darkworld2', 'escape': 'escape', 'escapehurryup': 'escapehurryup', 'escape_starter': 'escape_starter', 'extraball': 'extraball', 'final_hold': 'final_hold', 'gameoverplayer': 'gameoverplayer', 'game_ender_mode': 'game_ender_mode', 'ganon_battle': 'ganon_battle', 'heartmeter': 'heartmeter', 'heart_tracker': 'heart_tracker', 'high_score': 'high_score', 'item_tracker': 'item_tracker', 'light_world': 'light_world', 'lost_woods': 'lost_woods', 'lost_woods_starter': 'lost_woods_starter', 'master_sword_buildup': 'master_sword_buildup', 'mode_tracker': 'mode_tracker', 'music_player': 'music_player', 'playfield_multiplier': 'playfield_multiplier', 'rupee2x_finder': 'rupee2x_finder', 'rupee3x_finder': 'rupee3x_finder', 'rupee_finder': 'rupee_finder', 'shop': 'shop', 'shots': 'shots', 'skillshot_ballsave': 'skillshot_ballsave', 'skill_shot': 'skill_shot', 'slide_tracker': 'slide_tracker', 'unusual_show_tracker': 'unusual_show_tracker', 'video_player': 'video_player'}
+2019-05-06 13:16:17,922 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-05-06 13:16:17,923 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-05-06 13:16:17,925 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-05-06 13:16:17,927 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-05-06 13:16:17,936 : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\base\config\base.yaml
+2019-05-06 13:16:17,937 : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\base\config\base.yaml.
+2019-05-06 13:16:17,937 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\base\config\base.yaml
+2019-05-06 13:16:18,010 : kivy : Base: Leaving application in progress...
+2019-05-06 13:16:18,010 : kivy : Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x0000000004FD4908>>, priority=1, kwargs={}, key=UUID('c3a33169-4e3a-44f0-9980-70f303a61390'), condition=None, blocking_facility=None) for event init_phase_2
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 104, in get_single_data
+    return self.construct_document(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 114, in construct_document
+    for dummy in generator:
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 611, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "x" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\base\\config\\base.yaml", line 151, column 5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 657, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mode_controller.py", line 59, in _load_modes
+    self.mc.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mode_controller.py", line 132, in _load_mode
+    store_to_cache=self.mc.options['create_config_cache'], ignore_unknown_sections=True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 212, in load
+    raise ValueError(msg)
+ValueError: Error found in file C:\Users\Wilder\zelda\modes\base\config\base.yaml: 'Key "x" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\modes\\base\\config\\base.yaml", line 151, column 5'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\commands\mc.py", line 209, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\app.py", line 826, in run
+    runTouchApp()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 502, in runTouchApp
+    EventLoop.window.mainloop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 727, in mainloop
+    self._mainloop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\core\window\window_sdl2.py", line 460, in _mainloop
+    EventLoop.idle()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\base.py", line 337, in idle
+    Clock.tick()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\clock.py", line 581, in tick
+    self._process_events()
+  File "kivy\_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\uix\display.py", line 200, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 336, in displays_initialized
+    self._init()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 380, in _init
+    self.events.process_event_queue()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 738, in process_event_queue
+    **event[3])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 703, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 659, in _run_handlers
+    raise Exception("Exception while processing {} for event {}".format(handler, event)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x0000000004FD4908>>, priority=1, kwargs={}, key=UUID('c3a33169-4e3a-44f0-9980-70f303a61390'), condition=None, blocking_facility=None) for event init_phase_2
+2019-05-06 13:16:18,064 : kivy : Stopping child threads... (1 remaining)
+2019-05-06 13:16:18,865 : kivy : All child threads stopped.

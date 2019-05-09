@@ -315,8 +315,23 @@ slide_player:
   slide_ganonintro_removed:
     ganontwirl:
       target: lcd
-      expire: 30s
-
+      expire: 150s
+  slide_ganon_lane1_video_removed:
+    ganontwirl:
+      target: lcd
+      expire: 150s
+  slide_ganon_lane2_video_removed:
+    ganontwirl:
+      target: lcd
+      expire: 150s
+  slide_ganon_lane3_video_removed:
+    ganontwirl:
+      target: lcd
+      expire: 150s
+  slide_ganon_lane4_video_removed:
+    ganontwirl:
+      target: lcd
+      expire: 150s
   final_blow_hit:
     finalblowvideo:
       target: lcd

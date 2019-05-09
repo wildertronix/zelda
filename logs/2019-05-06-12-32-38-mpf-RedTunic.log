@@ -1,0 +1,43 @@
+2019-05-06 12:32:38,137 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.0-dev.16
+2019-05-06 12:32:38,138 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-05-06-12-32-38-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-05-06 12:32:38,138 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-05-06 12:32:38,138 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-05-06 12:32:38,138 : INFO : Machine : Platform: win32
+2019-05-06 12:32:38,138 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-05-06 12:32:38,138 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-05-06 12:32:38,139 : INFO : Machine : Machine config file #1: config.yaml
+2019-05-06 12:32:38,141 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-05-06 12:32:38,144 : DEBUG : asyncio : Using selector: SelectSelector
+2019-05-06 12:32:38,145 : INFO : Machine : Initialise MPF.
+2019-05-06 12:32:38,193 : DEBUG : FAST : Configuring FAST hardware.
+2019-05-06 12:32:38,406 : INFO : FAST : Connecting to \\.\COM11 at 921600bps
+2019-05-06 12:32:38,464 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 703, in initialise_mpf
+    raise init.exception()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 217, in initialise
+    yield from self.initialise_core_and_hardware()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 212, in initialise_core_and_hardware
+    yield from self._initialize_platforms()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 306, in _initialize_platforms
+    result.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\platforms\fast\fast.py", line 162, in initialize
+    yield from self._connect_to_hardware()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\platforms\fast\fast.py", line 234, in _connect_to_hardware
+    yield from comm.connect()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 40, in connect
+    yield from self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 49, in _connect_to_hardware
+    self.reader, self.writer = yield from connector
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\clock.py", line 151, in open_serial_connection
+    **kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\coroutines.py", line 212, in coro
+    res = func(*args, **kw)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\serial\__init__.py", line 88, in serial_for_url
+    instance.open()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port '\\\\.\\COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2019-05-06 12:32:38,532 : INFO : root : MPF run loop ended.

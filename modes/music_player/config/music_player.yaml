@@ -173,7 +173,37 @@ sound_player:
       action: stop
       fade_out: 2s
 
-
+  bonus_start:
+    timeoffalling:
+      action: stop
+      fade_out: 1s
+    hyrulecastle:
+      action: stop
+      fade_out: 1s
+    light_world_theme:
+      action: stop
+      fade_out: 1s
+    rainout:
+      action: stop
+      fade_out: 1s
+    rainin:
+      action: stop
+      fade_out: 1s
+    forest:
+      action: stop
+      fade_out: 1s
+    battle:
+      action: stop
+      fade_out: 1s
+    darkworld:
+      action: stop
+      fade_out: 1s
+    darkworld2:
+      action: stop
+      fade_out: 1s
+    ganonbattle:
+      action: stop
+      fade_out: 1s
 
 
 

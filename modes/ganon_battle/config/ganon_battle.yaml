@@ -1,8 +1,8 @@
 #config_version=5
 
 mode: 
-  start_events: ball_started #start_ganon_battle  
-  stop_events: game_will_end
+  start_events: start_ganon_battle  
+  stop_events: mode_final_hold_started
   priority: 3000
   restart_on_next_ball: true
 
@@ -12,25 +12,7 @@ event_player:
   ganon_lane_complete{current_player.ganon_lane_count == 2}: ganon_lane2_video
   ganon_lane_complete{current_player.ganon_lane_count == 3}: ganon_lane3_video
   ganon_lane_complete{current_player.ganon_lane_count == 4}: ganon_lane4_video
-  timer_countdown_to_trifoceshow_complete: triforce_ambiance
-  timer_countdown_to_gameover_complete: wilder_says_make_the_game_end
-  # final_blow_hit: hold_final_ball
 
-
-# queue_relay_player:
-#   ball_device_bd_cranehole_ball_eject_attempt:
-#     wait_for: game_will_end
-#     post: goodending
-
-timers:
-  countdown_to_gameover:
-    start_value: 141
-    end_value: 0
-    tick_interval: 1s
-    direction: down
-    control_events:
-      - action: start
-        event: final_blow_hit
 
 ball_saves:
   final_ballsave:
@@ -317,10 +299,6 @@ show_player:
       speed: 13
       loops: 0
 
-  triforce_ambiance:
-    triforce_ambiance_show:
-      speed: 2
-      loops: -1
 
 
 #adjust speed times on these for chaos and to speed up shows as they are near complete

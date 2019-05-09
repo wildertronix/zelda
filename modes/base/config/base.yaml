@@ -134,6 +134,202 @@ show_player:
     skillshot_timing_crawl:
       action: stop
 
+widget_player:
+  mode_base_started:
+    transparentbluependant:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 150
+        y: 650
+    transparentgreenpendant:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 75
+        y: 525
+    transparentredpendant:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 225
+        y: 525
+    transparentcrystal1:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1050
+        y: 650
+    transparentcrystal2:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1150
+        y: 650
+    transparentcrystal3:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1000
+        y: 580
+    transparentcrystal4:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1100
+        y: 580
+    transparentcrystal5:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1200
+        y: 580
+    transparentcrystal6:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1050
+        y: 510
+    transparentcrystal7:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1150
+        y: 510
+  first_pendant_found:
+    greenpendant:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 75
+        y: 525
+  second_pendant_found:
+    bluependant:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 150
+        y: 650
+  third_pendant_found:
+    redpendant:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 225
+        y: 525
+  maiden_1_rescued:
+    crystal1:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 1050
+        y: 650
+  maiden_2_rescued:
+    crystal2:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 1150
+        y: 650
+  maiden_3_rescued:
+    crystal3:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 1000
+        y: 580
+  maiden_4_rescued:
+    crystal4:
+      slide: slide_2
+      widget_settings:
+        z: 3
+        x: 1100
+        y: 580
+  maiden_5_rescued:
+    crystal5:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1200
+        y: 580
+  maiden_6_rescued:
+    crystal6:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1050
+        y: 510
+  maiden_7_rescued:
+    crystal7:
+      slide: slide_2
+      widget_settings:
+        z: 2
+        x: 1150
+        y: 510
+widgets:
+  transparentbluependant:
+  - type: image
+    image: transparentbluependant
+  transparentgreenpendant:
+  - type: image
+    image: transparentgreenpendant
+  transparentredpendant:
+  - type: image
+    image: transparentredpendant
+  greenpendant:
+  - type: image
+    image: greenpendant
+  bluependant:
+  - type: image
+    image: bluependant
+  redpendant:
+  - type: image
+    image: redpendant
+  transparentcrystal1:
+  - type: image
+    image: transparentcrystal1
+  transparentcrystal2:
+  - type: image
+    image: transparentcrystal2
+  transparentcrystal3:
+  - type: image
+    image: transparentcrystal3
+  transparentcrystal4:
+  - type: image
+    image: transparentcrystal4
+  transparentcrystal5:
+  - type: image
+    image: transparentcrystal5
+  transparentcrystal6:
+  - type: image
+    image: transparentcrystal6
+  transparentcrystal7:
+  - type: image
+    image: transparentcrystal7
+  crystal1:
+  - type: image
+    image: crystal1
+  crystal2:
+  - type: image
+    image: crystal2
+  crystal3:
+  - type: image
+    image: crystal3
+  crystal4:
+  - type: image
+    image: crystal4
+  crystal5:
+  - type: image
+    image: crystal5
+  crystal6:
+  - type: image
+    image: crystal6
+  crystal7:
+  - type: image
+    image: crystal7
+
+
+
 
 slides:
 
@@ -142,24 +338,65 @@ slides:
     text: (score)
     number_grouping: true
     min_digits: 2
-    font_size: 288
+    font_size: 244
     style: hyruletext
+    x: center 
+    y: center-50
   - type: text
     text: PLAYER (number)
-    anchor_y: bottom
-    anchor_x: left
+    y: 50
+    x: 160
     style: hyruletext
-    x: left
-    y: bottom
     font_size: 60
+    color: gold
   - type: text
     text: BALL (ball)
-    anchor_y: bottom
-    anchor_x: right
     style: hyruletext
-    x: right
-    y: bottom
+    color: gold
+    x: 1160
+    y: 50
     font_size: 60
+  # - type: image
+  #   image: transparentgreenpendant
+  #   x: 75
+  #   y: 525
+  # - type: image
+  #   image: transparentbluependant
+  #   x: 150
+  #   y: 650
+  # - type: image
+  #   image: transparentredpendant
+  #   x: 225
+  #   y: 525
+  # - type: image
+  #   image: transparentcrystal1
+  #   x: 1050
+  #   y: 650
+  # - type: image
+  #   image: transparentcrystal2
+  #   x: 1150
+  #   y: 650
+  # - type: image
+  #   image: transparentcrystal3
+  #   x: 1000
+  #   y: 580
+  # - type: image
+  #   image: transparentcrystal4
+  #   x: 1100
+  #   y: 580
+  # - type: image
+  #   image: transparentcrystal5
+  #   x: 1200
+  #   y: 580
+  # - type: image
+  #   image: transparentcrystal6
+  #   x: 1050
+  #   y: 510
+  # - type: image
+  #   image: transparentcrystal7
+  #   x: 1150
+  #   y: 510
+
 
   slide_3:
   - type: text

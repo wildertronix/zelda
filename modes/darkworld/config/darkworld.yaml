@@ -760,3 +760,19 @@ shot_profiles:
 #   slide_maiden7_removed:
 #     darkworld2_slide:
 #       loops: 0
+
+variable_player:
+  maiden_1_rescued:
+    maiden_count: 1
+  maiden_2_rescued:
+    maiden_count: 1
+  maiden_3_rescued:
+    maiden_count: 1
+  maiden_4_rescued:
+    maiden_count: 1
+  maiden_5_rescued:
+    maiden_count: 1
+  maiden_6_rescued:
+    maiden_count: 1
+  maiden_7_rescued:
+    maiden_count: 1
