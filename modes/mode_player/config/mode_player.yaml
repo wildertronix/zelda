@@ -1,0 +1,38 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  stop_events: game_ending
+  priority: 100
+
+event_player:
+  ball_started{current_player.mode1_qualifier_variable ==1 and current_player.mode1_variable == 0}: begin_escape
+  ball_started{current_player.mode1_variable ==1 and current_player.mode2_variable == 0}: multiball_lock_2ballescape_locked_ball
+  ball_started{current_player.mode2_variable == 1 and current_player.mode2_part2_variable == 0}: flippers_alive
+  ball_started{current_player.mode2_part2_variable ==1 and current_player.mode3_variable == 0}: find_master_sword
+  ball_started{current_player.mode3_variable == 1 and current_player.mode4_variable == 0}: start_lost_woods
+  ball_started{current_player.mode4_variable == 1 and current_player.mode5_variable == 0}: multiball_agahnim_multiball_started
+  ball_started{current_player.mode5_variable == 1 and current_player.mode5_variable ==0}: slide_agahnimdefeatedvideo_removed
+  ball_started{current_player.mode5_part2_variable == 1 and current_player.mode6_variable == 0}: slide_darkworld2_slide_active
+  ball_started{current_player.mode6_variable == 1}: start_ganon_battle
+
+
+variable_player:
+  begin_escape:
+    mode1_qualifier_variable: 1
+  multiball_lock_2ballescape_locked_ball:
+    mode1_variable: 1
+  flippers_alive:
+    mode2_variable: 1
+  find_master_sword:
+    mode2_part2_variable: 1
+  start_lost_woods:
+    mode3_variable: 1
+  multiball_agahnim_multiball_started:
+    mode4_variable: 1
+  slide_agahnimdefeatedvideo_removed:
+    mode5_variable: 1
+  slide_darkworld2_slide_active:
+    mode5_part2_variable: 1
+  start_ganon_battle:
+    mode6_variable: 1

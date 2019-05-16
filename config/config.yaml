@@ -31,6 +31,7 @@ modes:
 - item_tracker
 - slide_tracker
 - mode_tracker
+- mode_player
 - heart_tracker
 - bomb_finder
 - ball_hold_tracker
@@ -70,27 +71,7 @@ displays:
     default: true
 
 sound_player:
-  game_will_end:
-    timeoffalling:
-      action: stop
-    hyrulecastle:
-      action: stop
-    light_world_theme:
-      action: stop
-    rainout:
-      action: stop
-    rainin:
-      action: stop
-    forest:
-      action: stop
-    battle:
-      action: stop
-    darkworld:
-      action: stop
-    darkworld2:
-      action: stop
-    ganonbattle:
-      action: stop
+
 
 
 sound_system:
@@ -241,3 +222,69 @@ player_vars:
   maiden_count:
     value_type: int
     initial_value: 0
+
+  initial_mode_start_variable:
+    value_type: int
+    initial_value: 0
+
+  begin_escape_variable:
+    value_type: int
+    initial_value: 0
+
+  light_world_start_variable:
+    value_type: int
+    initial_value: 0
+
+  lost_woods_start_variable:
+    value_type: int
+    initial_value: 0
+
+  agahnim_variable:
+    value_type: int
+    initial_value: 0
+
+  darkworld_variable:
+    value_type: int
+    initial_value: 0
+
+  ganonbattle_variable:
+    value_type: int
+    initial_value: 0
+
+  mode1_qualifier_variable:
+    value_type: int
+    initial_value: 0
+
+  mode1_variable:
+    value_type: int
+    initial_value: 0
+
+  mode2_variable:
+    value_type: int
+    initial_value: 0
+
+  mode2_part2_variable:
+    value_type: int
+    initial_value: 0
+
+  mode3_variable:
+    value_type: int
+    initial_value: 0
+
+  mode4_variable:
+    value_type: int
+    initial_value: 0
+
+  mode5_variable:
+    value_type: int
+    initial_value: 0
+
+  mode5_part2_variable:
+    value_type: int
+    initial_value: 0
+
+  mode6_variable:
+    value_type: int
+    initial_value: 0
+
+

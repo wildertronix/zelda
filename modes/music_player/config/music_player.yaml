@@ -5,9 +5,49 @@ mode:
   stop_events: game_ending
   priority: 100
 
+event_player:
+  ball_started{current_player.begin_escape_variable == 1 and current_player.mode_escapehurryup_stopped == 0}: mode1_music
+  ball_started{current_player.mode_escapehurryup_stopped == 1 and current_player.mode2_part2_variable == 0}: mode2_music
+  ball_started{current_player.mode2_part2_variable == 1 and current_player.lost_woods_start_variable == 0}: mode2_part2_music
+  ball_started{current_player.lost_woods_start_variable == 1 and current_player.agahnim_variable == 0}: mode3_music
+  ball_started{current_player.agahnim_variable == 1 and current_player.darkworld_variable == 0}: mode4_music
+  ball_started{current_player.darkworld_variable == 1 and current_player.darkworld2_variable == 0}: mode5_music
+  ball_started{current_player.darkworld2_variable == 1 and curent_player.ganonbattle_variable == 0}: mode5_part2_music
+  ball_started{current_player.ganonbattle_variable == 1}: mode6_music
+
+  begin_escape: stop_all_music mode1_music
+  mode_escapehurryup_stopped: stop_all_music mode2_music
+  start_town_music: stop_all_music mode2_part2_music
+  start_lost_woods: stop_all_music mode3_music
+  slide_agahnimstartvideo_created: stop_all_music mode4_music
+  slide_agahnimdefeatedvideo_removed: stop_all_music mode5_music
+  slide_darkworld2_slide_active: stop_all_music mode5_part2_music
+  slide_ganonintro_removed: stop_all_music mode6_music
+
+
+
+
+variable_player:
+  start_initial_slide_and_music:
+    initial_mode_start_variable: 1
+  begin_escape:
+    begin_escape_variable: 1
+  mode_escapehurryup_stopped:
+    light_world_start_variable: 1
+  start_town_music:
+    mode2_part2_variable: 1
+  start_lost_woods:
+    lost_woods_start_variable: 1
+  slide_agahnimstartvideo_created:
+    agahnim_variable: 1
+  slide_agahnimdefeatedvideo_removed:
+    darkworld_variable: 1
+  slide_ganonintro_removed:
+    ganonbattle_variable: 1
+
 sound_player:
 
-  start_initial_slide_and_music:
+  initial_music:
     timeoffalling:
       action: play
       loops: -1
@@ -15,7 +55,7 @@ sound_player:
       loops: 2
       volume: 0.5
 
-  begin_escape:
+  mode1_music:
     hyrulecastle:
       loops: -1
       volume: 0.5
@@ -29,6 +69,85 @@ sound_player:
     rainout:
       action: stop
       fade_out: 3s
+
+
+  mode_escapehurryup_started:
+    hyrulecastle:
+      action: stop
+      fade_out: 1s
+    princess_zeldas_rescue:
+      loops: -1
+      volume: 0.5
+
+  mode_light_world_started:
+    princess_zeldas_rescue:
+      action: stop
+      fade_out: 1s
+
+  mode2_music:
+    light_world_theme:
+      loops: -1
+      volume: 0.5
+
+  light_world_complete:
+    light_world_finished:
+      action: play
+      loops: 0
+      volume: 1.0
+    light_world_theme:
+      action: stop
+      fade_out: 1s
+
+  mode2_part2_music:
+    town_music:
+      action: play
+      loops: -1
+      volume: 0.5
+
+  mode3_music:
+    forest:
+      action: play
+      loops: 0
+      volume: 0.5
+
+    light_world_finished:
+      action: stop
+      fade_out: 2s
+
+    town_music:
+      action: stop
+      fade_out: 2s
+
+  mode4_music:
+    battle:
+      action: play
+      loops: -1
+      volume: 0.5
+
+  mode5_music:
+    battle:
+      action: stop
+      fade_out: 1s
+    darkworld:
+      action: play
+      loops: -1
+      volume: 0.5
+
+  mode5_part2_music:
+    darkworld2:
+      action: play
+      loops: -1
+      volume: 0.7
+  slide_ganonintro_active:
+    darkworld2:
+      action: stop
+      fade_out: 2s
+  mode6_music:
+    ganonbattle:
+      action: play
+      loops: -1
+      volume: 1.0
+
 
   ball_started{ball==3}:
     low_health:
@@ -71,72 +190,13 @@ sound_player:
       loops: 0
       volume: 1.0
 
-  light_world_complete:
-    light_world_finished:
-      action: play
-      loops: 0
-      volume: 1.0
-    light_world_theme:
-      action: stop
-      fade_out: 1s
 
-  start_town_music:
-    town_music:
-      action: play
-      loops: -1
-      volume: 0.5
 
   cue_3ball_multi:
     forest:
       action: stop
       fade_out: 2s
 
-  start_lost_woods:
-    forest:
-      action: play
-      loops: 0
-      volume: 0.5
-
-    light_world_finished:
-      action: stop
-      fade_out: 2s
-
-    town_music:
-      action: stop
-      fade_out: 2s
-
-  mode_escapehurryup_started:
-    hyrulecastle:
-      action: stop
-      fade_out: 1s
-    princess_zeldas_rescue:
-      loops: -1
-      volume: 0.5
-
-  mode_light_world_started:
-    princess_zeldas_rescue:
-      action: stop
-      fade_out: 1s
-
-  mode_escapehurryup_stopped:
-    light_world_theme:
-      loops: -1
-      volume: 0.5
-
-  slide_agahnimstartvideo_created:
-    battle:
-      action: play
-      loops: -1
-      volume: 0.5
-
-  slide_agahnimdefeatedvideo_removed:
-    battle:
-      action: stop
-      fade_out: 1s
-    darkworld:
-      action: play
-      loops: -1
-      volume: 0.5
 
   darkworld_zelda_rescue_ready_hit:
     darkworld:
@@ -153,27 +213,13 @@ sound_player:
       action: stop
       fade_out: 1s
 
-  slide_darkworld2_slide_active:
-    darkworld2:
-      action: play
-      loops: -1
-      volume: 0.7
-  slide_ganonintro_active:
-    darkworld2:
-      action: stop
-      fade_out: 2s
-  slide_ganonintro_removed:
-    ganonbattle:
-      action: play
-      loops: -1
-      volume: 1.0
 
   final_blow_hit:
     ganonbattle:
       action: stop
       fade_out: 2s
 
-  bonus_start:
+  stop_all_music:
     timeoffalling:
       action: stop
       fade_out: 1s
@@ -181,6 +227,9 @@ sound_player:
       action: stop
       fade_out: 1s
     light_world_theme:
+      action: stop
+      fade_out: 1s
+    town_music:
       action: stop
       fade_out: 1s
     rainout:
@@ -204,6 +253,41 @@ sound_player:
     ganonbattle:
       action: stop
       fade_out: 1s
+  bonus_start:
+    timeoffalling:
+      action: stop
+      fade_out: 1s
+    hyrulecastle:
+      action: stop
+      fade_out: 1s
+    light_world_theme:
+      action: stop
+      fade_out: 1s
+    town_music:
+      action: stop
+      fade_out: 1s
+    rainout:
+      action: stop
+      fade_out: 1s
+    rainin:
+      action: stop
+      fade_out: 1s
+    forest:
+      action: stop
+      fade_out: 1s
+    battle:
+      action: stop
+      fade_out: 1s
+    darkworld:
+      action: stop
+      fade_out: 1s
+    darkworld2:
+      action: stop
+      fade_out: 1s
+    ganonbattle:
+      action: stop
+      fade_out: 1s
+
 
 
 
