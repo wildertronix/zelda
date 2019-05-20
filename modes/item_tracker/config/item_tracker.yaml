@@ -40,19 +40,23 @@ event_player:
   bluemail_found{current_player.bluemail_count < 1}: set_bluemail_show
   redshield_found{current_player.redshield_count < 1}: set_redshield_show
 
+  flute_found{current_player.flute_count <1}: set_flute_show
+
   update_item_tracker{current_player.hookshot_count > 0 }: set_hookshot_show
   update_item_tracker{current_player.hammer_count > 0 }: set_hammer_show
   update_item_tracker{current_player.flippers_count > 0 }: set_flippers_show
   update_item_tracker{current_player.bluemail_count > 0 }: set_bluemail_show
   update_item_tracker{current_player.redshield_count > 0 }: set_redshield_show
 
-  5way_combo_complete: flute_found
+  update_item_tracker{current_player.flute_count > 0}: set_flute_show
+
   jar_extraball_earned: titanmitt_found
   heart_extraball_earned: mirrorshield_found
   flawless_agahnim: redmail_found
   all_items_found: cape_found
   unknown_wizardgoal: byrna_found
   unknown_wizardgoal2: somaria_found
+
 
 
 variable_player:
@@ -105,9 +109,11 @@ variable_player:
   redshield_found:
     redshield_count: 1
     total_item_count: 1
+
+
+
   flute_found:
     flute_count: 1
-
   redmail_found:
     redmail_count: 1
   mirrorshield_found:
@@ -120,6 +126,7 @@ variable_player:
     byrna_count: 1
   somaria_found:
     somaria_count: 1
+
 
 
 
@@ -243,3 +250,7 @@ show_player:
   slide_item5award_removed:
     mirror_found_slide:
       loops: 0
+
+  set_flute_show:
+    flute_lit:
+      loops: -1

@@ -1,4 +1,412 @@
 #config_version=5
+
+
+event_player:
+  mode_attract_started: play_attract_slide_1
+  play_attract_slide_1:  start_slide_cycle_timer
+  play_attract_slide_2:  start_slide_cycle_timer
+  play_attract_slide_3:  start_slide_cycle_timer
+  play_attract_slide_4:  start_slide_cycle_timer
+  play_attract_slide_5:  start_slide_cycle_timer
+  play_attract_slide_6:  start_slide_cycle_timer
+  play_attract_slide_7:  start_slide_cycle_timer
+  play_attract_slide_8:  start_slide_cycle_timer
+  play_attract_slide_9:  start_slide_cycle_timer
+  play_attract_slide_10:  start_slide_cycle_timer
+  play_attract_slide_11:  start_slide_cycle_timer
+  timer_slide_cycle_timer_complete:  play_next_attract_slide_right
+
+  play_next_attract_slide_right{machine.current_attract_slide==1}: play_attract_slide_2
+  play_next_attract_slide_right{machine.current_attract_slide==2}: play_attract_slide_3,  add_end_of_game_score_widgets|10ms
+  play_next_attract_slide_right{machine.current_attract_slide==3}: play_attract_slide_4
+  play_next_attract_slide_right{machine.current_attract_slide==4}: play_attract_slide_5
+  play_next_attract_slide_right{machine.current_attract_slide==5}: play_attract_slide_6
+  play_next_attract_slide_right{machine.current_attract_slide==6}: play_attract_slide_7
+  play_next_attract_slide_right{machine.current_attract_slide==7}: play_attract_slide_8
+  play_next_attract_slide_right{machine.current_attract_slide==8}: play_attract_slide_9
+  play_next_attract_slide_right{machine.current_attract_slide==9}: play_attract_slide_10
+  play_next_attract_slide_right{machine.current_attract_slide==10}: play_attract_slide_11
+  play_next_attract_slide_right{machine.current_attract_slide==11}: play_attract_slide_1
+  play_next_attract_slide_left{machine.current_attract_slide==1}: play_attract_slide_11
+  play_next_attract_slide_left{machine.current_attract_slide==2}: play_attract_slide_1
+  play_next_attract_slide_left{machine.current_attract_slide==3}: play_attract_slide_2
+  play_next_attract_slide_left{machine.current_attract_slide==4}: play_attract_slide_3,  add_end_of_game_score_widgets|10ms
+  play_next_attract_slide_left{machine.current_attract_slide==5}: play_attract_slide_4
+  play_next_attract_slide_left{machine.current_attract_slide==6}: play_attract_slide_5
+  play_next_attract_slide_left{machine.current_attract_slide==7}: play_attract_slide_6
+  play_next_attract_slide_left{machine.current_attract_slide==8}: play_attract_slide_7
+  play_next_attract_slide_left{machine.current_attract_slide==9}: play_attract_slide_8
+  play_next_attract_slide_left{machine.current_attract_slide==10}: play_attract_slide_9
+  play_next_attract_slide_left{machine.current_attract_slide==11}: play_attract_slide_10
+
+  rightflipperbutton_active: play_next_attract_slide_right
+  leftflipperbutton_active: play_next_attract_slide_left
+
+  timer_attract_slide_cycle_timer_complete: play_next_attract_slide_right
+
+  add_end_of_game_score_widgets{machine|player2_score > 0}: player_2_score
+
+
+
+widget_player:
+  play_attract_slide_3:
+    player1_score_widget:
+      slide: previous_game_scores
+      widget_settings:
+        z: 2
+
+  player_2_score: 
+    add_player_2_score_widget:
+      slide: previous_game_scores
+      widget_settings:
+        z: 3
+
+widgets:
+  player1_score_widget:
+    - type: text
+      text: Player 1
+      style: hyruletext
+      font_size: 80
+      y: 650
+      x: 175
+    - type: text
+      text: (machine|player1_score)
+      style: hyruletext
+      font_size: 80
+      y: 575
+      x: 175
+
+  add_player_2_score_widget:
+    - type: text
+      text: Player 2
+      style: hyruletext
+      font_size: 80
+      y: 650
+      x: 1105
+    - type: text
+      text: (machine|player2_score)
+      style: hyruletext
+      font_size: 80
+      y: 575
+      x: 1105
+
+
+
+timers:
+  slide_cylce_timer:
+    start_value: 0
+    end_value: 8
+    direction: up
+    tick_interval: 1s
+    control_events:
+      - action: restart
+        event: start_slide_cycle_timer
+
+variable_player:
+  play_attract_slide_1:
+    current_attract_slide:
+     int: 1
+     action: set_machine
+
+  play_attract_slide_2:
+    current_attract_slide:
+     int: 2
+     action: set_machine
+
+  play_attract_slide_3:
+    current_attract_slide:
+     int: 3
+     action: set_machine
+
+  play_attract_slide_4:
+    current_attract_slide:
+     int: 4
+     action: set_machine
+
+  play_attract_slide_5:
+    current_attract_slide:
+     int: 5
+     action: set_machine
+
+  play_attract_slide_6:
+    current_attract_slide:
+     int: 6
+     action: set_machine
+
+  play_attract_slide_7:
+    current_attract_slide:
+     int: 7
+     action: set_machine
+
+  play_attract_slide_8:
+    current_attract_slide:
+     int: 8
+     action: set_machine
+
+  play_attract_slide_9:
+    current_attract_slide:
+     int: 9
+     action: set_machine
+
+  play_attract_slide_10:
+    current_attract_slide:
+     int: 10
+     action: set_machine
+
+  play_attract_slide_11:
+    current_attract_slide:
+     int: 11
+     action: set_machine
+
+
+
+
+slide_player:
+  play_attract_slide_1:
+    hyrulechamp_slide:
+      target: lcd
+
+  play_attract_slide_2:
+    highscore_slide:
+      target: lcd
+
+  play_attract_slide_3:
+    previous_game_scores:
+      target: lcd
+
+  play_attract_slide_4:
+    awesome_slide:
+      target: lcd
+
+  play_attract_slide_5:
+    awesome_slide2:
+      target: lcd
+
+  play_attract_slide_6:
+    press_start:
+      target: lcd
+
+  play_attract_slide_7:
+    mpf_slide:
+      target: lcd
+
+  play_attract_slide_8:
+    fast_slide:
+      target: lcd
+
+  play_attract_slide_9:
+    special_thanks_slide:
+      target: lcd
+
+  play_attract_slide_10:
+    sp_slide:
+      target: lcd
+
+  play_attract_slide_11:
+    attract_video_slide:
+      target: lcd
+
+
+
+
+
+slides:
+  hyrulechamp_slide:
+    widgets:
+    - type: text
+      text: HYRULE CHAMPION
+      style: hyruletext
+      font_size: 125
+      y: 625
+      color: gold
+    - type: text
+      text: (machine|score1_name)
+      style: hyruletext
+      font_size: 125
+      y: 400
+      number_grouping: true
+      color: gold 
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: text
+      text: (machine|score1_value)
+      style: hyruletext
+      font_size: 125
+      y: 275
+      number_grouping: true
+      color: gold 
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+
+  highscore_slide:
+    widgets:
+    - type: text
+      text: HIGH SCORES
+      style: hyruletext
+      font_size: 100
+      y: 650
+      color: gold
+    - type: text
+      text: 1. (machine|score2_name) (machine|score2_value)
+      style: hyruletext
+      font_size: 80
+      y: 500
+      number_grouping: true
+      color: gold 
+    - type: text
+      text: 2. (machine|score3_name) (machine|score3_value)
+      style: hyruletext
+      font_size: 80
+      y: 400
+      number_grouping: true
+      color: gold 
+    - type: text
+      text: 3. (machine|score4_name) (machine|score4_value)
+      style: hyruletext
+      font_size: 80
+      y: 300
+      number_grouping: true
+      color: gold 
+    - type: text
+      text: 4. (machine|score5_name) (machine|score5_value)
+      style: hyruletext
+      font_size: 80
+      y: 200
+      number_grouping: true
+      color: gold 
+
+  previous_game_scores:
+    widgets:
+      - type: image
+        image: final_score_gif
+        x: middle
+        y: middle
+
+
+  awesome_slide:
+    widgets:
+    - type: text
+      text: The Legend of Zelda
+      style: hyruletext
+      font_size: 100
+    transition:
+       type: push
+       duration: 2s
+       direction: left
+
+  awesome_slide2:
+    widgets:
+    - type: text
+      text: A Link to the Past
+      style: hyruletext
+      font_size: 144
+    transition:
+       type: fade_back
+       duration: 3s
+
+  press_start:
+    widgets:
+    - type: Text
+      text: PRESS START
+      style: hyruletext
+      font_size: 72
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+    - type: Text
+      text: FREE PLAY
+      style: hyruletext
+      font_size: 72
+      color: green
+      y: 10
+      anchor_y: bottom
+    transition:
+       type: move_in
+       duration: 1s
+       direction: right
+
+  mpf_slide:
+    background_color: white
+    widgets:
+    - type: image
+      image: mpf_logo
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  fast_slide:
+    widgets:
+    - type: image
+      image: fast_logo
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  special_thanks_slide:
+    widgets:
+    - type: Text
+      text: Special Thanks To
+      color: White
+      anchor_y: bottom
+      style: hyruletext
+      font_size: 80
+    - type: Text
+      text: John Marsh
+      style: hyruletext
+      font_size: 144
+      color: Green
+      anchor_y: top
+
+  sp_slide:
+    widgets:
+    - type: Text
+      text: Save Point
+      color: red
+      anchor_y: bottom
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: Presents...
+      style: hyruletext
+      font_size: 200
+      color: red
+      anchor_y: top
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  attract_video_slide:
+    widgets:
+    - type: video
+      video: attractvideo
+      width: 1280
+      height: 720
+
 show_player:
   mode_attract_started:
 

@@ -44,6 +44,7 @@ sound_player:
   sw_slingshot: slingpool
   s_left_outlane_active: linkfall
   s_right_outlane_active: linkfall
+  skillshot_failed: error
 
 sound_pools:
   flippool:
@@ -89,11 +90,11 @@ show_player:
     gi:
       loops: -1
 
-  ball_ending:
+  bonus_start:
     ball_end:
       loops: 0
       speed: 15
-      block_queue: yes
+
 
   mode_2ballqualifier_started:
     escape_mode_flash:

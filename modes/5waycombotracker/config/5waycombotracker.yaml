@@ -1,8 +1,8 @@
 #config_version=5
 
 mode: 
-  start_events: mode_escape_started
-  stop_events: game_ending, 5way_combo_complete
+  start_events: begin_escape
+  stop_events: game_ending, flute_found
   priority: 2000
 
 event_player:
@@ -13,6 +13,7 @@ event_player:
   finished_5way_combo_shot5: disable_5way_shot5
   5way_combo_timer_complete: combo_expired
   mode_5waycombotracker_started: combo_enabled
+  5way_combo_complete: flute_found
 
 shots:
   5way_combo_e: #1

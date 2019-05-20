@@ -64,7 +64,7 @@ shots:
   lw_a_ramp:
     switch: s_optoa
     profile: lw_a_profile
-    disable_events: first_pendant_found
+    disable_events: second_pendant_found
 
   toppop:
     switch: s_toppop

@@ -139,7 +139,6 @@ sound_player:
   slide_zelda_found_removed: slide_txt_sfx
   start_2ball_multiball: slide_txt_sfx
   slide_bombvideo_removed: slide_txt_sfx
-  # heart_piece_earned: heart_piece_sfx
   award_heart_extraball: extraballsfx
   mode_light_world_started: slide_txt_sfx
   slide_lost_woods_start_movie_removed: slide_txt_sfx

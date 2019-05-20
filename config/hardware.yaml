@@ -634,25 +634,23 @@ lights:
       type: grb
       number: 197
 
-    apron1:
+    wizard_goal1:
       type: grb
       number: 198
-    apron2:
+    wizard_goal2:
       type: grb
       number: 199
-    apron3:
+    wizard_goal3:
       type: grb
       number: 200
-    apron4:
+    wizard_goal4:
       type: grb
       number: 201
-    apron5:
+    wizard_goal5:
       type: grb
       number: 202
-    apronn6:
+    wizard_goal6:
       type: grb
-      number: 203
-
 
 
 

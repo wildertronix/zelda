@@ -1,7 +1,7 @@
 #config_version=5
 
 mode_settings:
-  display_delay_ms: 1000ms
+  display_delay_ms: 800ms
   keep_multiplier: false
   bonus_entries:
     - event: bonus_items
@@ -17,6 +17,8 @@ mode_settings:
       score: 1000
       skip_if_zero: true
       player_score_entry: survived_ganon
+
+
 
 slide_player:
   bonus_start:
@@ -56,6 +58,31 @@ widget_player:
         x: 640
         y: 260
 
+  # bonus_subtotal:
+  #   bonus_subtotal_widget:
+  #     slide: bonus_award_start
+  #     widget_settings:
+  #       z: 5
+  #       x: 320
+  #       y: 160
+
+  # bonus_multiplier:
+  #   bonus_multiplier_widget:
+  #     slide: bonus_award_start
+  #     widget_settings:
+  #       z: 6
+  #       x: 640
+  #       y: 160
+
+  bonus_total:
+    bonus_total_widget:
+      slide: bonus_award_start
+      widget_settings:
+        z: 7
+        x: 640
+        y: 100
+
+
 widgets:
   bonus_items_widget:
   - type: text
@@ -63,12 +90,14 @@ widgets:
     style: hyruletext
     font_size: 80
     color: gold
+
   bonus_pendants_widget:
   - type: text
     text: Pendants - (pendant_count) X 5
     style: hyruletext
     font_size: 80
     color: gold
+
   bonus_crystals_widget:
   - type: text
     text: Crystals - (maiden_count) X 10
@@ -76,22 +105,45 @@ widgets:
     font_size: 80
     color: gold
 
+  # bonus_subtotal_widget:
+  # - type: text
+  #   text: Subtotal (score)
+  #   style: hyruletext
+  #   font_size: 80
+  #   color: gold
 
-  # bonus_subtotal:
-  #   bonus_award_subtotal:
-  #     target: lcd
+  # bonus_multiplier_widget:
+  # - type: text
+  #   text: X (multiplier)
+  #   style: hyruletext
+  #   font_size: 80
+  #   color: gold
 
-  # bonus_multiplier:
-  #   bonus_award_multiplier:
-  #     target: lcd
+  bonus_total_widget:
+  - type: text
+    text: Bonus Total (score)
+    style: hyruletext
+    font_size: 80
+    color: gold
 
-  # bonus_total:
-  #   bonus_award_total:
-  #     target: lcd
 
+sound_pools:
+  hurtpool:
+    load: preload
+    type: random
+    track: sfx
+    sounds: 
+      - linkhurt1
+      - linkhurt2
+      - linkhurt3
 
 
 sound_player:
-  bonus_items: pickup
-  bonus_pendants: throw
-  bonus_crystals: shatter
+  bonus_start{current_player.survived_ganon == 0}: hurtpool
+  bonus_start{current_player.survived_ganon == 1}: swordsilence
+  bonus_items: text_letter
+  bonus_pendants: text_letter
+  bonus_crystals: text_done
+  # bonus_subtotal: text_letter
+  # bonus_multiplier: text_done
+  bonus_total: warp

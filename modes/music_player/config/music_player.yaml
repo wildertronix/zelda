@@ -6,8 +6,9 @@ mode:
   priority: 100
 
 event_player:
-  ball_started{current_player.begin_escape_variable == 1 and current_player.mode_escapehurryup_stopped == 0}: mode1_music
-  ball_started{current_player.mode_escapehurryup_stopped == 1 and current_player.mode2_part2_variable == 0}: mode2_music
+  ball_started{current_player.initial_mode_start_variable == 1 and current_player.begin_escape_variable == 0}: initial_music
+  ball_started{current_player.begin_escape_variable == 1 and current_player.light_world_start_variable == 0}: mode1_music
+  ball_started{current_player.light_world_start_variable == 1 and current_player.mode2_part2_variable == 0}: mode2_music
   ball_started{current_player.mode2_part2_variable == 1 and current_player.lost_woods_start_variable == 0}: mode2_part2_music
   ball_started{current_player.lost_woods_start_variable == 1 and current_player.agahnim_variable == 0}: mode3_music
   ball_started{current_player.agahnim_variable == 1 and current_player.darkworld_variable == 0}: mode4_music
@@ -15,6 +16,7 @@ event_player:
   ball_started{current_player.darkworld2_variable == 1 and curent_player.ganonbattle_variable == 0}: mode5_part2_music
   ball_started{current_player.ganonbattle_variable == 1}: mode6_music
 
+  start_initial_slide_and_music: stop_all_music initial_music 
   begin_escape: stop_all_music mode1_music
   mode_escapehurryup_stopped: stop_all_music mode2_music
   start_town_music: stop_all_music mode2_part2_music
@@ -155,11 +157,6 @@ sound_player:
       loops: 7
       fade_out: 0.5s
 
-  ball_ending:
-    linkhurt:
-      loops: 0
-      volume: 0.5
-
   play_bomb_sfx: 
     bomb_spots_item:
       action: play
@@ -191,12 +188,10 @@ sound_player:
       volume: 1.0
 
 
-
   cue_3ball_multi:
     forest:
       action: stop
       fade_out: 2s
-
 
   darkworld_zelda_rescue_ready_hit:
     darkworld:
@@ -212,7 +207,6 @@ sound_player:
     darkworld_rescue:
       action: stop
       fade_out: 1s
-
 
   final_blow_hit:
     ganonbattle:

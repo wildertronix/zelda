@@ -42,6 +42,24 @@
         number_grouping: true
         color: gold 
 
+
+- duration: 10s
+  slides:
+    previous_game_scores:
+      widgets:
+        - type: text
+          text: Player 1
+          style: hyruletext
+          font_size: 80
+          y: 650
+          x: 100
+        - type: text
+          text: (player1_score)
+          style: hyruletext
+          font_size: 80
+          y: 575
+          x: 100
+
 - duration: 6s
   slides:
     awesome_slide:

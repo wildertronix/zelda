@@ -47,7 +47,7 @@ modes:
 - bottle_filler
 - skill_shot
 - skillshot_ballsave
-- attract_carousel
+# - attract_carousel
 - shop
 - ganon_battle
 - darkworld2
@@ -287,4 +287,7 @@ player_vars:
     value_type: int
     initial_value: 0
 
+  wizard_count:
+    value_type: int
+    initial_value: 0
 

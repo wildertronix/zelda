@@ -1,0 +1,236 @@
+2019-05-20 17:42:55,123 : INFO : Machine : Mission Pinball Framework Core Engine v0.53.0-dev.16
+2019-05-20 17:42:55,123 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': 'c:\\users\\wilder\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\mpf\\mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2019-05-20-17-42-55-mpf-RedTunic.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-05-20 17:42:55,124 : INFO : Machine : MPF path: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf
+2019-05-20 17:42:55,124 : INFO : Machine : Machine path: C:\Users\Wilder\zelda
+2019-05-20 17:42:55,124 : INFO : Machine : Platform: win32
+2019-05-20 17:42:55,124 : INFO : Machine : Python executable location: c:\users\wilder\appdata\local\programs\python\python36\python.exe
+2019-05-20 17:42:55,124 : INFO : Machine : Python version: 3.6.4 (64-bit)
+2019-05-20 17:42:55,124 : INFO : Machine : Machine config file #1: config.yaml
+2019-05-20 17:42:55,126 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\9bf880992bc5b85aa1bd2cc37b214e56.mpf_cache
+2019-05-20 17:42:55,129 : DEBUG : asyncio : Using selector: SelectSelector
+2019-05-20 17:42:55,130 : INFO : Machine : Initialise MPF.
+2019-05-20 17:42:55,170 : DEBUG : Virtual Platform : Configuring virtual hardware interface.
+2019-05-20 17:42:55,388 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,461 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\data/machine_vars.yaml
+2019-05-20 17:42:55,465 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 226, 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,465 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 94, 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,466 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.53.0-dev.16', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,466 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.53.0-dev.16, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,466 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.4', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,467 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,467 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,468 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,468 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,468 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2019-05-20 17:42:55,468 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-05-20 17:42:55,550 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\34c6448537d1c95c89cf73a07c0f99c9.mpf_cache
+2019-05-20 17:42:55,555 : DEBUG : ModeController : Loaded mode bottle_filler
+2019-05-20 17:42:55,556 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-05-20 17:42:55,562 : DEBUG : ModeController : Loaded mode darkworld
+2019-05-20 17:42:55,563 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\d9d23a2a9a3117f1553491692ff1c689.mpf_cache
+2019-05-20 17:42:55,568 : DEBUG : ModeController : Loaded mode playfield_multiplier
+2019-05-20 17:42:55,568 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\96294a9578657f44941f2a8ec647ae36.mpf_cache
+2019-05-20 17:42:55,572 : DEBUG : ModeController : Loaded mode rupee3x_finder
+2019-05-20 17:42:55,572 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\410e2f069e995e601a053ae1f865a8d9.mpf_cache
+2019-05-20 17:42:55,580 : DEBUG : ModeController : Loaded mode bonus
+2019-05-20 17:42:55,580 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-05-20 17:42:55,584 : DEBUG : ModeController : Loaded mode 2ballescape
+2019-05-20 17:42:55,584 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-05-20 17:42:55,588 : DEBUG : ModeController : Loaded mode heart_tracker
+2019-05-20 17:42:55,588 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-05-20 17:42:55,592 : DEBUG : ModeController : Loaded mode heartmeter
+2019-05-20 17:42:55,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\27a949ddf2d3e5eeb9247bd991aba200.mpf_cache
+2019-05-20 17:42:55,596 : DEBUG : ModeController : Loaded mode darkworld2
+2019-05-20 17:42:55,596 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-05-20 17:42:55,600 : DEBUG : ModeController : Loaded mode lost_woods
+2019-05-20 17:42:55,600 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-05-20 17:42:55,604 : DEBUG : ModeController : Loaded mode music_player
+2019-05-20 17:42:55,604 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-05-20 17:42:55,608 : DEBUG : ModeController : Loaded mode agahnim_multiball
+2019-05-20 17:42:55,608 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\696ab9654b1d369e3597af15c079ad3b.mpf_cache
+2019-05-20 17:42:55,613 : DEBUG : ModeController : Loaded mode ganon_battle
+2019-05-20 17:42:55,613 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-05-20 17:42:55,617 : DEBUG : ModeController : Loaded mode ball_save
+2019-05-20 17:42:55,617 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-05-20 17:42:55,621 : DEBUG : ModeController : Loaded mode ball_hold_tracker
+2019-05-20 17:42:55,621 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-05-20 17:42:55,625 : DEBUG : ModeController : Loaded mode extraball
+2019-05-20 17:42:55,625 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-05-20 17:42:55,629 : DEBUG : ModeController : Loaded mode 5waycombotracker
+2019-05-20 17:42:55,630 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-05-20 17:42:55,638 : DEBUG : ModeController : Loaded mode high_score
+2019-05-20 17:42:55,638 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-05-20 17:42:55,643 : DEBUG : ModeController : Loaded mode slide_tracker
+2019-05-20 17:42:55,643 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6caaa2c03f737135abd403644138525e.mpf_cache
+2019-05-20 17:42:55,648 : DEBUG : ModeController : Loaded mode shop
+2019-05-20 17:42:55,648 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-05-20 17:42:55,653 : DEBUG : ModeController : Loaded mode base
+2019-05-20 17:42:55,653 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-05-20 17:42:55,657 : DEBUG : ModeController : Loaded mode escapehurryup
+2019-05-20 17:42:55,657 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-05-20 17:42:55,661 : DEBUG : ModeController : Loaded mode gameoverplayer
+2019-05-20 17:42:55,661 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\562f2c62ffb495bc414930beede29530.mpf_cache
+2019-05-20 17:42:55,668 : DEBUG : ModeController : Loaded mode game_ender_mode
+2019-05-20 17:42:55,668 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\683810c84ecff8b3923f4991066156d6.mpf_cache
+2019-05-20 17:42:55,672 : DEBUG : ModeController : Loaded mode mode_player
+2019-05-20 17:42:55,672 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-05-20 17:42:55,676 : DEBUG : ModeController : Loaded mode light_world
+2019-05-20 17:42:55,676 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\3485f9bf4bb8d1d21be6de1438e091ba.mpf_cache
+2019-05-20 17:42:55,680 : DEBUG : ModeController : Loaded mode skillshot_ballsave
+2019-05-20 17:42:55,680 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6eb8b6e4728e10ce756703e43167d298.mpf_cache
+2019-05-20 17:42:55,684 : DEBUG : ModeController : Loaded mode rupee2x_finder
+2019-05-20 17:42:55,684 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-05-20 17:42:55,688 : DEBUG : ModeController : Loaded mode mode_tracker
+2019-05-20 17:42:55,688 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-05-20 17:42:55,693 : DEBUG : ModeController : Loaded mode video_player
+2019-05-20 17:42:55,693 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-05-20 17:42:55,700 : DEBUG : ModeController : Loaded mode game
+2019-05-20 17:42:55,700 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-05-20 17:42:55,705 : DEBUG : ModeController : Loaded mode bomb_finder
+2019-05-20 17:42:55,705 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-05-20 17:42:55,710 : DEBUG : ModeController : Loaded mode 2ballqualifier
+2019-05-20 17:42:55,710 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-05-20 17:42:55,715 : DEBUG : ModeController : Loaded mode lost_woods_starter
+2019-05-20 17:42:55,715 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-05-20 17:42:55,720 : DEBUG : ModeController : Loaded mode item_tracker
+2019-05-20 17:42:55,720 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c5e5b78d841dff96974ddb92030af0a9.mpf_cache
+2019-05-20 17:42:55,725 : DEBUG : ModeController : Loaded mode skill_shot
+2019-05-20 17:42:55,725 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\ee4432fc011abe94968ff81513361e18.mpf_cache
+2019-05-20 17:42:55,730 : DEBUG : ModeController : Loaded mode final_hold
+2019-05-20 17:42:55,730 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-05-20 17:42:55,734 : DEBUG : ModeController : Loaded mode master_sword_buildup
+2019-05-20 17:42:55,734 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fc1a42fdd0d487285862f5b943c745e.mpf_cache
+2019-05-20 17:42:55,739 : DEBUG : ModeController : Loaded mode rupee_finder
+2019-05-20 17:42:55,739 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\modes\attract\config\attract.yaml
+2019-05-20 17:42:55,740 : INFO : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2019-05-20 17:42:55,740 : DEBUG : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2019-05-20 17:42:55,744 : INFO : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2019-05-20 17:42:55,744 : INFO : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\modes\attract\config\attract.yaml.
+2019-05-20 17:42:55,744 : DEBUG : YAML File Interface : Loading file: C:\Users\Wilder\zelda\modes\attract\config\attract.yaml
+2019-05-20 17:42:55,775 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe... column 10',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe... column 10',)>) at c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py:96>
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 102, in get_single_data
+    node = self.composer.get_single_node()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 75, in get_single_node
+    document = self.compose_document()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 96, in compose_document
+    node = self.compose_node(None, None)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 194, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 187, in compose_mapping_node
+    while not self.parser.check_event(MappingEndEvent):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\parser.py", line 144, in check_event
+    self.current_event = self.state()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\parser.py", line 547, in parse_block_mapping_key
+    if self.scanner.check_token(KeyToken):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\scanner.py", line 160, in check_token
+    self.fetch_more_tokens()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\scanner.py", line 273, in fetch_more_tokens
+    return self.fetch_value()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\scanner.py", line 626, in fetch_value
+    self.reader.get_mark())
+ruamel.yaml.scanner.ScannerError: mapping values are not allowed here
+  in "C:\Users\Wilder\zelda\modes\attract\config\attract.yaml", line 57, column 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 205, in load
+    raise ValueError(msg)
+ValueError: YAML error found in file C:\Users\Wilder\zelda\modes\attract\config\attract.yaml. Line 57,Position 10: mapping values are not allowed here
+  in "C:\Users\Wilder\zelda\modes\attract\config\attract.yaml", line 57, column 10
+2019-05-20 17:42:55,783 : INFO : Machine : Starting the main run loop.
+2019-05-20 17:42:55,783 : INFO : Machine : Shutting down...
+2019-05-20 17:42:55,783 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-05-20 17:42:55,888 : ERROR : root : YAML error found in file C:\Users\Wilder\zelda\modes\attract\config\attract.yaml. Line 57,Position 10: mapping values are not allowed here
+  in "C:\Users\Wilder\zelda\modes\attract\config\attract.yaml", line 57, column 10
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 102, in get_single_data
+    node = self.composer.get_single_node()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 75, in get_single_node
+    document = self.compose_document()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 96, in compose_document
+    node = self.compose_node(None, None)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 194, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 132, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\composer.py", line 187, in compose_mapping_node
+    while not self.parser.check_event(MappingEndEvent):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\parser.py", line 144, in check_event
+    self.current_event = self.state()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\parser.py", line 547, in parse_block_mapping_key
+    if self.scanner.check_token(KeyToken):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\scanner.py", line 160, in check_token
+    self.fetch_more_tokens()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\scanner.py", line 273, in fetch_more_tokens
+    return self.fetch_value()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\scanner.py", line 626, in fetch_value
+    self.reader.get_mark())
+ruamel.yaml.scanner.ScannerError: mapping values are not allowed here
+  in "C:\Users\Wilder\zelda\modes\attract\config\attract.yaml", line 57, column 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\commands\game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 716, in run
+    self._run_loop()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\machine.py", line 776, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\asyncio\events.py", line 145, in _run
+    self._callback(*self._args)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\events.py", line 99, in _async_handler_done
+    future.result()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 205, in load
+    raise ValueError(msg)
+ValueError: YAML error found in file C:\Users\Wilder\zelda\modes\attract\config\attract.yaml. Line 57,Position 10: mapping values are not allowed here
+  in "C:\Users\Wilder\zelda\modes\attract\config\attract.yaml", line 57, column 10
