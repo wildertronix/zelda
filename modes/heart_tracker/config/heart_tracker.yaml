@@ -34,7 +34,7 @@ event_player:
   update_heart_tracker{current_player.extraball_heart_count ==21 }: set_heart21_lightshow
   update_heart_tracker{current_player.extraball_heart_count ==22 }: set_heart22_lightshow
   update_heart_tracker{current_player.extraball_heart_count ==23 }: set_heart23_lightshow
-  update_heart_tracker{current_player.heart_extraball_count < 1 and current_player.extraball_heart_count ==24}: set_heart24_lightshow, award_heart_extraball
+  update_heart_tracker{current_player.heart_extraball_count < 1 and current_player.extraball_heart_count ==24}: set_heart24_lightshow, award_heart_extraball, redmail_found
 
 
 
@@ -205,10 +205,3 @@ show_player:
       loops: -1
     heart_target_hit_23:
       action: stop
-
-  heart_piece_earned:
-    heart_tracker_instructions:
-      loops: 0
-
-sound_player:
-  heart_piece_earned: heart_piece_sfx

@@ -162,4 +162,6 @@ show_player:
       loops: 1
       speed: 30
 
-      
+  # slide_bombvideo_removed:
+  #   bomb_instructions:
+  #     loops: 0

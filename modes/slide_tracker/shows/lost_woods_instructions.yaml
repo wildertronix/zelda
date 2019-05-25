@@ -2,7 +2,7 @@
 
 - duration: 6s
   slides:
-    escape_instructions:
+    lost_woods_instructions:
       widgets:
       - type: Text
         text: Find The Hidden Shots

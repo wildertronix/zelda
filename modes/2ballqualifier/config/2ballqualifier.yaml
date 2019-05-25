@@ -115,6 +115,7 @@ show_player:
     multi_ready:
       loops: -1
       speed: 6
+
   multiball_lock_2ballescape_locked_ball:
     multi_ready:
       action: stop
@@ -130,6 +131,7 @@ show_player:
     bluespin:
       loops: 0
       speed: 15
+
 
 sound_player:
   sw_spinner: waterwalk

@@ -1,0 +1,28 @@
+#show_version=5
+
+
+- duration: 3s
+  slides:
+    bottle_instructions:
+      widgets:
+      - type: Text
+        text: Stack 3 More
+        color: Gold
+        y: top-100
+        x: middle
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: Bottle Sets
+        color: Gold
+        y: middle
+        x: middle
+        style: hyruletext
+        font_size: 180
+      - type: Text
+        text: For Extra Ball
+        color: Gold
+        y: bottom +100
+        x: middle
+        style: hyruletext
+        font_size: 180

@@ -9,9 +9,24 @@ mode:
 
 extra_balls:
   heart_extra_ball:
-    award_events: award_heart_extraball
+    award_events: award_heart_extraball  #wizard goal
+
+  # item_extra_ball:
+  #   award_events: award_item_extraball  #not wizard goal but still an extraball
+
+  # bottle_extra_ball:
+  #   award_events: award_bottle_extraball    #wizard goal
 
 show_player:
   slide_heart_piece_extraball_removed:
     extra_ball_slide:
       loops: 0
+
+  slide_item_extraball_removed:
+    extra_ball_slide:
+      loops: 0
+
+  # slide_bottle_extraball_removed:
+  #   extra_ball_slide:
+  #     loops: 0
+

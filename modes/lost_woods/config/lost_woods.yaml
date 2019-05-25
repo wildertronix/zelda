@@ -8,14 +8,22 @@ mode:
 
 event_player:
   master_sword_complete: master_sword_found
-  lw_pathfound{device.counters.path_counter.value==1}: 8togo
-  lw_pathfound{device.counters.path_counter.value==2}: 7togo, lostwoods_path_1_found
-  lw_pathfound{device.counters.path_counter.value==3}: 6togo
-  lw_pathfound{device.counters.path_counter.value==4}: 5togo
-  lw_pathfound{device.counters.path_counter.value==5}: 4togo, lostwoods_path_2_found
-  lw_pathfound{device.counters.path_counter.value==6}: 3togo
-  lw_pathfound{device.counters.path_counter.value==7}: 2togo
-  lw_pathfound{device.counters.path_counter.value==8}: 1togo, lostwoods_path_3_found
+  lw_pathfound{current_player.path_variable ==1}: 8togo
+  lw_pathfound{current_player.path_variable ==2}: 7togo, lostwoods_path_1_found
+  lw_pathfound{current_player.path_variable ==3}: 6togo
+  lw_pathfound{current_player.path_variable ==4}: 5togo
+  lw_pathfound{current_player.path_variable ==5}: 4togo, lostwoods_path_2_found
+  lw_pathfound{current_player.path_variable ==6}: 3togo
+  lw_pathfound{current_player.path_variable ==7}: 2togo
+  lw_pathfound{current_player.path_variable ==8}: 1togo, lostwoods_path_3_found
+  # lw_pathfound{device.counters.path_counter.value==1}: 8togo
+  # lw_pathfound{device.counters.path_counter.value==2}: 7togo, lostwoods_path_1_found
+  # lw_pathfound{device.counters.path_counter.value==3}: 6togo
+  # lw_pathfound{device.counters.path_counter.value==4}: 5togo
+  # lw_pathfound{device.counters.path_counter.value==5}: 4togo, lostwoods_path_2_found
+  # lw_pathfound{device.counters.path_counter.value==6}: 3togo
+  # lw_pathfound{device.counters.path_counter.value==7}: 2togo
+  # lw_pathfound{device.counters.path_counter.value==8}: 1togo, lostwoods_path_3_found
   lw_heart_target_ready_hit: lw_pathfound
   lw_middle_drop_target_ready_hit: lw_pathfound
   lw_modestart_outhole_ready_hit: lw_pathfound
@@ -39,12 +47,12 @@ accruals:
      - 1togo
     events_when_complete: master_sword_complete
     persist_state: true
-
-counters:
-  path_counter:
-    count_events: lw_pathfound
-    count_complete_value: 9
-    persist_state: true
+#changed this logic to variables because on stream night 1 path issues kept arising in the next players modes.
+# counters:
+#   path_counter:
+#     count_events: lw_pathfound
+#     count_complete_value: 9
+#     persist_state: true
 
 
 shots:
@@ -193,41 +201,269 @@ track_player:
       action: set_volume
       volume: 1.0
       fade: 1s
+slides:
+  8togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 8 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  7togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 7 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  6togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 6 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  5togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 5 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  4togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 4 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  3togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 3 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  2togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 2 Paths To Go!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  1togo_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Path Found!
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: 1 Path Left!
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
 
 
-show_player:
-  8togo:
-    lostwoods_8_togo:
-      loops: 0
-      priority: 10
-  7togo:
-    lostwoods_7_togo:
-      loops: 0
-      priority: 20
-  6togo:
-    lostwoods_6_togo:
-      loops: 0
-      priority: 30
-  5togo:
-    lostwoods_5_togo:
-      loops: 0
-      priority: 40
-  4togo:
-    lostwoods_4_togo:
-      loops: 0
-      priority: 50
-  3togo:
-    lostwoods_3_togo:
-      loops: 0
-      priority: 60
-  2togo:
-    lostwoods_2_togo:
-      loops: 0
-      priority: 70
-  1togo:
-    lostwoods_1_togo:
-      loops: 0
-      priority: 80
+
+slide_player:
+  8togo:  8togo_slide
+  7togo:  7togo_slide
+  6togo:  6togo_slide
+  5togo:  5togo_slide
+  4togo:  4togo_slide
+  3togo:  3togo_slide
+  2togo:  2togo_slide
+  1togo:  1togo_slide
+
+# show_player:
+#   8togo:
+#     lostwoods_8_togo:
+#       loops: 0
+#       priority: 10
+#   7togo:
+#     lostwoods_7_togo:
+#       loops: 0
+#       priority: 20
+#   6togo:
+#     lostwoods_6_togo:
+#       loops: 0
+#       priority: 30
+#   5togo:
+#     lostwoods_5_togo:
+#       loops: 0
+#       priority: 40
+#   4togo:
+#     lostwoods_4_togo:
+#       loops: 0
+#       priority: 50
+#   3togo:
+#     lostwoods_3_togo:
+#       loops: 0
+#       priority: 60
+#   2togo:
+#     lostwoods_2_togo:
+#       loops: 0
+#       priority: 70
+#   1togo:
+#     lostwoods_1_togo:
+#       loops: 0
+#       priority: 80
 
 variable_player:
   s_heart_hit:
@@ -248,3 +484,5 @@ variable_player:
     score: 1 * current_player.multiplier
   s_cranehole_hit:
     score: 1 * current_player.multiplier
+  lw_pathfound:
+    path_variable: 1

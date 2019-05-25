@@ -6,142 +6,487 @@ mode:
   stop_events: game_ending
   priority: 100
 
+slides:
+  escape_instructions:
+    expire: 3s
+    widgets:
+    - type: Text
+      text: Shoot
+      color: Gold
+      anchor_y: bottom
+      x: left+200
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: WHITE
+      color: white
+      y: middle+90
+      anchor_x : middle
+      style: hyruletext
+      font_size: 130
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: Shots
+      color: gold
+      anchor_y: bottom
+      x: right-200
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: To Find Zelda
+      style: hyruletext
+      font_size: 180
+      color: gold
+      anchor_y: top
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  lock_a_ball_instructions:
+    expire: 5s
+    widgets:
+    - type: Text
+      text: Lock
+      color: Green
+      y: top-100
+      x: left+400
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: Ball
+      color: Gold
+      y: top-100
+      x : right-400
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: To Begin
+      style: hyruletext
+      font_size: 180
+      color: Gold
+      y: middle
+      x: middle
+    - type: Text
+      text: 2 Ball Escape
+      style: hyruletext
+      font_size: 180
+      color: gold
+      y: bottom+100
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  2ballqualifier_instructions:
+    expire: 5s
+    widgets:
+    - type: Text
+      text: Complete
+      style: hyruletext
+      font_size: 200
+      color: gold
+      y: middle+250
+      x: middle
+    - type: Text
+      text: Sequences
+      style: hyruletext
+      font_size: 220
+      color: white
+      y: middle
+      x: middle
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: To ESCAPE
+      style: hyruletext
+      font_size: 180
+      color: gold
+      y: bottom+100
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  bomb_instructions:
+    expire: 5s
+    widgets:
+    - type: Text
+      text: Bomb
+      color: Gold
+      y: top-100
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: Spots
+      style: hyruletext
+      font_size: 180
+      color: Gold
+      y: middle
+      x: middle
+    - type: Text
+      text: Item
+      style: hyruletext
+      font_size: 180
+      color: gold
+      y: bottom+100
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  light_world_instructions:
+    expire: 6s
+    widgets:
+    - type: Text
+      text: Shoot
+      color: Gold
+      y: top-85
+      x: middle
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: Ramps
+      color: blue
+      y: top-425
+      x: middle+390
+      style: hyruletext
+      font_size: 200
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: Pops
+      color: green
+      anchor_y: bottom
+      anchor_x : middle
+      style: hyruletext
+      font_size: 200
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: Drops
+      color: red
+      y: top-425
+      x: middle-390
+      style: hyruletext
+      font_size: 200
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: And
+      color: Gold
+      y: top-450
+      x: middle
+      style: hyruletext
+      font_size: 125
+    - type: Text
+      text: To Find Pendants
+      style: hyruletext
+      font_size: 180
+      color: gold
+      y: bottom+100
+      x: middle
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  lost_woods_instructions:
+    expire: 6s
+    widgets:
+    - type: Text
+      text: Find The Hidden Shots
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 145
+    - type: Text
+      text: Music Grows When Shots Are Hit
+      color: Gold
+      y: top-425
+      x: middle
+      style: hyruletext
+      font_size: 85
+
+
+  agahnim_instructional:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: Complete
+      color: Gold
+      y: top-250
+      x: middle-300
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: Shots
+      color: purple
+      y: top-250
+      x: middle+300
+      style: hyruletext
+      font_size: 200
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: To Attack And Defend
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 140
+
+  darkworld_rescue_zelda:
+    expire: 4s
+    widgets:
+    - type: Text
+      text: RESCUE
+      color: purple
+      y: top-200
+      x: middle
+      style: hyruletext
+      font_size: 200
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: Princess Zelda
+      color: gold
+      y: top-400
+      x: middle
+      style: hyruletext
+      font_size: 140
+
+
+  darkworld2_slide:
+    expire: 6s
+    widgets:
+    - type: Text
+      text: Face 
+      color: Gold
+      y: top-100
+      x: middle-325
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: GANON
+      color: 'be6ddb'
+      y: top-100
+      x: middle+240
+      style: hyruletext
+      font_size: 180
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: OR
+      color: Gold
+      y: top-300
+      x: middle
+      style: hyruletext
+      font_size: 100
+    - type: Text
+      text: Continue to Grind
+      color: Gold
+      y: top-450
+      x: middle
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: For Items
+      color: Gold
+      y: top-600
+      x: middle
+      style: hyruletext
+      font_size: 200
+
+
+  heart_couter_slide:
+    expire: 4s
+    widgets:
+    - type: image
+      image: heartimage
+    - type: Text
+      text: Heart
+      color: Gold
+      y: top-100
+      x: left+400
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: Piece
+      color: Gold
+      y: top-100
+      x : right-400
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: Found!
+      style: hyruletext
+      font_size: 180
+      color: gold
+      y: bottom+100
+    transition:
+       type: move_in
+       duration: 1s
+       direction: left
+
+  5waycomplete_slide:
+    expire: 4s
+    widgets:
+    - type: Text
+      text: WIZARD GOAL COMPLETE
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+    - type: Text
+      text: 5 Way Combo
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 200
+
+
+
+slide_player:
+  slide_the_journey_begins_removed: escape_instructions
+  start_2ball_multiball: lock_a_ball_instructions
+  slide_zelda_found_removed: 2ballqualifier_instructions
+  slide_bombvideo_removed: bomb_instructions
+  mode_light_world_started: light_world_instructions
+  slide_lost_woods_start_movie_removed: lost_woods_instructions
+  flippers_alive_agahnim: agahnim_instructional
+  slide_agahnimstartvideo_removed: agahnim_instructional
+  slide_dungeon7boss_removed: darkworld_rescue_zelda
+  slide_maiden7_removed: darkworld2_slide
+  heart_piece_earned: heart_couter_slide
+  slide_5waycombovideo_removed: 5waycomplete_slide
+  
+
 show_player:
   ball_started{ball==1}:
     first_instructions:
       loops: 0
-
-  slide_the_journey_begins_removed:
-    escape_instructions:
-      loops: 0
-
-  start_2ball_multiball: 
-    lock_a_ball_instructions:
-      loops: 0
-
-  slide_zelda_found_removed:
-    2ballqualifier_instructions:
-      loops: 0
-
-  # heart_piece_earned:      ********moved to heart tracker, slide was already there
-  #   heart_tracker_instructions:
+## all reconfigured to slide/slide player. might still be a straggler or two.
+  # start_2ball_multiball: 
+  #   lock_a_ball_instructions:  moved to 2ball qualifier
   #     loops: 0
 
-  # slide_heart_piece_extraball_removed: *******slide was already in mode's show folder, moved to config
-  #   extra_ball_slide:
+  # slide_zelda_found_removed:
+  #   2ballqualifier_instructions:
   #     loops: 0
 
-  slide_bombvideo_removed:
-    bomb_instructions:
-      loops: 0
-
-  mode_light_world_started:
-    light_world_instructions:
-      loops: 0
-
-  slide_lost_woods_start_movie_removed:
-    lost_woods_instructions:
-      loops: 0
-
-  # 8togo:                         ************moved to lost woods
-  #   lostwoods_8_togo:
-  #     loops: 0
-  #     priority: 10
-  # 7togo:
-  #   lostwoods_7_togo:
-  #     loops: 0
-  #     priority: 20
-  # 6togo:
-  #   lostwoods_6_togo:
-  #     loops: 0
-  #     priority: 30
-  # 5togo:
-  #   lostwoods_5_togo:
-  #     loops: 0
-  #     priority: 40
-  # 4togo:
-  #   lostwoods_4_togo:
-  #     loops: 0
-  #     priority: 50
-  # 3togo:
-  #   lostwoods_3_togo:
-  #     loops: 0
-  #     priority: 60
-  # 2togo:
-  #   lostwoods_2_togo:
-  #     loops: 0
-  #     priority: 70
-  # 1togo:
-  #   lostwoods_1_togo:
-  #     loops: 0
-  #     priority: 80
-
-  flippers_alive_agahnim:
-    agahnim_instructional:
-      loops: 0
-
-  slide_agahnimstartvideo_removed:
-    agahnim_instructional:
-      loops: 0
-
-  # slide_5waycombovideo_removed:   *********moved to item tracker
-  #   5waycomplete_slide:
+  # slide_bombvideo_removed:
+  #   bomb_instructions:   moved to bombfinder
   #     loops: 0
 
-  # slide_redshieldvideo_removed:
-  #   redshield_found_slide:
+  # mode_light_world_started:
+  #   light_world_instructions:  moved to lightworld
   #     loops: 0
 
-  # slide_bluemailvideo_removed:
-  #   bluemail_found_slide:
+  # slide_lost_woods_start_movie_removed:
+  #   lost_woods_instructions:
   #     loops: 0
 
-  # slide_flippervideo_removed:
-  #   flippers_found_slide:
+  # flippers_alive_agahnim:
+  #   agahnim_instructional:
   #     loops: 0
 
-  # slide_hammervideo_removed:
-  #   hammer_found_slide:
+  # slide_agahnimstartvideo_removed:
+  #   agahnim_instructional:
   #     loops: 0
 
-  # slide_hookshotvideo_removed:
-  #   hookshot_found_slide:
+  # slide_dungeon7boss_removed:    
+  #   darkworld_rescue_zelda_slide:
   #     loops: 0
 
-  # slide_item2award_removed:
-  #   boomerang_found_slide:
+  # slide_maiden7_removed:
+  #   darkworld2_slide:
   #     loops: 0
 
-  # slide_item3award_removed:
-  #   bow_found_slide:
-  #     loops: 0
-
-  # slide_item4award_removed:
-  #   moonpearl_found_slide:
-  #     loops: 0
-
-  # slide_item5award_removed:
-  #   mirror_found_slide:
-  #     loops: 0
-
-  slide_dungeon7boss_removed:    
-    darkworld_rescue_zelda_slide:
-      loops: 0
-
-  slide_maiden7_removed:
-    darkworld2_slide:
-      loops: 0
-
+  # slide_bottle_video_removed:
+  #   bottle_instructions:
+  #     loops: 0*
 
 sound_player:
   slide_first_instructions_active: slide_txt_sfx
-  slide_the_journey_begins_removed: slide_txt_sfx
-  slide_zelda_found_removed: slide_txt_sfx
+  slide_escape_instructions_active: slide_txt_sfx
+  slide_2ballqualifier_instructions_active: slide_txt_sfx
   start_2ball_multiball: slide_txt_sfx
-  slide_bombvideo_removed: slide_txt_sfx
+  slide_bomb_instructions_active: slide_txt_sfx
   award_heart_extraball: extraballsfx
+  award_item_extraball: extraballsfx
+  award_bottle_extraball: extraballsfx
   mode_light_world_started: slide_txt_sfx
-  slide_lost_woods_start_movie_removed: slide_txt_sfx
+  slide_lost_woods_instructions_active: slide_txt_sfx
   8togo: slide_txt_sfx
   7togo: slide_txt_sfx
   6togo: slide_txt_sfx
@@ -165,3 +510,5 @@ sound_player:
   slide_item5award_removed: slide_txt_sfx
   slide_dungeon7boss_removed: slide_txt_sfx
   slide_maiden7_removed: slide_txt_sfx
+  slide_bottle_instructions_active: slide_txt_sfx
+  heart_piece_earned: heart_piece_sfx

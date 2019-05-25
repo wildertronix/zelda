@@ -13,38 +13,41 @@ event_player:
   play_attract_slide_8:  start_slide_cycle_timer
   play_attract_slide_9:  start_slide_cycle_timer
   play_attract_slide_10:  start_slide_cycle_timer
-  play_attract_slide_11:  start_slide_cycle_timer
+  play_attract_slide_11:  start_attract_video_timer
   timer_slide_cycle_timer_complete:  play_next_attract_slide_right
+  timer_attract_video_timer_complete: play_next_attract_slide_right
 
-  play_next_attract_slide_right{machine.current_attract_slide==1}: play_attract_slide_2
-  play_next_attract_slide_right{machine.current_attract_slide==2}: play_attract_slide_3,  add_end_of_game_score_widgets|10ms
-  play_next_attract_slide_right{machine.current_attract_slide==3}: play_attract_slide_4
-  play_next_attract_slide_right{machine.current_attract_slide==4}: play_attract_slide_5
-  play_next_attract_slide_right{machine.current_attract_slide==5}: play_attract_slide_6
-  play_next_attract_slide_right{machine.current_attract_slide==6}: play_attract_slide_7
-  play_next_attract_slide_right{machine.current_attract_slide==7}: play_attract_slide_8
-  play_next_attract_slide_right{machine.current_attract_slide==8}: play_attract_slide_9
-  play_next_attract_slide_right{machine.current_attract_slide==9}: play_attract_slide_10
-  play_next_attract_slide_right{machine.current_attract_slide==10}: play_attract_slide_11
-  play_next_attract_slide_right{machine.current_attract_slide==11}: play_attract_slide_1
-  play_next_attract_slide_left{machine.current_attract_slide==1}: play_attract_slide_11
-  play_next_attract_slide_left{machine.current_attract_slide==2}: play_attract_slide_1
-  play_next_attract_slide_left{machine.current_attract_slide==3}: play_attract_slide_2
-  play_next_attract_slide_left{machine.current_attract_slide==4}: play_attract_slide_3,  add_end_of_game_score_widgets|10ms
-  play_next_attract_slide_left{machine.current_attract_slide==5}: play_attract_slide_4
-  play_next_attract_slide_left{machine.current_attract_slide==6}: play_attract_slide_5
-  play_next_attract_slide_left{machine.current_attract_slide==7}: play_attract_slide_6
-  play_next_attract_slide_left{machine.current_attract_slide==8}: play_attract_slide_7
-  play_next_attract_slide_left{machine.current_attract_slide==9}: play_attract_slide_8
-  play_next_attract_slide_left{machine.current_attract_slide==10}: play_attract_slide_9
-  play_next_attract_slide_left{machine.current_attract_slide==11}: play_attract_slide_10
+  play_next_attract_slide_right{machine.current_attract_slide== 1}: play_attract_slide_2
+  play_next_attract_slide_right{machine.current_attract_slide== 2}: play_attract_slide_3,  add_end_of_game_score_widgets|10ms
+  play_next_attract_slide_right{machine.current_attract_slide== 3}: play_attract_slide_4
+  play_next_attract_slide_right{machine.current_attract_slide== 4}: play_attract_slide_5
+  play_next_attract_slide_right{machine.current_attract_slide== 5}: play_attract_slide_6
+  play_next_attract_slide_right{machine.current_attract_slide== 6}: play_attract_slide_7
+  play_next_attract_slide_right{machine.current_attract_slide== 7}: play_attract_slide_8
+  play_next_attract_slide_right{machine.current_attract_slide== 8}: play_attract_slide_9
+  play_next_attract_slide_right{machine.current_attract_slide== 9}: play_attract_slide_10
+  play_next_attract_slide_right{machine.current_attract_slide== 10}: play_attract_slide_11
+  play_next_attract_slide_right{machine.current_attract_slide== 11}: play_attract_slide_1
+  play_next_attract_slide_left{machine.current_attract_slide== 1}: play_attract_slide_11
+  play_next_attract_slide_left{machine.current_attract_slide== 2}: play_attract_slide_1
+  play_next_attract_slide_left{machine.current_attract_slide== 3}: play_attract_slide_2
+  play_next_attract_slide_left{machine.current_attract_slide== 4}: play_attract_slide_3,  add_end_of_game_score_widgets|10ms
+  play_next_attract_slide_left{machine.current_attract_slide== 5}: play_attract_slide_4
+  play_next_attract_slide_left{machine.current_attract_slide== 6}: play_attract_slide_5
+  play_next_attract_slide_left{machine.current_attract_slide== 7}: play_attract_slide_6
+  play_next_attract_slide_left{machine.current_attract_slide== 8}: play_attract_slide_7
+  play_next_attract_slide_left{machine.current_attract_slide== 9}: play_attract_slide_8
+  play_next_attract_slide_left{machine.current_attract_slide== 10}: play_attract_slide_9
+  play_next_attract_slide_left{machine.current_attract_slide== 11}: play_attract_slide_10
 
   rightflipperbutton_active: play_next_attract_slide_right
   leftflipperbutton_active: play_next_attract_slide_left
 
-  timer_attract_slide_cycle_timer_complete: play_next_attract_slide_right
 
-  add_end_of_game_score_widgets{machine|player2_score > 0}: player_2_score
+  add_end_of_game_score_widgets{machine.player2_score > 0}: player_2_score
+  add_end_of_game_score_widgets{machine.player3_score > 0}: player_3_score
+  add_end_of_game_score_widgets{machine.player4_score > 0}: player_4_score
+
 
 
 
@@ -57,6 +60,18 @@ widget_player:
 
   player_2_score: 
     add_player_2_score_widget:
+      slide: previous_game_scores
+      widget_settings:
+        z: 3
+
+  player_3_score: 
+    add_player_3_score_widget:
+      slide: previous_game_scores
+      widget_settings:
+        z: 3
+
+  player_4_score: 
+    add_player_4_score_widget:
       slide: previous_game_scores
       widget_settings:
         z: 3
@@ -90,10 +105,37 @@ widgets:
       y: 575
       x: 1105
 
+  add_player_3_score_widget:
+    - type: text
+      text: Player 3
+      style: hyruletext
+      font_size: 80
+      y: 150
+      x: 175
+    - type: text
+      text: (machine|player3_score)
+      style: hyruletext
+      font_size: 80
+      y: 75
+      x: 175
+
+  add_player_4_score_widget:
+    - type: text
+      text: Player 4
+      style: hyruletext
+      font_size: 80
+      y: 150
+      x: 1105
+    - type: text
+      text: (machine|player4_score)
+      style: hyruletext
+      font_size: 80
+      y: 75
+      x: 1105
 
 
 timers:
-  slide_cylce_timer:
+  slide_cycle_timer:
     start_value: 0
     end_value: 8
     direction: up
@@ -101,6 +143,21 @@ timers:
     control_events:
       - action: restart
         event: start_slide_cycle_timer
+      - action: stop 
+        event: play_attract_slide_11
+
+  attract_video_timer:
+    start_value: 0
+    end_value: 25
+    direction: up
+    tick_interval: 1s
+    control_events:
+      - action: restart
+        event: start_attract_video_timer
+      - action: stop
+        event: timer_attract_video_timer_complete
+
+
 
 variable_player:
   play_attract_slide_1:
@@ -406,6 +463,7 @@ slides:
       video: attractvideo
       width: 1280
       height: 720
+      expire: 25s
 
 show_player:
   mode_attract_started:

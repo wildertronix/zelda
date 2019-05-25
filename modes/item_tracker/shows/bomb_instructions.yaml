@@ -1,7 +1,7 @@
 #show_version=5
 - duration: 5s
   slides:
-    first_instructions:
+    bomb_instructions:
       widgets:
       - type: Text
         text: Bomb

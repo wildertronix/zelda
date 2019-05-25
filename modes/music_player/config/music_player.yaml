@@ -34,7 +34,7 @@ variable_player:
     initial_mode_start_variable: 1
   begin_escape:
     begin_escape_variable: 1
-  mode_escapehurryup_stopped:
+  flippers_alive:
     light_world_start_variable: 1
   start_town_music:
     mode2_part2_variable: 1

@@ -2,22 +2,8 @@
 
 - duration: 5s
   slides:
-    escape_instructions:
+    2ballqualifier_instructions:
       widgets:
-      # - type: Text
-      #   text: Shoot
-      #   color: Gold
-      #   y: top-100
-      #   x: left+400
-      #   style: hyruletext
-      #   font_size: 180
-      # - type: Text
-      #   text: Shots
-      #   color: Gold
-      #   y: top-100
-      #   x : right-400
-      #   style: hyruletext
-      #   font_size: 200
       - type: Text
         text: Complete
         style: hyruletext

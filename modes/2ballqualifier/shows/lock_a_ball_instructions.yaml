@@ -6,7 +6,7 @@
       widgets:
       - type: Text
         text: Lock
-        color: Gold
+        color: Green
         y: top-100
         x: left+400
         style: hyruletext

@@ -9,6 +9,19 @@ event_player:
   lopto_hit: right_orbit_made
   modestartmade_hit{current_player.initial_mode_start < 1}: begin_escape
   mode_base_started{current_player.initial_slide_and_music < 1}: start_initial_slide_and_music|10ms
+  ball_started: update_pendant_tracker, update_crystal_tracker
+  update_pendant_tracker{current_player.green_pendant_variable > 0}: set_green_pendant_show
+  update_pendant_tracker{current_player.blue_pendant_variable > 0}: set_blue_pendant_show
+  update_pendant_tracker{current_player.red_pendant_variable > 0}: set_red_pendant_show
+  update_crystal_tracker{current_player.maiden_count ==1}: set_crystal1
+  update_crystal_tracker{current_player.maiden_count ==2}: set_crystal1 set_crystal2
+  update_crystal_tracker{current_player.maiden_count ==3}: set_crystal1 set_crystal2 set_crystal3
+  update_crystal_tracker{current_player.maiden_count ==4}: set_crystal1 set_crystal2 set_crystal3 set_crystal4
+  update_crystal_tracker{current_player.maiden_count ==5}: set_crystal1 set_crystal2 set_crystal3 set_crystal4 set_crystal5
+  update_crystal_tracker{current_player.maiden_count ==6}: set_crystal1 set_crystal2 set_crystal3 set_crystal4 set_crystal5 set_crystal6
+  update_crystal_tracker{current_player.maiden_count ==7}: set_crystal1 set_crystal2 set_crystal3 set_crystal4 set_crystal5 set_crystal6 set_crystal7
+
+
 
 shots:
   modestartmade:
@@ -21,6 +34,12 @@ variable_player:
 
   start_initial_slide_and_music:
     initial_slide_and_music: 1  # adds 1 to the player's "initial_slide_and_music" variable
+  first_pendant_found:
+    green_pendant_variable: 1
+  second_pendant_found: 
+    blue_pendant_variable: 1
+  third_pendant_found:
+    red_pendant_variable: 1
 
 
 
@@ -83,7 +102,7 @@ sequence_shots:
 
 
 show_player:
-  mode_base_started:
+  mode_base_started{current_player.initial_mode_start < 1}:
     escape_mode_flash:
       loops: -1
       speed: 3
@@ -210,7 +229,21 @@ widget_player:
         z: 4
         x: middle-90
         y: 525
+  set_green_pendant_show:
+    greenpendant:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle-90
+        y: 525
   second_pendant_found:
+    bluependant:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle
+        y: 550
+  set_blue_pendant_show:
     bluependant:
       slide: slide_2
       widget_settings:
@@ -224,6 +257,13 @@ widget_player:
         z: 4
         x: middle+85
         y: 525
+  set_red_pendant_show:
+    redpendant:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle+85
+        y: 525
   maiden_1_rescued:
     crystal1:
       slide: slide_2
@@ -231,7 +271,22 @@ widget_player:
         z: 4
         x: middle-150
         y: 135
+  set_crystal1:
+    crystal1:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle-150
+        y: 135
+
   maiden_2_rescued:
+    crystal2:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle-100
+        y: 135
+  set_crystal2:
     crystal2:
       slide: slide_2
       widget_settings:
@@ -245,7 +300,21 @@ widget_player:
         z: 4
         x: middle-50
         y: 135
+  set_crystal3:
+    crystal3:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle-50
+        y: 135
   maiden_4_rescued:
+    crystal4:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle
+        y: 135
+  set_crystal4:
     crystal4:
       slide: slide_2
       widget_settings:
@@ -259,6 +328,13 @@ widget_player:
         z: 4
         x: middle+50
         y: 135
+  set_crystal5:
+    crystal5:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle+50
+        y: 135
   maiden_6_rescued:
     crystal6:
       slide: slide_2
@@ -266,7 +342,21 @@ widget_player:
         z: 4
         x: middle+100
         y: 135
+  set_crystal6:
+    crystal6:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle+100
+        y: 135
   maiden_7_rescued:
+    crystal7:
+      slide: slide_2
+      widget_settings:
+        z: 4
+        x: middle+150
+        y: 135
+  set_crystal7:
     crystal7:
       slide: slide_2
       widget_settings:

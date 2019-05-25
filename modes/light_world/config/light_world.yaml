@@ -194,6 +194,10 @@ show_player:
       loops: 0
       speed: 15
 
+  mode_light_world_started:
+    light_world_instructions:
+      loops: 0
+
 variable_player:
   lw_z_ramp_hit:
     score: 1 * current_player.multiplier

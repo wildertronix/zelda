@@ -1,0 +1,57 @@
+2019-05-22 14:24:31,449 : kivy : Factory: 194 symbols loaded
+2019-05-22 14:24:31,453 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2019-05-22 14:24:31,688 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2019-05-22 14:24:31,688 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2019-05-22 14:24:31,725 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-05-22 14:24:31,726 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2019-05-22 14:24:31,727 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2019-05-22 14:24:31,828 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-05-22 14:24:31,828 : kivy : Video: Provider: gstplayer
+2019-05-22 14:24:31,934 : kivy : Loading MPF-MC controller
+2019-05-22 14:24:31,934 : mpfmc : Mission Pinball Framework Media Controller v0.53.0-dev.0
+2019-05-22 14:24:31,935 : mpfmc : Mission Pinball Framework Game Engine v0.53.0-dev.16
+2019-05-22 14:24:31,935 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-05-22 14:24:31,937 : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config
+2019-05-22 14:24:31,938 : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-05-22 14:24:31,938 : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-22 14:24:32,097 : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-22 14:24:32,121 : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.
+2019-05-22 14:24:32,122 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-05-22 14:24:32,291 : kivy : Error found in file C:\Users\Wilder\zelda\config\config.yaml: 'Key "total_item_count" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\config\\config.yaml", line 209, column 3'
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 198, in load
+    config = self.process(f)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 224, in process
+    return yaml.load(data_string, Loader=MpfLoader)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\main.py", line 639, in load
+    return loader._constructor.get_single_data()  # type: ignore
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 104, in get_single_data
+    return self.construct_document(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 114, in construct_document
+    for dummy in generator:
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\ruamel\yaml\constructor.py", line 611, in construct_yaml_map
+    value = self.construct_mapping(node)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 135, in construct_mapping
+    format(key, key_node.start_mark))
+KeyError: 'Key "total_item_count" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\config\\config.yaml", line 209, column 3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\commands\mc.py", line 209, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 97, in __init__
+    self.machine_config = self._load_config()
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mc.py", line 223, in _load_config
+    mpf_config = self.mpf_config_processor.load_config_files_with_cache(files, "machine", True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\config_processor.py", line 132, in _load_config_file_and_return_loaded_files
+    config = FileManager.load(filename, expected_version_str, True)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\core\file_manager.py", line 99, in load
+    return interface.load(file, verify_version, halt_on_error)
+  File "c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpf\file_interfaces\yaml_interface.py", line 212, in load
+    raise ValueError(msg)
+ValueError: Error found in file C:\Users\Wilder\zelda\config\config.yaml: 'Key "total_item_count" was defined multiple times in config   in "C:\\Users\\Wilder\\zelda\\config\\config.yaml", line 209, column 3'
+2019-05-22 14:24:32,297 : kivy : Stopping child threads... (0 remaining)
+2019-05-22 14:24:32,298 : kivy : All child threads stopped.

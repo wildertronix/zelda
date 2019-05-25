@@ -1,0 +1,402 @@
+2019-05-22 14:02:53,553 : kivy : Factory: 194 symbols loaded
+2019-05-22 14:02:53,560 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2019-05-22 14:02:53,854 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2019-05-22 14:02:53,854 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2019-05-22 14:02:53,882 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-05-22 14:02:53,883 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2019-05-22 14:02:53,883 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2019-05-22 14:02:53,958 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-05-22 14:02:53,958 : kivy : Video: Provider: gstplayer
+2019-05-22 14:02:54,062 : kivy : Loading MPF-MC controller
+2019-05-22 14:02:54,062 : mpfmc : Mission Pinball Framework Media Controller v0.53.0-dev.0
+2019-05-22 14:02:54,063 : mpfmc : Mission Pinball Framework Game Engine v0.53.0-dev.16
+2019-05-22 14:02:54,063 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-05-22 14:02:54,064 : ConfigProcessor : Config file in cache changed: C:\Users\Wilder\zelda\config\config
+2019-05-22 14:02:54,065 : ConfigProcessor : Loading config from file c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml.
+2019-05-22 14:02:54,065 : YAML File Interface : Loading file: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-22 14:02:54,189 : ConfigProcessor : Loading config: c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\mcconfig.yaml
+2019-05-22 14:02:54,213 : ConfigProcessor : Loading config from file C:\Users\Wilder\zelda\config\config.
+2019-05-22 14:02:54,214 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\config.yaml
+2019-05-22 14:02:54,340 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\config
+2019-05-22 14:02:54,341 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-05-22 14:02:54,591 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\hardware.yaml
+2019-05-22 14:02:54,594 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-05-22 14:02:54,622 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\keyboard.yaml
+2019-05-22 14:02:54,625 : YAML File Interface : Loading file: C:\Users\Wilder\zelda\config\videos.yaml
+2019-05-22 14:02:54,724 : ConfigProcessor : Loading config: C:\Users\Wilder\zelda\config\videos.yaml
+2019-05-22 14:02:54,733 : ConfigProcessor : Config file cache created: C:\Users\Wilder\AppData\Local\Temp\33abdcfcf65e636611bd498b89cbbd0e.mpf_cache
+2019-05-22 14:02:54,733 : mpfmc : Starting clock at 60.0Hz
+2019-05-22 14:02:54,758 : kivy : Text: Provider: sdl2
+2019-05-22 14:02:54,814 : kivy : Window: Provider: sdl2
+2019-05-22 14:02:54,874 : kivy : GL: Using the "OpenGL" graphics system
+2019-05-22 14:02:56,142 : kivy : GL: GLEW initialization succeeded
+2019-05-22 14:02:56,143 : kivy : GL: available extensions: b'GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_blend_color GL_EXT_abgr GL_EXT_texture3D GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_SGIS_texture_edge_clamp GL_SGIS_generate_mipmap GL_EXT_draw_range_elements GL_SGIS_texture_lod GL_EXT_rescale_normal GL_EXT_packed_pixels GL_EXT_texture_edge_clamp GL_EXT_separate_specular_color GL_ARB_multitexture GL_EXT_texture_env_combine GL_EXT_bgra GL_EXT_blend_func_separate GL_EXT_secondary_color GL_EXT_fog_coord GL_EXT_texture_env_add GL_ARB_texture_cube_map GL_ARB_transpose_matrix GL_ARB_texture_env_add GL_IBM_texture_mirrored_repeat GL_EXT_multi_draw_arrays GL_NV_blend_square GL_ARB_texture_compression GL_3DFX_texture_compression_FXT1 GL_EXT_texture_filter_anisotropic GL_ARB_texture_border_clamp GL_ARB_point_parameters GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_texture_env_crossbar GL_EXT_texture_compression_s3tc GL_ARB_shadow GL_ARB_window_pos GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_ARB_vertex_program GL_EXT_texture_rectangle GL_ARB_fragment_program GL_EXT_stencil_two_side GL_ATI_separate_stencil GL_ARB_vertex_buffer_object GL_EXT_texture_lod_bias GL_ARB_occlusion_query GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_texture_non_power_of_two GL_ARB_vertex_shader GL_NV_texgen_reflection GL_ARB_point_sprite GL_EXT_blend_equation_separate GL_ARB_depth_texture GL_ARB_texture_rectangle GL_ARB_draw_buffers GL_ARB_color_buffer_float GL_ARB_half_float_pixel GL_ARB_texture_float GL_ARB_pixel_buffer_object GL_EXT_framebuffer_object GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_EXT_draw_buffers2 GL_WIN_swap_hint GL_EXT_texture_sRGB GL_ARB_multisample GL_EXT_packed_float GL_EXT_texture_shared_exponent GL_ARB_texture_rg GL_ARB_texture_compression_rgtc GL_NV_conditional_render GL_EXT_texture_swizzle GL_ARB_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_ARB_depth_buffer_float GL_EXT_transform_feedback GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_ARB_framebuffer_object GL_EXT_texture_array GL_EXT_texture_integer GL_ARB_map_buffer_range GL_EXT_texture_snorm GL_INTEL_performance_queries GL_ARB_vertex_array_object '
+2019-05-22 14:02:56,143 : kivy : GL: glShaderBinary is not available
+2019-05-22 14:02:56,143 : kivy : GL: Backend used <glew>
+2019-05-22 14:02:56,144 : kivy : GL: OpenGL version <b'3.0.0 - Build 8.15.10.2342'>
+2019-05-22 14:02:56,144 : kivy : GL: OpenGL vendor <b'Intel'>
+2019-05-22 14:02:56,144 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics Family'>
+2019-05-22 14:02:56,144 : kivy : GL: OpenGL parsed version: 3, 0
+2019-05-22 14:02:56,144 : kivy : GL: Shading version <b'1.30  - Intel Build 8.15.10.2342'>
+2019-05-22 14:02:56,144 : kivy : GL: Texture max size <4096>
+2019-05-22 14:02:56,145 : kivy : GL: Texture max units <16>
+2019-05-22 14:02:56,208 : kivy : Shader: Fragment compiled successfully
+2019-05-22 14:02:56,209 : kivy : Shader: Vertex compiled successfully
+2019-05-22 14:02:56,270 : kivy : ImageSDL2: Load <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\kivy\data\glsl\default.png>
+2019-05-22 14:02:56,285 : kivy : Window: auto add sdl2 input provider
+2019-05-22 14:02:56,286 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2019-05-22 14:02:56,307 : mpfmc : Machine path: C:\Users\Wilder\zelda
+2019-05-22 14:02:56,308 : kivy : Resource: add <C:\Users\Wilder\zelda\fonts> in path list
+2019-05-22 14:02:56,308 : kivy : Resource: add <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\fonts> in path list
+2019-05-22 14:02:56,309 : SoundSystem : Loading the Sound System
+2019-05-22 14:02:56,792 : AudioInterface : Initialized
+2019-05-22 14:02:56,792 : AudioInterface : Loaded SDL 2.0.5
+2019-05-22 14:02:56,792 : AudioInterface : Loaded SDL_Mixer 2.0.1
+2019-05-22 14:02:56,792 : AudioInterface : Loaded GStreamer 1.10.2.0
+2019-05-22 14:02:56,792 : AudioInterface : Loaded GLib 2.48.1
+2019-05-22 14:02:56,793 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2019-05-22 14:02:56,793 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2019-05-22 14:02:56,793 : Track : Allocated track audio buffer (4096 bytes)
+2019-05-22 14:02:56,793 : Track.0.TrackStandard.music : Created Track 0 music with the following settings: simultaneous_sounds = 3, volume = 0.500000
+2019-05-22 14:02:56,793 : AudioInterface : The 'music' standard track has successfully been created.
+2019-05-22 14:02:56,794 : Track : Allocated track audio buffer (4096 bytes)
+2019-05-22 14:02:56,794 : Track.1.TrackStandard.voice : Created Track 1 voice with the following settings: simultaneous_sounds = 1, volume = 0.700000
+2019-05-22 14:02:56,794 : AudioInterface : The 'voice' standard track has successfully been created.
+2019-05-22 14:02:56,794 : Track : Allocated track audio buffer (4096 bytes)
+2019-05-22 14:02:56,794 : Track.2.TrackStandard.sfx : Created Track 2 sfx with the following settings: simultaneous_sounds = 8, volume = 0.900000
+2019-05-22 14:02:56,794 : AudioInterface : The 'sfx' standard track has successfully been created.
+2019-05-22 14:02:56,795 : AudioInterface : Enabling audio playback
+2019-05-22 14:02:56,797 : kivy : App: Loading kv <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mpfmc.kv>
+2019-05-22 14:02:56,798 : kivy : App: kv <c:\users\wilder\appdata\local\programs\python\python36\lib\site-packages\mpfmc\core\mpfmc.kv> not found
+2019-05-22 14:02:56,798 : kivy : Base: Create provider from mouse,multitouch_on_demand
+2019-05-22 14:02:56,798 : kivy : Base: Create provider from wm_touch
+2019-05-22 14:02:56,798 : kivy : Base: Create provider from wm_pen
+2019-05-22 14:02:56,798 : kivy : Base: Start application main loop
+2019-05-22 14:02:56,799 : EventManager : Event: ======'display_lcd_initialized'====== Args={}
+2019-05-22 14:02:56,823 : mpfmc : Display: Setting 'lcd' as default display
+2019-05-22 14:02:56,833 : EventManager : Event: ======'displays_initialized'====== Args={}
+2019-05-22 14:02:56,835 : EventManager : Event: ======'slide_lcd_blank_created'====== Args={}
+2019-05-22 14:02:56,835 : EventManager : Event: ======'display_lcd_ready'====== Args={}
+2019-05-22 14:02:56,850 : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-05-22 14:02:56,891 : EventManager : Event: ======'mc_ready'====== Args={}
+2019-05-22 14:02:56,891 : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-05-22 14:02:56,892 : ModeController : Found MPF Mode folders: {'attract': 'attract', 'bonus': 'bonus', 'carousel': 'carousel', 'credits': 'credits', 'game': 'game', 'high_score': 'high_score', 'match': 'match', 'service': 'service', 'tilt': 'tilt'}
+2019-05-22 14:02:56,894 : ModeController : Found Machine-specific Mode folders: {'2ballescape': '2ballescape', '2ballqualifier': '2ballqualifier', '5waycombotracker': '5waycombotracker', 'agahnim_multiball': 'agahnim_multiball', 'attract': 'attract', 'attract_carousel': 'attract_carousel', 'ball_hold_tracker': 'ball_hold_tracker', 'ball_save': 'ball_save', 'base': 'base', 'bomb_finder': 'bomb_finder', 'bonus': 'bonus', 'bottle_filler': 'bottle_filler', 'darkworld': 'darkworld', 'darkworld2': 'darkworld2', 'escape': 'escape', 'escapehurryup': 'escapehurryup', 'escape_starter': 'escape_starter', 'extraball': 'extraball', 'final_hold': 'final_hold', 'gameoverplayer': 'gameoverplayer', 'game_ender_mode': 'game_ender_mode', 'ganon_battle': 'ganon_battle', 'heartmeter': 'heartmeter', 'heart_tracker': 'heart_tracker', 'high_score': 'high_score', 'item_tracker': 'item_tracker', 'light_world': 'light_world', 'lost_woods': 'lost_woods', 'lost_woods_starter': 'lost_woods_starter', 'master_sword_buildup': 'master_sword_buildup', 'mode_player': 'mode_player', 'mode_tracker': 'mode_tracker', 'music_player': 'music_player', 'playfield_multiplier': 'playfield_multiplier', 'rupee2x_finder': 'rupee2x_finder', 'rupee3x_finder': 'rupee3x_finder', 'rupee_finder': 'rupee_finder', 'shop': 'shop', 'shots': 'shots', 'skillshot_ballsave': 'skillshot_ballsave', 'skill_shot': 'skill_shot', 'slide_tracker': 'slide_tracker', 'unusual_show_tracker': 'unusual_show_tracker', 'video_player': 'video_player'}
+2019-05-22 14:02:56,895 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\562f2c62ffb495bc414930beede29530.mpf_cache
+2019-05-22 14:02:56,896 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fc30620fce8f82c18fed051cdde27ef9.mpf_cache
+2019-05-22 14:02:56,897 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\43a06f52d0e9cf0597140b4c27159d40.mpf_cache
+2019-05-22 14:02:56,897 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\916c9e2d9177837f45e9cdbb7c1d0b93.mpf_cache
+2019-05-22 14:02:56,898 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6cbeeb809d9de6fbbf2951c4e6867473.mpf_cache
+2019-05-22 14:02:56,899 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\fd6423453738b6cee138971698f65579.mpf_cache
+2019-05-22 14:02:56,900 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\696ab9654b1d369e3597af15c079ad3b.mpf_cache
+2019-05-22 14:02:56,901 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\410e2f069e995e601a053ae1f865a8d9.mpf_cache
+2019-05-22 14:02:56,916 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58a9cd5447353eacedab412f1c10b0ab.mpf_cache
+2019-05-22 14:02:56,917 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\d9d23a2a9a3117f1553491692ff1c689.mpf_cache
+2019-05-22 14:02:56,918 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c5e5b78d841dff96974ddb92030af0a9.mpf_cache
+2019-05-22 14:02:56,920 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\28e1731e516595966b3afcb08910cb63.mpf_cache
+2019-05-22 14:02:56,921 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dd39e2de39eb354a1ec99be2f3167765.mpf_cache
+2019-05-22 14:02:56,921 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\7b0dcc699efc7732bf9d3e57ee202517.mpf_cache
+2019-05-22 14:02:56,924 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c3fd2c292a6c0d3463ad9b4555730ad5.mpf_cache
+2019-05-22 14:02:56,926 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\4afc9f23ca6340163a8bb51d7deea78f.mpf_cache
+2019-05-22 14:02:56,991 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\a31feedcb4b85bf76d76fe6a1222bc90.mpf_cache
+2019-05-22 14:02:56,993 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6eb8b6e4728e10ce756703e43167d298.mpf_cache
+2019-05-22 14:02:56,994 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\96294a9578657f44941f2a8ec647ae36.mpf_cache
+2019-05-22 14:02:56,995 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\da675f6b180b79eecb40cb5eb7f75a18.mpf_cache
+2019-05-22 14:02:56,996 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\34c6448537d1c95c89cf73a07c0f99c9.mpf_cache
+2019-05-22 14:02:56,997 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6caaa2c03f737135abd403644138525e.mpf_cache
+2019-05-22 14:02:57,136 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\072dbb4c30ca18f53440337aa5cd71bd.mpf_cache
+2019-05-22 14:02:57,137 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fc1a42fdd0d487285862f5b943c745e.mpf_cache
+2019-05-22 14:02:57,138 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\05768db999abb9e30be16a432a0581c8.mpf_cache
+2019-05-22 14:02:57,139 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\3485f9bf4bb8d1d21be6de1438e091ba.mpf_cache
+2019-05-22 14:02:57,139 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\27a949ddf2d3e5eeb9247bd991aba200.mpf_cache
+2019-05-22 14:02:57,140 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\c35ad2e595070cac0b6f696d6f7f6af6.mpf_cache
+2019-05-22 14:02:57,141 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\683810c84ecff8b3923f4991066156d6.mpf_cache
+2019-05-22 14:02:57,142 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\b0ee6a771658ae3fb7e70c6d5ff59887.mpf_cache
+2019-05-22 14:02:57,142 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\58664c35241624b07b13025a5964d2a4.mpf_cache
+2019-05-22 14:02:57,368 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\8b601767b8d464abeaa513b42e6346a8.mpf_cache
+2019-05-22 14:02:57,369 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\1f8ff34a8859f8c62d77912f33e29b9c.mpf_cache
+2019-05-22 14:02:57,372 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\aecceeb5afbfdc7257044e8417ebcf98.mpf_cache
+2019-05-22 14:02:57,486 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\225554da95d8871f7382aa94a6d6b3eb.mpf_cache
+2019-05-22 14:02:57,487 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\dbd150f896646081271b7a77a791f2fa.mpf_cache
+2019-05-22 14:02:57,629 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\6fd2b5e36bbbd9c12f9ee3aa32f1ceca.mpf_cache
+2019-05-22 14:02:57,630 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\f394a72c4810bb1cc42cac0690a90dcf.mpf_cache
+2019-05-22 14:02:57,634 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\86e0d165ea95889c95b56598c3ebe263.mpf_cache
+2019-05-22 14:02:57,650 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\cb8b20150020107be74f23a2ee427f56.mpf_cache
+2019-05-22 14:02:57,695 : ConfigProcessor : Loading config from cache: C:\Users\Wilder\AppData\Local\Temp\ee4432fc011abe94968ff81513361e18.mpf_cache
+2019-05-22 14:02:57,695 : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-05-22 14:02:57,696 : AssetManager : Registering Asset: bluemailx, File: bluemailx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bluemailx.png'}
+2019-05-22 14:02:57,696 : AssetManager : Registering Asset: bluemail_circle, File: bluemail_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bluemail_circle.png'}
+2019-05-22 14:02:57,696 : AssetManager : Registering Asset: bluependant, File: bluependant.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bluependant.png'}
+2019-05-22 14:02:57,696 : AssetManager : Registering Asset: boomerangx, File: boomerangx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\boomerangx.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: boomerang_circle, File: boomerang_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\boomerang_circle.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: bowx, File: bowx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bowx.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: bow_circle, File: bow_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\bow_circle.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: byrnax, File: byrnax.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\byrnax.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: byrna_circle, File: byrna_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\byrna_circle.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: capex, File: capex.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\capex.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: cape_circle, File: cape_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\cape_circle.png'}
+2019-05-22 14:02:57,697 : AssetManager : Registering Asset: circleselect, File: circleselect.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\circleselect.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal1, File: crystal1.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal1.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal2, File: crystal2.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal2.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal3, File: crystal3.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal3.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal4, File: crystal4.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal4.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal5, File: crystal5.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal5.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal6, File: crystal6.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal6.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: crystal7, File: crystal7.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\crystal7.png'}
+2019-05-22 14:02:57,698 : AssetManager : Registering Asset: darkworldstoryslide, File: darkworldstoryslide.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\darkworldstoryslide.png'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: darkworld_instructional, File: darkworld_instructional.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\darkworld_instructional.png'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: fast_logo, File: fast_logo.jpg, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\fast_logo.jpg'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: final_score_gif, File: final_score_gif.gif, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\final_score_gif.gif'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: flipperx, File: flipperx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flipperx.png'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: flipper_circle, File: flipper_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flipper_circle.png'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: flutex, File: flutex.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flutex.png'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: flute_circle, File: flute_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\flute_circle.png'}
+2019-05-22 14:02:57,699 : AssetManager : Registering Asset: greenpendant, File: greenpendant.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\greenpendant.png'}
+2019-05-22 14:02:57,700 : AssetManager : Registering Asset: hammerx, File: hammerx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hammerx.png'}
+2019-05-22 14:02:57,700 : AssetManager : Registering Asset: hammer_circle, File: hammer_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hammer_circle.png'}
+2019-05-22 14:02:57,700 : AssetManager : Registering Asset: heartimage, File: heartimage.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\heartimage.png'}
+2019-05-22 14:02:57,700 : AssetManager : Registering Asset: hookshotx, File: hookshotx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hookshotx.png'}
+2019-05-22 14:02:57,700 : AssetManager : Registering Asset: hookshot_circle, File: hookshot_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\hookshot_circle.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: lampx, File: lampx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\lampx.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: mirrorshieldx, File: mirrorshieldx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirrorshieldx.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: mirrorshield_circle, File: mirrorshield_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirrorshield_circle.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: mirrorx, File: mirrorx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirrorx.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: mirror_circle, File: mirror_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mirror_circle.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: moonpearlx, File: moonpearlx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\moonpearlx.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: moonpearl_circle, File: moonpearl_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\moonpearl_circle.png'}
+2019-05-22 14:02:57,701 : AssetManager : Registering Asset: mpf_logo, File: mpf_logo.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\mpf_logo.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: redmailx, File: redmailx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redmailx.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: redmail_circle, File: redmail_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redmail_circle.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: redpendant, File: redpendant.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redpendant.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: redshieldx, File: redshieldx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redshieldx.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: redshield_circle, File: redshield_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\redshield_circle.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: shop_slide, File: shop_slide.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\shop_slide.png'}
+2019-05-22 14:02:57,702 : AssetManager : Registering Asset: somariax, File: somariax.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\somariax.png'}
+2019-05-22 14:02:57,703 : AssetManager : Registering Asset: somaria_circle, File: somaria_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\somaria_circle.png'}
+2019-05-22 14:02:57,703 : AssetManager : Registering Asset: titanmittx, File: titanmittx.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\titanmittx.png'}
+2019-05-22 14:02:57,703 : AssetManager : Registering Asset: titanmitt_circle, File: titanmitt_circle.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\titanmitt_circle.png'}
+2019-05-22 14:02:57,703 : AssetManager : Registering Asset: transparentbluependant, File: transparentbluependant.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentbluependant.png'}
+2019-05-22 14:02:57,703 : AssetManager : Registering Asset: transparentcrystal1, File: transparentcrystal1.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal1.png'}
+2019-05-22 14:02:57,703 : AssetManager : Registering Asset: transparentcrystal2, File: transparentcrystal2.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal2.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentcrystal3, File: transparentcrystal3.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal3.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentcrystal4, File: transparentcrystal4.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal4.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentcrystal5, File: transparentcrystal5.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal5.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentcrystal6, File: transparentcrystal6.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal6.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentcrystal7, File: transparentcrystal7.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentcrystal7.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentgreenpendant, File: transparentgreenpendant.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentgreenpendant.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: transparentredpendant, File: transparentredpendant.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\transparentredpendant.png'}
+2019-05-22 14:02:57,704 : AssetManager : Registering Asset: zelda_fili, File: zelda_fili.png, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\images\\zelda_fili.png'}
+2019-05-22 14:02:57,721 : AssetManager : Registering Asset: 5waycombovideo, File: 5waycombovideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\5waycombovideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,722 : AssetManager : Registering Asset: agahnimdefeatedvideo, File: agahnimdefeatedvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\agahnimdefeatedvideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,722 : AssetManager : Registering Asset: agahnimhitvideo, File: agahnimhitvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\agahnimhitvideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,722 : AssetManager : Registering Asset: agahnimstrikevideo, File: agahnimstrikevideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\agahnimstrikevideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,722 : AssetManager : Registering Asset: attractvideo, File: attractvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\attractvideo.mp4'}
+2019-05-22 14:02:57,722 : AssetManager : Registering Asset: bluemailvideo, File: bluemailvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bluemailvideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,722 : AssetManager : Registering Asset: bombblastvideo, File: bombblastvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bombblastvideo.mp4'}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boomerangfound, File: boomerangfound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boomerangfound.mp4'}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boss1progress1, File: boss1progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss1progress1.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boss1progress2, File: boss1progress2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss1progress2.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boss2progress1, File: boss2progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss2progress1.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boss2progress2, File: boss2progress2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss2progress2.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boss3progress1, File: boss3progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss3progress1.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: boss3progress2, File: boss3progress2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\boss3progress2.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,723 : AssetManager : Registering Asset: bottle_video, File: bottle_video.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bottle_video.mp4'}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: bowfound, File: bowfound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\bowfound.mp4'}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: castlestairs, File: castlestairs.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\castlestairs.mp4'}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: confrontagahnim, File: confrontagahnim.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\confrontagahnim.mp4'}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: darkworldstart, File: darkworldstart.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\darkworldstart.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: dungeon1boss, File: dungeon1boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon1boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: dungeon2boss, File: dungeon2boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon2boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,724 : AssetManager : Registering Asset: dungeon3boss, File: dungeon3boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon3boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,725 : AssetManager : Registering Asset: dungeon4boss, File: dungeon4boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon4boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,725 : AssetManager : Registering Asset: dungeon5boss, File: dungeon5boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon5boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,725 : AssetManager : Registering Asset: dungeon6boss, File: dungeon6boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon6boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,725 : AssetManager : Registering Asset: dungeon7boss, File: dungeon7boss.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\dungeon7boss.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,725 : AssetManager : Registering Asset: extraball, File: extraball.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\extraball.mp4'}
+2019-05-22 14:02:57,725 : AssetManager : Registering Asset: finalblowvideo, File: finalblowvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\finalblowvideo.mp4'}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: flippervideo, File: flippervideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\flippervideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: ganonintro, File: ganonintro.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonintro.mp4'}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: ganonlane1, File: ganonlane1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane1.mp4'}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: ganonlane2, File: ganonlane2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane2.mp4'}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: ganonlane3, File: ganonlane3.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane3.mp4'}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: ganonlane4, File: ganonlane4.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganonlane4.mp4'}
+2019-05-22 14:02:57,726 : AssetManager : Registering Asset: ganontwirl, File: ganontwirl.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\ganontwirl.mp4'}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: hammervideo, File: hammervideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\hammervideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: hookshotvideo, File: hookshotvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\hookshotvideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: item_extraball, File: item_extraball.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\item_extraball.mp4'}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: linkdyingvideo, File: linkdyingvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\linkdyingvideo.mp4'}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: maiden1, File: maiden1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden1.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: maiden2, File: maiden2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden2.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: maiden3, File: maiden3.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden3.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,727 : AssetManager : Registering Asset: maiden4, File: maiden4.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden4.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: maiden5, File: maiden5.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden5.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: maiden6, File: maiden6.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden6.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: maiden7, File: maiden7.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\maiden7.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: masterswordpulled, File: masterswordpulled.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\masterswordpulled.mp4'}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: mirrorvideo, File: mirrorvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mirrorvideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: mode1chaseprogression, File: mode1chaseprogression.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1chaseprogression.mp4'}
+2019-05-22 14:02:57,728 : AssetManager : Registering Asset: mode1finish, File: mode1finish.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1finish.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: mode1progression, File: mode1progression.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1progression.mp4'}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: mode1progression2, File: mode1progression2.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1progression2.mp4'}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: mode1startvideo, File: mode1startvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode1startvideo.mp4'}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: mode3progress1, File: mode3progress1.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode3progress1.mp4'}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: mode3progress3, File: mode3progress3.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode3progress3.mp4'}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: mode3startmovie, File: mode3startmovie.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mode3startmovie.mp4'}
+2019-05-22 14:02:57,729 : AssetManager : Registering Asset: moonpearlfound, File: moonpearlfound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\moonpearlfound.mp4'}
+2019-05-22 14:02:57,730 : AssetManager : Registering Asset: mp4, File: mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\mp4'}
+2019-05-22 14:02:57,730 : AssetManager : Registering Asset: pendant1found, File: pendant1found.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\pendant1found.mp4'}
+2019-05-22 14:02:57,730 : AssetManager : Registering Asset: pendant2found, File: pendant2found.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\pendant2found.mp4'}
+2019-05-22 14:02:57,730 : AssetManager : Registering Asset: pendant3found, File: pendant3found.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\pendant3found.mp4'}
+2019-05-22 14:02:57,730 : AssetManager : Registering Asset: redshieldvideo, File: redshieldvideo.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\redshieldvideo.mp4', 'width': 1280, 'height': 720}
+2019-05-22 14:02:57,730 : AssetManager : Registering Asset: zeldafound, File: zeldafound.mp4, Default Group: default, Final Config: {'load': 'preload', 'file': 'C:\\Users\\Wilder\\zelda\\videos\\zeldafound.mp4'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: battle, File: battle.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\battle.ogg'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: darkworld, File: darkworld.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\darkworld.ogg'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: darkworld2, File: darkworld2.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\darkworld2.ogg'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: darkworld_rescue, File: darkworld_rescue.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\darkworld_rescue.ogg'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: forest, File: forest.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\forest.ogg'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: ganonbattle, File: ganonbattle.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\ganonbattle.ogg'}
+2019-05-22 14:02:57,760 : AssetManager : Registering Asset: highscore, File: highscore.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\highscore.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: hyrulecastle, File: hyrulecastle.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\hyrulecastle.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: light_world_theme, File: light_world_theme.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\light_world_theme.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: princess_zeldas_rescue, File: princess_zeldas_rescue.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\princess_zeldas_rescue.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: rainin, File: rainin.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\rainin.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: rainout, File: rainout.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\rainout.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: timeoffalling, File: timeoffalling.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\timeoffalling.ogg'}
+2019-05-22 14:02:57,761 : AssetManager : Registering Asset: town_music, File: town_music.ogg, Default Group: music, Final Config: {'load': 'preload', 'track': 'music', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\music\\town_music.ogg'}
+2019-05-22 14:02:57,762 : AssetManager : Registering Asset: agahnim_charge, File: agahnim_charge.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\agahnim_charge.ogg'}
+2019-05-22 14:02:57,762 : AssetManager : Registering Asset: agahnim_dash, File: agahnim_dash.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\agahnim_dash.ogg'}
+2019-05-22 14:02:57,762 : AssetManager : Registering Asset: bomb_spots_item, File: bomb_spots_item.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\bomb_spots_item.ogg'}
+2019-05-22 14:02:57,762 : AssetManager : Registering Asset: cannonball, File: cannonball.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\cannonball.ogg'}
+2019-05-22 14:02:57,762 : AssetManager : Registering Asset: charge, File: charge.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\charge.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: chargeshot, File: chargeshot.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\chargeshot.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: dash, File: dash.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\dash.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: doubledoor, File: doubledoor.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\doubledoor.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: enemykill, File: enemykill.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\enemykill.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: error, File: error.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\error.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: extraballsfx, File: extraballsfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\extraballsfx.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: fireball, File: fireball.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\fireball.ogg'}
+2019-05-22 14:02:57,763 : AssetManager : Registering Asset: heart, File: heart.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\heart.ogg'}
+2019-05-22 14:02:57,764 : AssetManager : Registering Asset: heart_piece_sfx, File: heart_piece_sfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\heart_piece_sfx.ogg'}
+2019-05-22 14:02:57,764 : AssetManager : Registering Asset: inlanefx, File: inlanefx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\inlanefx.ogg'}
+2019-05-22 14:02:57,764 : AssetManager : Registering Asset: jets, File: jets.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\jets.ogg'}
+2019-05-22 14:02:57,764 : AssetManager : Registering Asset: key, File: key.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\key.ogg'}
+2019-05-22 14:02:57,764 : AssetManager : Registering Asset: light_world_finished, File: light_world_finished.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\light_world_finished.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: linkfall, File: linkfall.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkfall.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: linkhurt1, File: linkhurt1.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'volume': 0.7, 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkhurt1.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: linkhurt2, File: linkhurt2.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'volume': 0.7, 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkhurt2.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: linkhurt3, File: linkhurt3.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'volume': 0.7, 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\linkhurt3.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: link_dying, File: link_dying.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\link_dying.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: lost_woods_correct, File: lost_woods_correct.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\lost_woods_correct.ogg'}
+2019-05-22 14:02:57,765 : AssetManager : Registering Asset: low_health, File: low_health.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\low_health.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: magic, File: magic.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\magic.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: master_sword_fanfare, File: master_sword_fanfare.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\master_sword_fanfare.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: menu_cursor, File: menu_cursor.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\menu_cursor.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: menu_select, File: menu_select.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\menu_select.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: pickup, File: pickup.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\pickup.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: rat, File: rat.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\rat.ogg'}
+2019-05-22 14:02:57,766 : AssetManager : Registering Asset: rupeesfx, File: rupeesfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\rupeesfx.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: shatter, File: shatter.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\shatter.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: slide_txt_sfx, File: slide_txt_sfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\slide_txt_sfx.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: slingshot, File: slingshot.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\slingshot.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: sword1, File: sword1.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\sword1.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: sword2, File: sword2.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\sword2.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: swordsilence, File: swordsilence.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\swordsilence.ogg'}
+2019-05-22 14:02:57,767 : AssetManager : Registering Asset: text_done, File: text_done.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\text_done.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: text_letter, File: text_letter.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\text_letter.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: throw, File: throw.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\throw.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: treasure_sfx, File: treasure_sfx.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\treasure_sfx.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: treasure_sfx2, File: treasure_sfx2.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\treasure_sfx2.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: warp, File: warp.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\warp.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: waterwalk, File: waterwalk.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\waterwalk.ogg'}
+2019-05-22 14:02:57,768 : AssetManager : Registering Asset: worldwarp, File: worldwarp.ogg, Default Group: sfx, Final Config: {'load': 'preload', 'track': 'sfx', 'file': 'C:\\Users\\Wilder\\zelda\\sounds\\sfx\\worldwarp.ogg'}
+2019-05-22 14:02:57,799 : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-05-22 14:02:57,800 : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-05-22 14:02:57,800 : mpfmc : Clearing boot hold init. Holds remaining: {'assets'}
+2019-05-22 14:02:57,817 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\byrna_circle.png>
+2019-05-22 14:02:57,822 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon5boss.mp4>
+2019-05-22 14:02:57,836 : EventManager : Event: ======'loading_assets'====== Args={'total': 206, 'loaded': 1, 'remaining': 205, 'percent': 0}
+2019-05-22 14:02:57,837 : AssetManager : Loading assets: 1/206 (0%)
+2019-05-22 14:02:57,837 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\byrnax.png>
+2019-05-22 14:02:57,837 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon4boss.mp4>
+2019-05-22 14:02:57,839 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon3boss.mp4>
+2019-05-22 14:02:57,839 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bow_circle.png>
+2019-05-22 14:02:57,840 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon2boss.mp4>
+2019-05-22 14:02:57,841 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\dungeon1boss.mp4>
+2019-05-22 14:02:57,841 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\zelda_fili.png>
+2019-05-22 14:02:57,868 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\darkworldstart.mp4>
+2019-05-22 14:02:57,869 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\agahnimdefeatedvideo.mp4>
+2019-05-22 14:02:57,870 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentredpendant.png>
+2019-05-22 14:02:57,871 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\agahnimhitvideo.mp4>
+2019-05-22 14:02:57,871 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\agahnimstrikevideo.mp4>
+2019-05-22 14:02:57,872 : kivy : VideoGstplayer: Load <confrontagahnim>
+2019-05-22 14:02:57,872 : kivy : VideoGstplayer: Load <masterswordpulled>
+2019-05-22 14:02:57,873 : kivy : VideoGstplayer: Load <mode3progress3>
+2019-05-22 14:02:57,873 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentgreenpendant.png>
+2019-05-22 14:02:57,874 : kivy : VideoGstplayer: Load <mode3progress1>
+2019-05-22 14:02:57,875 : kivy : VideoGstplayer: Load <mode3startmovie>
+2019-05-22 14:02:57,875 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bowx.png>
+2019-05-22 14:02:57,876 : kivy : VideoGstplayer: Load <pendant3found>
+2019-05-22 14:02:57,877 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss3progress2.mp4>
+2019-05-22 14:02:57,877 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal7.png>
+2019-05-22 14:02:57,878 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss3progress1.mp4>
+2019-05-22 14:02:57,878 : kivy : VideoGstplayer: Load <pendant2found>
+2019-05-22 14:02:57,879 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal6.png>
+2019-05-22 14:02:57,879 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss2progress2.mp4>
+2019-05-22 14:02:57,880 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss2progress1.mp4>
+2019-05-22 14:02:57,880 : kivy : VideoGstplayer: Load <pendant1found>
+2019-05-22 14:02:57,881 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal5.png>
+2019-05-22 14:02:57,882 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss1progress2.mp4>
+2019-05-22 14:02:57,882 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\boss1progress1.mp4>
+2019-05-22 14:02:57,883 : kivy : VideoGstplayer: Load <linkdyingvideo>
+2019-05-22 14:02:57,883 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal4.png>
+2019-05-22 14:02:57,884 : kivy : VideoGstplayer: Load <C:\Users\Wilder\zelda\videos\mode1finish.mp4>
+2019-05-22 14:02:57,884 : kivy : VideoGstplayer: Load <bomblastvideo>
+2019-05-22 14:02:57,885 : kivy : VideoGstplayer: Load <extraball>
+2019-05-22 14:02:57,885 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal3.png>
+2019-05-22 14:02:57,886 : kivy : VideoGstplayer: Load <attractvideo>
+2019-05-22 14:02:57,886 : kivy : VideoGstplayer: Load <moonpearlfound>
+2019-05-22 14:02:57,886 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal2.png>
+2019-05-22 14:02:57,887 : kivy : VideoGstplayer: Load <bowfound>
+2019-05-22 14:02:57,888 : kivy : VideoGstplayer: Load <boomerangfound>
+2019-05-22 14:02:57,888 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentcrystal1.png>
+2019-05-22 14:02:57,889 : kivy : VideoGstplayer: Load <mode1progression2>
+2019-05-22 14:02:57,889 : kivy : VideoGstplayer: Load <mode1progression>
+2019-05-22 14:02:57,889 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\transparentbluependant.png>
+2019-05-22 14:02:57,890 : kivy : VideoGstplayer: Load <zeldafound>
+2019-05-22 14:02:57,891 : kivy : VideoGstplayer: Load <mode1chaseprogression>
+2019-05-22 14:02:57,891 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\titanmitt_circle.png>
+2019-05-22 14:02:57,892 : kivy : VideoGstplayer: Load <castlestairs>
+2019-05-22 14:02:57,893 : kivy : VideoGstplayer: Load <mode1startvideo>
+2019-05-22 14:02:57,893 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\titanmittx.png>
+2019-05-22 14:02:57,897 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\boomerang_circle.png>
+2019-05-22 14:02:57,898 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\somaria_circle.png>
+2019-05-22 14:02:57,900 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\somariax.png>
+2019-05-22 14:02:57,901 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\shop_slide.png>
+2019-05-22 14:02:58,034 : EventManager : Event: ======'loading_assets'====== Args={'total': 206, 'loaded': 54, 'remaining': 152, 'percent': 26}
+2019-05-22 14:02:58,034 : AssetManager : Loading assets: 54/206 (26%)
+2019-05-22 14:02:58,036 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redshield_circle.png>
+2019-05-22 14:02:58,037 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redshieldx.png>
+2019-05-22 14:02:58,038 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redpendant.png>
+2019-05-22 14:02:58,039 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redmail_circle.png>
+2019-05-22 14:02:58,040 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\redmailx.png>
+2019-05-22 14:02:58,041 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mpf_logo.png>
+2019-05-22 14:02:58,053 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\moonpearl_circle.png>
+2019-05-22 14:02:58,054 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\boomerangx.png>
+2019-05-22 14:02:58,055 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\moonpearlx.png>
+2019-05-22 14:02:58,056 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirror_circle.png>
+2019-05-22 14:02:58,058 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirrorx.png>
+2019-05-22 14:02:58,059 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirrorshield_circle.png>
+2019-05-22 14:02:58,060 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\mirrorshieldx.png>
+2019-05-22 14:02:58,061 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\lampx.png>
+2019-05-22 14:02:58,062 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hookshot_circle.png>
+2019-05-22 14:02:58,063 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hookshotx.png>
+2019-05-22 14:02:58,065 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\heartimage.png>
+2019-05-22 14:02:58,074 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hammer_circle.png>
+2019-05-22 14:02:58,076 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\bluependant.png>
+2019-05-22 14:02:58,077 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\hammerx.png>
+2019-05-22 14:02:58,078 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\greenpendant.png>
+2019-05-22 14:02:58,078 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flute_circle.png>
+2019-05-22 14:02:58,080 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flutex.png>
+2019-05-22 14:02:58,081 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flipper_circle.png>
+2019-05-22 14:02:58,082 : kivy : ImageSDL2: Load <C:\Users\Wilder\zelda\images\flipperx.png>
+2019-05-22 14:02:58,190 : kivy : ImagePIL: Load <C:\Users\Wilder\zelda\images\final_score_gif.gif>

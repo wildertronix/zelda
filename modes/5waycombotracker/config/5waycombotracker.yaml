@@ -122,7 +122,7 @@ timers:
       - action: stop 
         event: combo_expired
 
-show_player:
-  slide_5waycombovideo_removed:
-    5waycomplete_slide:
-      loops: 0
+# show_player:
+#   slide_5waycombovideo_removed:
+#     5waycomplete_slide:
+#       loops: 0

@@ -4,7 +4,7 @@
 
 - duration: 6s
   slides:
-    escape_instructions:
+    light_world_instructions:
       widgets:
       - type: Text
         text: Shoot

@@ -291,3 +291,27 @@ player_vars:
     value_type: int
     initial_value: 0
 
+  current_attract_slide:
+    value_type: int
+    initial_value: 1
+
+  agahnim_attack_variable:
+    value_type: int
+    initial_value: 1
+
+  path_variable:
+    value_type: int
+    initial_value: 0
+
+
+  green_pendant_variable:
+    value_type: int
+    initial_value: 0
+
+  blue_pendant_variable:
+    value_type: int
+    initial_value: 0
+
+  red_pendant_variable:
+    value_type: int
+    initial_value: 0

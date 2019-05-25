@@ -39,9 +39,7 @@ event_player:
   sw_modestart{current_player.sw_switch_hit_count > 169}: award_1_white_bottle
   sw_modestart{current_player.sw_switch_hit_count > 181}: award_2_white_bottle
   sw_modestart{current_player.sw_switch_hit_count > 193}: award_3_white_bottle
-  sw_modestart{current_player.sw_switch_hit_count == 200}: award_4_white_bottle
-
-
+  sw_modestart{current_player.sw_switch_hit_count == 200}: award_4_white_bottle, award_bottle_extraball, titanmitt_found
 
 
 counters:
@@ -116,6 +114,11 @@ show_player:
     four_white_bottles:
       loops: -1
       speed: 1
+  slide_bottle_video_removed:
+  # slide_bottle_video_removed{current_player.bottle_slide_variable < 1}:
+    bottle_instructions:
+      loops: 0
+
   sw_modestart:
     one_red_bottle:
       action: stop
@@ -190,3 +193,13 @@ variable_player:
     score: 4 * current_player.multiplier
   award_4_white_bottle:
     score: 4 * current_player.multiplier
+
+  # slide_bottle_video_removed:
+  #   bottle_slide_variable: 
+  #     int: 1
+  #     action: set_machine
+
+  # fill_bottle_4_red:
+  #   bottle_slide_variable:
+  #     int: 0
+  #     action: set_machine

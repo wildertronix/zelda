@@ -23,16 +23,16 @@ event_player:
   update_item_tracker{current_player.item_count ==4 }: set_item4_lightshow
   update_item_tracker{current_player.item_count ==5 }: set_item5_lightshow
 
-  boomerang_found{current_player.boomerang_count < 1}: increment_item_tracker
-  bow_found{current_player.bow_count < 1}: increment_item_tracker
-  moonpearl_found{current_player.moonpearl_count < 1}: increment_item_tracker
-  mirror_found{current_player.mirror_count < 1}: increment_item_tracker
+  boomerang_found{current_player.boomerang_count < 1}: increment_item_tracker, item_found
+  bow_found{current_player.bow_count < 1}: increment_item_tracker, item_found
+  moonpearl_found{current_player.moonpearl_count < 1}: increment_item_tracker, item_found
+  mirror_found{current_player.mirror_count < 1}: increment_item_tracker, item_found
 
-  logicblock_hookshot_counter_complete: hookshot_found
-  logicblock_hammer_counter_complete: hammer_found
-  logicblock_flipper_counter_complete: flippers_found
-  logicblock_bluemail_counter_complete: bluemail_found
-  logicblock_redshield_counter_complete: redshield_found
+  logicblock_hookshot_counter_complete: hookshot_found, item_found
+  logicblock_hammer_counter_complete: hammer_found, item_found
+  logicblock_flipper_counter_complete: flippers_found, item_found
+  logicblock_bluemail_counter_complete: bluemail_found, item_found
+  logicblock_redshield_counter_complete: redshield_found, item_found
 
   hookshot_found{current_player.hookshot_count < 1}: set_hookshot_show
   hammer_found{current_player.hammer_count < 1}: set_hammer_show
@@ -41,6 +41,10 @@ event_player:
   redshield_found{current_player.redshield_count < 1}: set_redshield_show
 
   flute_found{current_player.flute_count <1}: set_flute_show
+  titanmitt_found{current_player.titanmitt_count <1}: set_titanmitt_show
+  mirrorshield_found{current_player.mirrorshield_count <1}: set_mirrorshield_show
+  redmail_found{current_player.redmail_count <1}: set_redmail_show
+  cape_found{current_player.cape_count <1}: set_cape_show
 
   update_item_tracker{current_player.hookshot_count > 0 }: set_hookshot_show
   update_item_tracker{current_player.hammer_count > 0 }: set_hammer_show
@@ -48,19 +52,21 @@ event_player:
   update_item_tracker{current_player.bluemail_count > 0 }: set_bluemail_show
   update_item_tracker{current_player.redshield_count > 0 }: set_redshield_show
 
-  update_item_tracker{current_player.flute_count > 0}: set_flute_show
+  update_item_tracker{current_player.flute_count > 0}: set_flute_show                #wizard goal 1    5 way combo
+  update_item_tracker{current_player.titanmitt_count > 0}: set_titanmitt_show        #wizard goal 2    bottle extraball awarded
+  update_item_tracker{current_player.mirrorshield_count > 0}: set_mirrorshield_show  #wizard goal 3    total item count 10
+  update_item_tracker{current_player.redmail_count > 0}: set_redmail_show            #wizard goal 4    heart extral ball
+  update_item_tracker{current_player.cape_count > 0}: set_cape_show                  #wizard goal 5    flawless agahnim
 
-  jar_extraball_earned: titanmitt_found
-  heart_extraball_earned: mirrorshield_found
-  flawless_agahnim: redmail_found
-  all_items_found: cape_found
   unknown_wizardgoal: byrna_found
   unknown_wizardgoal2: somaria_found
 
+  # item_found{current_player.total_item_count ==5}: award_item_extraball   # 1 of 3 extraballs
+  item_found{current_player.total_item_count == 10}: mirrorshield_found
+  agahnim_complete{current_player.agahnim_attack_variable <1}: cape_found
 
 
 variable_player:
-
   mode_item_tracker_started:
     lamp_count: 1
     ###added solely for testing
@@ -80,35 +86,28 @@ variable_player:
     # cape_count: 1
     # byrna_count: 1
     # somaria_count: 1
+  item_found:
+    total_item_count: 1
   increment_item_tracker:
     item_count: 1
-  boomerang_found:    ###perhaps this needs to be copied into the shop mode to validate these variables?
+  boomerang_found:   
     boomerang_count: 1
-    total_item_count: 1
   bow_found:
     bow_count: 1
-    total_item_count: 1
   moonpearl_found:
     moonpearl_count: 1
-    total_item_count: 1
   mirror_found:
     mirror_count: 1
-    total_item_count: 1
   hookshot_found:
     hookshot_count: 1
-    total_item_count: 1
   hammer_found:
     hammer_count: 1
-    total_item_count: 1
   flippers_found:
     flipper_count: 1
-    total_item_count: 1
   bluemail_found:
     bluemail_count: 1
-    total_item_count: 1
   redshield_found:
     redshield_count: 1
-    total_item_count: 1
 
 
 
@@ -122,10 +121,31 @@ variable_player:
     titanmitt_count: 1
   cape_found:
     cape_count: 1
+
   byrna_found:
     byrna_count: 1
   somaria_found:
     somaria_count: 1
+
+  slide_redshieldvideo_removed:
+    redshield_slide_variable: 1
+  slide_bluemailvideo_removed:
+    bluemail_slide_variable: 1
+  slide_flippervideo_removed:
+    flipper_slide_variable: 1
+  slide_hammervideo_removed:
+    hammer_slide_variable: 1
+  slide_hookshotvideo_removed:
+    hookshot_slide_variable: 1
+  slide_item2award_removed:
+    boomerang_slide_variable: 1
+  slide_item3award_removed:
+    bow_slide_variable: 1
+  slide_item4award_removed:
+    moonpearl_slide_variable: 1
+  slide_item5award_removed:
+    mirror_slide_variable: 1
+
 
 
 
@@ -215,42 +235,58 @@ show_player:
     redshield_lit:
       loops: -1
 
-  slide_redshieldvideo_removed:
+  slide_redshieldvideo_removed{current_player.redshield_slide_variable < 1}:
     redshield_found_slide:
       loops: 0
 
-  slide_bluemailvideo_removed:
+  slide_bluemailvideo_removed{current_player.bluemail_slide_variable < 1}:
     bluemail_found_slide:
       loops: 0
 
-  slide_flippervideo_removed:
+  slide_flippervideo_removed{current_player.flipper_slide_variable < 1}:
     flippers_found_slide:
       loops: 0
 
-  slide_hammervideo_removed:
+  slide_hammervideo_removed{current_player.hammer_slide_variable < 1}:
     hammer_found_slide:
       loops: 0
 
-  slide_hookshotvideo_removed:
+  slide_hookshotvideo_removed{current_player.hookshot_slide_variable < 1}:
     hookshot_found_slide:
       loops: 0
 
-  slide_item2award_removed:
+  slide_item2award_removed{current_player.boomerang_slide_variable < 1}:
     boomerang_found_slide:
       loops: 0
 
-  slide_item3award_removed:
+  slide_item3award_removed{current_player.bow_slide_variable < 1}:
     bow_found_slide:
       loops: 0
 
-  slide_item4award_removed:
+  slide_item4award_removed{current_player.moonpearl_slide_variable < 1}:
     moonpearl_found_slide:
       loops: 0
 
-  slide_item5award_removed:
+  slide_item5award_removed{current_player.mirror_slide_variable < 1}:
     mirror_found_slide:
       loops: 0
 
   set_flute_show:
     flute_lit:
+      loops: -1
+
+  set_titanmitt_show:
+    titanmitt_lit:
+      loops: -1
+
+  set_mirrorshield_show:
+    mirrorshield_lit:
+      loops: -1
+
+  set_redmail_show:
+    redmail_lit:
+      loops: -1
+
+  set_cape_show:
+    cape_lit:
       loops: -1

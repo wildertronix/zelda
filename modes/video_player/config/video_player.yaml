@@ -81,6 +81,11 @@ slide_player:
       target: lcd
       expire: 4.5s
 
+  award_item_extraball:
+    item_extraball:
+      target: lcd
+      expire: 4s
+
   play_bomb_sfx:
     bombvideo:
       target: lcd
@@ -337,8 +342,10 @@ slide_player:
       target: lcd
       expire: 141s
 
-
-
+  fill_bottle_4_red:
+    bottle_video:
+      target: lcd
+      expire: 2s
 
 
 slides:
@@ -420,6 +427,13 @@ slides:
     widgets:
       - type: video
         video: extraball
+        width: 1280
+        height: 720
+
+  item_extraball:
+    widgets:
+      - type: video
+        video: item_extraball
         width: 1280
         height: 720
 
@@ -764,5 +778,12 @@ slides:
     widgets:
       - type: video
         video: finalblowvideo
+        width: 1280
+        height: 720
+
+  bottle_video:
+    widgets:
+      - type: video
+        video: bottle_video
         width: 1280
         height: 720

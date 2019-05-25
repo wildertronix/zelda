@@ -2,7 +2,7 @@
 
 - duration: 5s
   slides:
-    escape_instructions:
+    lock_a_ball_instructions:
       widgets:
       - type: Text
         text: Lock

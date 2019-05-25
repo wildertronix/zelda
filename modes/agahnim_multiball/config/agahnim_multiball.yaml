@@ -105,3 +105,6 @@ sound_player:
 variable_player:
   mode_agahnim_will_stop:
     score: 100 * current_player.multiplier
+
+  agahnim_attack:
+    agahnim_attack_variable: 1
