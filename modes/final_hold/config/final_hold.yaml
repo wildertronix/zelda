@@ -1,7 +1,7 @@
 #config_version=5
 
 mode: 
-  start_events: final_blow_sequence_hit
+  start_events: game_over_zelda
   stop_events: game_will_end
   priority: 3200
 

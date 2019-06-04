@@ -2,7 +2,7 @@
 
 mode: 
   start_events: multiball_agahnim_multiball_started
-  stop_events: agahnim_complete game_ending
+  stop_events: agahnim_complete game_ending mode_darkworld_started
   priority: 1000
   restart_on_next_ball: true
 
@@ -25,12 +25,12 @@ shots:
     disable_events: agahnim_shift
 
   agahnim_shot_two:
-    switch: s_optoz1
+    switch: s_lostwoods
     enable_events: agahnim_shift
     disable_events: agahnim_shift_again
 
   agahnim_shot_three:
-    switch: s_lostwoods
+    switch: s_optoz1
     enable_events: agahnim_shift_again
     disable_events: agahnim_complete_disable_flippers
 
@@ -79,16 +79,16 @@ show_player:
       loops: -1
       speed: 10
   agahnim_shift:
-    agahnim_shot_two_lit:
+    agahnim_shot_three_lit:
       loops: -1
       speed: 10
     agahnim_shot_lit:
       action: stop
   agahnim_shift_again:
-    agahnim_shot_three_lit:
+    agahnim_shot_two_lit:
       loops: -1
       speed: 10
-    agahnim_shot_two_lit:
+    agahnim_shot_three_lit:
       action: stop
   agahnim_complete:
     darkworldwarp:

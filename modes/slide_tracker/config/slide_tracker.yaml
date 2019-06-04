@@ -61,6 +61,15 @@ slides:
       x: left+400
       style: hyruletext
       font_size: 180
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
     - type: Text
       text: Ball
       color: Gold
@@ -415,7 +424,25 @@ slides:
       font_size: 200
 
 
-
+  ball_saved_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text:  BALL SAVED!
+      color: Gold
+      y: middle
+      x: middle
+      style: hyruletext
+      font_size: 200
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
 slide_player:
   slide_the_journey_begins_removed: escape_instructions
   start_2ball_multiball: lock_a_ball_instructions
@@ -429,7 +456,8 @@ slide_player:
   slide_maiden7_removed: darkworld2_slide
   heart_piece_earned: heart_couter_slide
   slide_5waycombovideo_removed: 5waycomplete_slide
-  
+  ball_save_default_saving_ball: ball_saved_slide
+
 
 show_player:
   ball_started{ball==1}:
@@ -512,3 +540,4 @@ sound_player:
   slide_maiden7_removed: slide_txt_sfx
   slide_bottle_instructions_active: slide_txt_sfx
   heart_piece_earned: heart_piece_sfx
+  ball_saved_slide_active: slide_txt_sfx

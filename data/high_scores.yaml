@@ -1,5 +1,8 @@
 score:
 - !!python/tuple
+  - WZ
+  - 1353
+- !!python/tuple
   - W
   - 1338
 - !!python/tuple
@@ -11,6 +14,3 @@ score:
 - !!python/tuple
   - JF
   - 795
-- !!python/tuple
-  - GKDDDDDD
-  - 524

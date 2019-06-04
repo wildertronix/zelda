@@ -1,7 +1,7 @@
 #config_version=5
 mode:
   start_events: ball_starting
-  stop_events: ball_save_default_saving_ball, game_ending, skillshot_ballsave_award
+  stop_events: game_ending, skillshot_ballsave_award
   priority: 100
 
 event_player:   
@@ -17,6 +17,7 @@ ball_saves:
     timer_start_events: start_ballsave
     auto_launch: yes
     balls_to_save: 1
+    early_ball_save_events: s_right_oulane_active, s_left_outlane_active
     debug: yes
 
 
@@ -24,3 +25,13 @@ show_player:
   start_ballsave:
     ball_save_show:
       loops: 0
+
+  multiball_lock_2ballescape_locked_ball:
+    2ball_escape_ballsave_show:
+      loops: 0
+    ball_save_show:
+      action: stop
+
+  2ballescape_complete:
+    2ball_escape_ballsave_show:
+      action: stop

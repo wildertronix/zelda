@@ -17,6 +17,13 @@ ball_holds:
     release_one_events: slide_escape_instructions_removed
     disable_events: slide_escape_instructions_removed
 
+  enter_the_woods:
+    balls_to_hold: 1
+    hold_devices: bd_lostwoods
+    enable_events: find_master_sword
+    release_one_events: slide_lost_woods_instructions_removed
+    disable_events: slide_lost_woods_instructions_removed
+
   pulling_the_sword:
     balls_to_hold: 1
     hold_devices: bd_lostwoods
@@ -26,7 +33,7 @@ ball_holds:
 
   darkworld_transition:
     balls_to_hold: 1
-    hold_devices: bd_lostwoods
+    hold_devices: bd_cranehole
     enable_events: agahnim_complete
     release_one_events: slide_darkworldstart_removed
     disable_events: slide_darkworldstart_removed

@@ -16,15 +16,15 @@ event_player:
   ball_started{current_player.darkworld2_variable == 1 and curent_player.ganonbattle_variable == 0}: mode5_part2_music
   ball_started{current_player.ganonbattle_variable == 1}: mode6_music
 
-  start_initial_slide_and_music: stop_all_music initial_music 
-  begin_escape: stop_all_music mode1_music
-  mode_escapehurryup_stopped: stop_all_music mode2_music
-  start_town_music: stop_all_music mode2_part2_music
-  start_lost_woods: stop_all_music mode3_music
-  slide_agahnimstartvideo_created: stop_all_music mode4_music
-  slide_agahnimdefeatedvideo_removed: stop_all_music mode5_music
-  slide_darkworld2_slide_active: stop_all_music mode5_part2_music
-  slide_ganonintro_removed: stop_all_music mode6_music
+  start_initial_slide_and_music: stop_all_music initial_music|20ms 
+  begin_escape: stop_all_music mode1_music|20ms
+  mode_light_world_started: stop_all_music mode2_music|20ms
+  start_town_music: stop_all_music mode2_part2_music|20ms
+  start_lost_woods: stop_all_music mode3_music|20ms
+  slide_agahnimstartvideo_created: stop_all_music mode4_music|20ms
+  slide_agahnimdefeatedvideo_removed: stop_all_music mode5_music|20ms
+  slide_darkworld2_slide_active: stop_all_music mode5_part2_music|20ms
+  slide_ganonintro_removed: stop_all_music mode6_music|20ms
 
 
 
@@ -34,7 +34,7 @@ variable_player:
     initial_mode_start_variable: 1
   begin_escape:
     begin_escape_variable: 1
-  flippers_alive:
+  mode_light_world_started:
     light_world_start_variable: 1
   start_town_music:
     mode2_part2_variable: 1
@@ -109,7 +109,7 @@ sound_player:
   mode3_music:
     forest:
       action: play
-      loops: 0
+      loops: -1
       volume: 0.5
 
     light_world_finished:

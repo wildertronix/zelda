@@ -11,8 +11,12 @@ machine:
 
 playfields:
     playfield:
-         tags: default
-         default_source_device: bd_plunger_lane
+        tags: default
+        default_source_device: bd_plunger_lane
+        enable_ball_search: True
+        ball_search_timeout: 20s
+        ball_search_wait_after_iteration: 10s
+        ball_search_interval: 250ms
 
 virtual_platform_start_active_switches: trough1 trough2
 
@@ -54,6 +58,8 @@ ball_devices:
     confirm_eject_type: target
     tags: drain
     debug: true
+    ball_search_order: 1
+
   bd_trough:
     entrance_switch: trough2
     entrance_switch_full_timeout: 3s
@@ -69,22 +75,32 @@ ball_devices:
     mechanical_eject: true
     eject_timeouts: 1s
     debug: true
+    ball_search_order: 2
+
   bd_lostwoods:
     ball_switches: s_lostwoods
     eject_coil: lostwoods
     eject_timeouts: 2s
+    ball_search_order: 3
+
   bd_cranehole:
     ball_switches: s_cranehole
     eject_coil: catapulthole
     eject_timeouts: 2s
+    ball_search_order: 4
+
   bd_abyss:
     ball_switches: s_abyss
     eject_coil: abyss
     eject_timeouts: 2s
+    ball_search_order: 5
+
   bd_modestart:
     ball_switches: s_modestart
     eject_coil: modestart
     eject_timeouts: 2s
+    ball_search_order: 6
+
 
 
 switches:
@@ -330,12 +346,18 @@ autofire_coils:
   topjet:
     switch: s_toppop
     coil: toppop
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
   leftjet:
     switch: s_leftpop
     coil: leftpop
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
   rightjet:
     switch: s_rightpop
     coil: rightpop
+    enable_events: ball_started, flippers_alive, flippers_alive_agahnim, mode_darkworld_started
+    disable_events: escape_complete_disable_flippers, ball_will_end, agahnim_strike_disable_flippers, agahnim_complete_disable_flippers
 
 flippers:
   leftflipper:

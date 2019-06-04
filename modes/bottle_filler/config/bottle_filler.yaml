@@ -22,7 +22,7 @@ event_player:
   sw_switch_hit{device.counters.bottle_filler_counter.value==169}: fill_bottle_1_white
   sw_switch_hit{device.counters.bottle_filler_counter.value==181}: fill_bottle_2_white
   sw_switch_hit{device.counters.bottle_filler_counter.value==193}: fill_bottle_3_white
-  sw_switch_hit{device.counters.bottle_filler_counter.value==200}: fill_bottle_4_white
+  sw_switch_hit{device.counters.bottle_filler_counter.value > 200}: fill_bottle_4_white
 
   sw_modestart{current_player.sw_switch_hit_count > 12}: award_1_red_bottle
   sw_modestart{current_player.sw_switch_hit_count > 25}: award_2_red_bottle
@@ -39,13 +39,13 @@ event_player:
   sw_modestart{current_player.sw_switch_hit_count > 169}: award_1_white_bottle
   sw_modestart{current_player.sw_switch_hit_count > 181}: award_2_white_bottle
   sw_modestart{current_player.sw_switch_hit_count > 193}: award_3_white_bottle
-  sw_modestart{current_player.sw_switch_hit_count == 200}: award_4_white_bottle, award_bottle_extraball, titanmitt_found
+  sw_modestart{current_player.sw_switch_hit_count > 200}: award_4_white_bottle, award_bottle_extraball, titanmitt_found
 
 
 counters:
   bottle_filler_counter:
     count_events: sw_switch_hit
-    count_complete_value: 200
+    count_complete_value: 250
     reset_events: sw_modestart
 
 
@@ -114,10 +114,10 @@ show_player:
     four_white_bottles:
       loops: -1
       speed: 1
-  slide_bottle_video_removed:
-  # slide_bottle_video_removed{current_player.bottle_slide_variable < 1}:
-    bottle_instructions:
-      loops: 0
+  # slide_bottle_video_removed:   #move to sldie player
+  # # slide_bottle_video_removed{current_player.bottle_slide_variable < 1}:
+  #   bottle_instructions:
+  #     loops: 0
 
   sw_modestart:
     one_red_bottle:
@@ -203,3 +203,32 @@ variable_player:
   #   bottle_slide_variable:
   #     int: 0
   #     action: set_machine
+
+slides:
+  bottle_instructions:
+    expire: 3s
+    widgets:
+    - type: Text
+      text: Stack 3 More
+      color: Gold
+      y: top-100
+      x: middle
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: Bottle Sets
+      color: Gold
+      y: middle
+      x: middle
+      style: hyruletext
+      font_size: 180
+    - type: Text
+      text: For Extra Ball
+      color: Gold
+      y: bottom +100
+      x: middle
+      style: hyruletext
+      font_size: 180
+
+slide_player:
+  slide_bottle_video_removed: bottle_instructions

@@ -1,0 +1,1200 @@
+#show_version=5
+- time: 0
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.5s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: orange
+
+- time: '+0.25s'
+  lights: 
+    l_shootagain: black

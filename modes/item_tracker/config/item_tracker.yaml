@@ -61,9 +61,9 @@ event_player:
   unknown_wizardgoal: byrna_found
   unknown_wizardgoal2: somaria_found
 
-  # item_found{current_player.total_item_count ==5}: award_item_extraball   # 1 of 3 extraballs
+  item_found{current_player.total_item_count ==5}: award_item_extraball   # 1 of 3 extraballs
   item_found{current_player.total_item_count == 10}: mirrorshield_found
-  agahnim_complete{current_player.agahnim_attack_variable <1}: cape_found
+  agahnim_complete{current_player.agahnim_attack_variable < 1}: cape_found
 
 
 variable_player:
@@ -235,41 +235,41 @@ show_player:
     redshield_lit:
       loops: -1
 
-  slide_redshieldvideo_removed{current_player.redshield_slide_variable < 1}:
-    redshield_found_slide:
-      loops: 0
+  # slide_redshieldvideo_removed{current_player.redshield_slide_variable < 1}:
+  #   redshield_found_slide:
+  #     loops: 0
 
-  slide_bluemailvideo_removed{current_player.bluemail_slide_variable < 1}:
-    bluemail_found_slide:
-      loops: 0
+  # slide_bluemailvideo_removed{current_player.bluemail_slide_variable < 1}:
+  #   bluemail_found_slide:
+  #     loops: 0
 
-  slide_flippervideo_removed{current_player.flipper_slide_variable < 1}:
-    flippers_found_slide:
-      loops: 0
+  # slide_flippervideo_removed{current_player.flipper_slide_variable < 1}:
+  #   flippers_found_slide:
+  #     loops: 0
 
-  slide_hammervideo_removed{current_player.hammer_slide_variable < 1}:
-    hammer_found_slide:
-      loops: 0
+  # slide_hammervideo_removed{current_player.hammer_slide_variable < 1}:
+  #   hammer_found_slide:
+  #     loops: 0
 
-  slide_hookshotvideo_removed{current_player.hookshot_slide_variable < 1}:
-    hookshot_found_slide:
-      loops: 0
+  # slide_hookshotvideo_removed{current_player.hookshot_slide_variable < 1}:
+  #   hookshot_found_slide:
+  #     loops: 0
 
-  slide_item2award_removed{current_player.boomerang_slide_variable < 1}:
-    boomerang_found_slide:
-      loops: 0
+  # slide_item2award_removed{current_player.boomerang_slide_variable < 1}:
+  #   boomerang_found_slide:
+  #     loops: 0
 
-  slide_item3award_removed{current_player.bow_slide_variable < 1}:
-    bow_found_slide:
-      loops: 0
+  # slide_item3award_removed{current_player.bow_slide_variable < 1}:
+  #   bow_found_slide:
+  #     loops: 0
 
-  slide_item4award_removed{current_player.moonpearl_slide_variable < 1}:
-    moonpearl_found_slide:
-      loops: 0
+  # slide_item4award_removed{current_player.moonpearl_slide_variable < 1}:
+  #   moonpearl_found_slide:
+  #     loops: 0
 
-  slide_item5award_removed{current_player.mirror_slide_variable < 1}:
-    mirror_found_slide:
-      loops: 0
+  # slide_item5award_removed{current_player.mirror_slide_variable < 1}:
+  #   mirror_found_slide:
+  #     loops: 0
 
   set_flute_show:
     flute_lit:
@@ -290,3 +290,267 @@ show_player:
   set_cape_show:
     cape_lit:
       loops: -1
+
+slide_player:
+  slide_redshieldvideo_removed{current_player.redshield_slide_variable < 1}: redshield_found_slide
+  slide_bluemailvideo_removed{current_player.bluemail_slide_variable < 1}: bluemail_found_slide
+  slide_flippervideo_removed{current_player.flipper_slide_variable < 1}: flippers_found_slide
+  slide_hammervideo_removed{current_player.hammer_slide_variable < 1}: hammer_found_slide
+  slide_hookshotvideo_removed{current_player.hookshot_slide_variable < 1}: hookshot_found_slide
+  slide_item2award_removed{current_player.boomerang_slide_variable < 1}: boomerang_found_slide
+  slide_item3award_removed{current_player.bow_slide_variable < 1}: bow_found_slide
+  slide_item4award_removed{current_player.moonpearl_slide_variable < 1}: moonpearl_found_slide
+  slide_item5award_removed{current_player.mirror_slide_variable < 1}: mirror_found_slide
+
+
+
+slides:
+  bluemail_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: BLUE MAIL
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  boomerang_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: BOOMERANG
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+
+
+  bow_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: BOW
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+      
+
+
+  flippers_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: ZORA FLIPPERS
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  hammer_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: HAMMER
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  hookshot_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: HOOKSHOT
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+  mirror_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: MIRROR
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+
+
+  moonpearl_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: MOON PEARL
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1
+ 
+
+
+  redshield_found_slide:
+    expire: 2s
+    widgets:
+    - type: Text
+      text: ITEM FOUND
+      color: Gold
+      y: top-250
+      x: middle
+      style: hyruletext
+      font_size: 200
+    - type: Text
+      text: RED SHIELD
+      color: Gold
+      y: top-500
+      x: middle
+      style: hyruletext
+      font_size: 90
+      animations:
+        pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: -1

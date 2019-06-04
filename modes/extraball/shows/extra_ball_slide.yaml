@@ -2,7 +2,7 @@
 
 - duration: 4s
   slides:
-    press_start:
+    extra_ball_slide:
       widgets:
       - type: Text
         text: EXTRA BALL

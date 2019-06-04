@@ -19,7 +19,10 @@ slide_player:
       target: lcd
       action: remove
 
-    agahnimdefeatedvideo:
+    # agahnimdefeatedvideo:
+    #   target: lcd
+    #   action: remove
+    lost_woods_start_movie:
       target: lcd
       action: remove
 
