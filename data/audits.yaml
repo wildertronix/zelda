@@ -1,9 +1,9 @@
 events:
-  game_ended: 264
-  game_started: 2184
+  game_ended: 267
+  game_started: 2192
 player:
   score:
-    average: 1741.936454849496
+    average: 1727.6986754966865
     top:
     - 66050
     - 52050
@@ -15,38 +15,38 @@ player:
     - 33500
     - 33500
     - 28100
-    total: 299
+    total: 302
 shots:
-  2ballescape_first_shot_a: 441
-  2ballescape_first_shot_z: 365
+  2ballescape_first_shot_a: 443
+  2ballescape_first_shot_z: 367
   2ballescape_second_shot_d: 1
   2ballescape_shot_one: 16
   2ballescape_shot_three: 37
   2ballescape_shot_two: 26
-  2ballescape_third_shot_z: 583
-  5way_combo_d: 114
-  5way_combo_d2: 93
-  5way_combo_z: 113
-  a_rupee: 1592
-  a_rupeex2: 250
-  a_rupeex3: 144
+  2ballescape_third_shot_z: 585
+  5way_combo_d: 119
+  5way_combo_d2: 95
+  5way_combo_z: 120
+  a_rupee: 1634
+  a_rupeex2: 265
+  a_rupeex3: 145
   abyss_shot: 29
-  agahnim_shot: 232
-  agahnim_shot_three: 74
-  agahnim_shot_two: 143
+  agahnim_shot: 235
+  agahnim_shot_three: 75
+  agahnim_shot_two: 145
   b2_bomb: 162
-  b_bomb: 205
-  crane_rupee: 889
-  crane_rupeex2: 153
+  b_bomb: 206
+  crane_rupee: 925
+  crane_rupeex2: 162
   crane_rupeex3: 106
   crane_shot: 3
-  d_ramp_lostwoods: 201
-  d_rupee: 2045
-  d_rupeex2: 342
+  d_ramp_lostwoods: 202
+  d_rupee: 2078
+  d_rupeex2: 343
   d_rupeex3: 209
   darkworld2_abyss: 29
-  darkworld_a_orbit: 60
-  darkworld_a_orbit_dungeon3: 54
+  darkworld_a_orbit: 63
+  darkworld_a_orbit_dungeon3: 57
   darkworld_a_orbit_dungeon6: 48
   darkworld_abyss: 53
   darkworld_abyss_dungeon7: 49
@@ -57,143 +57,143 @@ shots:
   darkworld_drop1: 75
   darkworld_drop1_dungeon6: 52
   darkworld_drop1_dungeon7: 59
-  darkworld_drop2: 57
+  darkworld_drop2: 58
   darkworld_drop2_dungeon6: 48
   darkworld_drop2_dungeon7: 48
-  darkworld_drop3: 59
+  darkworld_drop3: 60
   darkworld_drop3_dungeon5: 50
   darkworld_drop3_dungeon7: 53
-  darkworld_heart: 59
+  darkworld_heart: 60
   darkworld_heart_dungeon4: 51
   darkworld_heart_dungeon5: 50
   darkworld_heart_dungeon6: 61
   darkworld_heart_dungeon7: 54
   darkworld_left_inlane: 50
-  darkworld_mode_start_shot: 74
+  darkworld_mode_start_shot: 76
   darkworld_mode_start_shot_dungeon4: 56
   darkworld_mode_start_shot_dungeon7: 49
   darkworld_pop: 103
   darkworld_pop_dungeon5: 56
-  darkworld_right_inlane: 59
+  darkworld_right_inlane: 64
   darkworld_right_inlane_dungeon6: 52
   darkworld_shop: 25
-  darkworld_z_ramp: 89
+  darkworld_z_ramp: 90
   darkworld_z_ramp_dungeon3: 79
   darkworld_z_ramp_dungeon4: 60
   darkworld_z_ramp_dungeon7: 51
   darkworld_zelda_rescue: 58
-  drop1: 696
-  drop2: 489
-  drop3: 475
-  e_rupee: 1009
-  e_rupeex2: 75
+  drop1: 701
+  drop2: 492
+  drop3: 478
+  e_rupee: 1043
+  e_rupeex2: 82
   e_rupeex3: 51
   eopto: 81
-  final_blow: 46
-  ganon_a1: 307
-  ganon_a2: 63
-  ganon_a3: 59
-  ganon_a4: 116
-  ganon_d1: 64
-  ganon_d2: 257
-  ganon_d3: 195
-  ganon_e1: 69
-  ganon_e2: 64
-  ganon_e3: 204
-  ganon_l1: 62
-  ganon_l2: 61
-  ganon_l3: 190
-  ganon_z1: 83
-  ganon_z2: 79
-  ganon_z3: 67
-  ganon_z4: 229
+  final_blow: 49
+  ganon_a1: 316
+  ganon_a2: 65
+  ganon_a3: 61
+  ganon_a4: 118
+  ganon_d1: 67
+  ganon_d2: 267
+  ganon_d3: 202
+  ganon_e1: 72
+  ganon_e2: 67
+  ganon_e3: 211
+  ganon_l1: 65
+  ganon_l2: 64
+  ganon_l3: 193
+  ganon_z1: 86
+  ganon_z2: 82
+  ganon_z3: 70
+  ganon_z4: 236
   heart_target: 80
   heart_target1: 14
   heart_target2: 11
   hidden_a_ramp: 80
   hidden_d_ramp: 88
-  hidden_e_ramp: 68
+  hidden_e_ramp: 73
   hidden_l_ramp: 64
   hidden_z_ramp: 47
-  l_ramp_lostwoods: 283
-  l_rupee: 1990
-  l_rupeex2: 194
+  l_ramp_lostwoods: 289
+  l_rupee: 2053
+  l_rupeex2: 207
   l_rupeex3: 106
-  leftpop: 362
+  leftpop: 368
   lopto: 95
   lost_woods_entry: 68
-  lost_woods_orbit: 146
-  lostwoods_left_inlane: 138
+  lost_woods_orbit: 147
+  lostwoods_left_inlane: 140
   lostwoods_right_inlane: 47
-  lw_a_ramp: 380
-  lw_abyss_shot: 63
-  lw_crane_shot: 66
-  lw_d_ramp: 1131
-  lw_heart_target: 79
-  lw_middle_drop_target: 70
-  lw_modestart_outhole: 92
-  lw_z_ramp: 400
-  m_bomb: 1017
+  lw_a_ramp: 389
+  lw_abyss_shot: 64
+  lw_crane_shot: 68
+  lw_d_ramp: 1143
+  lw_heart_target: 80
+  lw_middle_drop_target: 71
+  lw_modestart_outhole: 95
+  lw_z_ramp: 404
+  m_bomb: 1034
   middle_drop_target: 56
   modestart: 6
   modestart_outhole: 63
-  modestartmade: 2167
-  o_bomb: 644
-  pull_master_sword: 178
+  modestartmade: 2197
+  o_bomb: 654
+  pull_master_sword: 180
   rightpop: 456
-  spinnermultiplier: 20824
-  toppop: 3708
-  z_ramp_lostwoods: 182
-  z_rupee: 1479
-  z_rupeex2: 229
+  spinnermultiplier: 21071
+  toppop: 3736
+  z_ramp_lostwoods: 184
+  z_rupee: 1514
+  z_rupeex2: 239
   z_rupeex3: 173
-  zelda_2ball_shot_five: 558
-  zelda_2ball_shot_four: 710
-  zelda_2ball_shot_one: 1574
-  zelda_2ball_shot_three: 663
-  zelda_2ball_shot_two: 424
+  zelda_2ball_shot_five: 568
+  zelda_2ball_shot_four: 719
+  zelda_2ball_shot_one: 1589
+  zelda_2ball_shot_three: 683
+  zelda_2ball_shot_two: 438
 switches:
-  leftflipperbutton: 18047
-  plungerlane: 4045
+  leftflipperbutton: 18433
+  plungerlane: 4090
   plungerlaunch: 0
-  rightflipperbutton: 17093
-  s_abyss: 1216
+  rightflipperbutton: 17429
+  s_abyss: 1227
   s_cavestar: 0
-  s_coin1: 2608
+  s_coin1: 2655
   s_coin2: 0
-  s_cranehole: 2441
-  s_droptarget1: 2630
-  s_droptarget2: 1996
-  s_droptarget3: 1837
-  s_heart: 1955
-  s_left_inlane: 2138
-  s_left_outlane: 470
-  s_leftpop: 2451
-  s_leftslingshot: 1077
+  s_cranehole: 2489
+  s_droptarget1: 2656
+  s_droptarget2: 2013
+  s_droptarget3: 1853
+  s_heart: 1973
+  s_left_inlane: 2188
+  s_left_outlane: 476
+  s_leftpop: 2481
+  s_leftslingshot: 1100
   s_lightmb: 1
-  s_lostwoods: 7076
+  s_lostwoods: 7251
   s_lostwoodsopto: 0
-  s_modestart: 2783
-  s_optoa: 3628
-  s_optod: 5059
-  s_optoe: 6009
-  s_optol: 5944
+  s_modestart: 2813
+  s_optoa: 3690
+  s_optod: 5098
+  s_optoe: 6129
+  s_optol: 6060
   s_optom: 0
   s_optot: 0
   s_optou: 0
   s_optoz: 15
-  s_optoz1: 4483
-  s_popexit: 661
+  s_optoz1: 4534
+  s_popexit: 674
   s_rampopto: 0
-  s_right_inlane: 2544
-  s_right_outlane: 339
+  s_right_inlane: 2582
+  s_right_outlane: 342
   s_rightpop: 1747
-  s_rightslingshot: 2169
-  s_spinner: 27820
-  s_toppop: 12316
+  s_rightslingshot: 2209
+  s_spinner: 28067
+  s_toppop: 12514
   start: 200
-  trough1: 3620
-  trough2: 4051
+  trough1: 3661
+  trough2: 4097
   trough3: 0
   trough4: 0
   trough5: 1

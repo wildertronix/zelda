@@ -1,7 +1,7 @@
 #config_version=5
 
 mode: 
-  start_events: ball_started start_ganon_battle  
+  start_events: start_ganon_battle  
   stop_events: mode_final_hold_started
   priority: 3000
   # restart_on_next_ball: true
@@ -13,13 +13,13 @@ event_player:
   ganon_lane_complete{current_player.ganon_lane_count == 3}: ganon_lane3_video
   ganon_lane_complete{current_player.ganon_lane_count == 4}: ganon_lane4_video
   ganon_lane_complete{current_player.ganon_lane_count == 5}: activate_final_blow
-  final_blow_sequence_hit{current_player.ganon_lane_count == 5}: game_over_zelda
+  final_blow_final_blow_profile_ready_hit: game_over_zelda
 
-  ganon_z4_hit: z_lane_complete ganon_lane_complete
-  ganon_e3_hit: e_lane_complete ganon_lane_complete
-  ganon_l3_hit: l_lane_complete ganon_lane_complete
-  ganon_d3_hit: d_lane_complete ganon_lane_complete
-  ganon_a4_hit: a_lane_complete ganon_lane_complete
+  ganon_z4_ganon_z4_profile_ready_hit: z_lane_complete ganon_lane_complete
+  ganon_e3_ganon_e3_profile_ready_hit: e_lane_complete ganon_lane_complete
+  ganon_l3_ganon_l3_profile_ready_hit: l_lane_complete ganon_lane_complete
+  ganon_d3_ganon_d3_profile_ready_hit: d_lane_complete ganon_lane_complete
+  ganon_a4_ganon_a4_profile_ready_hit: a_lane_complete ganon_lane_complete
 
 ball_saves:
   final_ballsave:
@@ -34,15 +34,15 @@ ball_saves:
 
 
 variable_player:
-  ganon_z4_hit:
+  ganon_z4_ganon_z4_profile_ready_hit:
     ganon_lane_count: 1
-  ganon_e3_hit:
+  ganon_e3_ganon_e3_profile_ready_hit:
     ganon_lane_count: 1
-  ganon_l3_hit:
+  ganon_l3_ganon_l3_profile_ready_hit:
     ganon_lane_count: 1
-  ganon_d3_hit:
+  ganon_d3_ganon_d3_profile_ready_hit:
     ganon_lane_count: 1
-  ganon_a4_hit:
+  ganon_a4_ganon_a4_profile_ready_hit:
     ganon_lane_count: 1
   final_blow_hit:
     survived_ganon: 1
@@ -174,6 +174,7 @@ shots:
     hit_events: final_blow_sequence_hit
     enable_events: activate_final_blow
     profile: final_blow_profile
+    reset_events: activate_final_blow
 
 
 sequence_shots:
